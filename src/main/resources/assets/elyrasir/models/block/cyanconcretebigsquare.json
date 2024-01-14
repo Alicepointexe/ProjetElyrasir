@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "elyrasir:block/cyanconcretebigsquare",
+    "up": "elyrasir:block/cyanconcretebigsquare",
+    "north": "elyrasir:block/cyanconcretebigsquare",
+    "east": "elyrasir:block/cyanconcretebigsquare",
+    "south": "elyrasir:block/cyanconcretebigsquare",
+    "west": "elyrasir:block/cyanconcretebigsquare",
+    "particle": "elyrasir:block/cyanconcretebigsquare"
+  },
+  "render_type": "solid"
+}

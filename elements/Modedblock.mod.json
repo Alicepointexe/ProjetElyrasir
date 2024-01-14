@@ -1,0 +1,11 @@
+{
+  "_fv": 47,
+  "_type": "tab",
+  "definition": {
+    "name": "Modedblock",
+    "icon": {
+      "value": "Blocks.REINFORCED_DEEPSLATE"
+    },
+    "showSearch": true
+  }
+}

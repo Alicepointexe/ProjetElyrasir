@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "elyrasir:block/pink_concrete_big_square",
+    "up": "elyrasir:block/pink_concrete_big_square",
+    "north": "elyrasir:block/pink_concrete_big_square",
+    "east": "elyrasir:block/pink_concrete_big_square",
+    "south": "elyrasir:block/pink_concrete_big_square",
+    "west": "elyrasir:block/pink_concrete_big_square",
+    "particle": "elyrasir:block/pink_concrete_big_square"
+  },
+  "render_type": "solid"
+}

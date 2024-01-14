@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "elyrasir:block/magenta_concrete_big_square",
+    "up": "elyrasir:block/magenta_concrete_big_square",
+    "north": "elyrasir:block/magenta_concrete_big_square",
+    "east": "elyrasir:block/magenta_concrete_big_square",
+    "south": "elyrasir:block/magenta_concrete_big_square",
+    "west": "elyrasir:block/magenta_concrete_big_square",
+    "particle": "elyrasir:block/magenta_concrete_big_square"
+  },
+  "render_type": "solid"
+}

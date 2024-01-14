@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "elyrasir:block/gray_concrete_big_square",
+    "up": "elyrasir:block/gray_concrete_big_square",
+    "north": "elyrasir:block/gray_concrete_big_square",
+    "east": "elyrasir:block/gray_concrete_big_square",
+    "south": "elyrasir:block/gray_concrete_big_square",
+    "west": "elyrasir:block/gray_concrete_big_square",
+    "particle": "elyrasir:block/gray_concrete_big_square"
+  },
+  "render_type": "solid"
+}
