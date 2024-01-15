@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "elyrasir:block/lightblueconcretetilesslab"
+    },
+    "type=top": {
+      "model": "elyrasir:block/lightblueconcretetilesslab_top"
+    },
+    "type=double": {
+      "model": "elyrasir:block/lightblueconcretetilesslab_full"
+    }
+  }
+}

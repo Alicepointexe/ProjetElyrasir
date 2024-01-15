@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "elyrasir:block/white_concrete_bricks",
+    "up": "elyrasir:block/white_concrete_bricks",
+    "north": "elyrasir:block/white_concrete_bricks",
+    "east": "elyrasir:block/white_concrete_bricks",
+    "south": "elyrasir:block/white_concrete_bricks",
+    "west": "elyrasir:block/white_concrete_bricks",
+    "particle": "elyrasir:block/white_concrete_bricks"
+  },
+  "render_type": "solid"
+}

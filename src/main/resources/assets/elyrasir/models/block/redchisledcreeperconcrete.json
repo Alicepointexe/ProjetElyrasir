@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "elyrasir:block/red_concrete_chisled",
+    "up": "elyrasir:block/red_concrete_chisled",
+    "north": "elyrasir:block/red_concrete_chisled",
+    "east": "elyrasir:block/red_concrete_chisled",
+    "south": "elyrasir:block/red_concrete_chisled",
+    "west": "elyrasir:block/red_concrete_chisled",
+    "particle": "elyrasir:block/red_concrete_chisled"
+  },
+  "render_type": "solid"
+}

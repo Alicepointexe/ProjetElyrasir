@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "elyrasir:block/magenta_concrete_chisled2",
+    "up": "elyrasir:block/magenta_concrete_chisled2",
+    "north": "elyrasir:block/magenta_concrete_chisled2",
+    "east": "elyrasir:block/magenta_concrete_chisled2",
+    "south": "elyrasir:block/magenta_concrete_chisled2",
+    "west": "elyrasir:block/magenta_concrete_chisled2",
+    "particle": "elyrasir:block/magenta_concrete_chisled2"
+  },
+  "render_type": "solid"
+}

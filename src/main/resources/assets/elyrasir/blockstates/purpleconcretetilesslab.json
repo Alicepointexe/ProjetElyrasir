@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "elyrasir:block/purpleconcretetilesslab"
+    },
+    "type=top": {
+      "model": "elyrasir:block/purpleconcretetilesslab_top"
+    },
+    "type=double": {
+      "model": "elyrasir:block/purpleconcretetilesslab_full"
+    }
+  }
+}

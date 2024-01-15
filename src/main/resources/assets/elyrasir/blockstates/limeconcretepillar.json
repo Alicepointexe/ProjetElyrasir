@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "elyrasir:block/limeconcretepillar",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "elyrasir:block/limeconcretepillar"
+    },
+    "axis=z": {
+      "model": "elyrasir:block/limeconcretepillar",
+      "x": 90
+    }
+  }
+}

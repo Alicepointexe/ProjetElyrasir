@@ -1,0 +1,9 @@
+{
+  "parent": "block/slab_top",
+  "textures": {
+    "bottom": "elyrasir:block/green_concrete_bricks",
+    "top": "elyrasir:block/green_concrete_bricks",
+    "side": "elyrasir:block/green_concrete_bricks"
+  },
+  "render_type": "solid"
+}

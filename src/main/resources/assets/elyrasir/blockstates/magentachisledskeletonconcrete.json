@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "elyrasir:block/magentachisledskeletonconcrete"
+    },
+    "facing=east": {
+      "model": "elyrasir:block/magentachisledskeletonconcrete",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "elyrasir:block/magentachisledskeletonconcrete",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "elyrasir:block/magentachisledskeletonconcrete",
+      "y": 270
+    }
+  }
+}

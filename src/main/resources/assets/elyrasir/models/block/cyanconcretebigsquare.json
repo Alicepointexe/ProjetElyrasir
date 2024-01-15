@@ -1,13 +1,13 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "elyrasir:block/cyanconcretebigsquare",
-    "up": "elyrasir:block/cyanconcretebigsquare",
-    "north": "elyrasir:block/cyanconcretebigsquare",
-    "east": "elyrasir:block/cyanconcretebigsquare",
-    "south": "elyrasir:block/cyanconcretebigsquare",
-    "west": "elyrasir:block/cyanconcretebigsquare",
-    "particle": "elyrasir:block/cyanconcretebigsquare"
+    "down": "elyrasir:block/cyan_concrete_big_square",
+    "up": "elyrasir:block/cyan_concrete_big_square",
+    "north": "elyrasir:block/cyan_concrete_big_square",
+    "east": "elyrasir:block/cyan_concrete_big_square",
+    "south": "elyrasir:block/cyan_concrete_big_square",
+    "west": "elyrasir:block/cyan_concrete_big_square",
+    "particle": "elyrasir:block/cyan_concrete_big_square"
   },
   "render_type": "solid"
 }

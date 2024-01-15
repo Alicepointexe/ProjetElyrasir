@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "elyrasir:block/cyan_concrete_tiles",
+    "up": "elyrasir:block/cyan_concrete_tiles",
+    "north": "elyrasir:block/cyan_concrete_tiles",
+    "east": "elyrasir:block/cyan_concrete_tiles",
+    "south": "elyrasir:block/cyan_concrete_tiles",
+    "west": "elyrasir:block/cyan_concrete_tiles",
+    "particle": "elyrasir:block/cyan_concrete_tiles"
+  },
+  "render_type": "solid"
+}

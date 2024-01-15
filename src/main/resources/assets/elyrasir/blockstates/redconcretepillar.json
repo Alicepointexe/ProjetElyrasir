@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "elyrasir:block/redconcretepillar",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "elyrasir:block/redconcretepillar"
+    },
+    "axis=z": {
+      "model": "elyrasir:block/redconcretepillar",
+      "x": 90
+    }
+  }
+}

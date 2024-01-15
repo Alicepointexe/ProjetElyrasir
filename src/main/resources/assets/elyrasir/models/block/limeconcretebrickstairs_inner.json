@@ -1,0 +1,9 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "elyrasir:block/lime_concrete_bricks",
+    "top": "elyrasir:block/lime_concrete_bricks",
+    "side": "elyrasir:block/lime_concrete_bricks"
+  },
+  "render_type": "solid"
+}

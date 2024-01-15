@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "elyrasir:block/grayconcretebrickslab"
+    },
+    "type=top": {
+      "model": "elyrasir:block/grayconcretebrickslab_top"
+    },
+    "type=double": {
+      "model": "elyrasir:block/grayconcretebrickslab_full"
+    }
+  }
+}

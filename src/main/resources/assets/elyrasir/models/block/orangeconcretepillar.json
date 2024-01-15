@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "elyrasir:block/orange_concrete_big_square",
+    "up": "elyrasir:block/orange_concrete_big_square",
+    "north": "elyrasir:block/orange_concrete_pillar_tiles",
+    "east": "elyrasir:block/orange_concrete_pillar_tiles",
+    "south": "elyrasir:block/orange_concrete_pillar_tiles",
+    "west": "elyrasir:block/orange_concrete_pillar_tiles",
+    "particle": "elyrasir:block/orange_concrete_big_square"
+  },
+  "render_type": "solid"
+}

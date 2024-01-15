@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "elyrasir:block/limechisledskeletonconcrete"
+    },
+    "facing=east": {
+      "model": "elyrasir:block/limechisledskeletonconcrete",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "elyrasir:block/limechisledskeletonconcrete",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "elyrasir:block/limechisledskeletonconcrete",
+      "y": 270
+    }
+  }
+}

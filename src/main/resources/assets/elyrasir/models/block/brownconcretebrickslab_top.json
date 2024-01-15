@@ -1,0 +1,9 @@
+{
+  "parent": "block/slab_top",
+  "textures": {
+    "bottom": "elyrasir:block/brown_concrete_bricks",
+    "top": "elyrasir:block/brown_concrete_bricks",
+    "side": "elyrasir:block/brown_concrete_bricks"
+  },
+  "render_type": "solid"
+}

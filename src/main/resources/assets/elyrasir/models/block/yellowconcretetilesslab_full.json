@@ -1,0 +1,9 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "bottom": "elyrasir:block/yellow_concrete_tiles",
+    "top": "elyrasir:block/yellow_concrete_tiles",
+    "side": "elyrasir:block/yellow_concrete_tiles"
+  },
+  "render_type": "solid"
+}

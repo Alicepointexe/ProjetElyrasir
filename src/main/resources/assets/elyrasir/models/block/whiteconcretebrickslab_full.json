@@ -1,0 +1,9 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "bottom": "elyrasir:block/white_concrete_bricks",
+    "top": "elyrasir:block/white_concrete_bricks",
+    "side": "elyrasir:block/white_concrete_bricks"
+  },
+  "render_type": "solid"
+}

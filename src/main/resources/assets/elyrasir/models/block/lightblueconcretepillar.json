@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "elyrasir:block/light_blue_concrete_big_square",
+    "up": "elyrasir:block/light_blue_concrete_big_square",
+    "north": "elyrasir:block/light_blue_concrete_pillar_tiles",
+    "east": "elyrasir:block/light_blue_concrete_pillar_tiles",
+    "south": "elyrasir:block/light_blue_concrete_pillar_tiles",
+    "west": "elyrasir:block/light_blue_concrete_pillar_tiles",
+    "particle": "elyrasir:block/light_blue_concrete_big_square"
+  },
+  "render_type": "solid"
+}

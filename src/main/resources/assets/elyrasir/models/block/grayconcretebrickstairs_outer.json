@@ -1,0 +1,9 @@
+{
+  "parent": "block/outer_stairs",
+  "textures": {
+    "bottom": "elyrasir:block/gray_concrete_bricks",
+    "top": "elyrasir:block/gray_concrete_bricks",
+    "side": "elyrasir:block/gray_concrete_bricks"
+  },
+  "render_type": "solid"
+}

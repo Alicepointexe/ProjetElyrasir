@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "elyrasir:block/whitechisledcreeperconcrete"
+    },
+    "facing=east": {
+      "model": "elyrasir:block/whitechisledcreeperconcrete",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "elyrasir:block/whitechisledcreeperconcrete",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "elyrasir:block/whitechisledcreeperconcrete",
+      "y": 270
+    }
+  }
+}
