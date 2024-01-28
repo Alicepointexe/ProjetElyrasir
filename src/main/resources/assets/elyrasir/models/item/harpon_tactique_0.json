@@ -1,0 +1,10 @@
+{
+  "parent": "elyrasir:custom/harpontactiquecrim0",
+  "textures": {
+    "11": "elyrasir:block/black_concrete_powder",
+    "0": "elyrasir:block/gray_concrete",
+    "1": "elyrasir:block/black_concrete",
+    "8": "elyrasir:block/light_gray_concrete",
+    "particle": "elyrasir:item/illustrationepeee"
+  }
+}

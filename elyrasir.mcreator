@@ -2557,19 +2557,434 @@
       "path": "~/Main/Block"
     },
     {
-      "name": "Wersdgs",
-      "type": "item",
-      "sortid": 147,
+      "name": "Harpon0",
+      "type": "procedure",
+      "sortid": 160,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "wersdgs",
+      "registry_name": "harpon_0",
       "metadata": {
         "files": [
-          "src/main/java/elyrasir/item/WersdgsItem.java",
-          "src/main/resources/assets/elyrasir/models/item/wersdgs.json"
+          "src/main/java/elyrasir/procedures/Harpon0Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
         ]
       },
-      "path": "~/Main/Item"
+      "path": "~/JobsIllegaux/Procedure"
+    },
+    {
+      "name": "Harpon1",
+      "type": "procedure",
+      "sortid": 161,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "harpon_1",
+      "metadata": {
+        "files": [
+          "src/main/java/elyrasir/procedures/Harpon1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/JobsIllegaux/Procedure"
+    },
+    {
+      "name": "Harpon2",
+      "type": "procedure",
+      "sortid": 162,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "harpon_2",
+      "metadata": {
+        "files": [
+          "src/main/java/elyrasir/procedures/Harpon2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/JobsIllegaux/Procedure"
+    },
+    {
+      "name": "Harpon3",
+      "type": "procedure",
+      "sortid": 163,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "harpon_3",
+      "metadata": {
+        "files": [
+          "src/main/java/elyrasir/procedures/Harpon3Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/JobsIllegaux/Procedure"
+    },
+    {
+      "name": "Harpon4",
+      "type": "procedure",
+      "sortid": 164,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "harpon_4",
+      "metadata": {
+        "files": [
+          "src/main/java/elyrasir/procedures/Harpon4Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/JobsIllegaux/Procedure"
+    },
+    {
+      "name": "HarponTactique0",
+      "type": "item",
+      "sortid": 165,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "harpon_tactique_0",
+      "metadata": {
+        "files": [
+          "src/main/java/elyrasir/item/HarponTactique0Item.java",
+          "src/main/resources/assets/elyrasir/models/item/harpon_tactique_0.json"
+        ]
+      },
+      "path": "~/JobsIllegaux/Items"
+    },
+    {
+      "name": "HarponTactique1",
+      "type": "item",
+      "sortid": 166,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "harpon_tactique_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/elyrasir/models/item/harpon_tactique_1.json",
+          "src/main/java/elyrasir/item/HarponTactique1Item.java"
+        ]
+      },
+      "path": "~/JobsIllegaux/Items"
+    },
+    {
+      "name": "HarponTactique2",
+      "type": "item",
+      "sortid": 167,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "harpon_tactique_2",
+      "metadata": {
+        "files": [
+          "src/main/java/elyrasir/item/HarponTactique2Item.java",
+          "src/main/resources/assets/elyrasir/models/item/harpon_tactique_2.json"
+        ]
+      },
+      "path": "~/JobsIllegaux/Items"
+    },
+    {
+      "name": "HarponTactique3",
+      "type": "item",
+      "sortid": 168,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "harpon_tactique_3",
+      "metadata": {
+        "files": [
+          "src/main/java/elyrasir/item/HarponTactique3Item.java",
+          "src/main/resources/assets/elyrasir/models/item/harpon_tactique_3.json"
+        ]
+      },
+      "path": "~/JobsIllegaux/Items"
+    },
+    {
+      "name": "HarponTactique4",
+      "type": "item",
+      "sortid": 169,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "harpon_tactique_4",
+      "metadata": {
+        "files": [
+          "src/main/java/elyrasir/item/HarponTactique4Item.java",
+          "src/main/resources/assets/elyrasir/models/item/harpon_tactique_4.json"
+        ]
+      },
+      "path": "~/JobsIllegaux/Items"
+    },
+    {
+      "name": "HarponPol0",
+      "type": "item",
+      "sortid": 170,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "harpon_pol_0",
+      "metadata": {
+        "files": [
+          "src/main/java/elyrasir/item/HarponPol0Item.java",
+          "src/main/resources/assets/elyrasir/models/item/harpon_pol_0.json"
+        ]
+      },
+      "path": "~/JobsLegaux/Police/Item"
+    },
+    {
+      "name": "HarponPol1",
+      "type": "item",
+      "sortid": 171,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "harpon_pol_1",
+      "metadata": {
+        "files": [
+          "src/main/java/elyrasir/item/HarponPol1Item.java",
+          "src/main/resources/assets/elyrasir/models/item/harpon_pol_1.json"
+        ]
+      },
+      "path": "~/JobsLegaux/Police/Item"
+    },
+    {
+      "name": "HarponPol2",
+      "type": "item",
+      "sortid": 172,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "harpon_pol_2",
+      "metadata": {
+        "files": [
+          "src/main/java/elyrasir/item/HarponPol2Item.java",
+          "src/main/resources/assets/elyrasir/models/item/harpon_pol_2.json"
+        ]
+      },
+      "path": "~/JobsLegaux/Police/Item"
+    },
+    {
+      "name": "HarponPol3",
+      "type": "item",
+      "sortid": 173,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "harpon_pol_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/elyrasir/models/item/harpon_pol_3.json",
+          "src/main/java/elyrasir/item/HarponPol3Item.java"
+        ]
+      },
+      "path": "~/JobsLegaux/Police/Item"
+    },
+    {
+      "name": "HarponPol4",
+      "type": "item",
+      "sortid": 174,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "harpon_pol_4",
+      "metadata": {
+        "files": [
+          "src/main/java/elyrasir/item/HarponPol4Item.java",
+          "src/main/resources/assets/elyrasir/models/item/harpon_pol_4.json"
+        ]
+      },
+      "path": "~/JobsLegaux/Police/Item"
+    },
+    {
+      "name": "HarponTac0",
+      "type": "procedure",
+      "sortid": 175,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "harpon_tac_0",
+      "metadata": {
+        "files": [
+          "src/main/java/elyrasir/procedures/HarponTac0Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/JobsLegaux/Police/Procedure"
+    },
+    {
+      "name": "HarponTac1",
+      "type": "procedure",
+      "sortid": 176,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "harpon_tac_1",
+      "metadata": {
+        "files": [
+          "src/main/java/elyrasir/procedures/HarponTac1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/JobsLegaux/Police/Procedure"
+    },
+    {
+      "name": "HarponTac2",
+      "type": "procedure",
+      "sortid": 177,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "harpon_tac_2",
+      "metadata": {
+        "files": [
+          "src/main/java/elyrasir/procedures/HarponTac2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/JobsLegaux/Police/Procedure"
+    },
+    {
+      "name": "HarponTac3",
+      "type": "procedure",
+      "sortid": 178,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "harpon_tac_3",
+      "metadata": {
+        "files": [
+          "src/main/java/elyrasir/procedures/HarponTac3Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/JobsLegaux/Police/Procedure"
+    },
+    {
+      "name": "HarponTac4",
+      "type": "procedure",
+      "sortid": 179,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "harpon_tac_4",
+      "metadata": {
+        "files": [
+          "src/main/java/elyrasir/procedures/HarponTac4Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/JobsLegaux/Police/Procedure"
     }
   ],
   "variable_elements": [],
@@ -2580,15 +2995,15 @@
       "block.elyrasir.yellowconcretebrickslab": "Yellow concrete brick slab",
       "block.elyrasir.pinkconcretepillar": "Pink concrete pillar",
       "block.elyrasir.blueconcretepillar": "Blue concrete pillar",
-      "block.elyrasir.purpleconcretetilesslab": "Purple concrete tiles slab",
       "block.elyrasir.lightbluechisledcreeperconcrete": "Light blue chisled creeper concrete",
+      "block.elyrasir.purpleconcretetilesslab": "Purple concrete tiles slab",
       "block.elyrasir.pinkconcretetilesslab": "Pink concrete tiles slab",
       "block.elyrasir.brownconcretebrickslab": "Brown concrete brick slab",
       "block.elyrasir.brownchisledcreeperconcrete": "Brown chisled creeper concrete",
-      "block.elyrasir.lightblueconcretetilesslab": "Light blue concrete tiles slab",
       "block.elyrasir.orangeconcretebricks": "Orange concrete bricks",
-      "block.elyrasir.redconcretebrickstairs": "Red concrete brick stairs",
+      "block.elyrasir.lightblueconcretetilesslab": "Light blue concrete tiles slab",
       "block.elyrasir.purpleconcretepillar": "Pink concrete pillar",
+      "block.elyrasir.redconcretebrickstairs": "Red concrete brick stairs",
       "block.elyrasir.greenchisledskeletonconcrete": "Green chisled skeleton concrete",
       "block.elyrasir.grayconcretetiles": "Gray concrete tiles",
       "block.elyrasir.limeconcretetilesslab": "Lime concrete tiles slab",
@@ -2596,8 +3011,8 @@
       "block.elyrasir.pinkconcretetiles": "Pink concrete tiles",
       "block.elyrasir.lightgraychisledcreeperconcrete": "Light gray chisled creeper concrete",
       "block.elyrasir.pinkconcretebrickstairs": "Pink concrete brick stairs",
-      "block.elyrasir.blackconcretebrickslab": "Black concrete brick slab",
       "block.elyrasir.redconcretebricks": "Red concrete bricks",
+      "block.elyrasir.blackconcretebrickslab": "Black concrete brick slab",
       "block.elyrasir.whitechisledskeletonconcrete": "White chisled skeleton concrete",
       "block.elyrasir.blackconcretebigsquare": "Black concrete big square",
       "block.elyrasir.yellowconcretebigsquare": "Yellow concrete big square",
@@ -2623,7 +3038,12 @@
       "block.elyrasir.brownconcretebigsquare": "Brown concrete big square",
       "block.elyrasir.yellowconcretetilesslab": "Yellow concrete tiles slab",
       "block.elyrasir.orangechisledskeletonconcrete": "Orange chisled skeleton concrete",
+      "item.elyrasir.harpon_tactique_0": "Harpon Tactique",
+      "item.elyrasir.harpon_tactique_1": "Harpon Tactique",
+      "item.elyrasir.harpon_tactique_2": "Harpon Tactique",
+      "item.elyrasir.harpon_tactique_3": "Harpon Tactique",
       "block.elyrasir.cyanconcretebrickstairs": "Cyan concrete brick stairs",
+      "item.elyrasir.harpon_tactique_4": "Harpon Tactique",
       "block.elyrasir.redconcretebigsquare": "Red concrete big square",
       "block.elyrasir.blackchisledskeletonconcrete": "Black chisled skeleton concrete",
       "block.elyrasir.blackconcretepillar": "Black concrete pillar",
@@ -2631,11 +3051,16 @@
       "block.elyrasir.whiteconcretebrickstairs": "White concrete brick stairs",
       "block.elyrasir.magentaconcretetilesslab": "Lime concrete tiles slab",
       "block.elyrasir.magentaconcretebricks": "Magenta concrete bricks",
+      "item.elyrasir.harpon_pol_4": "Harpon Tactique de Police",
+      "item.elyrasir.harpon_pol_3": "Harpon Tactique de Police",
       "block.elyrasir.orangechisledcreeperconcrete": "Orange chisled creeper concrete",
       "block.elyrasir.cyanchisledskeletonconcrete": "Cyan chisled skeleton concrete",
       "block.elyrasir.blueconcretebricks": "Blue concrete bricks",
       "block.elyrasir.yellowchisledskeletonconcrete": "Yellow chisled skeleton concrete",
+      "item.elyrasir.harpon_pol_2": "Harpon Tactique de Police",
+      "item.elyrasir.harpon_pol_1": "Harpon Tactique de Police",
       "block.elyrasir.greenconcretebrickslab": "Green concrete brick slab",
+      "item.elyrasir.harpon_pol_0": "Harpon Tactique de Police",
       "block.elyrasir.greenchisledcreeperconcrete": "Green chisled creeper concrete",
       "block.elyrasir.redconcretepillar": "Red concrete pillar",
       "block.elyrasir.greenconcretebigsquare": "Green concrete big square",
@@ -2704,7 +3129,6 @@
       "block.elyrasir.brownconcretetilesslab": "Brown concrete tiles slab",
       "block.elyrasir.grayconcretetilesslab": "Gray concrete tiles slab",
       "block.elyrasir.whiteconcretebigsquare": "White concrete big square",
-      "item.elyrasir.wersdgs": "Wersdgs",
       "block.elyrasir.limeconcretepillar": "Lime concrete pillar",
       "block.elyrasir.blueconcretetilesslab": "Blue concrete tiles slab",
       "block.elyrasir.orangeconcretetiles": "Magenta concrete tiles",
@@ -2754,11 +3178,38 @@
       },
       {
         "name": "JobsLegaux",
-        "children": []
+        "children": [
+          {
+            "name": "Police",
+            "children": [
+              {
+                "name": "Item",
+                "children": []
+              },
+              {
+                "name": "Procedure",
+                "children": []
+              }
+            ]
+          }
+        ]
       },
       {
         "name": "JobsIllegaux",
-        "children": []
+        "children": [
+          {
+            "name": "Items",
+            "children": []
+          },
+          {
+            "name": "Miscelanious",
+            "children": []
+          },
+          {
+            "name": "Procedure",
+            "children": []
+          }
+        ]
       },
       {
         "name": "Banque",

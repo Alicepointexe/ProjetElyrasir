@@ -163,6 +163,7 @@ public class ElyrasirModTabs {
 				tabData.accept(ElyrasirModBlocks.REDCONCRETETILESSLAB.get().asItem());
 				tabData.accept(ElyrasirModBlocks.WHITECONCRETETILESSLAB.get().asItem());
 				tabData.accept(ElyrasirModBlocks.YELLOWCONCRETETILESSLAB.get().asItem());
-				tabData.accept(ElyrasirModItems.WERSDGS.get());
+				tabData.accept(ElyrasirModItems.HARPON_TACTIQUE_0.get());
+				tabData.accept(ElyrasirModItems.HARPON_POL_0.get());
 			}).withSearchBar().build());
 }

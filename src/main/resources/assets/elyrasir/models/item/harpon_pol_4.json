@@ -1,0 +1,11 @@
+{
+  "parent": "elyrasir:custom/harpontactiqueppol4",
+  "textures": {
+    "12": "elyrasir:block/cyan_concrete",
+    "13": "elyrasir:block/white_concrete",
+    "6": "elyrasir:block/blue_concrete",
+    "7": "elyrasir:block/blue_concrete_powder",
+    "10": "elyrasir:block/brown_concrete",
+    "particle": "elyrasir:item/illustrationepeee"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "12": "cyan_concrete",
+        "16": "white_concrete",
+        "6": "blue_concrete",
+        "7": "blue_concrete_powder",
+        "10": "brown_concrete"
+      },
+      "name": "default"
+    }
+  }
+}

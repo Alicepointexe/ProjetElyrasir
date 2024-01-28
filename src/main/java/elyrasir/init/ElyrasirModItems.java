@@ -12,7 +12,16 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
-import elyrasir.item.WersdgsItem;
+import elyrasir.item.HarponTactique4Item;
+import elyrasir.item.HarponTactique3Item;
+import elyrasir.item.HarponTactique2Item;
+import elyrasir.item.HarponTactique1Item;
+import elyrasir.item.HarponTactique0Item;
+import elyrasir.item.HarponPol4Item;
+import elyrasir.item.HarponPol3Item;
+import elyrasir.item.HarponPol2Item;
+import elyrasir.item.HarponPol1Item;
+import elyrasir.item.HarponPol0Item;
 
 import elyrasir.ElyrasirMod;
 
@@ -162,7 +171,16 @@ public class ElyrasirModItems {
 	public static final RegistryObject<Item> REDCONCRETETILESSLAB = block(ElyrasirModBlocks.REDCONCRETETILESSLAB);
 	public static final RegistryObject<Item> WHITECONCRETETILESSLAB = block(ElyrasirModBlocks.WHITECONCRETETILESSLAB);
 	public static final RegistryObject<Item> YELLOWCONCRETETILESSLAB = block(ElyrasirModBlocks.YELLOWCONCRETETILESSLAB);
-	public static final RegistryObject<Item> WERSDGS = REGISTRY.register("wersdgs", () -> new WersdgsItem());
+	public static final RegistryObject<Item> HARPON_TACTIQUE_0 = REGISTRY.register("harpon_tactique_0", () -> new HarponTactique0Item());
+	public static final RegistryObject<Item> HARPON_TACTIQUE_1 = REGISTRY.register("harpon_tactique_1", () -> new HarponTactique1Item());
+	public static final RegistryObject<Item> HARPON_TACTIQUE_2 = REGISTRY.register("harpon_tactique_2", () -> new HarponTactique2Item());
+	public static final RegistryObject<Item> HARPON_TACTIQUE_3 = REGISTRY.register("harpon_tactique_3", () -> new HarponTactique3Item());
+	public static final RegistryObject<Item> HARPON_TACTIQUE_4 = REGISTRY.register("harpon_tactique_4", () -> new HarponTactique4Item());
+	public static final RegistryObject<Item> HARPON_POL_0 = REGISTRY.register("harpon_pol_0", () -> new HarponPol0Item());
+	public static final RegistryObject<Item> HARPON_POL_1 = REGISTRY.register("harpon_pol_1", () -> new HarponPol1Item());
+	public static final RegistryObject<Item> HARPON_POL_2 = REGISTRY.register("harpon_pol_2", () -> new HarponPol2Item());
+	public static final RegistryObject<Item> HARPON_POL_3 = REGISTRY.register("harpon_pol_3", () -> new HarponPol3Item());
+	public static final RegistryObject<Item> HARPON_POL_4 = REGISTRY.register("harpon_pol_4", () -> new HarponPol4Item());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
