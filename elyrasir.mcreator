@@ -2985,6 +2985,208 @@
         ]
       },
       "path": "~/JobsLegaux/Police/Procedure"
+    },
+    {
+      "name": "Unpc",
+      "type": "item",
+      "sortid": 180,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unpc",
+      "metadata": {
+        "files": [
+          "src/main/java/elyrasir/item/UnpcItem.java",
+          "src/main/resources/assets/elyrasir/models/item/unpc.json"
+        ]
+      },
+      "path": "~/Banque/item/monnaie"
+    },
+    {
+      "name": "Dixpc",
+      "type": "item",
+      "sortid": 182,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dixpc",
+      "metadata": {
+        "files": [
+          "src/main/java/elyrasir/item/DixpcItem.java",
+          "src/main/resources/assets/elyrasir/models/item/dixpc.json"
+        ]
+      },
+      "path": "~/Banque/item/monnaie"
+    },
+    {
+      "name": "Cinqpc",
+      "type": "item",
+      "sortid": 183,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cinqpc",
+      "metadata": {
+        "files": [
+          "src/main/java/elyrasir/item/CinqpcItem.java",
+          "src/main/resources/assets/elyrasir/models/item/cinqpc.json"
+        ]
+      },
+      "path": "~/Banque/item/monnaie"
+    },
+    {
+      "name": "Vingtpc",
+      "type": "item",
+      "sortid": 184,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vingtpc",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/elyrasir/models/item/vingtpc.json",
+          "src/main/java/elyrasir/item/VingtpcItem.java"
+        ]
+      },
+      "path": "~/Banque/item/monnaie"
+    },
+    {
+      "name": "Centpc",
+      "type": "item",
+      "sortid": 185,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "centpc",
+      "metadata": {
+        "files": [
+          "src/main/java/elyrasir/item/CentpcItem.java",
+          "src/main/resources/assets/elyrasir/models/item/centpc.json"
+        ]
+      },
+      "path": "~/Banque/item/monnaie"
+    },
+    {
+      "name": "Cinquantepc",
+      "type": "item",
+      "sortid": 186,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cinquantepc",
+      "metadata": {
+        "files": [
+          "src/main/java/elyrasir/item/CinquantepcItem.java",
+          "src/main/resources/assets/elyrasir/models/item/cinquantepc.json"
+        ]
+      },
+      "path": "~/Banque/item/monnaie"
+    },
+    {
+      "name": "Deuxcentpc",
+      "type": "item",
+      "sortid": 187,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deuxcentpc",
+      "metadata": {
+        "files": [
+          "src/main/java/elyrasir/item/DeuxcentpcItem.java",
+          "src/main/resources/assets/elyrasir/models/item/deuxcentpc.json"
+        ]
+      },
+      "path": "~/Banque/item/monnaie"
+    },
+    {
+      "name": "Cinqcentpc",
+      "type": "item",
+      "sortid": 188,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cinqcentpc",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/elyrasir/models/item/cinqcentpc.json",
+          "src/main/java/elyrasir/item/CinqcentpcItem.java"
+        ]
+      },
+      "path": "~/Banque/item/monnaie"
+    },
+    {
+      "name": "PommeItems",
+      "type": "tab",
+      "sortid": 189,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pomme_items",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Main/Tab"
+    },
+    {
+      "name": "ATM",
+      "type": "block",
+      "sortid": 190,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "atm",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/elyrasir/models/item/atm.json",
+          "src/main/java/elyrasir/block/ATMBlock.java",
+          "src/main/resources/assets/elyrasir/models/block/atm.json",
+          "src/main/resources/assets/elyrasir/blockstates/atm.json",
+          "src/main/java/elyrasir/block/entity/ATMBlockEntity.java"
+        ]
+      },
+      "path": "~/Banque/block"
+    },
+    {
+      "name": "BaseAtm",
+      "type": "gui",
+      "sortid": 191,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "base_atm",
+      "metadata": {
+        "files": [
+          "src/main/java/elyrasir/client/gui/BaseAtmScreen.java",
+          "src/main/java/elyrasir/network/BaseAtmButtonMessage.java",
+          "src/main/java/elyrasir/world/inventory/BaseAtmMenu.java"
+        ]
+      },
+      "path": "~/Banque/gui"
+    },
+    {
+      "name": "AtmQuit",
+      "type": "procedure",
+      "sortid": 192,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "atm_quit",
+      "metadata": {
+        "files": [
+          "src/main/java/elyrasir/procedures/AtmQuitProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Banque/procedure"
     }
   ],
   "variable_elements": [],
@@ -2995,38 +3197,50 @@
       "block.elyrasir.yellowconcretebrickslab": "Yellow concrete brick slab",
       "block.elyrasir.pinkconcretepillar": "Pink concrete pillar",
       "block.elyrasir.blueconcretepillar": "Blue concrete pillar",
-      "block.elyrasir.lightbluechisledcreeperconcrete": "Light blue chisled creeper concrete",
       "block.elyrasir.purpleconcretetilesslab": "Purple concrete tiles slab",
+      "block.elyrasir.lightbluechisledcreeperconcrete": "Light blue chisled creeper concrete",
       "block.elyrasir.pinkconcretetilesslab": "Pink concrete tiles slab",
       "block.elyrasir.brownconcretebrickslab": "Brown concrete brick slab",
       "block.elyrasir.brownchisledcreeperconcrete": "Brown chisled creeper concrete",
-      "block.elyrasir.orangeconcretebricks": "Orange concrete bricks",
+      "item.elyrasir.deuxcentpc": "Billet de 200 PommeCoin",
       "block.elyrasir.lightblueconcretetilesslab": "Light blue concrete tiles slab",
-      "block.elyrasir.purpleconcretepillar": "Pink concrete pillar",
+      "block.elyrasir.orangeconcretebricks": "Orange concrete bricks",
+      "gui.elyrasir.base_atm.label_4": "4",
       "block.elyrasir.redconcretebrickstairs": "Red concrete brick stairs",
+      "block.elyrasir.purpleconcretepillar": "Pink concrete pillar",
+      "gui.elyrasir.base_atm.label_3": "3",
       "block.elyrasir.greenchisledskeletonconcrete": "Green chisled skeleton concrete",
+      "item_group.elyrasir.pomme_items": "Pomme Items",
+      "gui.elyrasir.base_atm.label_2": "2",
       "block.elyrasir.grayconcretetiles": "Gray concrete tiles",
+      "gui.elyrasir.base_atm.label_1": "1",
       "block.elyrasir.limeconcretetilesslab": "Lime concrete tiles slab",
+      "gui.elyrasir.base_atm.label_5": "5",
       "block.elyrasir.lightgrayconcretebricks": "Light gray concrete bricks",
       "block.elyrasir.pinkconcretetiles": "Pink concrete tiles",
       "block.elyrasir.lightgraychisledcreeperconcrete": "Light gray chisled creeper concrete",
       "block.elyrasir.pinkconcretebrickstairs": "Pink concrete brick stairs",
-      "block.elyrasir.redconcretebricks": "Red concrete bricks",
       "block.elyrasir.blackconcretebrickslab": "Black concrete brick slab",
+      "block.elyrasir.redconcretebricks": "Red concrete bricks",
       "block.elyrasir.whitechisledskeletonconcrete": "White chisled skeleton concrete",
+      "block.elyrasir.atm": "ATM",
       "block.elyrasir.blackconcretebigsquare": "Black concrete big square",
       "block.elyrasir.yellowconcretebigsquare": "Yellow concrete big square",
       "block.elyrasir.cyanconcretebrickslab": "Cyan concrete brick slab",
       "block.elyrasir.greenconcretepillar": "Green concrete pillar",
       "block.elyrasir.brownconcretebrickstairs": "Brown concrete brick stairs",
-      "block.elyrasir.lightblueconcretepillar": "Light blue concrete pillar",
       "block.elyrasir.pinkchisledcreeperconcrete": "Pink chisled creeper concrete",
+      "block.elyrasir.lightblueconcretepillar": "Light blue concrete pillar",
+      "item.elyrasir.unpc": "Pièce de 1 PommeCoin",
       "block.elyrasir.purpleconcretebrickstairs": "Purple concrete brick stairs",
       "block.elyrasir.whiteconcretetiles": "Red concrete tiles",
       "block.elyrasir.blueconcretebrickslab": "Blue concrete brick slab",
       "block.elyrasir.lightgrayconcretetiles": "Light gray concrete tiles",
       "block.elyrasir.redchisledskeletonconcrete": "Red chisled skeleton concrete",
+      "gui.elyrasir.base_atm.label_51": "5",
+      "item.elyrasir.cinqcentpc": "Billet de 500 PommeCoin",
       "block.elyrasir.grayconcretebricks": "Gray concrete bricks",
+      "gui.elyrasir.base_atm.label_quitter": "- QUITTER -",
       "block.elyrasir.whiteconcretetilesslab": "White concrete tiles slab",
       "block.elyrasir.blueconcretebigsquare": "Blue concrete big square",
       "block.elyrasir.limeconcretebrickstairs": "Light gray concrete brick stairs",
@@ -3035,6 +3249,7 @@
       "block.elyrasir.grayconcretebrickstairs": "Gray concrete brick stairs",
       "block.elyrasir.blackconcretebricks": "Black concrete bricks",
       "block.elyrasir.purlpleconcretetiles": "Purple concrete tiles",
+      "gui.elyrasir.base_atm.label_acheter_une_carte": "- Acheter une Carte -",
       "block.elyrasir.brownconcretebigsquare": "Brown concrete big square",
       "block.elyrasir.yellowconcretetilesslab": "Yellow concrete tiles slab",
       "block.elyrasir.orangechisledskeletonconcrete": "Orange chisled skeleton concrete",
@@ -3053,6 +3268,7 @@
       "block.elyrasir.magentaconcretebricks": "Magenta concrete bricks",
       "item.elyrasir.harpon_pol_4": "Harpon Tactique de Police",
       "item.elyrasir.harpon_pol_3": "Harpon Tactique de Police",
+      "item.elyrasir.cinquantepc": "Billet de 50 PommeCoin",
       "block.elyrasir.orangechisledcreeperconcrete": "Orange chisled creeper concrete",
       "block.elyrasir.cyanchisledskeletonconcrete": "Cyan chisled skeleton concrete",
       "block.elyrasir.blueconcretebricks": "Blue concrete bricks",
@@ -3066,6 +3282,8 @@
       "block.elyrasir.greenconcretebigsquare": "Green concrete big square",
       "block.elyrasir.greenconcretebricks": "Green concrete bricks",
       "block.elyrasir.blackchisledcreeperconcrete": "Black chisled creeper concrete",
+      "item.elyrasir.vingtpc": "Billet de 20 PommeCoin",
+      "gui.elyrasir.base_atm.label_31": "3",
       "block.elyrasir.whitechisledcreeperconcrete": "White chisled creeper concrete",
       "block.elyrasir.orangeconcretepillar": "Orange concrete pillar",
       "block.elyrasir.magentachisledcreeperconcrete": "Magenta chisled creeper concrete",
@@ -3073,13 +3291,16 @@
       "block.elyrasir.magentaconcretebrickslab": "Magenta concrete brick slab",
       "block.elyrasir.pinkconcretebricks": "Pink concrete bricks",
       "block.elyrasir.pinkconcretebigsquare": "Pink concrete big square",
+      "gui.elyrasir.base_atm.label_acheter_du_pommecoin": "- Acheter du PommeCoin -",
       "block.elyrasir.purpleconcretebigsquare": "Purple concrete big square",
       "block.elyrasir.graychisledcreeperconcrete": "Gray chisled creeper concrete",
       "block.elyrasir.graychisledskeletonconcrete": "Gray chisled skeleton concrete",
+      "gui.elyrasir.base_atm.label_veuillez_choisir_une_service": "veuillez choisir une service:",
       "block.elyrasir.limeconcretetiles": "Lime concrete tiles",
       "block.elyrasir.orangeconcretebrickslab": "Orange concrete brick slab",
       "block.elyrasir.lightgrayconcretebrickslab": "Light gray concrete brick slab",
       "block.elyrasir.lightgrayconcretepillar": "Light gray concrete pillar",
+      "gui.elyrasir.base_atm.label_41": "4",
       "block.elyrasir.cyanconcretetiles": "Cyan concrete tiles",
       "block.elyrasir.purpleconcretebricks": "Purple concrete bricks",
       "block.elyrasir.orangeconcretetilesslab": "Orange concrete tiles slab",
@@ -3097,6 +3318,7 @@
       "block.elyrasir.yellowconcretepillar": "Yellow concrete pillar",
       "block.elyrasir.brownconcretetiles": "Brown concrete tiles",
       "block.elyrasir.lightgraychisledskeletonconcrete": "Light gray chisled skeleton concrete",
+      "gui.elyrasir.base_atm.label_bienvenue_a_la_banque": "Bienvenue à la banque",
       "block.elyrasir.redconcretetilesslab": "Red concrete tiles slab",
       "block.elyrasir.lightblueconcretebigsquare": "Light blue concrete big square",
       "block.elyrasir.grayconcretebigsquare": "Gray concrete big square",
@@ -3113,7 +3335,9 @@
       "block.elyrasir.blueconcretetiles": "Blue concrete tiles",
       "block.elyrasir.magentaconcretebigsquare": "Magenta concrete big square",
       "block.elyrasir.limechisledskeletonconcrete": "Lime gray chisled skeleton concrete",
+      "gui.elyrasir.base_atm.label_ouvrir_un_compte": "- Ouvrir un compte -",
       "block.elyrasir.yellowconcretebrickstairs": "Yellow concrete brick stairs",
+      "gui.elyrasir.base_atm.label_11": "1",
       "block.elyrasir.lightbluechisledskeletonconcrete": "Light blue chisled skeleton concrete",
       "block.elyrasir.magentachisledskeletonconcrete": "Magenta chisled skeleton concrete",
       "block.elyrasir.magentaconcretebrickstairs": "Magenta concrete brick stairs",
@@ -3121,16 +3345,21 @@
       "block.elyrasir.lightgrayconcretebigsquare": "Light gray concrete big square",
       "block.elyrasir.lightblueconcretebrickslab": "Light blue concrete brick slab",
       "block.elyrasir.brownchisledskeletonconcrete": "Brown chisled skeleton concrete",
+      "item.elyrasir.centpc": "Billet de 100 PommeCoin",
       "block.elyrasir.lightgrayconcretetilesslab": "Light gray concrete tiles slab",
       "block.elyrasir.greenconcretebrickstairs": "Green concrete brick stairs",
       "block.elyrasir.purpleconcretebrickslab": "Purple concrete brick slab",
       "block.elyrasir.limeconcretebrickslab": "Lime concrete brick slab",
+      "gui.elyrasir.base_atm.label_info_banque": "- Info Banque -",
       "block.elyrasir.purplechisledskeletonconcrete": "Purple chisled skeleton concrete",
       "block.elyrasir.brownconcretetilesslab": "Brown concrete tiles slab",
       "block.elyrasir.grayconcretetilesslab": "Gray concrete tiles slab",
       "block.elyrasir.whiteconcretebigsquare": "White concrete big square",
+      "gui.elyrasir.base_atm.label_21": "2",
       "block.elyrasir.limeconcretepillar": "Lime concrete pillar",
       "block.elyrasir.blueconcretetilesslab": "Blue concrete tiles slab",
+      "item.elyrasir.dixpc": "Billet de 10 PommeCoin",
+      "item.elyrasir.cinqpc": "Pièce de 5 PommeCoin",
       "block.elyrasir.orangeconcretetiles": "Magenta concrete tiles",
       "block.elyrasir.blackconcretetilesslab": "Black concrete tiles slab",
       "block.elyrasir.cyanconcretetilesslab": "Cyan concrete tiles slab",
@@ -3213,7 +3442,29 @@
       },
       {
         "name": "Banque",
-        "children": []
+        "children": [
+          {
+            "name": "gui",
+            "children": []
+          },
+          {
+            "name": "block",
+            "children": []
+          },
+          {
+            "name": "item",
+            "children": [
+              {
+                "name": "monnaie",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "procedure",
+            "children": []
+          }
+        ]
       }
     ]
   },

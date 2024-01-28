@@ -165,5 +165,19 @@ public class ElyrasirModTabs {
 				tabData.accept(ElyrasirModBlocks.YELLOWCONCRETETILESSLAB.get().asItem());
 				tabData.accept(ElyrasirModItems.HARPON_TACTIQUE_0.get());
 				tabData.accept(ElyrasirModItems.HARPON_POL_0.get());
+				tabData.accept(ElyrasirModBlocks.ATM.get().asItem());
 			}).withSearchBar().build());
+	public static final RegistryObject<CreativeModeTab> POMME_ITEMS = REGISTRY.register("pomme_items",
+			() -> CreativeModeTab.builder().title(Component.translatable("item_group.elyrasir.pomme_items")).icon(() -> new ItemStack(ElyrasirModItems.UNPC.get())).displayItems((parameters, tabData) -> {
+				tabData.accept(ElyrasirModItems.UNPC.get());
+				tabData.accept(ElyrasirModItems.DIXPC.get());
+				tabData.accept(ElyrasirModItems.CINQPC.get());
+				tabData.accept(ElyrasirModItems.VINGTPC.get());
+				tabData.accept(ElyrasirModItems.CENTPC.get());
+				tabData.accept(ElyrasirModItems.CINQUANTEPC.get());
+				tabData.accept(ElyrasirModItems.DEUXCENTPC.get());
+				tabData.accept(ElyrasirModItems.CINQCENTPC.get());
+			})
+
+					.build());
 }

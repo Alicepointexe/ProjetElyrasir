@@ -154,6 +154,7 @@ import elyrasir.block.BlackconcretebricksBlock;
 import elyrasir.block.BlackconcretebigsquareBlock;
 import elyrasir.block.BlackchisledskeletonconcreteBlock;
 import elyrasir.block.BlackchisledcreeperconcreteBlock;
+import elyrasir.block.ATMBlock;
 
 import elyrasir.ElyrasirMod;
 
@@ -303,4 +304,5 @@ public class ElyrasirModBlocks {
 	public static final RegistryObject<Block> REDCONCRETETILESSLAB = REGISTRY.register("redconcretetilesslab", () -> new RedconcretetilesslabBlock());
 	public static final RegistryObject<Block> WHITECONCRETETILESSLAB = REGISTRY.register("whiteconcretetilesslab", () -> new WhiteconcretetilesslabBlock());
 	public static final RegistryObject<Block> YELLOWCONCRETETILESSLAB = REGISTRY.register("yellowconcretetilesslab", () -> new YellowconcretetilesslabBlock());
+	public static final RegistryObject<Block> ATM = REGISTRY.register("atm", () -> new ATMBlock());
 }

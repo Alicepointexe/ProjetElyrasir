@@ -39,8 +39,10 @@ import java.util.ArrayList;
 import java.util.AbstractMap;
 
 import elyrasir.init.ElyrasirModTabs;
+import elyrasir.init.ElyrasirModMenus;
 import elyrasir.init.ElyrasirModItems;
 import elyrasir.init.ElyrasirModBlocks;
+import elyrasir.init.ElyrasirModBlockEntities;
 
 @Mod("elyrasir")
 public class ElyrasirMod {
@@ -52,11 +54,12 @@ public class ElyrasirMod {
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
 		ElyrasirModBlocks.REGISTRY.register(bus);
-
+		ElyrasirModBlockEntities.REGISTRY.register(bus);
 		ElyrasirModItems.REGISTRY.register(bus);
 
 		ElyrasirModTabs.REGISTRY.register(bus);
 
+		ElyrasirModMenus.REGISTRY.register(bus);
 	}
 
 	private static final String PROTOCOL_VERSION = "1";

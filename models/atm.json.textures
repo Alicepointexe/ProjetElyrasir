@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "base": "atm"
+      },
+      "name": "default"
+    }
+  }
+}

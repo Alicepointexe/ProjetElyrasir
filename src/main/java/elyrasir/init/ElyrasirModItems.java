@@ -12,6 +12,8 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
+import elyrasir.item.VingtpcItem;
+import elyrasir.item.UnpcItem;
 import elyrasir.item.HarponTactique4Item;
 import elyrasir.item.HarponTactique3Item;
 import elyrasir.item.HarponTactique2Item;
@@ -22,6 +24,12 @@ import elyrasir.item.HarponPol3Item;
 import elyrasir.item.HarponPol2Item;
 import elyrasir.item.HarponPol1Item;
 import elyrasir.item.HarponPol0Item;
+import elyrasir.item.DixpcItem;
+import elyrasir.item.DeuxcentpcItem;
+import elyrasir.item.CinquantepcItem;
+import elyrasir.item.CinqpcItem;
+import elyrasir.item.CinqcentpcItem;
+import elyrasir.item.CentpcItem;
 
 import elyrasir.ElyrasirMod;
 
@@ -181,6 +189,15 @@ public class ElyrasirModItems {
 	public static final RegistryObject<Item> HARPON_POL_2 = REGISTRY.register("harpon_pol_2", () -> new HarponPol2Item());
 	public static final RegistryObject<Item> HARPON_POL_3 = REGISTRY.register("harpon_pol_3", () -> new HarponPol3Item());
 	public static final RegistryObject<Item> HARPON_POL_4 = REGISTRY.register("harpon_pol_4", () -> new HarponPol4Item());
+	public static final RegistryObject<Item> UNPC = REGISTRY.register("unpc", () -> new UnpcItem());
+	public static final RegistryObject<Item> DIXPC = REGISTRY.register("dixpc", () -> new DixpcItem());
+	public static final RegistryObject<Item> CINQPC = REGISTRY.register("cinqpc", () -> new CinqpcItem());
+	public static final RegistryObject<Item> VINGTPC = REGISTRY.register("vingtpc", () -> new VingtpcItem());
+	public static final RegistryObject<Item> CENTPC = REGISTRY.register("centpc", () -> new CentpcItem());
+	public static final RegistryObject<Item> CINQUANTEPC = REGISTRY.register("cinquantepc", () -> new CinquantepcItem());
+	public static final RegistryObject<Item> DEUXCENTPC = REGISTRY.register("deuxcentpc", () -> new DeuxcentpcItem());
+	public static final RegistryObject<Item> CINQCENTPC = REGISTRY.register("cinqcentpc", () -> new CinqcentpcItem());
+	public static final RegistryObject<Item> ATM = block(ElyrasirModBlocks.ATM);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
