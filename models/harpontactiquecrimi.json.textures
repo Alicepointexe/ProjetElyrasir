@@ -1,0 +1,15 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "11": "black_concrete_powder",
+        "0": "gray_concrete",
+        "1": "black_concrete",
+        "8": "light_gray_concrete",
+        "9": "white_concrete",
+        "10": "brown_concrete"
+      },
+      "name": "default"
+    }
+  }
+}

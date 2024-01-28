@@ -163,5 +163,6 @@ public class ElyrasirModTabs {
 				tabData.accept(ElyrasirModBlocks.REDCONCRETETILESSLAB.get().asItem());
 				tabData.accept(ElyrasirModBlocks.WHITECONCRETETILESSLAB.get().asItem());
 				tabData.accept(ElyrasirModBlocks.YELLOWCONCRETETILESSLAB.get().asItem());
+				tabData.accept(ElyrasirModItems.WERSDGS.get());
 			}).withSearchBar().build());
 }

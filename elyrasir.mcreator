@@ -2555,6 +2555,21 @@
         ]
       },
       "path": "~/Main/Block"
+    },
+    {
+      "name": "Wersdgs",
+      "type": "item",
+      "sortid": 147,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wersdgs",
+      "metadata": {
+        "files": [
+          "src/main/java/elyrasir/item/WersdgsItem.java",
+          "src/main/resources/assets/elyrasir/models/item/wersdgs.json"
+        ]
+      },
+      "path": "~/Main/Item"
     }
   ],
   "variable_elements": [],
@@ -2565,15 +2580,15 @@
       "block.elyrasir.yellowconcretebrickslab": "Yellow concrete brick slab",
       "block.elyrasir.pinkconcretepillar": "Pink concrete pillar",
       "block.elyrasir.blueconcretepillar": "Blue concrete pillar",
-      "block.elyrasir.lightbluechisledcreeperconcrete": "Light blue chisled creeper concrete",
       "block.elyrasir.purpleconcretetilesslab": "Purple concrete tiles slab",
+      "block.elyrasir.lightbluechisledcreeperconcrete": "Light blue chisled creeper concrete",
       "block.elyrasir.pinkconcretetilesslab": "Pink concrete tiles slab",
       "block.elyrasir.brownconcretebrickslab": "Brown concrete brick slab",
       "block.elyrasir.brownchisledcreeperconcrete": "Brown chisled creeper concrete",
-      "block.elyrasir.orangeconcretebricks": "Orange concrete bricks",
       "block.elyrasir.lightblueconcretetilesslab": "Light blue concrete tiles slab",
-      "block.elyrasir.purpleconcretepillar": "Pink concrete pillar",
+      "block.elyrasir.orangeconcretebricks": "Orange concrete bricks",
       "block.elyrasir.redconcretebrickstairs": "Red concrete brick stairs",
+      "block.elyrasir.purpleconcretepillar": "Pink concrete pillar",
       "block.elyrasir.greenchisledskeletonconcrete": "Green chisled skeleton concrete",
       "block.elyrasir.grayconcretetiles": "Gray concrete tiles",
       "block.elyrasir.limeconcretetilesslab": "Lime concrete tiles slab",
@@ -2581,16 +2596,16 @@
       "block.elyrasir.pinkconcretetiles": "Pink concrete tiles",
       "block.elyrasir.lightgraychisledcreeperconcrete": "Light gray chisled creeper concrete",
       "block.elyrasir.pinkconcretebrickstairs": "Pink concrete brick stairs",
-      "block.elyrasir.redconcretebricks": "Red concrete bricks",
       "block.elyrasir.blackconcretebrickslab": "Black concrete brick slab",
+      "block.elyrasir.redconcretebricks": "Red concrete bricks",
       "block.elyrasir.whitechisledskeletonconcrete": "White chisled skeleton concrete",
       "block.elyrasir.blackconcretebigsquare": "Black concrete big square",
       "block.elyrasir.yellowconcretebigsquare": "Yellow concrete big square",
       "block.elyrasir.cyanconcretebrickslab": "Cyan concrete brick slab",
       "block.elyrasir.greenconcretepillar": "Green concrete pillar",
       "block.elyrasir.brownconcretebrickstairs": "Brown concrete brick stairs",
-      "block.elyrasir.pinkchisledcreeperconcrete": "Pink chisled creeper concrete",
       "block.elyrasir.lightblueconcretepillar": "Light blue concrete pillar",
+      "block.elyrasir.pinkchisledcreeperconcrete": "Pink chisled creeper concrete",
       "block.elyrasir.purpleconcretebrickstairs": "Purple concrete brick stairs",
       "block.elyrasir.whiteconcretetiles": "Red concrete tiles",
       "block.elyrasir.blueconcretebrickslab": "Blue concrete brick slab",
@@ -2689,6 +2704,7 @@
       "block.elyrasir.brownconcretetilesslab": "Brown concrete tiles slab",
       "block.elyrasir.grayconcretetilesslab": "Gray concrete tiles slab",
       "block.elyrasir.whiteconcretebigsquare": "White concrete big square",
+      "item.elyrasir.wersdgs": "Wersdgs",
       "block.elyrasir.limeconcretepillar": "Lime concrete pillar",
       "block.elyrasir.blueconcretetilesslab": "Blue concrete tiles slab",
       "block.elyrasir.orangeconcretetiles": "Magenta concrete tiles",
@@ -2735,6 +2751,18 @@
             "children": []
           }
         ]
+      },
+      {
+        "name": "JobsLegaux",
+        "children": []
+      },
+      {
+        "name": "JobsIllegaux",
+        "children": []
+      },
+      {
+        "name": "Banque",
+        "children": []
       }
     ]
   },

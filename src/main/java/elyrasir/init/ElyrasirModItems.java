@@ -12,6 +12,8 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
+import elyrasir.item.WersdgsItem;
+
 import elyrasir.ElyrasirMod;
 
 public class ElyrasirModItems {
@@ -160,6 +162,7 @@ public class ElyrasirModItems {
 	public static final RegistryObject<Item> REDCONCRETETILESSLAB = block(ElyrasirModBlocks.REDCONCRETETILESSLAB);
 	public static final RegistryObject<Item> WHITECONCRETETILESSLAB = block(ElyrasirModBlocks.WHITECONCRETETILESSLAB);
 	public static final RegistryObject<Item> YELLOWCONCRETETILESSLAB = block(ElyrasirModBlocks.YELLOWCONCRETETILESSLAB);
+	public static final RegistryObject<Item> WERSDGS = REGISTRY.register("wersdgs", () -> new WersdgsItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
