@@ -1,5 +1,5 @@
 {
-  "_fv": 47,
+  "_fv": 57,
   "_type": "item",
   "definition": {
     "renderType": 1,
@@ -26,16 +26,19 @@
     "damageOnCrafting": false,
     "enableMeleeDamage": true,
     "damageVsEntity": 3.0,
-    "specialInfo": [
-      "Contrebande"
-    ],
-    "hasGlow": false,
+    "specialInformation": {
+      "fixedValue": [
+        "Contrebande"
+      ]
+    },
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "onItemInUseTick": {
       "name": "Harpon3"
     },
+    "enableRanged": false,
+    "shootConstantly": false,
     "isFood": false,
     "nutritionalValue": 4,
     "saturation": 0.3,

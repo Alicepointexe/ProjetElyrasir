@@ -12,6 +12,8 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.client.gui.screens.MenuScreens;
 
 import elyrasir.client.gui.BaseAtmScreen;
+import elyrasir.client.gui.AchatPCScreen;
+import elyrasir.client.gui.AchatCardScreen;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public class ElyrasirModScreens {
@@ -19,6 +21,8 @@ public class ElyrasirModScreens {
 	public static void clientLoad(FMLClientSetupEvent event) {
 		event.enqueueWork(() -> {
 			MenuScreens.register(ElyrasirModMenus.BASE_ATM.get(), BaseAtmScreen::new);
+			MenuScreens.register(ElyrasirModMenus.ACHAT_PC.get(), AchatPCScreen::new);
+			MenuScreens.register(ElyrasirModMenus.ACHAT_CARD.get(), AchatCardScreen::new);
 		});
 	}
 }

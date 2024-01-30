@@ -1,0 +1,333 @@
+{
+  "_fv": 57,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 236,
+    "height": 220,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 26,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "banque_panel.png",
+          "use1Xscale": true,
+          "x": 108,
+          "y": 22
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "corner_bottom_left.png",
+          "use1Xscale": false,
+          "x": 107,
+          "y": 125
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "corner_top_left.png",
+          "use1Xscale": false,
+          "x": 107,
+          "y": 21
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "corner_top_right.png",
+          "use1Xscale": false,
+          "x": 286,
+          "y": 21
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "corner_bottom_right.png",
+          "use1Xscale": false,
+          "x": 286,
+          "y": 125
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_round_button_vanilla",
+          "image": "round_button_vanilla.png",
+          "hoveredImage": "round_button_vanilla_highlight.png",
+          "onClick": {
+            "name": "AchatdePC"
+          },
+          "x": 301,
+          "y": 22
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_round_button_vanilla1",
+          "image": "round_button_vanilla.png",
+          "hoveredImage": "round_button_vanilla.png",
+          "x": 301,
+          "y": 45
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_round_button_vanilla2",
+          "image": "round_button_vanilla.png",
+          "hoveredImage": "round_button_vanilla.png",
+          "x": 301,
+          "y": 68
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_round_button_vanilla3",
+          "image": "round_button_vanilla.png",
+          "hoveredImage": "round_button_vanilla.png",
+          "x": 301,
+          "y": 91
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_round_button_vanilla4",
+          "image": "round_button_vanilla.png",
+          "hoveredImage": "round_button_vanilla_highlight.png",
+          "onClick": {
+            "name": "AtmReturnMain"
+          },
+          "x": 301,
+          "y": 114
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_bienvenue_a_la_banque",
+          "text": {
+            "fixedValue": "Acheter une Carte de Banque"
+          },
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "x": 133,
+          "y": 24
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_veuillez_choisir_une_service",
+          "text": {
+            "fixedValue": "veuillez déposer les PommeCoins"
+          },
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "x": 122,
+          "y": 41
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_acheter_du_pommecoin",
+          "text": {
+            "fixedValue": "- Effectuer l'échange -"
+          },
+          "color": {
+            "value": -3355444,
+            "falpha": 0.0
+          },
+          "x": 140,
+          "y": 81
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_quitter",
+          "text": {
+            "fixedValue": "- RETOUR -"
+          },
+          "color": {
+            "value": -52429,
+            "falpha": 0.0
+          },
+          "x": 207,
+          "y": 118
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_1",
+          "text": {
+            "fixedValue": "1"
+          },
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "x": 274,
+          "y": 80
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_11",
+          "text": {
+            "fixedValue": "1"
+          },
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "x": 308,
+          "y": 27
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_5",
+          "text": {
+            "fixedValue": "5"
+          },
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "x": 274,
+          "y": 118
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_21",
+          "text": {
+            "fixedValue": "2"
+          },
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "x": 308,
+          "y": 50
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_31",
+          "text": {
+            "fixedValue": "3"
+          },
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "x": 308,
+          "y": 73
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_41",
+          "text": {
+            "fixedValue": "4"
+          },
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "x": 308,
+          "y": 96
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_51",
+          "text": {
+            "fixedValue": "5"
+          },
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "x": 309,
+          "y": 119
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "Items.DIAMOND"
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 0,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 304,
+          "y": 166
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 1,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 104,
+          "y": 165
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_puis_effectuez_lechange",
+          "text": {
+            "fixedValue": "puis effectuez l'échange"
+          },
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "x": 142,
+          "y": 52
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

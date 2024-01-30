@@ -9,10 +9,10 @@
       "registry_name": "blackconcretebigsquare",
       "metadata": {
         "files": [
+          "src/main/java/elyrasir/block/BlackconcretebigsquareBlock.java",
           "src/main/resources/assets/elyrasir/blockstates/blackconcretebigsquare.json",
-          "src/main/resources/assets/elyrasir/models/item/blackconcretebigsquare.json",
           "src/main/resources/assets/elyrasir/models/block/blackconcretebigsquare.json",
-          "src/main/java/elyrasir/block/BlackconcretebigsquareBlock.java"
+          "src/main/resources/assets/elyrasir/models/item/blackconcretebigsquare.json"
         ]
       },
       "path": "~/Main/Block"
@@ -38,10 +38,10 @@
       "registry_name": "blueconcretebigsquare",
       "metadata": {
         "files": [
-          "src/main/java/elyrasir/block/BlueconcretebigsquareBlock.java",
-          "src/main/resources/assets/elyrasir/models/item/blueconcretebigsquare.json",
           "src/main/resources/assets/elyrasir/models/block/blueconcretebigsquare.json",
-          "src/main/resources/assets/elyrasir/blockstates/blueconcretebigsquare.json"
+          "src/main/resources/assets/elyrasir/blockstates/blueconcretebigsquare.json",
+          "src/main/java/elyrasir/block/BlueconcretebigsquareBlock.java",
+          "src/main/resources/assets/elyrasir/models/item/blueconcretebigsquare.json"
         ]
       },
       "path": "~/Main/Block"
@@ -55,10 +55,10 @@
       "registry_name": "brownconcretebigsquare",
       "metadata": {
         "files": [
+          "src/main/java/elyrasir/block/BrownconcretebigsquareBlock.java",
           "src/main/resources/assets/elyrasir/models/block/brownconcretebigsquare.json",
           "src/main/resources/assets/elyrasir/models/item/brownconcretebigsquare.json",
-          "src/main/resources/assets/elyrasir/blockstates/brownconcretebigsquare.json",
-          "src/main/java/elyrasir/block/BrownconcretebigsquareBlock.java"
+          "src/main/resources/assets/elyrasir/blockstates/brownconcretebigsquare.json"
         ]
       },
       "path": "~/Main/Block"
@@ -73,9 +73,9 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/elyrasir/models/block/cyanconcretebigsquare.json",
+          "src/main/java/elyrasir/block/CyanconcretebigsquareBlock.java",
           "src/main/resources/assets/elyrasir/models/item/cyanconcretebigsquare.json",
-          "src/main/resources/assets/elyrasir/blockstates/cyanconcretebigsquare.json",
-          "src/main/java/elyrasir/block/CyanconcretebigsquareBlock.java"
+          "src/main/resources/assets/elyrasir/blockstates/cyanconcretebigsquare.json"
         ]
       },
       "path": "~/Main/Block"
@@ -89,8 +89,8 @@
       "registry_name": "grayconcretebigsquare",
       "metadata": {
         "files": [
-          "src/main/java/elyrasir/block/GrayconcretebigsquareBlock.java",
           "src/main/resources/assets/elyrasir/blockstates/grayconcretebigsquare.json",
+          "src/main/java/elyrasir/block/GrayconcretebigsquareBlock.java",
           "src/main/resources/assets/elyrasir/models/item/grayconcretebigsquare.json",
           "src/main/resources/assets/elyrasir/models/block/grayconcretebigsquare.json"
         ]
@@ -106,10 +106,10 @@
       "registry_name": "greenconcretebigsquare",
       "metadata": {
         "files": [
-          "src/main/resources/assets/elyrasir/blockstates/greenconcretebigsquare.json",
           "src/main/java/elyrasir/block/GreenconcretebigsquareBlock.java",
+          "src/main/resources/assets/elyrasir/models/item/greenconcretebigsquare.json",
           "src/main/resources/assets/elyrasir/models/block/greenconcretebigsquare.json",
-          "src/main/resources/assets/elyrasir/models/item/greenconcretebigsquare.json"
+          "src/main/resources/assets/elyrasir/blockstates/greenconcretebigsquare.json"
         ]
       },
       "path": "~/Main/Block"
@@ -123,10 +123,10 @@
       "registry_name": "lightblueconcretebigsquare",
       "metadata": {
         "files": [
-          "src/main/resources/assets/elyrasir/models/block/lightblueconcretebigsquare.json",
-          "src/main/resources/assets/elyrasir/models/item/lightblueconcretebigsquare.json",
+          "src/main/resources/assets/elyrasir/blockstates/lightblueconcretebigsquare.json",
           "src/main/java/elyrasir/block/LightblueconcretebigsquareBlock.java",
-          "src/main/resources/assets/elyrasir/blockstates/lightblueconcretebigsquare.json"
+          "src/main/resources/assets/elyrasir/models/item/lightblueconcretebigsquare.json",
+          "src/main/resources/assets/elyrasir/models/block/lightblueconcretebigsquare.json"
         ]
       },
       "path": "~/Main/Block"
@@ -140,10 +140,10 @@
       "registry_name": "lightgrayconcretebigsquare",
       "metadata": {
         "files": [
-          "src/main/resources/assets/elyrasir/models/item/lightgrayconcretebigsquare.json",
+          "src/main/resources/assets/elyrasir/models/block/lightgrayconcretebigsquare.json",
           "src/main/resources/assets/elyrasir/blockstates/lightgrayconcretebigsquare.json",
           "src/main/java/elyrasir/block/LightgrayconcretebigsquareBlock.java",
-          "src/main/resources/assets/elyrasir/models/block/lightgrayconcretebigsquare.json"
+          "src/main/resources/assets/elyrasir/models/item/lightgrayconcretebigsquare.json"
         ]
       },
       "path": "~/Main/Block"
@@ -157,10 +157,10 @@
       "registry_name": "limeconcretebigsquare",
       "metadata": {
         "files": [
-          "src/main/resources/assets/elyrasir/models/block/limeconcretebigsquare.json",
-          "src/main/java/elyrasir/block/LimeconcretebigsquareBlock.java",
           "src/main/resources/assets/elyrasir/models/item/limeconcretebigsquare.json",
-          "src/main/resources/assets/elyrasir/blockstates/limeconcretebigsquare.json"
+          "src/main/resources/assets/elyrasir/blockstates/limeconcretebigsquare.json",
+          "src/main/java/elyrasir/block/LimeconcretebigsquareBlock.java",
+          "src/main/resources/assets/elyrasir/models/block/limeconcretebigsquare.json"
         ]
       },
       "path": "~/Main/Block"
@@ -174,10 +174,10 @@
       "registry_name": "magentaconcretebigsquare",
       "metadata": {
         "files": [
-          "src/main/resources/assets/elyrasir/models/item/magentaconcretebigsquare.json",
           "src/main/resources/assets/elyrasir/blockstates/magentaconcretebigsquare.json",
           "src/main/resources/assets/elyrasir/models/block/magentaconcretebigsquare.json",
-          "src/main/java/elyrasir/block/MagentaconcretebigsquareBlock.java"
+          "src/main/java/elyrasir/block/MagentaconcretebigsquareBlock.java",
+          "src/main/resources/assets/elyrasir/models/item/magentaconcretebigsquare.json"
         ]
       },
       "path": "~/Main/Block"
@@ -192,8 +192,8 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/elyrasir/models/item/orangeconcretebigsquare.json",
-          "src/main/resources/assets/elyrasir/blockstates/orangeconcretebigsquare.json",
           "src/main/resources/assets/elyrasir/models/block/orangeconcretebigsquare.json",
+          "src/main/resources/assets/elyrasir/blockstates/orangeconcretebigsquare.json",
           "src/main/java/elyrasir/block/OrangeconcretebigsquareBlock.java"
         ]
       },
@@ -209,9 +209,9 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/elyrasir/models/block/pinkconcretebigsquare.json",
-          "src/main/resources/assets/elyrasir/models/item/pinkconcretebigsquare.json",
+          "src/main/java/elyrasir/block/PinkconcretebigsquareBlock.java",
           "src/main/resources/assets/elyrasir/blockstates/pinkconcretebigsquare.json",
-          "src/main/java/elyrasir/block/PinkconcretebigsquareBlock.java"
+          "src/main/resources/assets/elyrasir/models/item/pinkconcretebigsquare.json"
         ]
       },
       "path": "~/Main/Block"
@@ -225,10 +225,10 @@
       "registry_name": "purpleconcretebigsquare",
       "metadata": {
         "files": [
-          "src/main/resources/assets/elyrasir/blockstates/purpleconcretebigsquare.json",
           "src/main/java/elyrasir/block/PurpleconcretebigsquareBlock.java",
-          "src/main/resources/assets/elyrasir/models/block/purpleconcretebigsquare.json",
-          "src/main/resources/assets/elyrasir/models/item/purpleconcretebigsquare.json"
+          "src/main/resources/assets/elyrasir/models/item/purpleconcretebigsquare.json",
+          "src/main/resources/assets/elyrasir/blockstates/purpleconcretebigsquare.json",
+          "src/main/resources/assets/elyrasir/models/block/purpleconcretebigsquare.json"
         ]
       },
       "path": "~/Main/Block"
@@ -243,9 +243,9 @@
       "metadata": {
         "files": [
           "src/main/java/elyrasir/block/RedconcretebigsquareBlock.java",
-          "src/main/resources/assets/elyrasir/models/item/redconcretebigsquare.json",
           "src/main/resources/assets/elyrasir/blockstates/redconcretebigsquare.json",
-          "src/main/resources/assets/elyrasir/models/block/redconcretebigsquare.json"
+          "src/main/resources/assets/elyrasir/models/block/redconcretebigsquare.json",
+          "src/main/resources/assets/elyrasir/models/item/redconcretebigsquare.json"
         ]
       },
       "path": "~/Main/Block"
@@ -259,10 +259,10 @@
       "registry_name": "whiteconcretebigsquare",
       "metadata": {
         "files": [
-          "src/main/resources/assets/elyrasir/models/item/whiteconcretebigsquare.json",
-          "src/main/resources/assets/elyrasir/models/block/whiteconcretebigsquare.json",
           "src/main/java/elyrasir/block/WhiteconcretebigsquareBlock.java",
-          "src/main/resources/assets/elyrasir/blockstates/whiteconcretebigsquare.json"
+          "src/main/resources/assets/elyrasir/models/item/whiteconcretebigsquare.json",
+          "src/main/resources/assets/elyrasir/blockstates/whiteconcretebigsquare.json",
+          "src/main/resources/assets/elyrasir/models/block/whiteconcretebigsquare.json"
         ]
       },
       "path": "~/Main/Block"
@@ -276,10 +276,10 @@
       "registry_name": "yellowconcretebigsquare",
       "metadata": {
         "files": [
+          "src/main/java/elyrasir/block/YellowconcretebigsquareBlock.java",
           "src/main/resources/assets/elyrasir/models/block/yellowconcretebigsquare.json",
-          "src/main/resources/assets/elyrasir/models/item/yellowconcretebigsquare.json",
           "src/main/resources/assets/elyrasir/blockstates/yellowconcretebigsquare.json",
-          "src/main/java/elyrasir/block/YellowconcretebigsquareBlock.java"
+          "src/main/resources/assets/elyrasir/models/item/yellowconcretebigsquare.json"
         ]
       },
       "path": "~/Main/Block"
@@ -293,8 +293,8 @@
       "registry_name": "blackconcretebricks",
       "metadata": {
         "files": [
-          "src/main/resources/assets/elyrasir/models/item/blackconcretebricks.json",
           "src/main/java/elyrasir/block/BlackconcretebricksBlock.java",
+          "src/main/resources/assets/elyrasir/models/item/blackconcretebricks.json",
           "src/main/resources/assets/elyrasir/models/block/blackconcretebricks.json",
           "src/main/resources/assets/elyrasir/blockstates/blackconcretebricks.json"
         ]
@@ -310,10 +310,10 @@
       "registry_name": "blueconcretebricks",
       "metadata": {
         "files": [
-          "src/main/resources/assets/elyrasir/models/item/blueconcretebricks.json",
+          "src/main/resources/assets/elyrasir/models/block/blueconcretebricks.json",
           "src/main/resources/assets/elyrasir/blockstates/blueconcretebricks.json",
-          "src/main/java/elyrasir/block/BlueconcretebricksBlock.java",
-          "src/main/resources/assets/elyrasir/models/block/blueconcretebricks.json"
+          "src/main/resources/assets/elyrasir/models/item/blueconcretebricks.json",
+          "src/main/java/elyrasir/block/BlueconcretebricksBlock.java"
         ]
       },
       "path": "~/Main/Block"
@@ -327,9 +327,9 @@
       "registry_name": "brownconcretebricks",
       "metadata": {
         "files": [
-          "src/main/resources/assets/elyrasir/models/item/brownconcretebricks.json",
-          "src/main/java/elyrasir/block/BrownconcretebricksBlock.java",
           "src/main/resources/assets/elyrasir/blockstates/brownconcretebricks.json",
+          "src/main/java/elyrasir/block/BrownconcretebricksBlock.java",
+          "src/main/resources/assets/elyrasir/models/item/brownconcretebricks.json",
           "src/main/resources/assets/elyrasir/models/block/brownconcretebricks.json"
         ]
       },
@@ -344,10 +344,10 @@
       "registry_name": "cyanconcretebricks",
       "metadata": {
         "files": [
-          "src/main/java/elyrasir/block/CyanconcretebricksBlock.java",
-          "src/main/resources/assets/elyrasir/models/item/cyanconcretebricks.json",
           "src/main/resources/assets/elyrasir/models/block/cyanconcretebricks.json",
-          "src/main/resources/assets/elyrasir/blockstates/cyanconcretebricks.json"
+          "src/main/resources/assets/elyrasir/blockstates/cyanconcretebricks.json",
+          "src/main/resources/assets/elyrasir/models/item/cyanconcretebricks.json",
+          "src/main/java/elyrasir/block/CyanconcretebricksBlock.java"
         ]
       },
       "path": "~/Main/Block"
@@ -362,9 +362,9 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/elyrasir/models/item/grayconcretebricks.json",
-          "src/main/java/elyrasir/block/GrayconcretebricksBlock.java",
           "src/main/resources/assets/elyrasir/models/block/grayconcretebricks.json",
-          "src/main/resources/assets/elyrasir/blockstates/grayconcretebricks.json"
+          "src/main/resources/assets/elyrasir/blockstates/grayconcretebricks.json",
+          "src/main/java/elyrasir/block/GrayconcretebricksBlock.java"
         ]
       },
       "path": "~/Main/Block"
@@ -378,9 +378,9 @@
       "registry_name": "greenconcretebricks",
       "metadata": {
         "files": [
+          "src/main/java/elyrasir/block/GreenconcretebricksBlock.java",
           "src/main/resources/assets/elyrasir/blockstates/greenconcretebricks.json",
           "src/main/resources/assets/elyrasir/models/item/greenconcretebricks.json",
-          "src/main/java/elyrasir/block/GreenconcretebricksBlock.java",
           "src/main/resources/assets/elyrasir/models/block/greenconcretebricks.json"
         ]
       },
@@ -396,8 +396,8 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/elyrasir/models/item/lightblueconcretebricks.json",
-          "src/main/resources/assets/elyrasir/blockstates/lightblueconcretebricks.json",
           "src/main/resources/assets/elyrasir/models/block/lightblueconcretebricks.json",
+          "src/main/resources/assets/elyrasir/blockstates/lightblueconcretebricks.json",
           "src/main/java/elyrasir/block/LightblueconcretebricksBlock.java"
         ]
       },
@@ -412,10 +412,10 @@
       "registry_name": "lightgrayconcretebricks",
       "metadata": {
         "files": [
-          "src/main/java/elyrasir/block/LightgrayconcretebricksBlock.java",
           "src/main/resources/assets/elyrasir/models/item/lightgrayconcretebricks.json",
+          "src/main/resources/assets/elyrasir/models/block/lightgrayconcretebricks.json",
           "src/main/resources/assets/elyrasir/blockstates/lightgrayconcretebricks.json",
-          "src/main/resources/assets/elyrasir/models/block/lightgrayconcretebricks.json"
+          "src/main/java/elyrasir/block/LightgrayconcretebricksBlock.java"
         ]
       },
       "path": "~/Main/Block"
@@ -429,9 +429,9 @@
       "registry_name": "limeconcretebricks",
       "metadata": {
         "files": [
-          "src/main/resources/assets/elyrasir/blockstates/limeconcretebricks.json",
-          "src/main/java/elyrasir/block/LimeconcretebricksBlock.java",
           "src/main/resources/assets/elyrasir/models/item/limeconcretebricks.json",
+          "src/main/java/elyrasir/block/LimeconcretebricksBlock.java",
+          "src/main/resources/assets/elyrasir/blockstates/limeconcretebricks.json",
           "src/main/resources/assets/elyrasir/models/block/limeconcretebricks.json"
         ]
       },
@@ -447,9 +447,9 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/elyrasir/models/block/magentaconcretebricks.json",
-          "src/main/resources/assets/elyrasir/blockstates/magentaconcretebricks.json",
           "src/main/java/elyrasir/block/MagentaconcretebricksBlock.java",
-          "src/main/resources/assets/elyrasir/models/item/magentaconcretebricks.json"
+          "src/main/resources/assets/elyrasir/models/item/magentaconcretebricks.json",
+          "src/main/resources/assets/elyrasir/blockstates/magentaconcretebricks.json"
         ]
       },
       "path": "~/Main/Block"
@@ -463,10 +463,10 @@
       "registry_name": "orangeconcretebricks",
       "metadata": {
         "files": [
-          "src/main/resources/assets/elyrasir/models/block/orangeconcretebricks.json",
-          "src/main/java/elyrasir/block/OrangeconcretebricksBlock.java",
           "src/main/resources/assets/elyrasir/models/item/orangeconcretebricks.json",
-          "src/main/resources/assets/elyrasir/blockstates/orangeconcretebricks.json"
+          "src/main/resources/assets/elyrasir/blockstates/orangeconcretebricks.json",
+          "src/main/resources/assets/elyrasir/models/block/orangeconcretebricks.json",
+          "src/main/java/elyrasir/block/OrangeconcretebricksBlock.java"
         ]
       },
       "path": "~/Main/Block"
@@ -480,10 +480,10 @@
       "registry_name": "pinkconcretebricks",
       "metadata": {
         "files": [
-          "src/main/resources/assets/elyrasir/models/item/pinkconcretebricks.json",
+          "src/main/resources/assets/elyrasir/models/block/pinkconcretebricks.json",
           "src/main/java/elyrasir/block/PinkconcretebricksBlock.java",
-          "src/main/resources/assets/elyrasir/blockstates/pinkconcretebricks.json",
-          "src/main/resources/assets/elyrasir/models/block/pinkconcretebricks.json"
+          "src/main/resources/assets/elyrasir/models/item/pinkconcretebricks.json",
+          "src/main/resources/assets/elyrasir/blockstates/pinkconcretebricks.json"
         ]
       },
       "path": "~/Main/Block"
@@ -497,10 +497,10 @@
       "registry_name": "purpleconcretebricks",
       "metadata": {
         "files": [
-          "src/main/java/elyrasir/block/PurpleconcretebricksBlock.java",
-          "src/main/resources/assets/elyrasir/models/item/purpleconcretebricks.json",
+          "src/main/resources/assets/elyrasir/models/block/purpleconcretebricks.json",
           "src/main/resources/assets/elyrasir/blockstates/purpleconcretebricks.json",
-          "src/main/resources/assets/elyrasir/models/block/purpleconcretebricks.json"
+          "src/main/java/elyrasir/block/PurpleconcretebricksBlock.java",
+          "src/main/resources/assets/elyrasir/models/item/purpleconcretebricks.json"
         ]
       },
       "path": "~/Main/Block"
@@ -514,10 +514,10 @@
       "registry_name": "redconcretebricks",
       "metadata": {
         "files": [
-          "src/main/resources/assets/elyrasir/models/block/redconcretebricks.json",
-          "src/main/resources/assets/elyrasir/blockstates/redconcretebricks.json",
           "src/main/resources/assets/elyrasir/models/item/redconcretebricks.json",
-          "src/main/java/elyrasir/block/RedconcretebricksBlock.java"
+          "src/main/resources/assets/elyrasir/blockstates/redconcretebricks.json",
+          "src/main/java/elyrasir/block/RedconcretebricksBlock.java",
+          "src/main/resources/assets/elyrasir/models/block/redconcretebricks.json"
         ]
       },
       "path": "~/Main/Block"
@@ -531,8 +531,8 @@
       "registry_name": "whiteconcretebricks",
       "metadata": {
         "files": [
-          "src/main/resources/assets/elyrasir/models/item/whiteconcretebricks.json",
           "src/main/java/elyrasir/block/WhiteconcretebricksBlock.java",
+          "src/main/resources/assets/elyrasir/models/item/whiteconcretebricks.json",
           "src/main/resources/assets/elyrasir/models/block/whiteconcretebricks.json",
           "src/main/resources/assets/elyrasir/blockstates/whiteconcretebricks.json"
         ]
@@ -548,10 +548,10 @@
       "registry_name": "yellowconcretebricks",
       "metadata": {
         "files": [
-          "src/main/java/elyrasir/block/YellowconcretebricksBlock.java",
-          "src/main/resources/assets/elyrasir/models/item/yellowconcretebricks.json",
           "src/main/resources/assets/elyrasir/blockstates/yellowconcretebricks.json",
-          "src/main/resources/assets/elyrasir/models/block/yellowconcretebricks.json"
+          "src/main/resources/assets/elyrasir/models/block/yellowconcretebricks.json",
+          "src/main/java/elyrasir/block/YellowconcretebricksBlock.java",
+          "src/main/resources/assets/elyrasir/models/item/yellowconcretebricks.json"
         ]
       },
       "path": "~/Main/Block"
@@ -565,10 +565,10 @@
       "registry_name": "blackchisledcreeperconcrete",
       "metadata": {
         "files": [
-          "src/main/java/elyrasir/block/BlackchisledcreeperconcreteBlock.java",
+          "src/main/resources/assets/elyrasir/models/item/blackchisledcreeperconcrete.json",
           "src/main/resources/assets/elyrasir/blockstates/blackchisledcreeperconcrete.json",
           "src/main/resources/assets/elyrasir/models/block/blackchisledcreeperconcrete.json",
-          "src/main/resources/assets/elyrasir/models/item/blackchisledcreeperconcrete.json"
+          "src/main/java/elyrasir/block/BlackchisledcreeperconcreteBlock.java"
         ]
       },
       "path": "~/Main/Block"
@@ -582,10 +582,10 @@
       "registry_name": "bluechisledcreeperconcrete",
       "metadata": {
         "files": [
+          "src/main/resources/assets/elyrasir/blockstates/bluechisledcreeperconcrete.json",
           "src/main/resources/assets/elyrasir/models/item/bluechisledcreeperconcrete.json",
-          "src/main/resources/assets/elyrasir/models/block/bluechisledcreeperconcrete.json",
           "src/main/java/elyrasir/block/BluechisledcreeperconcreteBlock.java",
-          "src/main/resources/assets/elyrasir/blockstates/bluechisledcreeperconcrete.json"
+          "src/main/resources/assets/elyrasir/models/block/bluechisledcreeperconcrete.json"
         ]
       },
       "path": "~/Main/Block"
@@ -599,10 +599,10 @@
       "registry_name": "brownchisledcreeperconcrete",
       "metadata": {
         "files": [
-          "src/main/resources/assets/elyrasir/models/block/brownchisledcreeperconcrete.json",
-          "src/main/java/elyrasir/block/BrownchisledcreeperconcreteBlock.java",
+          "src/main/resources/assets/elyrasir/blockstates/brownchisledcreeperconcrete.json",
           "src/main/resources/assets/elyrasir/models/item/brownchisledcreeperconcrete.json",
-          "src/main/resources/assets/elyrasir/blockstates/brownchisledcreeperconcrete.json"
+          "src/main/resources/assets/elyrasir/models/block/brownchisledcreeperconcrete.json",
+          "src/main/java/elyrasir/block/BrownchisledcreeperconcreteBlock.java"
         ]
       },
       "path": "~/Main/Block"
@@ -616,10 +616,10 @@
       "registry_name": "cyanchisledcreeperconcrete",
       "metadata": {
         "files": [
-          "src/main/java/elyrasir/block/CyanchisledcreeperconcreteBlock.java",
           "src/main/resources/assets/elyrasir/models/item/cyanchisledcreeperconcrete.json",
+          "src/main/resources/assets/elyrasir/blockstates/cyanchisledcreeperconcrete.json",
           "src/main/resources/assets/elyrasir/models/block/cyanchisledcreeperconcrete.json",
-          "src/main/resources/assets/elyrasir/blockstates/cyanchisledcreeperconcrete.json"
+          "src/main/java/elyrasir/block/CyanchisledcreeperconcreteBlock.java"
         ]
       },
       "path": "~/Main/Block"
@@ -651,9 +651,9 @@
       "metadata": {
         "files": [
           "src/main/java/elyrasir/block/GreenchisledcreeperconcreteBlock.java",
+          "src/main/resources/assets/elyrasir/models/block/greenchisledcreeperconcrete.json",
           "src/main/resources/assets/elyrasir/models/item/greenchisledcreeperconcrete.json",
-          "src/main/resources/assets/elyrasir/blockstates/greenchisledcreeperconcrete.json",
-          "src/main/resources/assets/elyrasir/models/block/greenchisledcreeperconcrete.json"
+          "src/main/resources/assets/elyrasir/blockstates/greenchisledcreeperconcrete.json"
         ]
       },
       "path": "~/Main/Block"
@@ -667,9 +667,9 @@
       "registry_name": "lightbluechisledcreeperconcrete",
       "metadata": {
         "files": [
+          "src/main/java/elyrasir/block/LightbluechisledcreeperconcreteBlock.java",
           "src/main/resources/assets/elyrasir/models/item/lightbluechisledcreeperconcrete.json",
           "src/main/resources/assets/elyrasir/models/block/lightbluechisledcreeperconcrete.json",
-          "src/main/java/elyrasir/block/LightbluechisledcreeperconcreteBlock.java",
           "src/main/resources/assets/elyrasir/blockstates/lightbluechisledcreeperconcrete.json"
         ]
       },
@@ -684,10 +684,10 @@
       "registry_name": "lightgraychisledcreeperconcrete",
       "metadata": {
         "files": [
-          "src/main/resources/assets/elyrasir/blockstates/lightgraychisledcreeperconcrete.json",
-          "src/main/resources/assets/elyrasir/models/block/lightgraychisledcreeperconcrete.json",
+          "src/main/resources/assets/elyrasir/models/item/lightgraychisledcreeperconcrete.json",
           "src/main/java/elyrasir/block/LightgraychisledcreeperconcreteBlock.java",
-          "src/main/resources/assets/elyrasir/models/item/lightgraychisledcreeperconcrete.json"
+          "src/main/resources/assets/elyrasir/models/block/lightgraychisledcreeperconcrete.json",
+          "src/main/resources/assets/elyrasir/blockstates/lightgraychisledcreeperconcrete.json"
         ]
       },
       "path": "~/Main/Block"
@@ -701,10 +701,10 @@
       "registry_name": "limechisledcreeperconcrete",
       "metadata": {
         "files": [
-          "src/main/resources/assets/elyrasir/models/block/limechisledcreeperconcrete.json",
-          "src/main/resources/assets/elyrasir/blockstates/limechisledcreeperconcrete.json",
           "src/main/java/elyrasir/block/LimechisledcreeperconcreteBlock.java",
-          "src/main/resources/assets/elyrasir/models/item/limechisledcreeperconcrete.json"
+          "src/main/resources/assets/elyrasir/models/item/limechisledcreeperconcrete.json",
+          "src/main/resources/assets/elyrasir/models/block/limechisledcreeperconcrete.json",
+          "src/main/resources/assets/elyrasir/blockstates/limechisledcreeperconcrete.json"
         ]
       },
       "path": "~/Main/Block"
@@ -719,9 +719,9 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/elyrasir/blockstates/magentachisledcreeperconcrete.json",
+          "src/main/java/elyrasir/block/MagentachisledcreeperconcreteBlock.java",
           "src/main/resources/assets/elyrasir/models/item/magentachisledcreeperconcrete.json",
-          "src/main/resources/assets/elyrasir/models/block/magentachisledcreeperconcrete.json",
-          "src/main/java/elyrasir/block/MagentachisledcreeperconcreteBlock.java"
+          "src/main/resources/assets/elyrasir/models/block/magentachisledcreeperconcrete.json"
         ]
       },
       "path": "~/Main/Block"
@@ -735,9 +735,9 @@
       "registry_name": "orangechisledcreeperconcrete",
       "metadata": {
         "files": [
+          "src/main/resources/assets/elyrasir/blockstates/orangechisledcreeperconcrete.json",
           "src/main/resources/assets/elyrasir/models/item/orangechisledcreeperconcrete.json",
           "src/main/resources/assets/elyrasir/models/block/orangechisledcreeperconcrete.json",
-          "src/main/resources/assets/elyrasir/blockstates/orangechisledcreeperconcrete.json",
           "src/main/java/elyrasir/block/OrangechisledcreeperconcreteBlock.java"
         ]
       },
@@ -752,10 +752,10 @@
       "registry_name": "pinkchisledcreeperconcrete",
       "metadata": {
         "files": [
-          "src/main/resources/assets/elyrasir/blockstates/pinkchisledcreeperconcrete.json",
-          "src/main/java/elyrasir/block/PinkchisledcreeperconcreteBlock.java",
+          "src/main/resources/assets/elyrasir/models/block/pinkchisledcreeperconcrete.json",
           "src/main/resources/assets/elyrasir/models/item/pinkchisledcreeperconcrete.json",
-          "src/main/resources/assets/elyrasir/models/block/pinkchisledcreeperconcrete.json"
+          "src/main/java/elyrasir/block/PinkchisledcreeperconcreteBlock.java",
+          "src/main/resources/assets/elyrasir/blockstates/pinkchisledcreeperconcrete.json"
         ]
       },
       "path": "~/Main/Block"
@@ -769,9 +769,9 @@
       "registry_name": "purplechisledcreeperconcrete",
       "metadata": {
         "files": [
+          "src/main/resources/assets/elyrasir/models/item/purplechisledcreeperconcrete.json",
           "src/main/resources/assets/elyrasir/models/block/purplechisledcreeperconcrete.json",
           "src/main/resources/assets/elyrasir/blockstates/purplechisledcreeperconcrete.json",
-          "src/main/resources/assets/elyrasir/models/item/purplechisledcreeperconcrete.json",
           "src/main/java/elyrasir/block/PurplechisledcreeperconcreteBlock.java"
         ]
       },
@@ -786,10 +786,10 @@
       "registry_name": "redchisledcreeperconcrete",
       "metadata": {
         "files": [
-          "src/main/java/elyrasir/block/RedchisledcreeperconcreteBlock.java",
-          "src/main/resources/assets/elyrasir/models/item/redchisledcreeperconcrete.json",
           "src/main/resources/assets/elyrasir/blockstates/redchisledcreeperconcrete.json",
-          "src/main/resources/assets/elyrasir/models/block/redchisledcreeperconcrete.json"
+          "src/main/resources/assets/elyrasir/models/block/redchisledcreeperconcrete.json",
+          "src/main/java/elyrasir/block/RedchisledcreeperconcreteBlock.java",
+          "src/main/resources/assets/elyrasir/models/item/redchisledcreeperconcrete.json"
         ]
       },
       "path": "~/Main/Block"
@@ -804,8 +804,8 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/elyrasir/models/block/whitechisledcreeperconcrete.json",
-          "src/main/java/elyrasir/block/WhitechisledcreeperconcreteBlock.java",
           "src/main/resources/assets/elyrasir/models/item/whitechisledcreeperconcrete.json",
+          "src/main/java/elyrasir/block/WhitechisledcreeperconcreteBlock.java",
           "src/main/resources/assets/elyrasir/blockstates/whitechisledcreeperconcrete.json"
         ]
       },
@@ -822,8 +822,8 @@
         "files": [
           "src/main/java/elyrasir/block/YellowchisledcreeperconcreteBlock.java",
           "src/main/resources/assets/elyrasir/blockstates/yellowchisledcreeperconcrete.json",
-          "src/main/resources/assets/elyrasir/models/block/yellowchisledcreeperconcrete.json",
-          "src/main/resources/assets/elyrasir/models/item/yellowchisledcreeperconcrete.json"
+          "src/main/resources/assets/elyrasir/models/item/yellowchisledcreeperconcrete.json",
+          "src/main/resources/assets/elyrasir/models/block/yellowchisledcreeperconcrete.json"
         ]
       },
       "path": "~/Main/Block"
@@ -837,10 +837,10 @@
       "registry_name": "blackchisledskeletonconcrete",
       "metadata": {
         "files": [
-          "src/main/resources/assets/elyrasir/blockstates/blackchisledskeletonconcrete.json",
-          "src/main/resources/assets/elyrasir/models/block/blackchisledskeletonconcrete.json",
           "src/main/java/elyrasir/block/BlackchisledskeletonconcreteBlock.java",
-          "src/main/resources/assets/elyrasir/models/item/blackchisledskeletonconcrete.json"
+          "src/main/resources/assets/elyrasir/models/item/blackchisledskeletonconcrete.json",
+          "src/main/resources/assets/elyrasir/blockstates/blackchisledskeletonconcrete.json",
+          "src/main/resources/assets/elyrasir/models/block/blackchisledskeletonconcrete.json"
         ]
       },
       "path": "~/Main/Block"
@@ -854,10 +854,10 @@
       "registry_name": "bluechisledskeletonconcrete",
       "metadata": {
         "files": [
-          "src/main/java/elyrasir/block/BluechisledskeletonconcreteBlock.java",
-          "src/main/resources/assets/elyrasir/models/item/bluechisledskeletonconcrete.json",
+          "src/main/resources/assets/elyrasir/blockstates/bluechisledskeletonconcrete.json",
           "src/main/resources/assets/elyrasir/models/block/bluechisledskeletonconcrete.json",
-          "src/main/resources/assets/elyrasir/blockstates/bluechisledskeletonconcrete.json"
+          "src/main/java/elyrasir/block/BluechisledskeletonconcreteBlock.java",
+          "src/main/resources/assets/elyrasir/models/item/bluechisledskeletonconcrete.json"
         ]
       },
       "path": "~/Main/Block"
@@ -873,8 +873,8 @@
         "files": [
           "src/main/resources/assets/elyrasir/models/item/brownchisledskeletonconcrete.json",
           "src/main/resources/assets/elyrasir/blockstates/brownchisledskeletonconcrete.json",
-          "src/main/java/elyrasir/block/BrownchisledskeletonconcreteBlock.java",
-          "src/main/resources/assets/elyrasir/models/block/brownchisledskeletonconcrete.json"
+          "src/main/resources/assets/elyrasir/models/block/brownchisledskeletonconcrete.json",
+          "src/main/java/elyrasir/block/BrownchisledskeletonconcreteBlock.java"
         ]
       },
       "path": "~/Main/Block"
@@ -888,10 +888,10 @@
       "registry_name": "cyanchisledskeletonconcrete",
       "metadata": {
         "files": [
-          "src/main/java/elyrasir/block/CyanchisledskeletonconcreteBlock.java",
+          "src/main/resources/assets/elyrasir/models/block/cyanchisledskeletonconcrete.json",
           "src/main/resources/assets/elyrasir/models/item/cyanchisledskeletonconcrete.json",
-          "src/main/resources/assets/elyrasir/blockstates/cyanchisledskeletonconcrete.json",
-          "src/main/resources/assets/elyrasir/models/block/cyanchisledskeletonconcrete.json"
+          "src/main/java/elyrasir/block/CyanchisledskeletonconcreteBlock.java",
+          "src/main/resources/assets/elyrasir/blockstates/cyanchisledskeletonconcrete.json"
         ]
       },
       "path": "~/Main/Block"
@@ -905,10 +905,10 @@
       "registry_name": "graychisledskeletonconcrete",
       "metadata": {
         "files": [
-          "src/main/resources/assets/elyrasir/blockstates/graychisledskeletonconcrete.json",
+          "src/main/resources/assets/elyrasir/models/block/graychisledskeletonconcrete.json",
           "src/main/java/elyrasir/block/GraychisledskeletonconcreteBlock.java",
-          "src/main/resources/assets/elyrasir/models/item/graychisledskeletonconcrete.json",
-          "src/main/resources/assets/elyrasir/models/block/graychisledskeletonconcrete.json"
+          "src/main/resources/assets/elyrasir/blockstates/graychisledskeletonconcrete.json",
+          "src/main/resources/assets/elyrasir/models/item/graychisledskeletonconcrete.json"
         ]
       },
       "path": "~/Main/Block"
@@ -922,8 +922,8 @@
       "registry_name": "greenchisledskeletonconcrete",
       "metadata": {
         "files": [
-          "src/main/resources/assets/elyrasir/blockstates/greenchisledskeletonconcrete.json",
           "src/main/resources/assets/elyrasir/models/item/greenchisledskeletonconcrete.json",
+          "src/main/resources/assets/elyrasir/blockstates/greenchisledskeletonconcrete.json",
           "src/main/resources/assets/elyrasir/models/block/greenchisledskeletonconcrete.json",
           "src/main/java/elyrasir/block/GreenchisledskeletonconcreteBlock.java"
         ]
@@ -940,9 +940,9 @@
       "metadata": {
         "files": [
           "src/main/java/elyrasir/block/LightbluechisledskeletonconcreteBlock.java",
-          "src/main/resources/assets/elyrasir/blockstates/lightbluechisledskeletonconcrete.json",
           "src/main/resources/assets/elyrasir/models/item/lightbluechisledskeletonconcrete.json",
-          "src/main/resources/assets/elyrasir/models/block/lightbluechisledskeletonconcrete.json"
+          "src/main/resources/assets/elyrasir/models/block/lightbluechisledskeletonconcrete.json",
+          "src/main/resources/assets/elyrasir/blockstates/lightbluechisledskeletonconcrete.json"
         ]
       },
       "path": "~/Main/Block"
@@ -956,9 +956,9 @@
       "registry_name": "lightgraychisledskeletonconcrete",
       "metadata": {
         "files": [
-          "src/main/resources/assets/elyrasir/models/item/lightgraychisledskeletonconcrete.json",
           "src/main/resources/assets/elyrasir/blockstates/lightgraychisledskeletonconcrete.json",
           "src/main/java/elyrasir/block/LightgraychisledskeletonconcreteBlock.java",
+          "src/main/resources/assets/elyrasir/models/item/lightgraychisledskeletonconcrete.json",
           "src/main/resources/assets/elyrasir/models/block/lightgraychisledskeletonconcrete.json"
         ]
       },
@@ -975,8 +975,8 @@
         "files": [
           "src/main/java/elyrasir/block/LimechisledskeletonconcreteBlock.java",
           "src/main/resources/assets/elyrasir/models/block/limechisledskeletonconcrete.json",
-          "src/main/resources/assets/elyrasir/models/item/limechisledskeletonconcrete.json",
-          "src/main/resources/assets/elyrasir/blockstates/limechisledskeletonconcrete.json"
+          "src/main/resources/assets/elyrasir/blockstates/limechisledskeletonconcrete.json",
+          "src/main/resources/assets/elyrasir/models/item/limechisledskeletonconcrete.json"
         ]
       },
       "path": "~/Main/Block"
@@ -990,10 +990,10 @@
       "registry_name": "magentachisledskeletonconcrete",
       "metadata": {
         "files": [
-          "src/main/java/elyrasir/block/MagentachisledskeletonconcreteBlock.java",
+          "src/main/resources/assets/elyrasir/blockstates/magentachisledskeletonconcrete.json",
           "src/main/resources/assets/elyrasir/models/block/magentachisledskeletonconcrete.json",
           "src/main/resources/assets/elyrasir/models/item/magentachisledskeletonconcrete.json",
-          "src/main/resources/assets/elyrasir/blockstates/magentachisledskeletonconcrete.json"
+          "src/main/java/elyrasir/block/MagentachisledskeletonconcreteBlock.java"
         ]
       },
       "path": "~/Main/Block"
@@ -1008,9 +1008,9 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/elyrasir/blockstates/orangechisledskeletonconcrete.json",
-          "src/main/resources/assets/elyrasir/models/item/orangechisledskeletonconcrete.json",
+          "src/main/java/elyrasir/block/OrangechisledskeletonconcreteBlock.java",
           "src/main/resources/assets/elyrasir/models/block/orangechisledskeletonconcrete.json",
-          "src/main/java/elyrasir/block/OrangechisledskeletonconcreteBlock.java"
+          "src/main/resources/assets/elyrasir/models/item/orangechisledskeletonconcrete.json"
         ]
       },
       "path": "~/Main/Block"
@@ -1024,9 +1024,9 @@
       "registry_name": "pinkchisledskeletonconcrete",
       "metadata": {
         "files": [
-          "src/main/resources/assets/elyrasir/models/item/pinkchisledskeletonconcrete.json",
           "src/main/java/elyrasir/block/PinkchisledskeletonconcreteBlock.java",
           "src/main/resources/assets/elyrasir/models/block/pinkchisledskeletonconcrete.json",
+          "src/main/resources/assets/elyrasir/models/item/pinkchisledskeletonconcrete.json",
           "src/main/resources/assets/elyrasir/blockstates/pinkchisledskeletonconcrete.json"
         ]
       },
@@ -1041,10 +1041,10 @@
       "registry_name": "purplechisledskeletonconcrete",
       "metadata": {
         "files": [
-          "src/main/java/elyrasir/block/PurplechisledskeletonconcreteBlock.java",
-          "src/main/resources/assets/elyrasir/models/item/purplechisledskeletonconcrete.json",
           "src/main/resources/assets/elyrasir/blockstates/purplechisledskeletonconcrete.json",
-          "src/main/resources/assets/elyrasir/models/block/purplechisledskeletonconcrete.json"
+          "src/main/resources/assets/elyrasir/models/block/purplechisledskeletonconcrete.json",
+          "src/main/resources/assets/elyrasir/models/item/purplechisledskeletonconcrete.json",
+          "src/main/java/elyrasir/block/PurplechisledskeletonconcreteBlock.java"
         ]
       },
       "path": "~/Main/Block"
@@ -1058,10 +1058,10 @@
       "registry_name": "redchisledskeletonconcrete",
       "metadata": {
         "files": [
-          "src/main/resources/assets/elyrasir/models/item/redchisledskeletonconcrete.json",
-          "src/main/resources/assets/elyrasir/blockstates/redchisledskeletonconcrete.json",
           "src/main/resources/assets/elyrasir/models/block/redchisledskeletonconcrete.json",
-          "src/main/java/elyrasir/block/RedchisledskeletonconcreteBlock.java"
+          "src/main/java/elyrasir/block/RedchisledskeletonconcreteBlock.java",
+          "src/main/resources/assets/elyrasir/models/item/redchisledskeletonconcrete.json",
+          "src/main/resources/assets/elyrasir/blockstates/redchisledskeletonconcrete.json"
         ]
       },
       "path": "~/Main/Block"
@@ -1075,10 +1075,10 @@
       "registry_name": "whitechisledskeletonconcrete",
       "metadata": {
         "files": [
-          "src/main/resources/assets/elyrasir/models/item/whitechisledskeletonconcrete.json",
+          "src/main/resources/assets/elyrasir/blockstates/whitechisledskeletonconcrete.json",
           "src/main/java/elyrasir/block/WhitechisledskeletonconcreteBlock.java",
           "src/main/resources/assets/elyrasir/models/block/whitechisledskeletonconcrete.json",
-          "src/main/resources/assets/elyrasir/blockstates/whitechisledskeletonconcrete.json"
+          "src/main/resources/assets/elyrasir/models/item/whitechisledskeletonconcrete.json"
         ]
       },
       "path": "~/Main/Block"
@@ -1092,10 +1092,10 @@
       "registry_name": "yellowchisledskeletonconcrete",
       "metadata": {
         "files": [
-          "src/main/java/elyrasir/block/YellowchisledskeletonconcreteBlock.java",
-          "src/main/resources/assets/elyrasir/models/item/yellowchisledskeletonconcrete.json",
           "src/main/resources/assets/elyrasir/models/block/yellowchisledskeletonconcrete.json",
-          "src/main/resources/assets/elyrasir/blockstates/yellowchisledskeletonconcrete.json"
+          "src/main/resources/assets/elyrasir/models/item/yellowchisledskeletonconcrete.json",
+          "src/main/resources/assets/elyrasir/blockstates/yellowchisledskeletonconcrete.json",
+          "src/main/java/elyrasir/block/YellowchisledskeletonconcreteBlock.java"
         ]
       },
       "path": "~/Main/Block"
@@ -1110,9 +1110,9 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/elyrasir/models/item/blackconcretepillar.json",
+          "src/main/resources/assets/elyrasir/models/block/blackconcretepillar.json",
           "src/main/resources/assets/elyrasir/blockstates/blackconcretepillar.json",
-          "src/main/java/elyrasir/block/BlackconcretepillarBlock.java",
-          "src/main/resources/assets/elyrasir/models/block/blackconcretepillar.json"
+          "src/main/java/elyrasir/block/BlackconcretepillarBlock.java"
         ]
       },
       "path": "~/Main/Block"
@@ -1126,10 +1126,10 @@
       "registry_name": "blueconcretepillar",
       "metadata": {
         "files": [
+          "src/main/resources/assets/elyrasir/blockstates/blueconcretepillar.json",
           "src/main/resources/assets/elyrasir/models/item/blueconcretepillar.json",
-          "src/main/resources/assets/elyrasir/models/block/blueconcretepillar.json",
           "src/main/java/elyrasir/block/BlueconcretepillarBlock.java",
-          "src/main/resources/assets/elyrasir/blockstates/blueconcretepillar.json"
+          "src/main/resources/assets/elyrasir/models/block/blueconcretepillar.json"
         ]
       },
       "path": "~/Main/Block"
@@ -1143,10 +1143,10 @@
       "registry_name": "brownconcretepillar",
       "metadata": {
         "files": [
-          "src/main/resources/assets/elyrasir/blockstates/brownconcretepillar.json",
-          "src/main/resources/assets/elyrasir/models/item/brownconcretepillar.json",
           "src/main/java/elyrasir/block/BrownconcretepillarBlock.java",
-          "src/main/resources/assets/elyrasir/models/block/brownconcretepillar.json"
+          "src/main/resources/assets/elyrasir/models/item/brownconcretepillar.json",
+          "src/main/resources/assets/elyrasir/models/block/brownconcretepillar.json",
+          "src/main/resources/assets/elyrasir/blockstates/brownconcretepillar.json"
         ]
       },
       "path": "~/Main/Block"
@@ -1161,9 +1161,9 @@
       "metadata": {
         "files": [
           "src/main/java/elyrasir/block/CyanconcretepillarBlock.java",
+          "src/main/resources/assets/elyrasir/blockstates/cyanconcretepillar.json",
           "src/main/resources/assets/elyrasir/models/item/cyanconcretepillar.json",
-          "src/main/resources/assets/elyrasir/models/block/cyanconcretepillar.json",
-          "src/main/resources/assets/elyrasir/blockstates/cyanconcretepillar.json"
+          "src/main/resources/assets/elyrasir/models/block/cyanconcretepillar.json"
         ]
       },
       "path": "~/Main/Block"
@@ -1177,9 +1177,9 @@
       "registry_name": "grayconcretepillar",
       "metadata": {
         "files": [
+          "src/main/resources/assets/elyrasir/models/block/grayconcretepillar.json",
           "src/main/java/elyrasir/block/GrayconcretepillarBlock.java",
           "src/main/resources/assets/elyrasir/blockstates/grayconcretepillar.json",
-          "src/main/resources/assets/elyrasir/models/block/grayconcretepillar.json",
           "src/main/resources/assets/elyrasir/models/item/grayconcretepillar.json"
         ]
       },
@@ -1194,10 +1194,10 @@
       "registry_name": "greenconcretepillar",
       "metadata": {
         "files": [
-          "src/main/resources/assets/elyrasir/models/block/greenconcretepillar.json",
-          "src/main/resources/assets/elyrasir/blockstates/greenconcretepillar.json",
           "src/main/java/elyrasir/block/GreenconcretepillarBlock.java",
-          "src/main/resources/assets/elyrasir/models/item/greenconcretepillar.json"
+          "src/main/resources/assets/elyrasir/models/item/greenconcretepillar.json",
+          "src/main/resources/assets/elyrasir/models/block/greenconcretepillar.json",
+          "src/main/resources/assets/elyrasir/blockstates/greenconcretepillar.json"
         ]
       },
       "path": "~/Main/Block"
@@ -1212,9 +1212,9 @@
       "metadata": {
         "files": [
           "src/main/java/elyrasir/block/LightblueconcretepillarBlock.java",
+          "src/main/resources/assets/elyrasir/models/item/lightblueconcretepillar.json",
           "src/main/resources/assets/elyrasir/models/block/lightblueconcretepillar.json",
-          "src/main/resources/assets/elyrasir/blockstates/lightblueconcretepillar.json",
-          "src/main/resources/assets/elyrasir/models/item/lightblueconcretepillar.json"
+          "src/main/resources/assets/elyrasir/blockstates/lightblueconcretepillar.json"
         ]
       },
       "path": "~/Main/Block"
@@ -1228,10 +1228,10 @@
       "registry_name": "lightgrayconcretepillar",
       "metadata": {
         "files": [
-          "src/main/resources/assets/elyrasir/blockstates/lightgrayconcretepillar.json",
           "src/main/java/elyrasir/block/LightgrayconcretepillarBlock.java",
-          "src/main/resources/assets/elyrasir/models/item/lightgrayconcretepillar.json",
-          "src/main/resources/assets/elyrasir/models/block/lightgrayconcretepillar.json"
+          "src/main/resources/assets/elyrasir/blockstates/lightgrayconcretepillar.json",
+          "src/main/resources/assets/elyrasir/models/block/lightgrayconcretepillar.json",
+          "src/main/resources/assets/elyrasir/models/item/lightgrayconcretepillar.json"
         ]
       },
       "path": "~/Main/Block"
@@ -1246,8 +1246,8 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/elyrasir/models/block/limeconcretepillar.json",
-          "src/main/resources/assets/elyrasir/models/item/limeconcretepillar.json",
           "src/main/resources/assets/elyrasir/blockstates/limeconcretepillar.json",
+          "src/main/resources/assets/elyrasir/models/item/limeconcretepillar.json",
           "src/main/java/elyrasir/block/LimeconcretepillarBlock.java"
         ]
       },
@@ -1262,9 +1262,9 @@
       "registry_name": "magentaconcretepillar",
       "metadata": {
         "files": [
+          "src/main/resources/assets/elyrasir/models/item/magentaconcretepillar.json",
           "src/main/java/elyrasir/block/MagentaconcretepillarBlock.java",
           "src/main/resources/assets/elyrasir/blockstates/magentaconcretepillar.json",
-          "src/main/resources/assets/elyrasir/models/item/magentaconcretepillar.json",
           "src/main/resources/assets/elyrasir/models/block/magentaconcretepillar.json"
         ]
       },
@@ -1279,10 +1279,10 @@
       "registry_name": "orangeconcretepillar",
       "metadata": {
         "files": [
-          "src/main/resources/assets/elyrasir/models/item/orangeconcretepillar.json",
-          "src/main/resources/assets/elyrasir/blockstates/orangeconcretepillar.json",
+          "src/main/resources/assets/elyrasir/models/block/orangeconcretepillar.json",
           "src/main/java/elyrasir/block/OrangeconcretepillarBlock.java",
-          "src/main/resources/assets/elyrasir/models/block/orangeconcretepillar.json"
+          "src/main/resources/assets/elyrasir/blockstates/orangeconcretepillar.json",
+          "src/main/resources/assets/elyrasir/models/item/orangeconcretepillar.json"
         ]
       },
       "path": "~/Main/Block"
@@ -1297,9 +1297,9 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/elyrasir/blockstates/pinkconcretepillar.json",
-          "src/main/resources/assets/elyrasir/models/item/pinkconcretepillar.json",
           "src/main/resources/assets/elyrasir/models/block/pinkconcretepillar.json",
-          "src/main/java/elyrasir/block/PinkconcretepillarBlock.java"
+          "src/main/java/elyrasir/block/PinkconcretepillarBlock.java",
+          "src/main/resources/assets/elyrasir/models/item/pinkconcretepillar.json"
         ]
       },
       "path": "~/Main/Block"
@@ -1313,9 +1313,9 @@
       "registry_name": "purpleconcretepillar",
       "metadata": {
         "files": [
-          "src/main/resources/assets/elyrasir/models/block/purpleconcretepillar.json",
-          "src/main/java/elyrasir/block/PurpleconcretepillarBlock.java",
           "src/main/resources/assets/elyrasir/models/item/purpleconcretepillar.json",
+          "src/main/java/elyrasir/block/PurpleconcretepillarBlock.java",
+          "src/main/resources/assets/elyrasir/models/block/purpleconcretepillar.json",
           "src/main/resources/assets/elyrasir/blockstates/purpleconcretepillar.json"
         ]
       },
@@ -1330,9 +1330,9 @@
       "registry_name": "redconcretepillar",
       "metadata": {
         "files": [
+          "src/main/resources/assets/elyrasir/models/block/redconcretepillar.json",
           "src/main/java/elyrasir/block/RedconcretepillarBlock.java",
           "src/main/resources/assets/elyrasir/blockstates/redconcretepillar.json",
-          "src/main/resources/assets/elyrasir/models/block/redconcretepillar.json",
           "src/main/resources/assets/elyrasir/models/item/redconcretepillar.json"
         ]
       },
@@ -1347,10 +1347,10 @@
       "registry_name": "whiteconcretepillar",
       "metadata": {
         "files": [
-          "src/main/java/elyrasir/block/WhiteconcretepillarBlock.java",
-          "src/main/resources/assets/elyrasir/models/block/whiteconcretepillar.json",
           "src/main/resources/assets/elyrasir/blockstates/whiteconcretepillar.json",
-          "src/main/resources/assets/elyrasir/models/item/whiteconcretepillar.json"
+          "src/main/resources/assets/elyrasir/models/item/whiteconcretepillar.json",
+          "src/main/resources/assets/elyrasir/models/block/whiteconcretepillar.json",
+          "src/main/java/elyrasir/block/WhiteconcretepillarBlock.java"
         ]
       },
       "path": "~/Main/Block"
@@ -1364,10 +1364,10 @@
       "registry_name": "yellowconcretepillar",
       "metadata": {
         "files": [
-          "src/main/resources/assets/elyrasir/models/block/yellowconcretepillar.json",
+          "src/main/resources/assets/elyrasir/models/item/yellowconcretepillar.json",
           "src/main/java/elyrasir/block/YellowconcretepillarBlock.java",
           "src/main/resources/assets/elyrasir/blockstates/yellowconcretepillar.json",
-          "src/main/resources/assets/elyrasir/models/item/yellowconcretepillar.json"
+          "src/main/resources/assets/elyrasir/models/block/yellowconcretepillar.json"
         ]
       },
       "path": "~/Main/Block"
@@ -1381,10 +1381,10 @@
       "registry_name": "blackconcretetiles",
       "metadata": {
         "files": [
+          "src/main/resources/assets/elyrasir/models/block/blackconcretetiles.json",
           "src/main/java/elyrasir/block/BlackconcretetilesBlock.java",
-          "src/main/resources/assets/elyrasir/models/item/blackconcretetiles.json",
           "src/main/resources/assets/elyrasir/blockstates/blackconcretetiles.json",
-          "src/main/resources/assets/elyrasir/models/block/blackconcretetiles.json"
+          "src/main/resources/assets/elyrasir/models/item/blackconcretetiles.json"
         ]
       },
       "path": "~/Main/Block"
@@ -1398,10 +1398,10 @@
       "registry_name": "blueconcretetiles",
       "metadata": {
         "files": [
-          "src/main/resources/assets/elyrasir/models/block/blueconcretetiles.json",
           "src/main/java/elyrasir/block/BlueconcretetilesBlock.java",
-          "src/main/resources/assets/elyrasir/blockstates/blueconcretetiles.json",
-          "src/main/resources/assets/elyrasir/models/item/blueconcretetiles.json"
+          "src/main/resources/assets/elyrasir/models/block/blueconcretetiles.json",
+          "src/main/resources/assets/elyrasir/models/item/blueconcretetiles.json",
+          "src/main/resources/assets/elyrasir/blockstates/blueconcretetiles.json"
         ]
       },
       "path": "~/Main/Block"
@@ -1415,10 +1415,10 @@
       "registry_name": "brownconcretetiles",
       "metadata": {
         "files": [
-          "src/main/resources/assets/elyrasir/models/item/brownconcretetiles.json",
-          "src/main/resources/assets/elyrasir/models/block/brownconcretetiles.json",
+          "src/main/java/elyrasir/block/BrownconcretetilesBlock.java",
           "src/main/resources/assets/elyrasir/blockstates/brownconcretetiles.json",
-          "src/main/java/elyrasir/block/BrownconcretetilesBlock.java"
+          "src/main/resources/assets/elyrasir/models/item/brownconcretetiles.json",
+          "src/main/resources/assets/elyrasir/models/block/brownconcretetiles.json"
         ]
       },
       "path": "~/Main/Block"
@@ -1432,10 +1432,10 @@
       "registry_name": "cyanconcretetiles",
       "metadata": {
         "files": [
+          "src/main/resources/assets/elyrasir/models/item/cyanconcretetiles.json",
           "src/main/resources/assets/elyrasir/blockstates/cyanconcretetiles.json",
-          "src/main/resources/assets/elyrasir/models/block/cyanconcretetiles.json",
           "src/main/java/elyrasir/block/CyanconcretetilesBlock.java",
-          "src/main/resources/assets/elyrasir/models/item/cyanconcretetiles.json"
+          "src/main/resources/assets/elyrasir/models/block/cyanconcretetiles.json"
         ]
       },
       "path": "~/Main/Block"
@@ -1449,10 +1449,10 @@
       "registry_name": "grayconcretetiles",
       "metadata": {
         "files": [
-          "src/main/java/elyrasir/block/GrayconcretetilesBlock.java",
-          "src/main/resources/assets/elyrasir/models/item/grayconcretetiles.json",
           "src/main/resources/assets/elyrasir/blockstates/grayconcretetiles.json",
-          "src/main/resources/assets/elyrasir/models/block/grayconcretetiles.json"
+          "src/main/resources/assets/elyrasir/models/block/grayconcretetiles.json",
+          "src/main/resources/assets/elyrasir/models/item/grayconcretetiles.json",
+          "src/main/java/elyrasir/block/GrayconcretetilesBlock.java"
         ]
       },
       "path": "~/Main/Block"
@@ -1466,9 +1466,9 @@
       "registry_name": "greenconcretetiles",
       "metadata": {
         "files": [
+          "src/main/java/elyrasir/block/GreenconcretetilesBlock.java",
           "src/main/resources/assets/elyrasir/models/block/greenconcretetiles.json",
           "src/main/resources/assets/elyrasir/models/item/greenconcretetiles.json",
-          "src/main/java/elyrasir/block/GreenconcretetilesBlock.java",
           "src/main/resources/assets/elyrasir/blockstates/greenconcretetiles.json"
         ]
       },
@@ -1483,9 +1483,9 @@
       "registry_name": "lightblueconcretetiles",
       "metadata": {
         "files": [
-          "src/main/java/elyrasir/block/LightblueconcretetilesBlock.java",
           "src/main/resources/assets/elyrasir/blockstates/lightblueconcretetiles.json",
           "src/main/resources/assets/elyrasir/models/item/lightblueconcretetiles.json",
+          "src/main/java/elyrasir/block/LightblueconcretetilesBlock.java",
           "src/main/resources/assets/elyrasir/models/block/lightblueconcretetiles.json"
         ]
       },
@@ -1501,8 +1501,8 @@
       "metadata": {
         "files": [
           "src/main/java/elyrasir/block/LightgrayconcretetilesBlock.java",
-          "src/main/resources/assets/elyrasir/blockstates/lightgrayconcretetiles.json",
           "src/main/resources/assets/elyrasir/models/item/lightgrayconcretetiles.json",
+          "src/main/resources/assets/elyrasir/blockstates/lightgrayconcretetiles.json",
           "src/main/resources/assets/elyrasir/models/block/lightgrayconcretetiles.json"
         ]
       },
@@ -1517,9 +1517,9 @@
       "registry_name": "limeconcretetiles",
       "metadata": {
         "files": [
-          "src/main/java/elyrasir/block/LimeconcretetilesBlock.java",
           "src/main/resources/assets/elyrasir/models/item/limeconcretetiles.json",
           "src/main/resources/assets/elyrasir/blockstates/limeconcretetiles.json",
+          "src/main/java/elyrasir/block/LimeconcretetilesBlock.java",
           "src/main/resources/assets/elyrasir/models/block/limeconcretetiles.json"
         ]
       },
@@ -1534,10 +1534,10 @@
       "registry_name": "magentaconcretetiles",
       "metadata": {
         "files": [
-          "src/main/resources/assets/elyrasir/models/item/magentaconcretetiles.json",
           "src/main/resources/assets/elyrasir/blockstates/magentaconcretetiles.json",
-          "src/main/resources/assets/elyrasir/models/block/magentaconcretetiles.json",
-          "src/main/java/elyrasir/block/MagentaconcretetilesBlock.java"
+          "src/main/resources/assets/elyrasir/models/item/magentaconcretetiles.json",
+          "src/main/java/elyrasir/block/MagentaconcretetilesBlock.java",
+          "src/main/resources/assets/elyrasir/models/block/magentaconcretetiles.json"
         ]
       },
       "path": "~/Main/Block"
@@ -1551,10 +1551,10 @@
       "registry_name": "orangeconcretetiles",
       "metadata": {
         "files": [
-          "src/main/resources/assets/elyrasir/models/block/orangeconcretetiles.json",
           "src/main/java/elyrasir/block/OrangeconcretetilesBlock.java",
-          "src/main/resources/assets/elyrasir/blockstates/orangeconcretetiles.json",
-          "src/main/resources/assets/elyrasir/models/item/orangeconcretetiles.json"
+          "src/main/resources/assets/elyrasir/models/item/orangeconcretetiles.json",
+          "src/main/resources/assets/elyrasir/models/block/orangeconcretetiles.json",
+          "src/main/resources/assets/elyrasir/blockstates/orangeconcretetiles.json"
         ]
       },
       "path": "~/Main/Block"
@@ -1568,10 +1568,10 @@
       "registry_name": "pinkconcretetiles",
       "metadata": {
         "files": [
-          "src/main/resources/assets/elyrasir/models/block/pinkconcretetiles.json",
-          "src/main/resources/assets/elyrasir/blockstates/pinkconcretetiles.json",
+          "src/main/resources/assets/elyrasir/models/item/pinkconcretetiles.json",
           "src/main/java/elyrasir/block/PinkconcretetilesBlock.java",
-          "src/main/resources/assets/elyrasir/models/item/pinkconcretetiles.json"
+          "src/main/resources/assets/elyrasir/models/block/pinkconcretetiles.json",
+          "src/main/resources/assets/elyrasir/blockstates/pinkconcretetiles.json"
         ]
       },
       "path": "~/Main/Block"
@@ -1585,10 +1585,10 @@
       "registry_name": "purlpleconcretetiles",
       "metadata": {
         "files": [
-          "src/main/resources/assets/elyrasir/blockstates/purlpleconcretetiles.json",
           "src/main/resources/assets/elyrasir/models/block/purlpleconcretetiles.json",
-          "src/main/resources/assets/elyrasir/models/item/purlpleconcretetiles.json",
-          "src/main/java/elyrasir/block/PurlpleconcretetilesBlock.java"
+          "src/main/java/elyrasir/block/PurlpleconcretetilesBlock.java",
+          "src/main/resources/assets/elyrasir/blockstates/purlpleconcretetiles.json",
+          "src/main/resources/assets/elyrasir/models/item/purlpleconcretetiles.json"
         ]
       },
       "path": "~/Main/Block"
@@ -1603,9 +1603,9 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/elyrasir/models/block/redconcretetiles.json",
-          "src/main/java/elyrasir/block/RedconcretetilesBlock.java",
+          "src/main/resources/assets/elyrasir/blockstates/redconcretetiles.json",
           "src/main/resources/assets/elyrasir/models/item/redconcretetiles.json",
-          "src/main/resources/assets/elyrasir/blockstates/redconcretetiles.json"
+          "src/main/java/elyrasir/block/RedconcretetilesBlock.java"
         ]
       },
       "path": "~/Main/Block"
@@ -1619,10 +1619,10 @@
       "registry_name": "whiteconcretetiles",
       "metadata": {
         "files": [
-          "src/main/java/elyrasir/block/WhiteconcretetilesBlock.java",
-          "src/main/resources/assets/elyrasir/models/block/whiteconcretetiles.json",
           "src/main/resources/assets/elyrasir/blockstates/whiteconcretetiles.json",
-          "src/main/resources/assets/elyrasir/models/item/whiteconcretetiles.json"
+          "src/main/resources/assets/elyrasir/models/item/whiteconcretetiles.json",
+          "src/main/java/elyrasir/block/WhiteconcretetilesBlock.java",
+          "src/main/resources/assets/elyrasir/models/block/whiteconcretetiles.json"
         ]
       },
       "path": "~/Main/Block"
@@ -1637,9 +1637,9 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/elyrasir/models/item/yellowconcretetiles.json",
-          "src/main/java/elyrasir/block/YellowconcretetilesBlock.java",
           "src/main/resources/assets/elyrasir/models/block/yellowconcretetiles.json",
-          "src/main/resources/assets/elyrasir/blockstates/yellowconcretetiles.json"
+          "src/main/resources/assets/elyrasir/blockstates/yellowconcretetiles.json",
+          "src/main/java/elyrasir/block/YellowconcretetilesBlock.java"
         ]
       },
       "path": "~/Main/Block"
@@ -1653,12 +1653,12 @@
       "registry_name": "blackconcretebrickslab",
       "metadata": {
         "files": [
-          "src/main/resources/assets/elyrasir/models/block/blackconcretebrickslab_full.json",
+          "src/main/resources/assets/elyrasir/models/item/blackconcretebrickslab.json",
           "src/main/resources/assets/elyrasir/models/block/blackconcretebrickslab.json",
-          "src/main/resources/assets/elyrasir/blockstates/blackconcretebrickslab.json",
-          "src/main/resources/assets/elyrasir/models/block/blackconcretebrickslab_top.json",
           "src/main/java/elyrasir/block/BlackconcretebrickslabBlock.java",
-          "src/main/resources/assets/elyrasir/models/item/blackconcretebrickslab.json"
+          "src/main/resources/assets/elyrasir/blockstates/blackconcretebrickslab.json",
+          "src/main/resources/assets/elyrasir/models/block/blackconcretebrickslab_full.json",
+          "src/main/resources/assets/elyrasir/models/block/blackconcretebrickslab_top.json"
         ]
       },
       "path": "~/Main/Block"
@@ -1672,12 +1672,12 @@
       "registry_name": "blueconcretebrickslab",
       "metadata": {
         "files": [
-          "src/main/resources/assets/elyrasir/models/block/blueconcretebrickslab_top.json",
           "src/main/resources/assets/elyrasir/models/block/blueconcretebrickslab_full.json",
+          "src/main/resources/assets/elyrasir/blockstates/blueconcretebrickslab.json",
           "src/main/resources/assets/elyrasir/models/item/blueconcretebrickslab.json",
-          "src/main/resources/assets/elyrasir/models/block/blueconcretebrickslab.json",
           "src/main/java/elyrasir/block/BlueconcretebrickslabBlock.java",
-          "src/main/resources/assets/elyrasir/blockstates/blueconcretebrickslab.json"
+          "src/main/resources/assets/elyrasir/models/block/blueconcretebrickslab_top.json",
+          "src/main/resources/assets/elyrasir/models/block/blueconcretebrickslab.json"
         ]
       },
       "path": "~/Main/Block"
@@ -1691,12 +1691,12 @@
       "registry_name": "brownconcretebrickslab",
       "metadata": {
         "files": [
-          "src/main/resources/assets/elyrasir/models/block/brownconcretebrickslab_full.json",
-          "src/main/resources/assets/elyrasir/models/item/brownconcretebrickslab.json",
-          "src/main/resources/assets/elyrasir/models/block/brownconcretebrickslab_top.json",
-          "src/main/java/elyrasir/block/BrownconcretebrickslabBlock.java",
           "src/main/resources/assets/elyrasir/blockstates/brownconcretebrickslab.json",
-          "src/main/resources/assets/elyrasir/models/block/brownconcretebrickslab.json"
+          "src/main/resources/assets/elyrasir/models/block/brownconcretebrickslab_top.json",
+          "src/main/resources/assets/elyrasir/models/block/brownconcretebrickslab.json",
+          "src/main/resources/assets/elyrasir/models/item/brownconcretebrickslab.json",
+          "src/main/resources/assets/elyrasir/models/block/brownconcretebrickslab_full.json",
+          "src/main/java/elyrasir/block/BrownconcretebrickslabBlock.java"
         ]
       },
       "path": "~/Main/Block"
@@ -1710,12 +1710,12 @@
       "registry_name": "cyanconcretebrickslab",
       "metadata": {
         "files": [
-          "src/main/java/elyrasir/block/CyanconcretebrickslabBlock.java",
+          "src/main/resources/assets/elyrasir/models/block/cyanconcretebrickslab_top.json",
           "src/main/resources/assets/elyrasir/models/block/cyanconcretebrickslab_full.json",
           "src/main/resources/assets/elyrasir/blockstates/cyanconcretebrickslab.json",
           "src/main/resources/assets/elyrasir/models/item/cyanconcretebrickslab.json",
-          "src/main/resources/assets/elyrasir/models/block/cyanconcretebrickslab_top.json",
-          "src/main/resources/assets/elyrasir/models/block/cyanconcretebrickslab.json"
+          "src/main/resources/assets/elyrasir/models/block/cyanconcretebrickslab.json",
+          "src/main/java/elyrasir/block/CyanconcretebrickslabBlock.java"
         ]
       },
       "path": "~/Main/Block"
@@ -1729,12 +1729,12 @@
       "registry_name": "grayconcretebrickslab",
       "metadata": {
         "files": [
-          "src/main/resources/assets/elyrasir/models/item/grayconcretebrickslab.json",
-          "src/main/resources/assets/elyrasir/blockstates/grayconcretebrickslab.json",
-          "src/main/resources/assets/elyrasir/models/block/grayconcretebrickslab.json",
-          "src/main/resources/assets/elyrasir/models/block/grayconcretebrickslab_top.json",
           "src/main/resources/assets/elyrasir/models/block/grayconcretebrickslab_full.json",
-          "src/main/java/elyrasir/block/GrayconcretebrickslabBlock.java"
+          "src/main/java/elyrasir/block/GrayconcretebrickslabBlock.java",
+          "src/main/resources/assets/elyrasir/models/block/grayconcretebrickslab.json",
+          "src/main/resources/assets/elyrasir/models/item/grayconcretebrickslab.json",
+          "src/main/resources/assets/elyrasir/models/block/grayconcretebrickslab_top.json",
+          "src/main/resources/assets/elyrasir/blockstates/grayconcretebrickslab.json"
         ]
       },
       "path": "~/Main/Block"
@@ -1748,12 +1748,12 @@
       "registry_name": "greenconcretebrickslab",
       "metadata": {
         "files": [
-          "src/main/resources/assets/elyrasir/models/block/greenconcretebrickslab_full.json",
           "src/main/resources/assets/elyrasir/models/item/greenconcretebrickslab.json",
+          "src/main/resources/assets/elyrasir/models/block/greenconcretebrickslab.json",
           "src/main/java/elyrasir/block/GreenconcretebrickslabBlock.java",
+          "src/main/resources/assets/elyrasir/models/block/greenconcretebrickslab_full.json",
           "src/main/resources/assets/elyrasir/blockstates/greenconcretebrickslab.json",
-          "src/main/resources/assets/elyrasir/models/block/greenconcretebrickslab_top.json",
-          "src/main/resources/assets/elyrasir/models/block/greenconcretebrickslab.json"
+          "src/main/resources/assets/elyrasir/models/block/greenconcretebrickslab_top.json"
         ]
       },
       "path": "~/Main/Block"
@@ -1767,12 +1767,12 @@
       "registry_name": "lightblueconcretebrickslab",
       "metadata": {
         "files": [
-          "src/main/java/elyrasir/block/LightblueconcretebrickslabBlock.java",
-          "src/main/resources/assets/elyrasir/models/item/lightblueconcretebrickslab.json",
-          "src/main/resources/assets/elyrasir/blockstates/lightblueconcretebrickslab.json",
           "src/main/resources/assets/elyrasir/models/block/lightblueconcretebrickslab_top.json",
+          "src/main/java/elyrasir/block/LightblueconcretebrickslabBlock.java",
           "src/main/resources/assets/elyrasir/models/block/lightblueconcretebrickslab.json",
-          "src/main/resources/assets/elyrasir/models/block/lightblueconcretebrickslab_full.json"
+          "src/main/resources/assets/elyrasir/models/block/lightblueconcretebrickslab_full.json",
+          "src/main/resources/assets/elyrasir/models/item/lightblueconcretebrickslab.json",
+          "src/main/resources/assets/elyrasir/blockstates/lightblueconcretebrickslab.json"
         ]
       },
       "path": "~/Main/Block"
@@ -1786,12 +1786,12 @@
       "registry_name": "lightgrayconcretebrickslab",
       "metadata": {
         "files": [
+          "src/main/resources/assets/elyrasir/blockstates/lightgrayconcretebrickslab.json",
           "src/main/java/elyrasir/block/LightgrayconcretebrickslabBlock.java",
           "src/main/resources/assets/elyrasir/models/block/lightgrayconcretebrickslab_full.json",
           "src/main/resources/assets/elyrasir/models/item/lightgrayconcretebrickslab.json",
-          "src/main/resources/assets/elyrasir/blockstates/lightgrayconcretebrickslab.json",
-          "src/main/resources/assets/elyrasir/models/block/lightgrayconcretebrickslab.json",
-          "src/main/resources/assets/elyrasir/models/block/lightgrayconcretebrickslab_top.json"
+          "src/main/resources/assets/elyrasir/models/block/lightgrayconcretebrickslab_top.json",
+          "src/main/resources/assets/elyrasir/models/block/lightgrayconcretebrickslab.json"
         ]
       },
       "path": "~/Main/Block"
@@ -1805,12 +1805,12 @@
       "registry_name": "limeconcretebrickslab",
       "metadata": {
         "files": [
+          "src/main/resources/assets/elyrasir/blockstates/limeconcretebrickslab.json",
           "src/main/java/elyrasir/block/LimeconcretebrickslabBlock.java",
-          "src/main/resources/assets/elyrasir/models/item/limeconcretebrickslab.json",
-          "src/main/resources/assets/elyrasir/models/block/limeconcretebrickslab.json",
           "src/main/resources/assets/elyrasir/models/block/limeconcretebrickslab_top.json",
+          "src/main/resources/assets/elyrasir/models/block/limeconcretebrickslab.json",
           "src/main/resources/assets/elyrasir/models/block/limeconcretebrickslab_full.json",
-          "src/main/resources/assets/elyrasir/blockstates/limeconcretebrickslab.json"
+          "src/main/resources/assets/elyrasir/models/item/limeconcretebrickslab.json"
         ]
       },
       "path": "~/Main/Block"
@@ -1824,12 +1824,12 @@
       "registry_name": "magentaconcretebrickslab",
       "metadata": {
         "files": [
-          "src/main/java/elyrasir/block/MagentaconcretebrickslabBlock.java",
           "src/main/resources/assets/elyrasir/models/item/magentaconcretebrickslab.json",
-          "src/main/resources/assets/elyrasir/blockstates/magentaconcretebrickslab.json",
-          "src/main/resources/assets/elyrasir/models/block/magentaconcretebrickslab.json",
           "src/main/resources/assets/elyrasir/models/block/magentaconcretebrickslab_top.json",
-          "src/main/resources/assets/elyrasir/models/block/magentaconcretebrickslab_full.json"
+          "src/main/resources/assets/elyrasir/models/block/magentaconcretebrickslab.json",
+          "src/main/resources/assets/elyrasir/blockstates/magentaconcretebrickslab.json",
+          "src/main/resources/assets/elyrasir/models/block/magentaconcretebrickslab_full.json",
+          "src/main/java/elyrasir/block/MagentaconcretebrickslabBlock.java"
         ]
       },
       "path": "~/Main/Block"
@@ -1843,12 +1843,12 @@
       "registry_name": "orangeconcretebrickslab",
       "metadata": {
         "files": [
-          "src/main/resources/assets/elyrasir/models/block/orangeconcretebrickslab.json",
-          "src/main/resources/assets/elyrasir/models/block/orangeconcretebrickslab_full.json",
-          "src/main/resources/assets/elyrasir/blockstates/orangeconcretebrickslab.json",
           "src/main/resources/assets/elyrasir/models/block/orangeconcretebrickslab_top.json",
-          "src/main/java/elyrasir/block/OrangeconcretebrickslabBlock.java",
-          "src/main/resources/assets/elyrasir/models/item/orangeconcretebrickslab.json"
+          "src/main/resources/assets/elyrasir/models/item/orangeconcretebrickslab.json",
+          "src/main/resources/assets/elyrasir/blockstates/orangeconcretebrickslab.json",
+          "src/main/resources/assets/elyrasir/models/block/orangeconcretebrickslab_full.json",
+          "src/main/resources/assets/elyrasir/models/block/orangeconcretebrickslab.json",
+          "src/main/java/elyrasir/block/OrangeconcretebrickslabBlock.java"
         ]
       },
       "path": "~/Main/Block"
@@ -1863,11 +1863,11 @@
       "metadata": {
         "files": [
           "src/main/java/elyrasir/block/PinkconcretebrickslabBlock.java",
-          "src/main/resources/assets/elyrasir/models/item/pinkconcretebrickslab.json",
-          "src/main/resources/assets/elyrasir/models/block/pinkconcretebrickslab.json",
-          "src/main/resources/assets/elyrasir/models/block/pinkconcretebrickslab_top.json",
           "src/main/resources/assets/elyrasir/models/block/pinkconcretebrickslab_full.json",
-          "src/main/resources/assets/elyrasir/blockstates/pinkconcretebrickslab.json"
+          "src/main/resources/assets/elyrasir/models/block/pinkconcretebrickslab_top.json",
+          "src/main/resources/assets/elyrasir/models/block/pinkconcretebrickslab.json",
+          "src/main/resources/assets/elyrasir/blockstates/pinkconcretebrickslab.json",
+          "src/main/resources/assets/elyrasir/models/item/pinkconcretebrickslab.json"
         ]
       },
       "path": "~/Main/Block"
@@ -1882,11 +1882,11 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/elyrasir/models/item/purpleconcretebrickslab.json",
-          "src/main/resources/assets/elyrasir/models/block/purpleconcretebrickslab_top.json",
-          "src/main/resources/assets/elyrasir/blockstates/purpleconcretebrickslab.json",
+          "src/main/resources/assets/elyrasir/models/block/purpleconcretebrickslab_full.json",
           "src/main/resources/assets/elyrasir/models/block/purpleconcretebrickslab.json",
-          "src/main/java/elyrasir/block/PurpleconcretebrickslabBlock.java",
-          "src/main/resources/assets/elyrasir/models/block/purpleconcretebrickslab_full.json"
+          "src/main/resources/assets/elyrasir/blockstates/purpleconcretebrickslab.json",
+          "src/main/resources/assets/elyrasir/models/block/purpleconcretebrickslab_top.json",
+          "src/main/java/elyrasir/block/PurpleconcretebrickslabBlock.java"
         ]
       },
       "path": "~/Main/Block"
@@ -1900,12 +1900,12 @@
       "registry_name": "redconcretebrickslab",
       "metadata": {
         "files": [
-          "src/main/java/elyrasir/block/RedconcretebrickslabBlock.java",
-          "src/main/resources/assets/elyrasir/models/block/redconcretebrickslab_full.json",
-          "src/main/resources/assets/elyrasir/models/item/redconcretebrickslab.json",
-          "src/main/resources/assets/elyrasir/models/block/redconcretebrickslab_top.json",
           "src/main/resources/assets/elyrasir/blockstates/redconcretebrickslab.json",
-          "src/main/resources/assets/elyrasir/models/block/redconcretebrickslab.json"
+          "src/main/resources/assets/elyrasir/models/item/redconcretebrickslab.json",
+          "src/main/java/elyrasir/block/RedconcretebrickslabBlock.java",
+          "src/main/resources/assets/elyrasir/models/block/redconcretebrickslab.json",
+          "src/main/resources/assets/elyrasir/models/block/redconcretebrickslab_full.json",
+          "src/main/resources/assets/elyrasir/models/block/redconcretebrickslab_top.json"
         ]
       },
       "path": "~/Main/Block"
@@ -1921,10 +1921,10 @@
         "files": [
           "src/main/resources/assets/elyrasir/blockstates/whiteconcretebrickslab.json",
           "src/main/resources/assets/elyrasir/models/block/whiteconcretebrickslab_top.json",
-          "src/main/resources/assets/elyrasir/models/block/whiteconcretebrickslab.json",
-          "src/main/resources/assets/elyrasir/models/block/whiteconcretebrickslab_full.json",
           "src/main/java/elyrasir/block/WhiteconcretebrickslabBlock.java",
-          "src/main/resources/assets/elyrasir/models/item/whiteconcretebrickslab.json"
+          "src/main/resources/assets/elyrasir/models/block/whiteconcretebrickslab_full.json",
+          "src/main/resources/assets/elyrasir/models/item/whiteconcretebrickslab.json",
+          "src/main/resources/assets/elyrasir/models/block/whiteconcretebrickslab.json"
         ]
       },
       "path": "~/Main/Block"
@@ -1939,11 +1939,11 @@
       "metadata": {
         "files": [
           "src/main/java/elyrasir/block/YellowconcretebrickslabBlock.java",
-          "src/main/resources/assets/elyrasir/models/block/yellowconcretebrickslab_full.json",
           "src/main/resources/assets/elyrasir/models/block/yellowconcretebrickslab_top.json",
-          "src/main/resources/assets/elyrasir/models/item/yellowconcretebrickslab.json",
           "src/main/resources/assets/elyrasir/blockstates/yellowconcretebrickslab.json",
-          "src/main/resources/assets/elyrasir/models/block/yellowconcretebrickslab.json"
+          "src/main/resources/assets/elyrasir/models/block/yellowconcretebrickslab.json",
+          "src/main/resources/assets/elyrasir/models/block/yellowconcretebrickslab_full.json",
+          "src/main/resources/assets/elyrasir/models/item/yellowconcretebrickslab.json"
         ]
       },
       "path": "~/Main/Block"
@@ -1957,12 +1957,12 @@
       "registry_name": "blackconcretebrickstairs",
       "metadata": {
         "files": [
-          "src/main/resources/assets/elyrasir/models/block/blackconcretebrickstairs_inner.json",
-          "src/main/resources/assets/elyrasir/models/block/blackconcretebrickstairs_outer.json",
           "src/main/resources/assets/elyrasir/models/item/blackconcretebrickstairs.json",
           "src/main/resources/assets/elyrasir/blockstates/blackconcretebrickstairs.json",
+          "src/main/resources/assets/elyrasir/models/block/blackconcretebrickstairs_outer.json",
           "src/main/resources/assets/elyrasir/models/block/blackconcretebrickstairs.json",
-          "src/main/java/elyrasir/block/BlackconcretebrickstairsBlock.java"
+          "src/main/java/elyrasir/block/BlackconcretebrickstairsBlock.java",
+          "src/main/resources/assets/elyrasir/models/block/blackconcretebrickstairs_inner.json"
         ]
       },
       "path": "~/Main/Block"
@@ -1976,12 +1976,12 @@
       "registry_name": "blueconcretebrickstairs",
       "metadata": {
         "files": [
-          "src/main/resources/assets/elyrasir/blockstates/blueconcretebrickstairs.json",
-          "src/main/resources/assets/elyrasir/models/block/blueconcretebrickstairs_outer.json",
           "src/main/resources/assets/elyrasir/models/item/blueconcretebrickstairs.json",
-          "src/main/resources/assets/elyrasir/models/block/blueconcretebrickstairs.json",
+          "src/main/resources/assets/elyrasir/blockstates/blueconcretebrickstairs.json",
           "src/main/resources/assets/elyrasir/models/block/blueconcretebrickstairs_inner.json",
-          "src/main/java/elyrasir/block/BlueconcretebrickstairsBlock.java"
+          "src/main/java/elyrasir/block/BlueconcretebrickstairsBlock.java",
+          "src/main/resources/assets/elyrasir/models/block/blueconcretebrickstairs.json",
+          "src/main/resources/assets/elyrasir/models/block/blueconcretebrickstairs_outer.json"
         ]
       },
       "path": "~/Main/Block"
@@ -1995,11 +1995,11 @@
       "registry_name": "brownconcretebrickstairs",
       "metadata": {
         "files": [
-          "src/main/resources/assets/elyrasir/models/item/brownconcretebrickstairs.json",
-          "src/main/resources/assets/elyrasir/blockstates/brownconcretebrickstairs.json",
-          "src/main/resources/assets/elyrasir/models/block/brownconcretebrickstairs_outer.json",
           "src/main/java/elyrasir/block/BrownconcretebrickstairsBlock.java",
           "src/main/resources/assets/elyrasir/models/block/brownconcretebrickstairs.json",
+          "src/main/resources/assets/elyrasir/models/block/brownconcretebrickstairs_outer.json",
+          "src/main/resources/assets/elyrasir/blockstates/brownconcretebrickstairs.json",
+          "src/main/resources/assets/elyrasir/models/item/brownconcretebrickstairs.json",
           "src/main/resources/assets/elyrasir/models/block/brownconcretebrickstairs_inner.json"
         ]
       },
@@ -2014,12 +2014,12 @@
       "registry_name": "cyanconcretebrickstairs",
       "metadata": {
         "files": [
-          "src/main/resources/assets/elyrasir/models/block/cyanconcretebrickstairs_outer.json",
           "src/main/resources/assets/elyrasir/models/block/cyanconcretebrickstairs_inner.json",
+          "src/main/resources/assets/elyrasir/models/block/cyanconcretebrickstairs.json",
+          "src/main/resources/assets/elyrasir/blockstates/cyanconcretebrickstairs.json",
           "src/main/resources/assets/elyrasir/models/item/cyanconcretebrickstairs.json",
           "src/main/java/elyrasir/block/CyanconcretebrickstairsBlock.java",
-          "src/main/resources/assets/elyrasir/blockstates/cyanconcretebrickstairs.json",
-          "src/main/resources/assets/elyrasir/models/block/cyanconcretebrickstairs.json"
+          "src/main/resources/assets/elyrasir/models/block/cyanconcretebrickstairs_outer.json"
         ]
       },
       "path": "~/Main/Block"
@@ -2034,11 +2034,11 @@
       "metadata": {
         "files": [
           "src/main/java/elyrasir/block/GrayconcretebrickstairsBlock.java",
-          "src/main/resources/assets/elyrasir/models/block/grayconcretebrickstairs_outer.json",
-          "src/main/resources/assets/elyrasir/models/block/grayconcretebrickstairs_inner.json",
-          "src/main/resources/assets/elyrasir/models/item/grayconcretebrickstairs.json",
+          "src/main/resources/assets/elyrasir/models/block/grayconcretebrickstairs.json",
           "src/main/resources/assets/elyrasir/blockstates/grayconcretebrickstairs.json",
-          "src/main/resources/assets/elyrasir/models/block/grayconcretebrickstairs.json"
+          "src/main/resources/assets/elyrasir/models/block/grayconcretebrickstairs_outer.json",
+          "src/main/resources/assets/elyrasir/models/item/grayconcretebrickstairs.json",
+          "src/main/resources/assets/elyrasir/models/block/grayconcretebrickstairs_inner.json"
         ]
       },
       "path": "~/Main/Block"
@@ -2052,8 +2052,8 @@
       "registry_name": "greenconcretebrickstairs",
       "metadata": {
         "files": [
-          "src/main/resources/assets/elyrasir/blockstates/greenconcretebrickstairs.json",
           "src/main/resources/assets/elyrasir/models/block/greenconcretebrickstairs_inner.json",
+          "src/main/resources/assets/elyrasir/blockstates/greenconcretebrickstairs.json",
           "src/main/resources/assets/elyrasir/models/item/greenconcretebrickstairs.json",
           "src/main/resources/assets/elyrasir/models/block/greenconcretebrickstairs.json",
           "src/main/resources/assets/elyrasir/models/block/greenconcretebrickstairs_outer.json",
@@ -2071,11 +2071,11 @@
       "registry_name": "lightblueconcretebrickstairs",
       "metadata": {
         "files": [
-          "src/main/resources/assets/elyrasir/models/block/lightblueconcretebrickstairs.json",
-          "src/main/java/elyrasir/block/LightblueconcretebrickstairsBlock.java",
-          "src/main/resources/assets/elyrasir/models/block/lightblueconcretebrickstairs_outer.json",
           "src/main/resources/assets/elyrasir/models/block/lightblueconcretebrickstairs_inner.json",
           "src/main/resources/assets/elyrasir/models/item/lightblueconcretebrickstairs.json",
+          "src/main/resources/assets/elyrasir/models/block/lightblueconcretebrickstairs.json",
+          "src/main/resources/assets/elyrasir/models/block/lightblueconcretebrickstairs_outer.json",
+          "src/main/java/elyrasir/block/LightblueconcretebrickstairsBlock.java",
           "src/main/resources/assets/elyrasir/blockstates/lightblueconcretebrickstairs.json"
         ]
       },
@@ -2090,12 +2090,12 @@
       "registry_name": "lightgrayconcretebrickstairs",
       "metadata": {
         "files": [
-          "src/main/java/elyrasir/block/LightgrayconcretebrickstairsBlock.java",
+          "src/main/resources/assets/elyrasir/models/block/lightgrayconcretebrickstairs_inner.json",
           "src/main/resources/assets/elyrasir/models/item/lightgrayconcretebrickstairs.json",
+          "src/main/resources/assets/elyrasir/models/block/lightgrayconcretebrickstairs.json",
           "src/main/resources/assets/elyrasir/models/block/lightgrayconcretebrickstairs_outer.json",
           "src/main/resources/assets/elyrasir/blockstates/lightgrayconcretebrickstairs.json",
-          "src/main/resources/assets/elyrasir/models/block/lightgrayconcretebrickstairs_inner.json",
-          "src/main/resources/assets/elyrasir/models/block/lightgrayconcretebrickstairs.json"
+          "src/main/java/elyrasir/block/LightgrayconcretebrickstairsBlock.java"
         ]
       },
       "path": "~/Main/Block"
@@ -2109,12 +2109,12 @@
       "registry_name": "limeconcretebrickstairs",
       "metadata": {
         "files": [
-          "src/main/resources/assets/elyrasir/blockstates/limeconcretebrickstairs.json",
+          "src/main/resources/assets/elyrasir/models/block/limeconcretebrickstairs.json",
           "src/main/java/elyrasir/block/LimeconcretebrickstairsBlock.java",
           "src/main/resources/assets/elyrasir/models/item/limeconcretebrickstairs.json",
           "src/main/resources/assets/elyrasir/models/block/limeconcretebrickstairs_outer.json",
-          "src/main/resources/assets/elyrasir/models/block/limeconcretebrickstairs.json",
-          "src/main/resources/assets/elyrasir/models/block/limeconcretebrickstairs_inner.json"
+          "src/main/resources/assets/elyrasir/models/block/limeconcretebrickstairs_inner.json",
+          "src/main/resources/assets/elyrasir/blockstates/limeconcretebrickstairs.json"
         ]
       },
       "path": "~/Main/Block"
@@ -2128,12 +2128,12 @@
       "registry_name": "magentaconcretebrickstairs",
       "metadata": {
         "files": [
-          "src/main/resources/assets/elyrasir/models/item/magentaconcretebrickstairs.json",
-          "src/main/resources/assets/elyrasir/models/block/magentaconcretebrickstairs_inner.json",
-          "src/main/resources/assets/elyrasir/blockstates/magentaconcretebrickstairs.json",
           "src/main/resources/assets/elyrasir/models/block/magentaconcretebrickstairs.json",
           "src/main/java/elyrasir/block/MagentaconcretebrickstairsBlock.java",
-          "src/main/resources/assets/elyrasir/models/block/magentaconcretebrickstairs_outer.json"
+          "src/main/resources/assets/elyrasir/models/block/magentaconcretebrickstairs_outer.json",
+          "src/main/resources/assets/elyrasir/models/item/magentaconcretebrickstairs.json",
+          "src/main/resources/assets/elyrasir/blockstates/magentaconcretebrickstairs.json",
+          "src/main/resources/assets/elyrasir/models/block/magentaconcretebrickstairs_inner.json"
         ]
       },
       "path": "~/Main/Block"
@@ -2147,12 +2147,12 @@
       "registry_name": "orangeconcretebrickstairs",
       "metadata": {
         "files": [
+          "src/main/resources/assets/elyrasir/models/block/orangeconcretebrickstairs_inner.json",
+          "src/main/resources/assets/elyrasir/blockstates/orangeconcretebrickstairs.json",
           "src/main/resources/assets/elyrasir/models/block/orangeconcretebrickstairs_outer.json",
           "src/main/java/elyrasir/block/OrangeconcretebrickstairsBlock.java",
-          "src/main/resources/assets/elyrasir/blockstates/orangeconcretebrickstairs.json",
-          "src/main/resources/assets/elyrasir/models/block/orangeconcretebrickstairs.json",
           "src/main/resources/assets/elyrasir/models/item/orangeconcretebrickstairs.json",
-          "src/main/resources/assets/elyrasir/models/block/orangeconcretebrickstairs_inner.json"
+          "src/main/resources/assets/elyrasir/models/block/orangeconcretebrickstairs.json"
         ]
       },
       "path": "~/Main/Block"
@@ -2166,12 +2166,12 @@
       "registry_name": "pinkconcretebrickstairs",
       "metadata": {
         "files": [
-          "src/main/java/elyrasir/block/PinkconcretebrickstairsBlock.java",
+          "src/main/resources/assets/elyrasir/models/block/pinkconcretebrickstairs_outer.json",
           "src/main/resources/assets/elyrasir/blockstates/pinkconcretebrickstairs.json",
-          "src/main/resources/assets/elyrasir/models/block/pinkconcretebrickstairs_inner.json",
-          "src/main/resources/assets/elyrasir/models/item/pinkconcretebrickstairs.json",
           "src/main/resources/assets/elyrasir/models/block/pinkconcretebrickstairs.json",
-          "src/main/resources/assets/elyrasir/models/block/pinkconcretebrickstairs_outer.json"
+          "src/main/java/elyrasir/block/PinkconcretebrickstairsBlock.java",
+          "src/main/resources/assets/elyrasir/models/block/pinkconcretebrickstairs_inner.json",
+          "src/main/resources/assets/elyrasir/models/item/pinkconcretebrickstairs.json"
         ]
       },
       "path": "~/Main/Block"
@@ -2185,12 +2185,12 @@
       "registry_name": "purpleconcretebrickstairs",
       "metadata": {
         "files": [
-          "src/main/resources/assets/elyrasir/blockstates/purpleconcretebrickstairs.json",
+          "src/main/resources/assets/elyrasir/models/block/purpleconcretebrickstairs_inner.json",
           "src/main/java/elyrasir/block/PurpleconcretebrickstairsBlock.java",
-          "src/main/resources/assets/elyrasir/models/block/purpleconcretebrickstairs.json",
           "src/main/resources/assets/elyrasir/models/item/purpleconcretebrickstairs.json",
           "src/main/resources/assets/elyrasir/models/block/purpleconcretebrickstairs_outer.json",
-          "src/main/resources/assets/elyrasir/models/block/purpleconcretebrickstairs_inner.json"
+          "src/main/resources/assets/elyrasir/blockstates/purpleconcretebrickstairs.json",
+          "src/main/resources/assets/elyrasir/models/block/purpleconcretebrickstairs.json"
         ]
       },
       "path": "~/Main/Block"
@@ -2204,12 +2204,12 @@
       "registry_name": "redconcretebrickstairs",
       "metadata": {
         "files": [
+          "src/main/resources/assets/elyrasir/models/block/redconcretebrickstairs_inner.json",
+          "src/main/java/elyrasir/block/RedconcretebrickstairsBlock.java",
           "src/main/resources/assets/elyrasir/models/block/redconcretebrickstairs_outer.json",
-          "src/main/resources/assets/elyrasir/blockstates/redconcretebrickstairs.json",
           "src/main/resources/assets/elyrasir/models/block/redconcretebrickstairs.json",
           "src/main/resources/assets/elyrasir/models/item/redconcretebrickstairs.json",
-          "src/main/java/elyrasir/block/RedconcretebrickstairsBlock.java",
-          "src/main/resources/assets/elyrasir/models/block/redconcretebrickstairs_inner.json"
+          "src/main/resources/assets/elyrasir/blockstates/redconcretebrickstairs.json"
         ]
       },
       "path": "~/Main/Block"
@@ -2223,12 +2223,12 @@
       "registry_name": "whiteconcretebrickstairs",
       "metadata": {
         "files": [
+          "src/main/java/elyrasir/block/WhiteconcretebrickstairsBlock.java",
           "src/main/resources/assets/elyrasir/models/block/whiteconcretebrickstairs.json",
           "src/main/resources/assets/elyrasir/models/block/whiteconcretebrickstairs_outer.json",
-          "src/main/java/elyrasir/block/WhiteconcretebrickstairsBlock.java",
-          "src/main/resources/assets/elyrasir/blockstates/whiteconcretebrickstairs.json",
+          "src/main/resources/assets/elyrasir/models/block/whiteconcretebrickstairs_inner.json",
           "src/main/resources/assets/elyrasir/models/item/whiteconcretebrickstairs.json",
-          "src/main/resources/assets/elyrasir/models/block/whiteconcretebrickstairs_inner.json"
+          "src/main/resources/assets/elyrasir/blockstates/whiteconcretebrickstairs.json"
         ]
       },
       "path": "~/Main/Block"
@@ -2243,11 +2243,11 @@
       "metadata": {
         "files": [
           "src/main/java/elyrasir/block/YellowconcretebrickstairsBlock.java",
-          "src/main/resources/assets/elyrasir/models/block/yellowconcretebrickstairs_inner.json",
-          "src/main/resources/assets/elyrasir/blockstates/yellowconcretebrickstairs.json",
           "src/main/resources/assets/elyrasir/models/block/yellowconcretebrickstairs.json",
+          "src/main/resources/assets/elyrasir/models/item/yellowconcretebrickstairs.json",
           "src/main/resources/assets/elyrasir/models/block/yellowconcretebrickstairs_outer.json",
-          "src/main/resources/assets/elyrasir/models/item/yellowconcretebrickstairs.json"
+          "src/main/resources/assets/elyrasir/models/block/yellowconcretebrickstairs_inner.json",
+          "src/main/resources/assets/elyrasir/blockstates/yellowconcretebrickstairs.json"
         ]
       },
       "path": "~/Main/Block"
@@ -2262,11 +2262,11 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/elyrasir/blockstates/blackconcretetilesslab.json",
-          "src/main/java/elyrasir/block/BlackconcretetilesslabBlock.java",
+          "src/main/resources/assets/elyrasir/models/block/blackconcretetilesslab_full.json",
           "src/main/resources/assets/elyrasir/models/block/blackconcretetilesslab.json",
+          "src/main/java/elyrasir/block/BlackconcretetilesslabBlock.java",
           "src/main/resources/assets/elyrasir/models/item/blackconcretetilesslab.json",
-          "src/main/resources/assets/elyrasir/models/block/blackconcretetilesslab_top.json",
-          "src/main/resources/assets/elyrasir/models/block/blackconcretetilesslab_full.json"
+          "src/main/resources/assets/elyrasir/models/block/blackconcretetilesslab_top.json"
         ]
       },
       "path": "~/Main/Block"
@@ -2280,11 +2280,11 @@
       "registry_name": "blueconcretetilesslab",
       "metadata": {
         "files": [
-          "src/main/resources/assets/elyrasir/models/item/blueconcretetilesslab.json",
           "src/main/resources/assets/elyrasir/models/block/blueconcretetilesslab.json",
+          "src/main/resources/assets/elyrasir/models/block/blueconcretetilesslab_top.json",
+          "src/main/resources/assets/elyrasir/models/item/blueconcretetilesslab.json",
           "src/main/java/elyrasir/block/BlueconcretetilesslabBlock.java",
           "src/main/resources/assets/elyrasir/blockstates/blueconcretetilesslab.json",
-          "src/main/resources/assets/elyrasir/models/block/blueconcretetilesslab_top.json",
           "src/main/resources/assets/elyrasir/models/block/blueconcretetilesslab_full.json"
         ]
       },
@@ -2302,9 +2302,9 @@
           "src/main/resources/assets/elyrasir/models/item/brownconcretetilesslab.json",
           "src/main/resources/assets/elyrasir/models/block/brownconcretetilesslab_top.json",
           "src/main/java/elyrasir/block/BrownconcretetilesslabBlock.java",
+          "src/main/resources/assets/elyrasir/models/block/brownconcretetilesslab_full.json",
           "src/main/resources/assets/elyrasir/blockstates/brownconcretetilesslab.json",
-          "src/main/resources/assets/elyrasir/models/block/brownconcretetilesslab.json",
-          "src/main/resources/assets/elyrasir/models/block/brownconcretetilesslab_full.json"
+          "src/main/resources/assets/elyrasir/models/block/brownconcretetilesslab.json"
         ]
       },
       "path": "~/Main/Block"
@@ -2318,11 +2318,11 @@
       "registry_name": "cyanconcretetilesslab",
       "metadata": {
         "files": [
-          "src/main/resources/assets/elyrasir/models/block/cyanconcretetilesslab_top.json",
-          "src/main/java/elyrasir/block/CyanconcretetilesslabBlock.java",
           "src/main/resources/assets/elyrasir/models/block/cyanconcretetilesslab.json",
+          "src/main/java/elyrasir/block/CyanconcretetilesslabBlock.java",
           "src/main/resources/assets/elyrasir/blockstates/cyanconcretetilesslab.json",
           "src/main/resources/assets/elyrasir/models/item/cyanconcretetilesslab.json",
+          "src/main/resources/assets/elyrasir/models/block/cyanconcretetilesslab_top.json",
           "src/main/resources/assets/elyrasir/models/block/cyanconcretetilesslab_full.json"
         ]
       },
@@ -2337,11 +2337,11 @@
       "registry_name": "grayconcretetilesslab",
       "metadata": {
         "files": [
-          "src/main/resources/assets/elyrasir/models/block/grayconcretetilesslab_top.json",
           "src/main/resources/assets/elyrasir/models/block/grayconcretetilesslab_full.json",
           "src/main/resources/assets/elyrasir/models/block/grayconcretetilesslab.json",
           "src/main/java/elyrasir/block/GrayconcretetilesslabBlock.java",
           "src/main/resources/assets/elyrasir/blockstates/grayconcretetilesslab.json",
+          "src/main/resources/assets/elyrasir/models/block/grayconcretetilesslab_top.json",
           "src/main/resources/assets/elyrasir/models/item/grayconcretetilesslab.json"
         ]
       },
@@ -2356,11 +2356,11 @@
       "registry_name": "greenconcretetilesslab",
       "metadata": {
         "files": [
-          "src/main/resources/assets/elyrasir/blockstates/greenconcretetilesslab.json",
           "src/main/resources/assets/elyrasir/models/block/greenconcretetilesslab_full.json",
           "src/main/resources/assets/elyrasir/models/item/greenconcretetilesslab.json",
-          "src/main/resources/assets/elyrasir/models/block/greenconcretetilesslab.json",
           "src/main/java/elyrasir/block/GreenconcretetilesslabBlock.java",
+          "src/main/resources/assets/elyrasir/blockstates/greenconcretetilesslab.json",
+          "src/main/resources/assets/elyrasir/models/block/greenconcretetilesslab.json",
           "src/main/resources/assets/elyrasir/models/block/greenconcretetilesslab_top.json"
         ]
       },
@@ -2375,11 +2375,11 @@
       "registry_name": "lightblueconcretetilesslab",
       "metadata": {
         "files": [
-          "src/main/resources/assets/elyrasir/models/block/lightblueconcretetilesslab.json",
           "src/main/resources/assets/elyrasir/models/item/lightblueconcretetilesslab.json",
           "src/main/resources/assets/elyrasir/blockstates/lightblueconcretetilesslab.json",
-          "src/main/resources/assets/elyrasir/models/block/lightblueconcretetilesslab_top.json",
+          "src/main/resources/assets/elyrasir/models/block/lightblueconcretetilesslab.json",
           "src/main/resources/assets/elyrasir/models/block/lightblueconcretetilesslab_full.json",
+          "src/main/resources/assets/elyrasir/models/block/lightblueconcretetilesslab_top.json",
           "src/main/java/elyrasir/block/LightblueconcretetilesslabBlock.java"
         ]
       },
@@ -2394,12 +2394,12 @@
       "registry_name": "lightgrayconcretetilesslab",
       "metadata": {
         "files": [
-          "src/main/resources/assets/elyrasir/blockstates/lightgrayconcretetilesslab.json",
           "src/main/resources/assets/elyrasir/models/block/lightgrayconcretetilesslab_full.json",
           "src/main/resources/assets/elyrasir/models/block/lightgrayconcretetilesslab.json",
+          "src/main/java/elyrasir/block/LightgrayconcretetilesslabBlock.java",
+          "src/main/resources/assets/elyrasir/blockstates/lightgrayconcretetilesslab.json",
           "src/main/resources/assets/elyrasir/models/item/lightgrayconcretetilesslab.json",
-          "src/main/resources/assets/elyrasir/models/block/lightgrayconcretetilesslab_top.json",
-          "src/main/java/elyrasir/block/LightgrayconcretetilesslabBlock.java"
+          "src/main/resources/assets/elyrasir/models/block/lightgrayconcretetilesslab_top.json"
         ]
       },
       "path": "~/Main/Block"
@@ -2413,12 +2413,12 @@
       "registry_name": "limeconcretetilesslab",
       "metadata": {
         "files": [
+          "src/main/resources/assets/elyrasir/models/block/limeconcretetilesslab_top.json",
+          "src/main/java/elyrasir/block/LimeconcretetilesslabBlock.java",
           "src/main/resources/assets/elyrasir/models/block/limeconcretetilesslab_full.json",
           "src/main/resources/assets/elyrasir/models/item/limeconcretetilesslab.json",
-          "src/main/resources/assets/elyrasir/models/block/limeconcretetilesslab.json",
           "src/main/resources/assets/elyrasir/blockstates/limeconcretetilesslab.json",
-          "src/main/resources/assets/elyrasir/models/block/limeconcretetilesslab_top.json",
-          "src/main/java/elyrasir/block/LimeconcretetilesslabBlock.java"
+          "src/main/resources/assets/elyrasir/models/block/limeconcretetilesslab.json"
         ]
       },
       "path": "~/Main/Block"
@@ -2432,12 +2432,12 @@
       "registry_name": "magentaconcretetilesslab",
       "metadata": {
         "files": [
-          "src/main/java/elyrasir/block/MagentaconcretetilesslabBlock.java",
-          "src/main/resources/assets/elyrasir/blockstates/magentaconcretetilesslab.json",
-          "src/main/resources/assets/elyrasir/models/item/magentaconcretetilesslab.json",
           "src/main/resources/assets/elyrasir/models/block/magentaconcretetilesslab.json",
           "src/main/resources/assets/elyrasir/models/block/magentaconcretetilesslab_full.json",
-          "src/main/resources/assets/elyrasir/models/block/magentaconcretetilesslab_top.json"
+          "src/main/java/elyrasir/block/MagentaconcretetilesslabBlock.java",
+          "src/main/resources/assets/elyrasir/models/block/magentaconcretetilesslab_top.json",
+          "src/main/resources/assets/elyrasir/models/item/magentaconcretetilesslab.json",
+          "src/main/resources/assets/elyrasir/blockstates/magentaconcretetilesslab.json"
         ]
       },
       "path": "~/Main/Block"
@@ -2451,12 +2451,12 @@
       "registry_name": "orangeconcretetilesslab",
       "metadata": {
         "files": [
+          "src/main/resources/assets/elyrasir/models/item/orangeconcretetilesslab.json",
           "src/main/resources/assets/elyrasir/models/block/orangeconcretetilesslab_top.json",
           "src/main/java/elyrasir/block/OrangeconcretetilesslabBlock.java",
-          "src/main/resources/assets/elyrasir/models/item/orangeconcretetilesslab.json",
           "src/main/resources/assets/elyrasir/blockstates/orangeconcretetilesslab.json",
-          "src/main/resources/assets/elyrasir/models/block/orangeconcretetilesslab.json",
-          "src/main/resources/assets/elyrasir/models/block/orangeconcretetilesslab_full.json"
+          "src/main/resources/assets/elyrasir/models/block/orangeconcretetilesslab_full.json",
+          "src/main/resources/assets/elyrasir/models/block/orangeconcretetilesslab.json"
         ]
       },
       "path": "~/Main/Block"
@@ -2470,12 +2470,12 @@
       "registry_name": "pinkconcretetilesslab",
       "metadata": {
         "files": [
-          "src/main/resources/assets/elyrasir/models/block/pinkconcretetilesslab_top.json",
-          "src/main/resources/assets/elyrasir/models/item/pinkconcretetilesslab.json",
-          "src/main/resources/assets/elyrasir/models/block/pinkconcretetilesslab.json",
+          "src/main/resources/assets/elyrasir/models/block/pinkconcretetilesslab_full.json",
           "src/main/java/elyrasir/block/PinkconcretetilesslabBlock.java",
+          "src/main/resources/assets/elyrasir/models/block/pinkconcretetilesslab_top.json",
           "src/main/resources/assets/elyrasir/blockstates/pinkconcretetilesslab.json",
-          "src/main/resources/assets/elyrasir/models/block/pinkconcretetilesslab_full.json"
+          "src/main/resources/assets/elyrasir/models/item/pinkconcretetilesslab.json",
+          "src/main/resources/assets/elyrasir/models/block/pinkconcretetilesslab.json"
         ]
       },
       "path": "~/Main/Block"
@@ -2489,12 +2489,12 @@
       "registry_name": "purpleconcretetilesslab",
       "metadata": {
         "files": [
-          "src/main/resources/assets/elyrasir/blockstates/purpleconcretetilesslab.json",
-          "src/main/resources/assets/elyrasir/models/block/purpleconcretetilesslab_full.json",
-          "src/main/resources/assets/elyrasir/models/item/purpleconcretetilesslab.json",
+          "src/main/java/elyrasir/block/PurpleconcretetilesslabBlock.java",
           "src/main/resources/assets/elyrasir/models/block/purpleconcretetilesslab.json",
+          "src/main/resources/assets/elyrasir/models/block/purpleconcretetilesslab_full.json",
           "src/main/resources/assets/elyrasir/models/block/purpleconcretetilesslab_top.json",
-          "src/main/java/elyrasir/block/PurpleconcretetilesslabBlock.java"
+          "src/main/resources/assets/elyrasir/models/item/purpleconcretetilesslab.json",
+          "src/main/resources/assets/elyrasir/blockstates/purpleconcretetilesslab.json"
         ]
       },
       "path": "~/Main/Block"
@@ -2508,12 +2508,12 @@
       "registry_name": "redconcretetilesslab",
       "metadata": {
         "files": [
-          "src/main/resources/assets/elyrasir/blockstates/redconcretetilesslab.json",
-          "src/main/resources/assets/elyrasir/models/block/redconcretetilesslab.json",
-          "src/main/resources/assets/elyrasir/models/block/redconcretetilesslab_top.json",
           "src/main/java/elyrasir/block/RedconcretetilesslabBlock.java",
           "src/main/resources/assets/elyrasir/models/block/redconcretetilesslab_full.json",
-          "src/main/resources/assets/elyrasir/models/item/redconcretetilesslab.json"
+          "src/main/resources/assets/elyrasir/models/block/redconcretetilesslab.json",
+          "src/main/resources/assets/elyrasir/blockstates/redconcretetilesslab.json",
+          "src/main/resources/assets/elyrasir/models/item/redconcretetilesslab.json",
+          "src/main/resources/assets/elyrasir/models/block/redconcretetilesslab_top.json"
         ]
       },
       "path": "~/Main/Block"
@@ -2527,12 +2527,12 @@
       "registry_name": "whiteconcretetilesslab",
       "metadata": {
         "files": [
-          "src/main/resources/assets/elyrasir/models/block/whiteconcretetilesslab_full.json",
           "src/main/resources/assets/elyrasir/models/item/whiteconcretetilesslab.json",
-          "src/main/resources/assets/elyrasir/models/block/whiteconcretetilesslab.json",
           "src/main/resources/assets/elyrasir/models/block/whiteconcretetilesslab_top.json",
-          "src/main/resources/assets/elyrasir/blockstates/whiteconcretetilesslab.json",
-          "src/main/java/elyrasir/block/WhiteconcretetilesslabBlock.java"
+          "src/main/resources/assets/elyrasir/models/block/whiteconcretetilesslab.json",
+          "src/main/resources/assets/elyrasir/models/block/whiteconcretetilesslab_full.json",
+          "src/main/java/elyrasir/block/WhiteconcretetilesslabBlock.java",
+          "src/main/resources/assets/elyrasir/blockstates/whiteconcretetilesslab.json"
         ]
       },
       "path": "~/Main/Block"
@@ -2546,12 +2546,12 @@
       "registry_name": "yellowconcretetilesslab",
       "metadata": {
         "files": [
+          "src/main/resources/assets/elyrasir/models/block/yellowconcretetilesslab_full.json",
           "src/main/resources/assets/elyrasir/models/block/yellowconcretetilesslab.json",
-          "src/main/java/elyrasir/block/YellowconcretetilesslabBlock.java",
           "src/main/resources/assets/elyrasir/models/block/yellowconcretetilesslab_top.json",
           "src/main/resources/assets/elyrasir/blockstates/yellowconcretetilesslab.json",
           "src/main/resources/assets/elyrasir/models/item/yellowconcretetilesslab.json",
-          "src/main/resources/assets/elyrasir/models/block/yellowconcretetilesslab_full.json"
+          "src/main/java/elyrasir/block/YellowconcretetilesslabBlock.java"
         ]
       },
       "path": "~/Main/Block"
@@ -2735,8 +2735,8 @@
       "registry_name": "harpon_tactique_2",
       "metadata": {
         "files": [
-          "src/main/java/elyrasir/item/HarponTactique2Item.java",
-          "src/main/resources/assets/elyrasir/models/item/harpon_tactique_2.json"
+          "src/main/resources/assets/elyrasir/models/item/harpon_tactique_2.json",
+          "src/main/java/elyrasir/item/HarponTactique2Item.java"
         ]
       },
       "path": "~/JobsIllegaux/Items"
@@ -2795,8 +2795,8 @@
       "registry_name": "harpon_pol_1",
       "metadata": {
         "files": [
-          "src/main/java/elyrasir/item/HarponPol1Item.java",
-          "src/main/resources/assets/elyrasir/models/item/harpon_pol_1.json"
+          "src/main/resources/assets/elyrasir/models/item/harpon_pol_1.json",
+          "src/main/java/elyrasir/item/HarponPol1Item.java"
         ]
       },
       "path": "~/JobsLegaux/Police/Item"
@@ -2825,8 +2825,8 @@
       "registry_name": "harpon_pol_3",
       "metadata": {
         "files": [
-          "src/main/resources/assets/elyrasir/models/item/harpon_pol_3.json",
-          "src/main/java/elyrasir/item/HarponPol3Item.java"
+          "src/main/java/elyrasir/item/HarponPol3Item.java",
+          "src/main/resources/assets/elyrasir/models/item/harpon_pol_3.json"
         ]
       },
       "path": "~/JobsLegaux/Police/Item"
@@ -3187,70 +3187,233 @@
         ]
       },
       "path": "~/Banque/procedure"
+    },
+    {
+      "name": "AchatPC",
+      "type": "gui",
+      "sortid": 193,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "achat_pc",
+      "metadata": {
+        "files": [
+          "src/main/java/elyrasir/client/gui/AchatPCScreen.java",
+          "src/main/java/elyrasir/network/AchatPCButtonMessage.java",
+          "src/main/java/elyrasir/world/inventory/AchatPCMenu.java"
+        ]
+      },
+      "path": "~/Banque/gui"
+    },
+    {
+      "name": "AchatdePC",
+      "type": "procedure",
+      "sortid": 194,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "achatde_pc",
+      "metadata": {
+        "files": [
+          "src/main/java/elyrasir/procedures/AchatdePCProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Banque/procedure"
+    },
+    {
+      "name": "AchatCard",
+      "type": "gui",
+      "sortid": 195,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "achat_card",
+      "metadata": {
+        "files": [
+          "src/main/java/elyrasir/client/gui/AchatCardScreen.java",
+          "src/main/java/elyrasir/network/AchatCardButtonMessage.java",
+          "src/main/java/elyrasir/world/inventory/AchatCardMenu.java"
+        ]
+      },
+      "path": "~/Banque/gui"
+    },
+    {
+      "name": "AtmReturnMain",
+      "type": "procedure",
+      "sortid": 196,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "atm_return_main",
+      "metadata": {
+        "files": [
+          "src/main/java/elyrasir/procedures/AtmReturnMainProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Banque/procedure"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.elyrasir.cyanconcretebigsquare": "Cyan concrete big square",
       "block.elyrasir.yellowconcretebrickslab": "Yellow concrete brick slab",
-      "block.elyrasir.pinkconcretepillar": "Pink concrete pillar",
-      "block.elyrasir.blueconcretepillar": "Blue concrete pillar",
-      "block.elyrasir.purpleconcretetilesslab": "Purple concrete tiles slab",
+      "gui.elyrasir.achat_pc.label_4": "4",
+      "gui.elyrasir.achat_pc.label_5": "5",
+      "gui.elyrasir.achat_pc.label_1": "1",
+      "gui.elyrasir.achat_pc.label_2": "2",
       "block.elyrasir.lightbluechisledcreeperconcrete": "Light blue chisled creeper concrete",
-      "block.elyrasir.pinkconcretetilesslab": "Pink concrete tiles slab",
-      "block.elyrasir.brownconcretebrickslab": "Brown concrete brick slab",
+      "gui.elyrasir.achat_pc.label_3": "3",
       "block.elyrasir.brownchisledcreeperconcrete": "Brown chisled creeper concrete",
-      "item.elyrasir.deuxcentpc": "Billet de 200 PommeCoin",
-      "block.elyrasir.lightblueconcretetilesslab": "Light blue concrete tiles slab",
       "block.elyrasir.orangeconcretebricks": "Orange concrete bricks",
       "gui.elyrasir.base_atm.label_4": "4",
-      "block.elyrasir.redconcretebrickstairs": "Red concrete brick stairs",
-      "block.elyrasir.purpleconcretepillar": "Pink concrete pillar",
       "gui.elyrasir.base_atm.label_3": "3",
       "block.elyrasir.greenchisledskeletonconcrete": "Green chisled skeleton concrete",
-      "item_group.elyrasir.pomme_items": "Pomme Items",
       "gui.elyrasir.base_atm.label_2": "2",
       "block.elyrasir.grayconcretetiles": "Gray concrete tiles",
       "gui.elyrasir.base_atm.label_1": "1",
       "block.elyrasir.limeconcretetilesslab": "Lime concrete tiles slab",
       "gui.elyrasir.base_atm.label_5": "5",
-      "block.elyrasir.lightgrayconcretebricks": "Light gray concrete bricks",
       "block.elyrasir.pinkconcretetiles": "Pink concrete tiles",
-      "block.elyrasir.lightgraychisledcreeperconcrete": "Light gray chisled creeper concrete",
-      "block.elyrasir.pinkconcretebrickstairs": "Pink concrete brick stairs",
-      "block.elyrasir.blackconcretebrickslab": "Black concrete brick slab",
-      "block.elyrasir.redconcretebricks": "Red concrete bricks",
       "block.elyrasir.whitechisledskeletonconcrete": "White chisled skeleton concrete",
       "block.elyrasir.atm": "ATM",
       "block.elyrasir.blackconcretebigsquare": "Black concrete big square",
-      "block.elyrasir.yellowconcretebigsquare": "Yellow concrete big square",
       "block.elyrasir.cyanconcretebrickslab": "Cyan concrete brick slab",
       "block.elyrasir.greenconcretepillar": "Green concrete pillar",
       "block.elyrasir.brownconcretebrickstairs": "Brown concrete brick stairs",
       "block.elyrasir.pinkchisledcreeperconcrete": "Pink chisled creeper concrete",
-      "block.elyrasir.lightblueconcretepillar": "Light blue concrete pillar",
-      "item.elyrasir.unpc": "Pièce de 1 PommeCoin",
       "block.elyrasir.purpleconcretebrickstairs": "Purple concrete brick stairs",
-      "block.elyrasir.whiteconcretetiles": "Red concrete tiles",
-      "block.elyrasir.blueconcretebrickslab": "Blue concrete brick slab",
       "block.elyrasir.lightgrayconcretetiles": "Light gray concrete tiles",
       "block.elyrasir.redchisledskeletonconcrete": "Red chisled skeleton concrete",
-      "gui.elyrasir.base_atm.label_51": "5",
       "item.elyrasir.cinqcentpc": "Billet de 500 PommeCoin",
-      "block.elyrasir.grayconcretebricks": "Gray concrete bricks",
-      "gui.elyrasir.base_atm.label_quitter": "- QUITTER -",
+      "gui.elyrasir.achat_pc.label_ouvrir_un_compte": "- Ouvrir un compte -",
       "block.elyrasir.whiteconcretetilesslab": "White concrete tiles slab",
+      "gui.elyrasir.achat_card.label_41": "4",
       "block.elyrasir.blueconcretebigsquare": "Blue concrete big square",
+      "gui.elyrasir.achat_card.label_51": "5",
+      "block.elyrasir.blackconcretebricks": "Black concrete bricks",
+      "block.elyrasir.purlpleconcretetiles": "Purple concrete tiles",
+      "block.elyrasir.brownconcretebigsquare": "Brown concrete big square",
+      "block.elyrasir.redconcretebigsquare": "Red concrete big square",
+      "block.elyrasir.magentaconcretetilesslab": "Lime concrete tiles slab",
+      "item.elyrasir.cinquantepc": "Billet de 50 PommeCoin",
+      "gui.elyrasir.achat_pc.label_acheter_du_pommecoin": "- Effectuer l\u0027échange -",
+      "block.elyrasir.blueconcretebricks": "Blue concrete bricks",
+      "block.elyrasir.greenchisledcreeperconcrete": "Green chisled creeper concrete",
+      "block.elyrasir.redconcretepillar": "Red concrete pillar",
+      "block.elyrasir.greenconcretebigsquare": "Green concrete big square",
+      "item.elyrasir.vingtpc": "Billet de 20 PommeCoin",
+      "gui.elyrasir.achat_pc.label_puis_effectuez_lechange": "puis effectuez l\u0027échange",
+      "block.elyrasir.whitechisledcreeperconcrete": "White chisled creeper concrete",
+      "block.elyrasir.orangeconcretepillar": "Orange concrete pillar",
+      "block.elyrasir.magentaconcretebrickslab": "Magenta concrete brick slab",
+      "block.elyrasir.pinkchisledskeletonconcrete": "Pink chisled skeleton concrete",
+      "block.elyrasir.pinkconcretebricks": "Pink concrete bricks",
+      "block.elyrasir.pinkconcretebigsquare": "Pink concrete big square",
+      "gui.elyrasir.base_atm.label_acheter_du_pommecoin": "- Acheter du PommeCoin -",
+      "gui.elyrasir.achat_card.label_21": "2",
+      "block.elyrasir.purpleconcretebigsquare": "Purple concrete big square",
+      "block.elyrasir.graychisledcreeperconcrete": "Gray chisled creeper concrete",
+      "block.elyrasir.limeconcretetiles": "Lime concrete tiles",
+      "block.elyrasir.lightgrayconcretebrickslab": "Light gray concrete brick slab",
+      "block.elyrasir.lightgrayconcretepillar": "Light gray concrete pillar",
+      "block.elyrasir.purpleconcretebricks": "Purple concrete bricks",
+      "block.elyrasir.purplechisledcreeperconcrete": "Purple chisled creeper concrete",
+      "block.elyrasir.limechisledcreeperconcrete": "Lime chisled creeper concrete",
+      "block.elyrasir.whiteconcretebrickslab": "White concrete brick slab",
+      "block.elyrasir.magentaconcretepillar": "Magenta concrete pillar",
+      "gui.elyrasir.achat_card.label_31": "3",
+      "block.elyrasir.brownconcretepillar": "Brown concrete pillar",
+      "gui.elyrasir.achat_pc.label_info_banque": "- Info Banque -",
+      "block.elyrasir.brownconcretetiles": "Brown concrete tiles",
+      "block.elyrasir.lightgraychisledskeletonconcrete": "Light gray chisled skeleton concrete",
+      "gui.elyrasir.base_atm.label_bienvenue_a_la_banque": "Bienvenue à la banque",
+      "block.elyrasir.redconcretetilesslab": "Red concrete tiles slab",
+      "block.elyrasir.grayconcretebigsquare": "Gray concrete big square",
+      "block.elyrasir.yellowconcretetiles": "Yellow concrete tiles",
+      "block.elyrasir.redchisledcreeperconcrete": "Red chisled creeper concrete",
+      "block.elyrasir.blueconcretebrickstairs": "Blue concrete brick stairs",
+      "block.elyrasir.orangeconcretebigsquare": "Orange concrete big square",
+      "block.elyrasir.whiteconcretepillar": "White concrete pillar",
+      "block.elyrasir.blueconcretetiles": "Blue concrete tiles",
+      "gui.elyrasir.base_atm.label_ouvrir_un_compte": "- Ouvrir un compte -",
+      "block.elyrasir.yellowconcretebrickstairs": "Yellow concrete brick stairs",
+      "block.elyrasir.lightbluechisledskeletonconcrete": "Light blue chisled skeleton concrete",
+      "block.elyrasir.magentachisledskeletonconcrete": "Magenta chisled skeleton concrete",
+      "block.elyrasir.lightblueconcretebrickslab": "Light blue concrete brick slab",
+      "block.elyrasir.brownchisledskeletonconcrete": "Brown chisled skeleton concrete",
+      "block.elyrasir.lightgrayconcretetilesslab": "Light gray concrete tiles slab",
+      "block.elyrasir.greenconcretebrickstairs": "Green concrete brick stairs",
+      "gui.elyrasir.base_atm.label_info_banque": "- Info Banque -",
+      "item.elyrasir.dixpc": "Billet de 10 PommeCoin",
+      "item.elyrasir.cinqpc": "Pièce de 5 PommeCoin",
+      "block.elyrasir.blackconcretetilesslab": "Black concrete tiles slab",
+      "block.elyrasir.lightblueconcretebrickstairs": "Light blue concrete brick stairs",
+      "block.elyrasir.lightgrayconcretebrickstairs": "Light gray concrete brick stairs",
+      "block.elyrasir.lightblueconcretetiles": "Light blue concrete tiles",
+      "gui.elyrasir.achat_card.label_11": "1",
+      "block.elyrasir.redconcretetiles": "Red concrete tiles",
+      "block.elyrasir.limeconcretebigsquare": "Lime concrete big square",
+      "block.elyrasir.blackconcretebrickstairs": "Black concrete brick stairs",
+      "block.elyrasir.brownconcretebricks": "Brown concrete bricks",
+      "block.elyrasir.cyanconcretebigsquare": "Cyan concrete big square",
+      "block.elyrasir.pinkconcretepillar": "Pink concrete pillar",
+      "block.elyrasir.blueconcretepillar": "Blue concrete pillar",
+      "block.elyrasir.purpleconcretetilesslab": "Purple concrete tiles slab",
+      "block.elyrasir.pinkconcretetilesslab": "Pink concrete tiles slab",
+      "block.elyrasir.brownconcretebrickslab": "Brown concrete brick slab",
+      "item.elyrasir.deuxcentpc": "Billet de 200 PommeCoin",
+      "block.elyrasir.lightblueconcretetilesslab": "Light blue concrete tiles slab",
+      "gui.elyrasir.achat_pc.label_31": "3",
+      "block.elyrasir.purpleconcretepillar": "Pink concrete pillar",
+      "block.elyrasir.redconcretebrickstairs": "Red concrete brick stairs",
+      "item_group.elyrasir.pomme_items": "Pomme Items",
+      "block.elyrasir.lightgrayconcretebricks": "Light gray concrete bricks",
+      "block.elyrasir.lightgraychisledcreeperconcrete": "Light gray chisled creeper concrete",
+      "block.elyrasir.pinkconcretebrickstairs": "Pink concrete brick stairs",
+      "block.elyrasir.blackconcretebrickslab": "Black concrete brick slab",
+      "block.elyrasir.redconcretebricks": "Red concrete bricks",
+      "block.elyrasir.yellowconcretebigsquare": "Yellow concrete big square",
+      "gui.elyrasir.achat_pc.label_41": "4",
+      "block.elyrasir.lightblueconcretepillar": "Light blue concrete pillar",
+      "item.elyrasir.unpc": "Pièce de 1 PommeCoin",
+      "block.elyrasir.whiteconcretetiles": "Red concrete tiles",
+      "gui.elyrasir.achat_card.label_bienvenue_a_la_banque": "Acheter une Carte de Banque",
+      "block.elyrasir.blueconcretebrickslab": "Blue concrete brick slab",
+      "gui.elyrasir.base_atm.label_51": "5",
+      "gui.elyrasir.base_atm.label_quitter": "- QUITTER -",
+      "block.elyrasir.grayconcretebricks": "Gray concrete bricks",
+      "gui.elyrasir.achat_card.label_quitter": "- RETOUR -",
       "block.elyrasir.limeconcretebrickstairs": "Light gray concrete brick stairs",
       "block.elyrasir.whiteconcretebricks": "White concrete bricks",
       "block.elyrasir.grayconcretepillar": "Gray concrete pillar",
+      "gui.elyrasir.achat_card.label_acheter_du_pommecoin": "- Effectuer l\u0027échange -",
       "block.elyrasir.grayconcretebrickstairs": "Gray concrete brick stairs",
-      "block.elyrasir.blackconcretebricks": "Black concrete bricks",
-      "block.elyrasir.purlpleconcretetiles": "Purple concrete tiles",
       "gui.elyrasir.base_atm.label_acheter_une_carte": "- Acheter une Carte -",
-      "block.elyrasir.brownconcretebigsquare": "Brown concrete big square",
       "block.elyrasir.yellowconcretetilesslab": "Yellow concrete tiles slab",
       "block.elyrasir.orangechisledskeletonconcrete": "Orange chisled skeleton concrete",
       "item.elyrasir.harpon_tactique_0": "Harpon Tactique",
@@ -3259,98 +3422,62 @@
       "item.elyrasir.harpon_tactique_3": "Harpon Tactique",
       "block.elyrasir.cyanconcretebrickstairs": "Cyan concrete brick stairs",
       "item.elyrasir.harpon_tactique_4": "Harpon Tactique",
-      "block.elyrasir.redconcretebigsquare": "Red concrete big square",
       "block.elyrasir.blackchisledskeletonconcrete": "Black chisled skeleton concrete",
       "block.elyrasir.blackconcretepillar": "Black concrete pillar",
       "block.elyrasir.redconcretebrickslab": "Red concrete brick slab",
       "block.elyrasir.whiteconcretebrickstairs": "White concrete brick stairs",
-      "block.elyrasir.magentaconcretetilesslab": "Lime concrete tiles slab",
       "block.elyrasir.magentaconcretebricks": "Magenta concrete bricks",
       "item.elyrasir.harpon_pol_4": "Harpon Tactique de Police",
+      "gui.elyrasir.achat_pc.label_11": "1",
       "item.elyrasir.harpon_pol_3": "Harpon Tactique de Police",
-      "item.elyrasir.cinquantepc": "Billet de 50 PommeCoin",
       "block.elyrasir.orangechisledcreeperconcrete": "Orange chisled creeper concrete",
       "block.elyrasir.cyanchisledskeletonconcrete": "Cyan chisled skeleton concrete",
-      "block.elyrasir.blueconcretebricks": "Blue concrete bricks",
       "block.elyrasir.yellowchisledskeletonconcrete": "Yellow chisled skeleton concrete",
       "item.elyrasir.harpon_pol_2": "Harpon Tactique de Police",
       "item.elyrasir.harpon_pol_1": "Harpon Tactique de Police",
+      "gui.elyrasir.achat_pc.label_21": "2",
       "block.elyrasir.greenconcretebrickslab": "Green concrete brick slab",
       "item.elyrasir.harpon_pol_0": "Harpon Tactique de Police",
-      "block.elyrasir.greenchisledcreeperconcrete": "Green chisled creeper concrete",
-      "block.elyrasir.redconcretepillar": "Red concrete pillar",
-      "block.elyrasir.greenconcretebigsquare": "Green concrete big square",
       "block.elyrasir.greenconcretebricks": "Green concrete bricks",
       "block.elyrasir.blackchisledcreeperconcrete": "Black chisled creeper concrete",
-      "item.elyrasir.vingtpc": "Billet de 20 PommeCoin",
       "gui.elyrasir.base_atm.label_31": "3",
-      "block.elyrasir.whitechisledcreeperconcrete": "White chisled creeper concrete",
-      "block.elyrasir.orangeconcretepillar": "Orange concrete pillar",
       "block.elyrasir.magentachisledcreeperconcrete": "Magenta chisled creeper concrete",
-      "block.elyrasir.pinkchisledskeletonconcrete": "Pink chisled skeleton concrete",
-      "block.elyrasir.magentaconcretebrickslab": "Magenta concrete brick slab",
-      "block.elyrasir.pinkconcretebricks": "Pink concrete bricks",
-      "block.elyrasir.pinkconcretebigsquare": "Pink concrete big square",
-      "gui.elyrasir.base_atm.label_acheter_du_pommecoin": "- Acheter du PommeCoin -",
-      "block.elyrasir.purpleconcretebigsquare": "Purple concrete big square",
-      "block.elyrasir.graychisledcreeperconcrete": "Gray chisled creeper concrete",
+      "gui.elyrasir.achat_card.label_5": "5",
+      "gui.elyrasir.achat_pc.label_acheter_une_carte": "- Acheter une Carte -",
       "block.elyrasir.graychisledskeletonconcrete": "Gray chisled skeleton concrete",
+      "gui.elyrasir.achat_card.label_puis_effectuez_lechange": "puis effectuez l\u0027échange",
+      "gui.elyrasir.achat_card.label_1": "1",
       "gui.elyrasir.base_atm.label_veuillez_choisir_une_service": "veuillez choisir une service:",
-      "block.elyrasir.limeconcretetiles": "Lime concrete tiles",
       "block.elyrasir.orangeconcretebrickslab": "Orange concrete brick slab",
-      "block.elyrasir.lightgrayconcretebrickslab": "Light gray concrete brick slab",
-      "block.elyrasir.lightgrayconcretepillar": "Light gray concrete pillar",
       "gui.elyrasir.base_atm.label_41": "4",
       "block.elyrasir.cyanconcretetiles": "Cyan concrete tiles",
-      "block.elyrasir.purpleconcretebricks": "Purple concrete bricks",
       "block.elyrasir.orangeconcretetilesslab": "Orange concrete tiles slab",
-      "block.elyrasir.purplechisledcreeperconcrete": "Purple chisled creeper concrete",
-      "block.elyrasir.limechisledcreeperconcrete": "Lime chisled creeper concrete",
-      "block.elyrasir.whiteconcretebrickslab": "White concrete brick slab",
       "block.elyrasir.limeconcretebricks": "Lime concrete bricks",
-      "block.elyrasir.magentaconcretepillar": "Magenta concrete pillar",
       "block.elyrasir.greenconcretetilesslab": "Green concrete tiles slab",
       "block.elyrasir.yellowchisledcreeperconcrete": "Yellow chisled creeper concrete",
       "block.elyrasir.cyanchisledcreeperconcrete": "Cyan chisled creeper concrete",
+      "gui.elyrasir.achat_pc.label_bienvenue_a_la_banque": "Achat de PommeCoins",
       "block.elyrasir.grayconcretebrickslab": "Gray concrete brick slab",
       "block.elyrasir.bluechisledcreeperconcrete": "Blue chisled creeper concrete",
-      "block.elyrasir.brownconcretepillar": "Brown concrete pillar",
       "block.elyrasir.yellowconcretepillar": "Yellow concrete pillar",
-      "block.elyrasir.brownconcretetiles": "Brown concrete tiles",
-      "block.elyrasir.lightgraychisledskeletonconcrete": "Light gray chisled skeleton concrete",
-      "gui.elyrasir.base_atm.label_bienvenue_a_la_banque": "Bienvenue à la banque",
-      "block.elyrasir.redconcretetilesslab": "Red concrete tiles slab",
+      "gui.elyrasir.achat_pc.label_quitter": "- RETOUR -",
       "block.elyrasir.lightblueconcretebigsquare": "Light blue concrete big square",
-      "block.elyrasir.grayconcretebigsquare": "Gray concrete big square",
-      "block.elyrasir.yellowconcretetiles": "Yellow concrete tiles",
-      "block.elyrasir.redchisledcreeperconcrete": "Red chisled creeper concrete",
       "block.elyrasir.cyanconcretepillar": "Cyan concrete pillar",
-      "block.elyrasir.orangeconcretebigsquare": "Orange concrete big square",
-      "block.elyrasir.yellowconcretebricks": "Yellow concrete bricks",
-      "block.elyrasir.whiteconcretepillar": "White concrete pillar",
       "block.elyrasir.pinkconcretebrickslab": "Pink concrete brick slab",
-      "block.elyrasir.blueconcretebrickstairs": "Blue concrete brick stairs",
-      "block.elyrasir.bluechisledskeletonconcrete": "Blue chisled skeleton concrete",
+      "block.elyrasir.yellowconcretebricks": "Yellow concrete bricks",
       "block.elyrasir.blackconcretetiles": "Black concrete tiles",
-      "block.elyrasir.blueconcretetiles": "Blue concrete tiles",
+      "block.elyrasir.bluechisledskeletonconcrete": "Blue chisled skeleton concrete",
       "block.elyrasir.magentaconcretebigsquare": "Magenta concrete big square",
       "block.elyrasir.limechisledskeletonconcrete": "Lime gray chisled skeleton concrete",
-      "gui.elyrasir.base_atm.label_ouvrir_un_compte": "- Ouvrir un compte -",
-      "block.elyrasir.yellowconcretebrickstairs": "Yellow concrete brick stairs",
       "gui.elyrasir.base_atm.label_11": "1",
-      "block.elyrasir.lightbluechisledskeletonconcrete": "Light blue chisled skeleton concrete",
-      "block.elyrasir.magentachisledskeletonconcrete": "Magenta chisled skeleton concrete",
       "block.elyrasir.magentaconcretebrickstairs": "Magenta concrete brick stairs",
       "block.elyrasir.greenconcretetiles": "Green concrete tiles",
+      "gui.elyrasir.achat_card.label_veuillez_choisir_une_service": "veuillez déposer les PommeCoins",
       "block.elyrasir.lightgrayconcretebigsquare": "Light gray concrete big square",
-      "block.elyrasir.lightblueconcretebrickslab": "Light blue concrete brick slab",
-      "block.elyrasir.brownchisledskeletonconcrete": "Brown chisled skeleton concrete",
       "item.elyrasir.centpc": "Billet de 100 PommeCoin",
-      "block.elyrasir.lightgrayconcretetilesslab": "Light gray concrete tiles slab",
-      "block.elyrasir.greenconcretebrickstairs": "Green concrete brick stairs",
+      "gui.elyrasir.achat_pc.label_51": "5",
       "block.elyrasir.purpleconcretebrickslab": "Purple concrete brick slab",
       "block.elyrasir.limeconcretebrickslab": "Lime concrete brick slab",
-      "gui.elyrasir.base_atm.label_info_banque": "- Info Banque -",
       "block.elyrasir.purplechisledskeletonconcrete": "Purple chisled skeleton concrete",
       "block.elyrasir.brownconcretetilesslab": "Brown concrete tiles slab",
       "block.elyrasir.grayconcretetilesslab": "Gray concrete tiles slab",
@@ -3358,22 +3485,13 @@
       "gui.elyrasir.base_atm.label_21": "2",
       "block.elyrasir.limeconcretepillar": "Lime concrete pillar",
       "block.elyrasir.blueconcretetilesslab": "Blue concrete tiles slab",
-      "item.elyrasir.dixpc": "Billet de 10 PommeCoin",
-      "item.elyrasir.cinqpc": "Pièce de 5 PommeCoin",
       "block.elyrasir.orangeconcretetiles": "Magenta concrete tiles",
-      "block.elyrasir.blackconcretetilesslab": "Black concrete tiles slab",
       "block.elyrasir.cyanconcretetilesslab": "Cyan concrete tiles slab",
-      "block.elyrasir.lightblueconcretebrickstairs": "Light blue concrete brick stairs",
-      "block.elyrasir.lightgrayconcretebrickstairs": "Light gray concrete brick stairs",
-      "block.elyrasir.lightblueconcretetiles": "Light blue concrete tiles",
-      "block.elyrasir.redconcretetiles": "Red concrete tiles",
-      "block.elyrasir.limeconcretebigsquare": "Lime concrete big square",
       "block.elyrasir.cyanconcretebricks": "Cyan concrete bricks",
-      "block.elyrasir.blackconcretebrickstairs": "Black concrete brick stairs",
-      "block.elyrasir.brownconcretebricks": "Brown concrete bricks",
       "block.elyrasir.lightblueconcretebricks": "Light blue concrete bricks",
       "block.elyrasir.magentaconcretetiles": "Magenta concrete tiles",
       "block.elyrasir.orangeconcretebrickstairs": "Orange concrete brick stairs",
+      "gui.elyrasir.achat_pc.label_veuillez_choisir_une_service": "veuillez déposer les diamands",
       "item_group.elyrasir.modedblock": "Modedblock"
     }
   },
@@ -3485,5 +3603,5 @@
     "modElementsPackage": "elyrasir",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202300336712
+  "mcreatorVersion": 202300452316
 }

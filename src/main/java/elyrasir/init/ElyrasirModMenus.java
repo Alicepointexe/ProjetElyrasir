@@ -12,10 +12,14 @@ import net.minecraftforge.common.extensions.IForgeMenuType;
 import net.minecraft.world.inventory.MenuType;
 
 import elyrasir.world.inventory.BaseAtmMenu;
+import elyrasir.world.inventory.AchatPCMenu;
+import elyrasir.world.inventory.AchatCardMenu;
 
 import elyrasir.ElyrasirMod;
 
 public class ElyrasirModMenus {
 	public static final DeferredRegister<MenuType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.MENU_TYPES, ElyrasirMod.MODID);
 	public static final RegistryObject<MenuType<BaseAtmMenu>> BASE_ATM = REGISTRY.register("base_atm", () -> IForgeMenuType.create(BaseAtmMenu::new));
+	public static final RegistryObject<MenuType<AchatPCMenu>> ACHAT_PC = REGISTRY.register("achat_pc", () -> IForgeMenuType.create(AchatPCMenu::new));
+	public static final RegistryObject<MenuType<AchatCardMenu>> ACHAT_CARD = REGISTRY.register("achat_card", () -> IForgeMenuType.create(AchatCardMenu::new));
 }
