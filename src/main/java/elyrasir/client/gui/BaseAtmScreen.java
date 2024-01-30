@@ -114,6 +114,10 @@ public class BaseAtmScreen extends AbstractContainerScreen<BaseAtmMenu> {
 	public void init() {
 		super.init();
 		imagebutton_round_button_vanilla = new ImageButton(this.leftPos + 205, this.topPos + 12, 20, 20, 0, 0, 20, new ResourceLocation("elyrasir:textures/screens/atlas/imagebutton_round_button_vanilla.png"), 20, 40, e -> {
+			if (true) {
+				ElyrasirMod.PACKET_HANDLER.sendToServer(new BaseAtmButtonMessage(0, x, y, z));
+				BaseAtmButtonMessage.handleButtonAction(entity, 0, x, y, z);
+			}
 		});
 		guistate.put("button:imagebutton_round_button_vanilla", imagebutton_round_button_vanilla);
 		this.addRenderableWidget(imagebutton_round_button_vanilla);

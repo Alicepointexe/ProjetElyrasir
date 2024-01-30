@@ -16,6 +16,7 @@ import java.util.HashMap;
 
 import elyrasir.world.inventory.BaseAtmMenu;
 
+import elyrasir.procedures.AtmachatdepcProcedure;
 import elyrasir.procedures.AtmQuitProcedure;
 
 import elyrasir.ElyrasirMod;
@@ -64,6 +65,10 @@ public class BaseAtmButtonMessage {
 		// security measure to prevent arbitrary chunk generation
 		if (!world.hasChunkAt(new BlockPos(x, y, z)))
 			return;
+		if (buttonID == 0) {
+
+			AtmachatdepcProcedure.execute(world, x, y, z, entity);
+		}
 		if (buttonID == 4) {
 
 			AtmQuitProcedure.execute(world, x, y, z, entity);

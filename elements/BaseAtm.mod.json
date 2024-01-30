@@ -61,6 +61,9 @@
           "name": "imagebutton_round_button_vanilla",
           "image": "round_button_vanilla.png",
           "hoveredImage": "round_button_vanilla_highlight.png",
+          "onClick": {
+            "name": "Atmachatdepc"
+          },
           "x": 301,
           "y": 22
         }

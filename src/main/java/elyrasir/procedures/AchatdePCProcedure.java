@@ -37,7 +37,7 @@ public class AchatdePCProcedure {
 						return 0;
 					}
 				}.getAmount(1) + 32));
-				((Slot) _slots.get(0)).set(_setstack);
+				((Slot) _slots.get(1)).set(_setstack);
 				_player.containerMenu.broadcastChanges();
 			}
 			if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
