@@ -3316,7 +3316,7 @@
       "name": "CkeckVariable",
       "type": "command",
       "sortid": 198,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "ckeck_variable",
       "metadata": {
@@ -3325,6 +3325,34 @@
         ]
       },
       "path": "~/Main/Commandes"
+    },
+    {
+      "name": "Main",
+      "type": "gui",
+      "sortid": 199,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "main",
+      "metadata": {
+        "files": [
+          "src/main/java/elyrasir/client/gui/MainScreen.java",
+          "src/main/java/elyrasir/world/inventory/MainMenu.java"
+        ]
+      },
+      "path": "~/JobsLegaux/Police/GUI"
+    },
+    {
+      "name": "Wwe",
+      "type": "code",
+      "sortid": 200,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "wwe",
+      "metadata": {
+        "files": [
+          "src/main/java/elyrasir/Wwe.java"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -3524,7 +3552,7 @@
       "name": "Eleveur_Rank2_Logisticien",
       "type": "number",
       "scope": "map",
-      "value": "false"
+      "value": "0.0"
     },
     {
       "name": "Eleveur_Rank3",
@@ -3800,7 +3828,7 @@
       "name": "Mineur_Rank4_ViceDirecteur",
       "type": "number",
       "scope": "map",
-      "value": "false"
+      "value": "0.0"
     },
     {
       "name": "Mineur_Rank5",
@@ -3890,7 +3918,7 @@
       "name": "Police_Rank5",
       "type": "number",
       "scope": "map",
-      "value": "false"
+      "value": "0.0"
     },
     {
       "name": "Police_Rank5_Capitaine",
@@ -3935,10 +3963,22 @@
       "value": "false"
     },
     {
+      "name": "Prison_Rank1_Gardien",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
       "name": "Prison_Rank2",
       "type": "logic",
       "scope": "map",
       "value": "false"
+    },
+    {
+      "name": "Prison_Rank2_Superviseur",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
     },
     {
       "name": "Prison_Rank3",
@@ -3947,10 +3987,22 @@
       "value": "false"
     },
     {
+      "name": "Prison_Rank3_ViceDirecteur",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
       "name": "Prison_Rank4",
       "type": "logic",
       "scope": "map",
       "value": "false"
+    },
+    {
+      "name": "Prison_Rank5_Directeur",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
     },
     {
       "name": "Train_CoffreFort",
@@ -3974,13 +4026,13 @@
       "name": "Train_Rank1",
       "type": "logic",
       "scope": "map",
-      "value": "0"
+      "value": "false"
     },
     {
       "name": "Train_Rank1_Conducteur",
       "type": "number",
       "scope": "map",
-      "value": "false"
+      "value": "0.0"
     },
     {
       "name": "Train_Rank2",
@@ -4106,31 +4158,7 @@
       "name": "Vigneron_Rank5_Directeur",
       "type": "number",
       "scope": "map",
-      "value": "false"
-    },
-    {
-      "name": "Prison_Rank1_Gardien",
-      "type": "number",
-      "scope": "map",
-      "value": "0"
-    },
-    {
-      "name": "Prison_Rank2_Superviseur",
-      "type": "number",
-      "scope": "map",
-      "value": "0"
-    },
-    {
-      "name": "Prison_Rank3_ViceDirecteur",
-      "type": "number",
-      "scope": "map",
-      "value": "0"
-    },
-    {
-      "name": "Prison_Rank5_Directeur",
-      "type": "number",
-      "scope": "map",
-      "value": "0"
+      "value": "0.0"
     }
   ],
   "sound_elements": [],
@@ -4157,6 +4185,7 @@
       "block.elyrasir.whitechisledskeletonconcrete": "White chisled skeleton concrete",
       "block.elyrasir.atm": "ATM",
       "block.elyrasir.blackconcretebigsquare": "Black concrete big square",
+      "gui.elyrasir.main.label_gestion_de_la_logistique1": "Gestion de la logistique",
       "block.elyrasir.cyanconcretebrickslab": "Cyan concrete brick slab",
       "block.elyrasir.greenconcretepillar": "Green concrete pillar",
       "block.elyrasir.brownconcretebrickstairs": "Brown concrete brick stairs",
@@ -4173,20 +4202,21 @@
       "block.elyrasir.blackconcretebricks": "Black concrete bricks",
       "block.elyrasir.purlpleconcretetiles": "Purple concrete tiles",
       "block.elyrasir.brownconcretebigsquare": "Brown concrete big square",
+      "gui.elyrasir.main.label_gestion_du_recrutement": "Gestion des casiers judiciaire",
       "block.elyrasir.redconcretebigsquare": "Red concrete big square",
       "block.elyrasir.magentaconcretetilesslab": "Lime concrete tiles slab",
       "item.elyrasir.cinquantepc": "Billet de 50 PommeCoin",
-      "gui.elyrasir.achat_pc.label_acheter_du_pommecoin": "- Effectuer l\u0027échange -",
       "block.elyrasir.blueconcretebricks": "Blue concrete bricks",
+      "gui.elyrasir.achat_pc.label_acheter_du_pommecoin": "- Effectuer l\u0027échange -",
       "block.elyrasir.greenchisledcreeperconcrete": "Green chisled creeper concrete",
-      "block.elyrasir.redconcretepillar": "Red concrete pillar",
       "block.elyrasir.greenconcretebigsquare": "Green concrete big square",
+      "block.elyrasir.redconcretepillar": "Red concrete pillar",
       "item.elyrasir.vingtpc": "Billet de 20 PommeCoin",
       "gui.elyrasir.achat_pc.label_puis_effectuez_lechange": "puis effectuez l\u0027échange",
       "block.elyrasir.whitechisledcreeperconcrete": "White chisled creeper concrete",
       "block.elyrasir.orangeconcretepillar": "Orange concrete pillar",
-      "block.elyrasir.magentaconcretebrickslab": "Magenta concrete brick slab",
       "block.elyrasir.pinkchisledskeletonconcrete": "Pink chisled skeleton concrete",
+      "block.elyrasir.magentaconcretebrickslab": "Magenta concrete brick slab",
       "block.elyrasir.pinkconcretebricks": "Pink concrete bricks",
       "block.elyrasir.pinkconcretebigsquare": "Pink concrete big square",
       "gui.elyrasir.base_atm.label_acheter_du_pommecoin": "- Acheter du PommeCoin -",
@@ -4195,6 +4225,7 @@
       "block.elyrasir.graychisledcreeperconcrete": "Gray chisled creeper concrete",
       "block.elyrasir.limeconcretetiles": "Lime concrete tiles",
       "block.elyrasir.lightgrayconcretebrickslab": "Light gray concrete brick slab",
+      "gui.elyrasir.main.label_gestion_des_dossiers": "Gestions des dossiers d\u0027affaire",
       "block.elyrasir.lightgrayconcretepillar": "Light gray concrete pillar",
       "block.elyrasir.purpleconcretebricks": "Purple concrete bricks",
       "block.elyrasir.purplechisledcreeperconcrete": "Purple chisled creeper concrete",
@@ -4202,6 +4233,7 @@
       "block.elyrasir.whiteconcretebrickslab": "White concrete brick slab",
       "block.elyrasir.magentaconcretepillar": "Magenta concrete pillar",
       "gui.elyrasir.achat_card.label_31": "3",
+      "gui.elyrasir.main.label_ordinateur_des_forces_de_lordre": "Ordinateur des forces de l\u0027ordre",
       "block.elyrasir.brownconcretepillar": "Brown concrete pillar",
       "gui.elyrasir.achat_pc.label_info_banque": "- Info Banque -",
       "block.elyrasir.brownconcretetiles": "Brown concrete tiles",
@@ -4211,9 +4243,9 @@
       "block.elyrasir.grayconcretebigsquare": "Gray concrete big square",
       "block.elyrasir.yellowconcretetiles": "Yellow concrete tiles",
       "block.elyrasir.redchisledcreeperconcrete": "Red chisled creeper concrete",
-      "block.elyrasir.blueconcretebrickstairs": "Blue concrete brick stairs",
-      "block.elyrasir.orangeconcretebigsquare": "Orange concrete big square",
       "block.elyrasir.whiteconcretepillar": "White concrete pillar",
+      "block.elyrasir.orangeconcretebigsquare": "Orange concrete big square",
+      "block.elyrasir.blueconcretebrickstairs": "Blue concrete brick stairs",
       "block.elyrasir.blueconcretetiles": "Blue concrete tiles",
       "gui.elyrasir.base_atm.label_ouvrir_un_compte": "- Ouvrir un compte -",
       "block.elyrasir.yellowconcretebrickstairs": "Yellow concrete brick stairs",
@@ -4281,6 +4313,7 @@
       "block.elyrasir.blackconcretepillar": "Black concrete pillar",
       "block.elyrasir.redconcretebrickslab": "Red concrete brick slab",
       "block.elyrasir.whiteconcretebrickstairs": "White concrete brick stairs",
+      "gui.elyrasir.main.label_gestion_de_la_logistique": "Gestion des dossiers de plainte",
       "block.elyrasir.magentaconcretebricks": "Magenta concrete bricks",
       "item.elyrasir.harpon_pol_4": "Harpon Tactique de Police",
       "gui.elyrasir.achat_pc.label_11": "1",
@@ -4293,6 +4326,7 @@
       "gui.elyrasir.achat_pc.label_21": "2",
       "block.elyrasir.greenconcretebrickslab": "Green concrete brick slab",
       "item.elyrasir.harpon_pol_0": "Harpon Tactique de Police",
+      "gui.elyrasir.main.label_gestion_des_dossiers1": "Gestion des raports d\u0027intervention",
       "block.elyrasir.greenconcretebricks": "Green concrete bricks",
       "block.elyrasir.blackchisledcreeperconcrete": "Black chisled creeper concrete",
       "gui.elyrasir.base_atm.label_31": "3",
@@ -4307,6 +4341,7 @@
       "gui.elyrasir.base_atm.label_41": "4",
       "block.elyrasir.cyanconcretetiles": "Cyan concrete tiles",
       "block.elyrasir.orangeconcretetilesslab": "Orange concrete tiles slab",
+      "gui.elyrasir.main.label_gestion_du_personnel": "Gestion du personnel",
       "block.elyrasir.limeconcretebricks": "Lime concrete bricks",
       "block.elyrasir.greenconcretetilesslab": "Green concrete tiles slab",
       "block.elyrasir.yellowchisledcreeperconcrete": "Yellow chisled creeper concrete",
@@ -4395,6 +4430,35 @@
               {
                 "name": "Procedure",
                 "children": []
+              },
+              {
+                "name": "GUI",
+                "children": [
+                  {
+                    "name": "GUIPlaintes",
+                    "children": []
+                  },
+                  {
+                    "name": "GUIAffaires",
+                    "children": []
+                  },
+                  {
+                    "name": "GUIRapport",
+                    "children": []
+                  },
+                  {
+                    "name": "GUILogistique",
+                    "children": []
+                  },
+                  {
+                    "name": "GUIPersonnel",
+                    "children": []
+                  },
+                  {
+                    "name": "GUICasier",
+                    "children": []
+                  }
+                ]
               }
             ]
           }

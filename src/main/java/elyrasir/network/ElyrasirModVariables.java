@@ -119,7 +119,7 @@ public class ElyrasirModVariables {
 		public boolean Eleveur_Rank1 = false;
 		public double Eleveur_Rank1_Vendeur = 0;
 		public boolean Eleveur_Rank2 = false;
-		public double Eleveur_Rank2_Logisticien = false;
+		public double Eleveur_Rank2_Logisticien = 0.0;
 		public boolean Eleveur_Rank3 = false;
 		public double Eleveur_Rank3_Eleveur = 0;
 		public boolean Eleveur_Rank4 = false;
@@ -165,7 +165,7 @@ public class ElyrasirModVariables {
 		public boolean Mineur_Rank3 = false;
 		public double Mineur_Rank3_Mineur = 0;
 		public boolean Mineur_Rank4 = false;
-		public double Mineur_Rank4_ViceDirecteur = false;
+		public double Mineur_Rank4_ViceDirecteur = 0.0;
 		public boolean Mineur_Rank5 = false;
 		public double Mineur_Rank5_Directeur = 0;
 		public boolean Police_CoffreFort = false;
@@ -180,7 +180,7 @@ public class ElyrasirModVariables {
 		public boolean Police_Rank3_Lieutenant = false;
 		public double Police_Rank4 = 0;
 		public boolean Police_Rank4_Enqueteur = false;
-		public double Police_Rank5 = false;
+		public double Police_Rank5 = 0.0;
 		public boolean Police_Rank5_Capitaine = 0;
 		public double Police_Rank6 = 0;
 		public boolean Police_Rank6_Commandant = false;
@@ -188,14 +188,18 @@ public class ElyrasirModVariables {
 		public boolean Prison_IsPrison = false;
 		public boolean Prison_IsWork = false;
 		public boolean Prison_Rank1 = false;
+		public double Prison_Rank1_Gardien = 0;
 		public boolean Prison_Rank2 = false;
+		public double Prison_Rank2_Superviseur = 0;
 		public boolean Prison_Rank3 = false;
+		public double Prison_Rank3_ViceDirecteur = 0;
 		public boolean Prison_Rank4 = false;
+		public double Prison_Rank5_Directeur = 0;
 		public double Train_CoffreFort = 0;
 		public boolean Train_IsTrain = false;
 		public boolean Train_IsWork = 0;
-		public boolean Train_Rank1 = 0;
-		public double Train_Rank1_Conducteur = false;
+		public boolean Train_Rank1 = false;
+		public double Train_Rank1_Conducteur = 0.0;
 		public boolean Train_Rank2 = false;
 		public double Train_Rank2_Controleur = 0;
 		public boolean Train_Rank3 = false;
@@ -216,11 +220,7 @@ public class ElyrasirModVariables {
 		public boolean Vigneron_Rank4 = false;
 		public double Vigneron_Rank4_ViceDirecteur = 0;
 		public boolean Vigneron_Rank5 = false;
-		public double Vigneron_Rank5_Directeur = false;
-		public double Prison_Rank1_Gardien = 0;
-		public double Prison_Rank2_Superviseur = 0;
-		public double Prison_Rank3_ViceDirecteur = 0;
-		public double Prison_Rank5_Directeur = 0;
+		public double Vigneron_Rank5_Directeur = 0.0;
 
 		public static MapVariables load(CompoundTag tag) {
 			MapVariables data = new MapVariables();
@@ -330,9 +330,13 @@ public class ElyrasirModVariables {
 			Prison_IsPrison = nbt.getBoolean("Prison_IsPrison");
 			Prison_IsWork = nbt.getBoolean("Prison_IsWork");
 			Prison_Rank1 = nbt.getBoolean("Prison_Rank1");
+			Prison_Rank1_Gardien = nbt.getDouble("Prison_Rank1_Gardien");
 			Prison_Rank2 = nbt.getBoolean("Prison_Rank2");
+			Prison_Rank2_Superviseur = nbt.getDouble("Prison_Rank2_Superviseur");
 			Prison_Rank3 = nbt.getBoolean("Prison_Rank3");
+			Prison_Rank3_ViceDirecteur = nbt.getDouble("Prison_Rank3_ViceDirecteur");
 			Prison_Rank4 = nbt.getBoolean("Prison_Rank4");
+			Prison_Rank5_Directeur = nbt.getDouble("Prison_Rank5_Directeur");
 			Train_CoffreFort = nbt.getDouble("Train_CoffreFort");
 			Train_IsTrain = nbt.getBoolean("Train_IsTrain");
 			Train_IsWork = nbt.getBoolean("Train_IsWork");
@@ -359,10 +363,6 @@ public class ElyrasirModVariables {
 			Vigneron_Rank4_ViceDirecteur = nbt.getDouble("Vigneron_Rank4_ViceDirecteur");
 			Vigneron_Rank5 = nbt.getBoolean("Vigneron_Rank5");
 			Vigneron_Rank5_Directeur = nbt.getDouble("Vigneron_Rank5_Directeur");
-			Prison_Rank1_Gardien = nbt.getDouble("Prison_Rank1_Gardien");
-			Prison_Rank2_Superviseur = nbt.getDouble("Prison_Rank2_Superviseur");
-			Prison_Rank3_ViceDirecteur = nbt.getDouble("Prison_Rank3_ViceDirecteur");
-			Prison_Rank5_Directeur = nbt.getDouble("Prison_Rank5_Directeur");
 		}
 
 		@Override
@@ -468,9 +468,13 @@ public class ElyrasirModVariables {
 			nbt.putBoolean("Prison_IsPrison", Prison_IsPrison);
 			nbt.putBoolean("Prison_IsWork", Prison_IsWork);
 			nbt.putBoolean("Prison_Rank1", Prison_Rank1);
+			nbt.putDouble("Prison_Rank1_Gardien", Prison_Rank1_Gardien);
 			nbt.putBoolean("Prison_Rank2", Prison_Rank2);
+			nbt.putDouble("Prison_Rank2_Superviseur", Prison_Rank2_Superviseur);
 			nbt.putBoolean("Prison_Rank3", Prison_Rank3);
+			nbt.putDouble("Prison_Rank3_ViceDirecteur", Prison_Rank3_ViceDirecteur);
 			nbt.putBoolean("Prison_Rank4", Prison_Rank4);
+			nbt.putDouble("Prison_Rank5_Directeur", Prison_Rank5_Directeur);
 			nbt.putDouble("Train_CoffreFort", Train_CoffreFort);
 			nbt.putBoolean("Train_IsTrain", Train_IsTrain);
 			nbt.putBoolean("Train_IsWork", Train_IsWork);
@@ -497,10 +501,6 @@ public class ElyrasirModVariables {
 			nbt.putDouble("Vigneron_Rank4_ViceDirecteur", Vigneron_Rank4_ViceDirecteur);
 			nbt.putBoolean("Vigneron_Rank5", Vigneron_Rank5);
 			nbt.putDouble("Vigneron_Rank5_Directeur", Vigneron_Rank5_Directeur);
-			nbt.putDouble("Prison_Rank1_Gardien", Prison_Rank1_Gardien);
-			nbt.putDouble("Prison_Rank2_Superviseur", Prison_Rank2_Superviseur);
-			nbt.putDouble("Prison_Rank3_ViceDirecteur", Prison_Rank3_ViceDirecteur);
-			nbt.putDouble("Prison_Rank5_Directeur", Prison_Rank5_Directeur);
 			return nbt;
 		}
 
