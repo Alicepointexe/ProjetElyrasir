@@ -1,13 +1,25 @@
 package elyrasir.client.gui;
 
+import net.minecraft.world.level.Level;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.entity.player.Inventory;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.network.chat.Component;
+import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
+import net.minecraft.client.gui.components.ImageButton;
+import net.minecraft.client.gui.GuiGraphics;
+
+import java.util.HashMap;
+
+import elyrasir.world.inventory.MainMenu;
+
+import com.mojang.blaze3d.systems.RenderSystem;
+
 public class MainScreen extends AbstractContainerScreen<MainMenu> {
-
 	private final static HashMap<String, Object> guistate = MainMenu.guistate;
-
 	private final Level world;
 	private final int x, y, z;
 	private final Player entity;
-
 	ImageButton imagebutton_large2;
 	ImageButton imagebutton_large21;
 	ImageButton imagebutton_large22;
@@ -29,11 +41,8 @@ public class MainScreen extends AbstractContainerScreen<MainMenu> {
 	@Override
 	public void render(GuiGraphics guiGraphics, int mouseX, int mouseY, float partialTicks) {
 		this.renderBackground(guiGraphics);
-
 		super.render(guiGraphics, mouseX, mouseY, partialTicks);
-
 		this.renderTooltip(guiGraphics, mouseX, mouseY);
-
 	}
 
 	@Override
@@ -67,7 +76,6 @@ public class MainScreen extends AbstractContainerScreen<MainMenu> {
 			this.minecraft.player.closeContainer();
 			return true;
 		}
-
 		return super.keyPressed(key, b, c);
 	}
 
@@ -95,43 +103,29 @@ public class MainScreen extends AbstractContainerScreen<MainMenu> {
 	@Override
 	public void init() {
 		super.init();
-
 		imagebutton_large2 = new ImageButton(this.leftPos + 24, this.topPos + 33, 228, 20, 0, 0, 20, new ResourceLocation("elyrasir:textures/screens/atlas/imagebutton_large2.png"), 228, 40, e -> {
 		});
-
 		guistate.put("button:imagebutton_large2", imagebutton_large2);
 		this.addRenderableWidget(imagebutton_large2);
-
 		imagebutton_large21 = new ImageButton(this.leftPos + 24, this.topPos + 60, 228, 20, 0, 0, 20, new ResourceLocation("elyrasir:textures/screens/atlas/imagebutton_large21.png"), 228, 40, e -> {
 		});
-
 		guistate.put("button:imagebutton_large21", imagebutton_large21);
 		this.addRenderableWidget(imagebutton_large21);
-
 		imagebutton_large22 = new ImageButton(this.leftPos + 24, this.topPos + 87, 228, 20, 0, 0, 20, new ResourceLocation("elyrasir:textures/screens/atlas/imagebutton_large22.png"), 228, 40, e -> {
 		});
-
 		guistate.put("button:imagebutton_large22", imagebutton_large22);
 		this.addRenderableWidget(imagebutton_large22);
-
 		imagebutton_large23 = new ImageButton(this.leftPos + 24, this.topPos + 114, 228, 20, 0, 0, 20, new ResourceLocation("elyrasir:textures/screens/atlas/imagebutton_large23.png"), 228, 40, e -> {
 		});
-
 		guistate.put("button:imagebutton_large23", imagebutton_large23);
 		this.addRenderableWidget(imagebutton_large23);
-
 		imagebutton_large24 = new ImageButton(this.leftPos + 24, this.topPos + 141, 228, 20, 0, 0, 20, new ResourceLocation("elyrasir:textures/screens/atlas/imagebutton_large24.png"), 228, 40, e -> {
 		});
-
 		guistate.put("button:imagebutton_large24", imagebutton_large24);
 		this.addRenderableWidget(imagebutton_large24);
-
 		imagebutton_large25 = new ImageButton(this.leftPos + 24, this.topPos + 168, 228, 20, 0, 0, 20, new ResourceLocation("elyrasir:textures/screens/atlas/imagebutton_large25.png"), 228, 40, e -> {
 		});
-
 		guistate.put("button:imagebutton_large25", imagebutton_large25);
 		this.addRenderableWidget(imagebutton_large25);
-
 	}
-
 }

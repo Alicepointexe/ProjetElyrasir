@@ -3313,30 +3313,10 @@
       "path": "~/Banque/procedure"
     },
     {
-      "name": "Checkfirstlogin",
-      "type": "procedure",
-      "sortid": 198,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "checkfirstlogin",
-      "metadata": {
-        "files": [
-          "src/main/java/elyrasir/procedures/CheckfirstloginProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/Main/Procedures"
-    },
-    {
       "name": "CkeckVariable",
       "type": "command",
       "sortid": 198,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "ckeck_variable",
       "metadata": {
@@ -3345,19 +3325,6 @@
         ]
       },
       "path": "~/Main/Commandes"
-    },
-    {
-      "name": "Wwe",
-      "type": "code",
-      "sortid": 200,
-      "compiles": true,
-      "locked_code": true,
-      "registry_name": "wwe",
-      "metadata": {
-        "files": [
-          "src/main/java/elyrasir/Wwe.java"
-        ]
-      }
     },
     {
       "name": "Main",
@@ -3373,6 +3340,26 @@
         ]
       },
       "path": "~/JobsLegaux/Police/GUI"
+    },
+    {
+      "name": "CheckFirstLogin",
+      "type": "procedure",
+      "sortid": 200,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "check_first_login",
+      "metadata": {
+        "files": [
+          "src/main/java/elyrasir/procedures/CheckFirstLoginProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Main/procedures"
     }
   ],
   "variable_elements": [
@@ -3926,7 +3913,7 @@
       "name": "Police_Rank5_Capitaine",
       "type": "logic",
       "scope": "map",
-      "value": "0"
+      "value": "false"
     },
     {
       "name": "Police_Rank6",
@@ -3998,7 +3985,7 @@
       "name": "Train_IsWork",
       "type": "logic",
       "scope": "map",
-      "value": "0"
+      "value": "false"
     },
     {
       "name": "Train_Rank2",
@@ -4148,37 +4135,37 @@
       "name": "Vigneron_Rank5_Directeur",
       "type": "number",
       "scope": "map",
-      "value": "false"
+      "value": "0.0"
     },
     {
       "name": "Eleveur_Rank2_Logisticien",
       "type": "number",
       "scope": "map",
-      "value": "false"
+      "value": "0.0"
     },
     {
       "name": "Train_Rank1_Conducteur",
       "type": "number",
       "scope": "map",
-      "value": "false"
+      "value": "0.0"
     },
     {
       "name": "Police_Rank5",
       "type": "number",
       "scope": "map",
-      "value": "false"
+      "value": "0.0"
     },
     {
       "name": "Train_Rank1",
       "type": "logic",
       "scope": "map",
-      "value": "0"
+      "value": "false"
     },
     {
       "name": "Mineur_Rank4_ViceDirecteur",
       "type": "number",
       "scope": "map",
-      "value": "false"
+      "value": "0.0"
     }
   ],
   "sound_elements": [],
@@ -4459,6 +4446,10 @@
           },
           {
             "name": "Tab",
+            "children": []
+          },
+          {
+            "name": "procedures",
             "children": []
           }
         ]

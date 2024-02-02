@@ -5,6 +5,6 @@
     "commandName": "ckeckvariable",
     "type": "STANDARD",
     "permissionLevel": "4",
-    "argsxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"args_start\" deletable=\"false\" x=\"89\" y=\"42\"><next><block type=\"call_procedure\"><field name=\"procedure\"></field></block></next></block></xml>"
+    "argsxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"args_start\" deletable=\"false\" x=\"499\" y=\"22\"></block></xml>"
   }
 }

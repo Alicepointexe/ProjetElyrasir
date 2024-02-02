@@ -178,7 +178,7 @@ public class ElyrasirModVariables {
 		public boolean Police_Rank3_Lieutenant = false;
 		public double Police_Rank4 = 0;
 		public boolean Police_Rank4_Enqueteur = false;
-		public boolean Police_Rank5_Capitaine = 0;
+		public boolean Police_Rank5_Capitaine = false;
 		public double Police_Rank6 = 0;
 		public boolean Police_Rank6_Commandant = false;
 		public double Prison_CoffreFort = 0;
@@ -190,7 +190,7 @@ public class ElyrasirModVariables {
 		public boolean Prison_Rank4 = false;
 		public double Train_CoffreFort = 0;
 		public boolean Train_IsTrain = false;
-		public boolean Train_IsWork = 0;
+		public boolean Train_IsWork = false;
 		public boolean Train_Rank2 = false;
 		public double Train_Rank2_Controleur = 0;
 		public boolean Train_Rank3 = false;
@@ -215,12 +215,12 @@ public class ElyrasirModVariables {
 		public double Prison_Rank2_Superviseur = 0;
 		public double Prison_Rank3_ViceDirecteur = 0;
 		public double Prison_Rank5_Directeur = 0;
-		public double Vigneron_Rank5_Directeur = false;
-		public double Eleveur_Rank2_Logisticien = false;
-		public double Train_Rank1_Conducteur = false;
-		public double Police_Rank5 = false;
-		public boolean Train_Rank1 = 0;
-		public double Mineur_Rank4_ViceDirecteur = false;
+		public double Vigneron_Rank5_Directeur = 0.0;
+		public double Eleveur_Rank2_Logisticien = 0.0;
+		public double Train_Rank1_Conducteur = 0.0;
+		public double Police_Rank5 = 0.0;
+		public boolean Train_Rank1 = false;
+		public double Mineur_Rank4_ViceDirecteur = 0.0;
 
 		public static MapVariables load(CompoundTag tag) {
 			MapVariables data = new MapVariables();
