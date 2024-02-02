@@ -1,0 +1,259 @@
+{
+  "_fv": 57,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 320,
+    "height": 200,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_ordinateur_des_forces_de_lordre",
+          "text": {
+            "fixedValue": "Ordinateur des forces de l'ordre"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 129,
+          "y": 26
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "button_2_pressed_blue.png",
+          "use1Xscale": false,
+          "x": 60,
+          "y": 53
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "button_2_pressed_cyan.png",
+          "use1Xscale": false,
+          "x": 60,
+          "y": 80
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "button_2_pressed_blue.png",
+          "use1Xscale": false,
+          "x": 60,
+          "y": 107
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "button_2_pressed_cyan.png",
+          "use1Xscale": false,
+          "x": 60,
+          "y": 134
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "button_2_pressed_blue.png",
+          "use1Xscale": false,
+          "x": 60,
+          "y": 161
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "button_2_pressed_cyan.png",
+          "use1Xscale": false,
+          "x": 60,
+          "y": 188
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "custom_pattern_3.png",
+          "use1Xscale": false,
+          "x": 60,
+          "y": 26
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "custom_pattern_3.png",
+          "use1Xscale": false,
+          "x": 348,
+          "y": 26
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_large2",
+          "image": "large2.png",
+          "hoveredImage": "",
+          "x": 78,
+          "y": 53
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_large21",
+          "image": "large2.png",
+          "hoveredImage": "",
+          "x": 78,
+          "y": 80
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_large22",
+          "image": "large2.png",
+          "hoveredImage": "",
+          "x": 78,
+          "y": 107
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_large23",
+          "image": "large2.png",
+          "hoveredImage": "",
+          "x": 78,
+          "y": 134
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_large24",
+          "image": "large2.png",
+          "hoveredImage": "",
+          "x": 78,
+          "y": 161
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_large25",
+          "image": "large2.png",
+          "hoveredImage": "",
+          "x": 78,
+          "y": 188
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_gestion_des_dossiers",
+          "text": {
+            "fixedValue": "Gestions des dossiers d'affaire"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 82,
+          "y": 112
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_gestion_de_la_logistique",
+          "text": {
+            "fixedValue": "Gestion des dossiers de plainte"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 82,
+          "y": 58
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_gestion_du_recrutement",
+          "text": {
+            "fixedValue": "Gestion des casiers judiciaire"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 82,
+          "y": 85
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_gestion_des_dossiers1",
+          "text": {
+            "fixedValue": "Gestion des raports d'intervention"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 82,
+          "y": 139
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_gestion_de_la_logistique1",
+          "text": {
+            "fixedValue": "Gestion de la logistique"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 82,
+          "y": 166
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_gestion_du_personnel",
+          "text": {
+            "fixedValue": "Gestion du personnel"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 82,
+          "y": 193
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}
