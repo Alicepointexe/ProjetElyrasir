@@ -3311,6 +3311,20 @@
         ]
       },
       "path": "~/Banque/procedure"
+    },
+    {
+      "name": "CkeckVariable",
+      "type": "command",
+      "sortid": 198,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ckeck_variable",
+      "metadata": {
+        "files": [
+          "src/main/java/elyrasir/command/CkeckVariableCommand.java"
+        ]
+      },
+      "path": "~/Main/Commandes"
     }
   ],
   "variable_elements": [
@@ -4360,6 +4374,10 @@
           },
           {
             "name": "Craft",
+            "children": []
+          },
+          {
+            "name": "Commandes",
             "children": []
           }
         ]
