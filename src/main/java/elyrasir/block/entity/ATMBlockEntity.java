@@ -32,7 +32,7 @@ import elyrasir.world.inventory.BaseAtmMenu;
 import elyrasir.init.ElyrasirModBlockEntities;
 
 public class ATMBlockEntity extends RandomizableContainerBlockEntity implements WorldlyContainer {
-	private NonNullList<ItemStack> stacks = NonNullList.<ItemStack>withSize(2, ItemStack.EMPTY);
+	private NonNullList<ItemStack> stacks = NonNullList.<ItemStack>withSize(9, ItemStack.EMPTY);
 	private final LazyOptional<? extends IItemHandler>[] handlers = SidedInvWrapper.create(this, Direction.values());
 
 	public ATMBlockEntity(BlockPos position, BlockState state) {

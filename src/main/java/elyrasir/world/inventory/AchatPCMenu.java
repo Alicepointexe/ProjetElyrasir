@@ -43,7 +43,7 @@ public class AchatPCMenu extends AbstractContainerMenu implements Supplier<Map<I
 		super(ElyrasirModMenus.ACHAT_PC.get(), id);
 		this.entity = inv.player;
 		this.world = inv.player.level();
-		this.internal = new ItemStackHandler(2);
+		this.internal = new ItemStackHandler(9);
 		BlockPos pos = null;
 		if (extraData != null) {
 			pos = extraData.readBlockPos();
@@ -86,8 +86,64 @@ public class AchatPCMenu extends AbstractContainerMenu implements Supplier<Map<I
 				return Items.DIAMOND == stack.getItem();
 			}
 		}));
-		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 9, 156) {
+		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, -67, 144) {
 			private final int slot = 1;
+
+			@Override
+			public boolean mayPlace(ItemStack stack) {
+				return false;
+			}
+		}));
+		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, -44, 144) {
+			private final int slot = 2;
+
+			@Override
+			public boolean mayPlace(ItemStack stack) {
+				return false;
+			}
+		}));
+		this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, -21, 144) {
+			private final int slot = 3;
+
+			@Override
+			public boolean mayPlace(ItemStack stack) {
+				return false;
+			}
+		}));
+		this.customSlots.put(4, this.addSlot(new SlotItemHandler(internal, 4, -67, 166) {
+			private final int slot = 4;
+
+			@Override
+			public boolean mayPlace(ItemStack stack) {
+				return false;
+			}
+		}));
+		this.customSlots.put(5, this.addSlot(new SlotItemHandler(internal, 5, -21, 166) {
+			private final int slot = 5;
+
+			@Override
+			public boolean mayPlace(ItemStack stack) {
+				return false;
+			}
+		}));
+		this.customSlots.put(6, this.addSlot(new SlotItemHandler(internal, 6, -67, 188) {
+			private final int slot = 6;
+
+			@Override
+			public boolean mayPlace(ItemStack stack) {
+				return false;
+			}
+		}));
+		this.customSlots.put(7, this.addSlot(new SlotItemHandler(internal, 7, -44, 188) {
+			private final int slot = 7;
+
+			@Override
+			public boolean mayPlace(ItemStack stack) {
+				return false;
+			}
+		}));
+		this.customSlots.put(8, this.addSlot(new SlotItemHandler(internal, 8, -21, 188) {
+			private final int slot = 8;
 
 			@Override
 			public boolean mayPlace(ItemStack stack) {
@@ -121,16 +177,16 @@ public class AchatPCMenu extends AbstractContainerMenu implements Supplier<Map<I
 		if (slot != null && slot.hasItem()) {
 			ItemStack itemstack1 = slot.getItem();
 			itemstack = itemstack1.copy();
-			if (index < 2) {
-				if (!this.moveItemStackTo(itemstack1, 2, this.slots.size(), true))
+			if (index < 9) {
+				if (!this.moveItemStackTo(itemstack1, 9, this.slots.size(), true))
 					return ItemStack.EMPTY;
 				slot.onQuickCraft(itemstack1, itemstack);
-			} else if (!this.moveItemStackTo(itemstack1, 0, 2, false)) {
-				if (index < 2 + 27) {
-					if (!this.moveItemStackTo(itemstack1, 2 + 27, this.slots.size(), true))
+			} else if (!this.moveItemStackTo(itemstack1, 0, 9, false)) {
+				if (index < 9 + 27) {
+					if (!this.moveItemStackTo(itemstack1, 9 + 27, this.slots.size(), true))
 						return ItemStack.EMPTY;
 				} else {
-					if (!this.moveItemStackTo(itemstack1, 2, 2 + 27, false))
+					if (!this.moveItemStackTo(itemstack1, 9, 9 + 27, false))
 						return ItemStack.EMPTY;
 				}
 				return ItemStack.EMPTY;

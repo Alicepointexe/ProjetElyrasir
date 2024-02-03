@@ -177,6 +177,7 @@ public class ElyrasirModTabs {
 				tabData.accept(ElyrasirModItems.CINQUANTEPC.get());
 				tabData.accept(ElyrasirModItems.DEUXCENTPC.get());
 				tabData.accept(ElyrasirModItems.CINQCENTPC.get());
+				tabData.accept(ElyrasirModItems.IDENTITY.get());
 			})
 
 					.build());

@@ -3219,6 +3219,10 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
@@ -3360,6 +3364,21 @@
         ]
       },
       "path": "~/Main/procedures"
+    },
+    {
+      "name": "Identity",
+      "type": "item",
+      "sortid": 201,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "identity",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/elyrasir/models/item/identity.json",
+          "src/main/java/elyrasir/item/IdentityItem.java"
+        ]
+      },
+      "path": "~/Main/Item"
     }
   ],
   "variable_elements": [
@@ -4166,6 +4185,18 @@
       "type": "number",
       "scope": "map",
       "value": "0.0"
+    },
+    {
+      "name": "Banque_rate_D_PC",
+      "type": "number",
+      "scope": "map",
+      "value": "3318.0"
+    },
+    {
+      "name": "Banque_rate_D_PC_temp",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
     }
   ],
   "sound_elements": [],
@@ -4347,6 +4378,7 @@
       "block.elyrasir.orangeconcretebrickslab": "Orange concrete brick slab",
       "gui.elyrasir.base_atm.label_41": "4",
       "block.elyrasir.cyanconcretetiles": "Cyan concrete tiles",
+      "item.elyrasir.identity": "Identity",
       "block.elyrasir.orangeconcretetilesslab": "Orange concrete tiles slab",
       "gui.elyrasir.main.label_gestion_du_personnel": "Gestion du personnel",
       "block.elyrasir.limeconcretebricks": "Lime concrete bricks",

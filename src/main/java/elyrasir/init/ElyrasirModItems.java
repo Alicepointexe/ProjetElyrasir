@@ -14,6 +14,7 @@ import net.minecraft.world.item.BlockItem;
 
 import elyrasir.item.VingtpcItem;
 import elyrasir.item.UnpcItem;
+import elyrasir.item.IdentityItem;
 import elyrasir.item.HarponTactique4Item;
 import elyrasir.item.HarponTactique3Item;
 import elyrasir.item.HarponTactique2Item;
@@ -198,6 +199,7 @@ public class ElyrasirModItems {
 	public static final RegistryObject<Item> DEUXCENTPC = REGISTRY.register("deuxcentpc", () -> new DeuxcentpcItem());
 	public static final RegistryObject<Item> CINQCENTPC = REGISTRY.register("cinqcentpc", () -> new CinqcentpcItem());
 	public static final RegistryObject<Item> ATM = block(ElyrasirModBlocks.ATM);
+	public static final RegistryObject<Item> IDENTITY = REGISTRY.register("identity", () -> new IdentityItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

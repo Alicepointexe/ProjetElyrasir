@@ -221,6 +221,8 @@ public class ElyrasirModVariables {
 		public double Police_Rank5 = 0.0;
 		public boolean Train_Rank1 = false;
 		public double Mineur_Rank4_ViceDirecteur = 0.0;
+		public double Banque_rate_D_PC = 3318.0;
+		public double Banque_rate_D_PC_temp = 0;
 
 		public static MapVariables load(CompoundTag tag) {
 			MapVariables data = new MapVariables();
@@ -363,6 +365,8 @@ public class ElyrasirModVariables {
 			Police_Rank5 = nbt.getDouble("Police_Rank5");
 			Train_Rank1 = nbt.getBoolean("Train_Rank1");
 			Mineur_Rank4_ViceDirecteur = nbt.getDouble("Mineur_Rank4_ViceDirecteur");
+			Banque_rate_D_PC = nbt.getDouble("Banque_rate_D_PC");
+			Banque_rate_D_PC_temp = nbt.getDouble("Banque_rate_D_PC_temp");
 		}
 
 		@Override
@@ -501,6 +505,8 @@ public class ElyrasirModVariables {
 			nbt.putDouble("Police_Rank5", Police_Rank5);
 			nbt.putBoolean("Train_Rank1", Train_Rank1);
 			nbt.putDouble("Mineur_Rank4_ViceDirecteur", Mineur_Rank4_ViceDirecteur);
+			nbt.putDouble("Banque_rate_D_PC", Banque_rate_D_PC);
+			nbt.putDouble("Banque_rate_D_PC_temp", Banque_rate_D_PC_temp);
 			return nbt;
 		}
 
