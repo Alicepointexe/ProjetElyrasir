@@ -221,7 +221,7 @@ public class ElyrasirModVariables {
 		public double Police_Rank5 = 0.0;
 		public boolean Train_Rank1 = false;
 		public double Mineur_Rank4_ViceDirecteur = 0.0;
-		public double Banque_rate_D_PC = 3318.0;
+		public double Banque_rate_D_PC = 3564.0;
 		public double Banque_rate_D_PC_temp = 0;
 
 		public static MapVariables load(CompoundTag tag) {
