@@ -103,6 +103,9 @@
           "name": "imagebutton_large2",
           "image": "large2.png",
           "hoveredImage": "",
+          "onClick": {
+            "name": "MainToPlainte"
+          },
           "x": 78,
           "y": 53
         }

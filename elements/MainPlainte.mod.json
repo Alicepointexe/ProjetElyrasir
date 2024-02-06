@@ -1,0 +1,201 @@
+{
+  "_fv": 57,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 320,
+    "height": 200,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": false,
+    "doesPauseGame": true,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "custom_pattern_3.png",
+          "use1Xscale": false,
+          "x": 60,
+          "y": 26
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "custom_pattern_3.png",
+          "use1Xscale": false,
+          "x": 348,
+          "y": 26
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_menu_de_depot_de_plainte",
+          "text": {
+            "fixedValue": "Menu de dépôt de plainte"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 150,
+          "y": 26
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "button_2_pressed_blue.png",
+          "use1Xscale": false,
+          "x": 60,
+          "y": 53
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "button_2_pressed_cyan.png",
+          "use1Xscale": false,
+          "x": 60,
+          "y": 80
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "button_2_pressed_blue.png",
+          "use1Xscale": false,
+          "x": 60,
+          "y": 107
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "button_2_pressed_cyan.png",
+          "use1Xscale": false,
+          "x": 60,
+          "y": 134
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_ouvrir_un_depot_plainte",
+          "text": {
+            "fixedValue": "Ouvrir un dépôt plainte"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 83,
+          "y": 58
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_modifier_un_depot_de_plainte",
+          "text": {
+            "fixedValue": "Modifier un dépôt de plainte"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 83,
+          "y": 85
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_consulter_un_depot_de_plainte",
+          "text": {
+            "fixedValue": "Consulter un dépôt de plainte"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 83,
+          "y": 112
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_supprimer_un_depot_de_plainte",
+          "text": {
+            "fixedValue": "Supprimer un dépôt de plainte"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 83,
+          "y": 139
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_large2",
+          "image": "large2.png",
+          "hoveredImage": "",
+          "x": 78,
+          "y": 53
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_large21",
+          "image": "large2.png",
+          "hoveredImage": "",
+          "x": 78,
+          "y": 80
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_large22",
+          "image": "large2.png",
+          "hoveredImage": "",
+          "x": 78,
+          "y": 107
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_large23",
+          "image": "large2.png",
+          "hoveredImage": "",
+          "x": 78,
+          "y": 134
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_button_change_1_highlight",
+          "image": "button_change_1_highlight.png",
+          "hoveredImage": "",
+          "x": 348,
+          "y": 193
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

@@ -1,7 +1,16 @@
 {
   "variants": {
-    "": {
+    "axis=x": {
+      "model": "elyrasir:block/ordinateur_police",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
       "model": "elyrasir:block/ordinateur_police"
+    },
+    "axis=z": {
+      "model": "elyrasir:block/ordinateur_police",
+      "x": 90
     }
   }
 }
