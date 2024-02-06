@@ -200,6 +200,7 @@ public class ElyrasirModItems {
 	public static final RegistryObject<Item> CINQCENTPC = REGISTRY.register("cinqcentpc", () -> new CinqcentpcItem());
 	public static final RegistryObject<Item> ATM = block(ElyrasirModBlocks.ATM);
 	public static final RegistryObject<Item> IDENTITY = REGISTRY.register("identity", () -> new IdentityItem());
+	public static final RegistryObject<Item> ORDINATEUR_POLICE = block(ElyrasirModBlocks.ORDINATEUR_POLICE);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

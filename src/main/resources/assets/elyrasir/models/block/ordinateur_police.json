@@ -1,0 +1,13 @@
+{
+  "parent": "elyrasir:custom/ordinateur",
+  "textures": {
+    "all": "elyrasir:block/gray_concrete_big_square",
+    "particle": "elyrasir:block/gray_concrete_big_square",
+    "0": "elyrasir:block/black_concrete",
+    "1": "elyrasir:block/gray_concrete",
+    "3": "elyrasir:block/lime_concrete",
+    "5": "elyrasir:block/white_concrete",
+    "6": "elyrasir:block/light_gray_concrete"
+  },
+  "render_type": "solid"
+}

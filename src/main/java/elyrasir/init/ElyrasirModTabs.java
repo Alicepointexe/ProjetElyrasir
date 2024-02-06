@@ -166,6 +166,7 @@ public class ElyrasirModTabs {
 				tabData.accept(ElyrasirModItems.HARPON_TACTIQUE_0.get());
 				tabData.accept(ElyrasirModItems.HARPON_POL_0.get());
 				tabData.accept(ElyrasirModBlocks.ATM.get().asItem());
+				tabData.accept(ElyrasirModBlocks.ORDINATEUR_POLICE.get().asItem());
 			}).withSearchBar().build());
 	public static final RegistryObject<CreativeModeTab> POMME_ITEMS = REGISTRY.register("pomme_items",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.elyrasir.pomme_items")).icon(() -> new ItemStack(ElyrasirModItems.UNPC.get())).displayItems((parameters, tabData) -> {
