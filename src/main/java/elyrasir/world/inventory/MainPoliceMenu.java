@@ -22,7 +22,7 @@ import java.util.HashMap;
 
 import elyrasir.init.ElyrasirModMenus;
 
-public class MainMenu extends AbstractContainerMenu implements Supplier<Map<Integer, Slot>> {
+public class MainPoliceMenu extends AbstractContainerMenu implements Supplier<Map<Integer, Slot>> {
 	public final static HashMap<String, Object> guistate = new HashMap<>();
 	public final Level world;
 	public final Player entity;
@@ -35,8 +35,8 @@ public class MainMenu extends AbstractContainerMenu implements Supplier<Map<Inte
 	private Entity boundEntity = null;
 	private BlockEntity boundBlockEntity = null;
 
-	public MainMenu(int id, Inventory inv, FriendlyByteBuf extraData) {
-		super(ElyrasirModMenus.MAIN.get(), id);
+	public MainPoliceMenu(int id, Inventory inv, FriendlyByteBuf extraData) {
+		super(ElyrasirModMenus.MAIN_POLICE.get(), id);
 		this.entity = inv.player;
 		this.world = inv.player.level();
 		this.internal = new ItemStackHandler(0);

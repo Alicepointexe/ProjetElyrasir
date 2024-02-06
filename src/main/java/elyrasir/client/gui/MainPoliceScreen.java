@@ -11,12 +11,12 @@ import net.minecraft.client.gui.GuiGraphics;
 
 import java.util.HashMap;
 
-import elyrasir.world.inventory.MainMenu;
+import elyrasir.world.inventory.MainPoliceMenu;
 
 import com.mojang.blaze3d.systems.RenderSystem;
 
-public class MainScreen extends AbstractContainerScreen<MainMenu> {
-	private final static HashMap<String, Object> guistate = MainMenu.guistate;
+public class MainPoliceScreen extends AbstractContainerScreen<MainPoliceMenu> {
+	private final static HashMap<String, Object> guistate = MainPoliceMenu.guistate;
 	private final Level world;
 	private final int x, y, z;
 	private final Player entity;
@@ -27,7 +27,7 @@ public class MainScreen extends AbstractContainerScreen<MainMenu> {
 	ImageButton imagebutton_large24;
 	ImageButton imagebutton_large25;
 
-	public MainScreen(MainMenu container, Inventory inventory, Component text) {
+	public MainPoliceScreen(MainPoliceMenu container, Inventory inventory, Component text) {
 		super(container, inventory, text);
 		this.world = container.world;
 		this.x = container.x;
@@ -86,13 +86,13 @@ public class MainScreen extends AbstractContainerScreen<MainMenu> {
 
 	@Override
 	protected void renderLabels(GuiGraphics guiGraphics, int mouseX, int mouseY) {
-		guiGraphics.drawString(this.font, Component.translatable("gui.elyrasir.main.label_ordinateur_des_forces_de_lordre"), 75, 6, -1, false);
-		guiGraphics.drawString(this.font, Component.translatable("gui.elyrasir.main.label_gestion_des_dossiers"), 28, 92, -1, false);
-		guiGraphics.drawString(this.font, Component.translatable("gui.elyrasir.main.label_gestion_de_la_logistique"), 28, 38, -1, false);
-		guiGraphics.drawString(this.font, Component.translatable("gui.elyrasir.main.label_gestion_du_recrutement"), 28, 65, -1, false);
-		guiGraphics.drawString(this.font, Component.translatable("gui.elyrasir.main.label_gestion_des_dossiers1"), 28, 119, -1, false);
-		guiGraphics.drawString(this.font, Component.translatable("gui.elyrasir.main.label_gestion_de_la_logistique1"), 28, 146, -1, false);
-		guiGraphics.drawString(this.font, Component.translatable("gui.elyrasir.main.label_gestion_du_personnel"), 28, 173, -1, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.elyrasir.main_police.label_ordinateur_des_forces_de_lordre"), 75, 6, -1, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.elyrasir.main_police.label_gestion_des_dossiers"), 28, 92, -1, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.elyrasir.main_police.label_gestion_de_la_logistique"), 28, 38, -1, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.elyrasir.main_police.label_gestion_du_recrutement"), 28, 65, -1, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.elyrasir.main_police.label_gestion_des_dossiers1"), 28, 119, -1, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.elyrasir.main_police.label_gestion_de_la_logistique1"), 28, 146, -1, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.elyrasir.main_police.label_gestion_du_personnel"), 28, 173, -1, false);
 	}
 
 	@Override
