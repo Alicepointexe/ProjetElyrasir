@@ -13,6 +13,8 @@ import net.minecraft.client.gui.screens.MenuScreens;
 
 import elyrasir.client.gui.MainPoliceScreen;
 import elyrasir.client.gui.MainPlainteScreen;
+import elyrasir.client.gui.DepotPlainteScreen;
+import elyrasir.client.gui.ConsultPlainteScreen;
 import elyrasir.client.gui.BaseAtmScreen;
 import elyrasir.client.gui.AchatPCScreen;
 import elyrasir.client.gui.AchatCardScreen;
@@ -27,6 +29,8 @@ public class ElyrasirModScreens {
 			MenuScreens.register(ElyrasirModMenus.ACHAT_CARD.get(), AchatCardScreen::new);
 			MenuScreens.register(ElyrasirModMenus.MAIN_POLICE.get(), MainPoliceScreen::new);
 			MenuScreens.register(ElyrasirModMenus.MAIN_PLAINTE.get(), MainPlainteScreen::new);
+			MenuScreens.register(ElyrasirModMenus.DEPOT_PLAINTE.get(), DepotPlainteScreen::new);
+			MenuScreens.register(ElyrasirModMenus.CONSULT_PLAINTE.get(), ConsultPlainteScreen::new);
 		});
 	}
 }

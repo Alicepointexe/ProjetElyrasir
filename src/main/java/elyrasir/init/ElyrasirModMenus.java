@@ -13,6 +13,8 @@ import net.minecraft.world.inventory.MenuType;
 
 import elyrasir.world.inventory.MainPoliceMenu;
 import elyrasir.world.inventory.MainPlainteMenu;
+import elyrasir.world.inventory.DepotPlainteMenu;
+import elyrasir.world.inventory.ConsultPlainteMenu;
 import elyrasir.world.inventory.BaseAtmMenu;
 import elyrasir.world.inventory.AchatPCMenu;
 import elyrasir.world.inventory.AchatCardMenu;
@@ -26,4 +28,6 @@ public class ElyrasirModMenus {
 	public static final RegistryObject<MenuType<AchatCardMenu>> ACHAT_CARD = REGISTRY.register("achat_card", () -> IForgeMenuType.create(AchatCardMenu::new));
 	public static final RegistryObject<MenuType<MainPoliceMenu>> MAIN_POLICE = REGISTRY.register("main_police", () -> IForgeMenuType.create(MainPoliceMenu::new));
 	public static final RegistryObject<MenuType<MainPlainteMenu>> MAIN_PLAINTE = REGISTRY.register("main_plainte", () -> IForgeMenuType.create(MainPlainteMenu::new));
+	public static final RegistryObject<MenuType<DepotPlainteMenu>> DEPOT_PLAINTE = REGISTRY.register("depot_plainte", () -> IForgeMenuType.create(DepotPlainteMenu::new));
+	public static final RegistryObject<MenuType<ConsultPlainteMenu>> CONSULT_PLAINTE = REGISTRY.register("consult_plainte", () -> IForgeMenuType.create(ConsultPlainteMenu::new));
 }

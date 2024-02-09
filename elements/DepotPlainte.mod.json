@@ -1,0 +1,287 @@
+{
+  "_fv": 57,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 320,
+    "height": 200,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": false,
+    "doesPauseGame": true,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "custom_pattern_3.png",
+          "use1Xscale": false,
+          "x": 60,
+          "y": 26
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "custom_pattern_3.png",
+          "use1Xscale": false,
+          "x": 348,
+          "y": 26
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_menu_de_depot_de_plainte",
+          "text": {
+            "fixedValue": "Menu de dépôt de plainte"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 150,
+          "y": 26
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "button_2_pressed_blue.png",
+          "use1Xscale": false,
+          "x": 60,
+          "y": 55
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "button_2_pressed_cyan.png",
+          "use1Xscale": false,
+          "x": 60,
+          "y": 76
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "button_2_pressed_blue.png",
+          "use1Xscale": false,
+          "x": 60,
+          "y": 98
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "button_2_pressed_cyan.png",
+          "use1Xscale": false,
+          "x": 60,
+          "y": 178
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_button_change_1_highlight",
+          "image": "button_change_1_highlight.png",
+          "hoveredImage": "",
+          "onClick": {
+            "name": "MainToPlainte"
+          },
+          "x": 348,
+          "y": 193
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "button1_small.png",
+          "use1Xscale": false,
+          "x": 78,
+          "y": 53
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "button1_small.png",
+          "use1Xscale": false,
+          "x": 78,
+          "y": 75
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "01/Janvier/2024",
+          "name": "DatePlainte",
+          "width": 120,
+          "height": 20,
+          "x": 158,
+          "y": 53
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "Jemep Laint",
+          "name": "NomPlainte",
+          "width": 120,
+          "height": 20,
+          "x": 158,
+          "y": 75
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "button1_small.png",
+          "use1Xscale": false,
+          "x": 78,
+          "y": 97
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "Introduire Ici la plainte",
+          "name": "MainPlainte",
+          "width": 120,
+          "height": 20,
+          "x": 78,
+          "y": 119
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "button1_small.png",
+          "use1Xscale": false,
+          "x": 78,
+          "y": 176
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_date",
+          "text": {
+            "fixedValue": "Date :"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 83,
+          "y": 58
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_nom_victime",
+          "text": {
+            "fixedValue": "Nom Victime :"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 83,
+          "y": 80
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_motifs",
+          "text": {
+            "fixedValue": "Motifs :"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 83,
+          "y": 102
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_signature_agent",
+          "text": {
+            "fixedValue": "Nom Agent :"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 83,
+          "y": 181
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "Agent Policier",
+          "name": "AgentPlainte",
+          "width": 120,
+          "height": 20,
+          "x": 158,
+          "y": 176
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_large2",
+          "image": "button1_small.png",
+          "hoveredImage": "",
+          "x": 78,
+          "y": 198
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_sauvgarder",
+          "text": {
+            "fixedValue": "Sauvgarder"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 83,
+          "y": 203
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "button_2_pressed_blue.png",
+          "use1Xscale": false,
+          "x": 60,
+          "y": 200
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "button_edit_1.png",
+          "use1Xscale": false,
+          "x": 158,
+          "y": 198
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

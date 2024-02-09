@@ -11,16 +11,16 @@ import net.minecraft.client.gui.GuiGraphics;
 
 import java.util.HashMap;
 
-import elyrasir.world.inventory.MainPlainteMenu;
+import elyrasir.world.inventory.ConsultPlainteMenu;
 
-import elyrasir.network.MainPlainteButtonMessage;
+import elyrasir.network.ConsultPlainteButtonMessage;
 
 import elyrasir.ElyrasirMod;
 
 import com.mojang.blaze3d.systems.RenderSystem;
 
-public class MainPlainteScreen extends AbstractContainerScreen<MainPlainteMenu> {
-	private final static HashMap<String, Object> guistate = MainPlainteMenu.guistate;
+public class ConsultPlainteScreen extends AbstractContainerScreen<ConsultPlainteMenu> {
+	private final static HashMap<String, Object> guistate = ConsultPlainteMenu.guistate;
 	private final Level world;
 	private final int x, y, z;
 	private final Player entity;
@@ -30,7 +30,7 @@ public class MainPlainteScreen extends AbstractContainerScreen<MainPlainteMenu> 
 	ImageButton imagebutton_large23;
 	ImageButton imagebutton_button_change_1_highlight;
 
-	public MainPlainteScreen(MainPlainteMenu container, Inventory inventory, Component text) {
+	public ConsultPlainteScreen(ConsultPlainteMenu container, Inventory inventory, Component text) {
 		super(container, inventory, text);
 		this.world = container.world;
 		this.x = container.x;
@@ -90,11 +90,11 @@ public class MainPlainteScreen extends AbstractContainerScreen<MainPlainteMenu> 
 
 	@Override
 	protected void renderLabels(GuiGraphics guiGraphics, int mouseX, int mouseY) {
-		guiGraphics.drawString(this.font, Component.translatable("gui.elyrasir.main_plainte.label_menu_de_depot_de_plainte"), 96, 6, -1, false);
-		guiGraphics.drawString(this.font, Component.translatable("gui.elyrasir.main_plainte.label_ouvrir_un_depot_plainte"), 29, 38, -1, false);
-		guiGraphics.drawString(this.font, Component.translatable("gui.elyrasir.main_plainte.label_modifier_un_depot_de_plainte"), 29, 65, -1, false);
-		guiGraphics.drawString(this.font, Component.translatable("gui.elyrasir.main_plainte.label_consulter_un_depot_de_plainte"), 29, 92, -1, false);
-		guiGraphics.drawString(this.font, Component.translatable("gui.elyrasir.main_plainte.label_supprimer_un_depot_de_plainte"), 29, 119, -1, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.elyrasir.consult_plainte.label_menu_de_depot_de_plainte"), 96, 6, -1, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.elyrasir.consult_plainte.label_ouvrir_un_depot_plainte"), 29, 38, -1, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.elyrasir.consult_plainte.label_modifier_un_depot_de_plainte"), 29, 65, -1, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.elyrasir.consult_plainte.label_consulter_un_depot_de_plainte"), 29, 92, -1, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.elyrasir.consult_plainte.label_supprimer_un_depot_de_plainte"), 29, 119, -1, false);
 	}
 
 	@Override
@@ -107,8 +107,8 @@ public class MainPlainteScreen extends AbstractContainerScreen<MainPlainteMenu> 
 		super.init();
 		imagebutton_large2 = new ImageButton(this.leftPos + 24, this.topPos + 33, 228, 20, 0, 0, 20, new ResourceLocation("elyrasir:textures/screens/atlas/imagebutton_large2.png"), 228, 40, e -> {
 			if (true) {
-				ElyrasirMod.PACKET_HANDLER.sendToServer(new MainPlainteButtonMessage(0, x, y, z));
-				MainPlainteButtonMessage.handleButtonAction(entity, 0, x, y, z);
+				ElyrasirMod.PACKET_HANDLER.sendToServer(new ConsultPlainteButtonMessage(0, x, y, z));
+				ConsultPlainteButtonMessage.handleButtonAction(entity, 0, x, y, z);
 			}
 		});
 		guistate.put("button:imagebutton_large2", imagebutton_large2);
@@ -127,8 +127,8 @@ public class MainPlainteScreen extends AbstractContainerScreen<MainPlainteMenu> 
 		this.addRenderableWidget(imagebutton_large23);
 		imagebutton_button_change_1_highlight = new ImageButton(this.leftPos + 294, this.topPos + 173, 20, 20, 0, 0, 20, new ResourceLocation("elyrasir:textures/screens/atlas/imagebutton_button_change_1_highlight.png"), 20, 40, e -> {
 			if (true) {
-				ElyrasirMod.PACKET_HANDLER.sendToServer(new MainPlainteButtonMessage(4, x, y, z));
-				MainPlainteButtonMessage.handleButtonAction(entity, 4, x, y, z);
+				ElyrasirMod.PACKET_HANDLER.sendToServer(new ConsultPlainteButtonMessage(4, x, y, z));
+				ConsultPlainteButtonMessage.handleButtonAction(entity, 4, x, y, z);
 			}
 		});
 		guistate.put("button:imagebutton_button_change_1_highlight", imagebutton_button_change_1_highlight);

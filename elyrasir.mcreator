@@ -3443,6 +3443,7 @@
       "registry_name": "main_plainte",
       "metadata": {
         "files": [
+          "src/main/java/elyrasir/network/MainPlainteButtonMessage.java",
           "src/main/java/elyrasir/client/gui/MainPlainteScreen.java",
           "src/main/java/elyrasir/world/inventory/MainPlainteMenu.java"
         ]
@@ -3520,6 +3521,85 @@
         ]
       },
       "path": "~/JobsLegaux/Police/Procedure"
+    },
+    {
+      "name": "DepotPlainte",
+      "type": "gui",
+      "sortid": 208,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "depot_plainte",
+      "metadata": {
+        "files": [
+          "src/main/java/elyrasir/world/inventory/DepotPlainteMenu.java",
+          "src/main/java/elyrasir/client/gui/DepotPlainteScreen.java",
+          "src/main/java/elyrasir/network/DepotPlainteButtonMessage.java"
+        ]
+      },
+      "path": "~/JobsLegaux/Police/GUI/GUIPlaintes"
+    },
+    {
+      "name": "PlainteToDepot",
+      "type": "procedure",
+      "sortid": 209,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plainte_to_depot",
+      "metadata": {
+        "files": [
+          "src/main/java/elyrasir/procedures/PlainteToDepotProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/JobsLegaux/Police/Procedure"
+    },
+    {
+      "name": "StockagePlainte",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "stockage_plainte",
+      "metadata": {
+        "files": [
+          "src/main/java/elyrasir/StockagePlainte.java"
+        ]
+      }
+    },
+    {
+      "name": "ConsultPlainte",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "consult_plainte",
+      "metadata": {
+        "files": [
+          "src/main/java/elyrasir/network/ConsultPlainteButtonMessage.java",
+          "src/main/java/elyrasir/client/gui/ConsultPlainteScreen.java",
+          "src/main/java/elyrasir/world/inventory/ConsultPlainteMenu.java"
+        ]
+      },
+      "path": "~/JobsLegaux/Police/GUI/GUIPlaintes"
     }
   ],
   "variable_elements": [
@@ -4344,6 +4424,7 @@
   "language_map": {
     "en_us": {
       "gui.elyrasir.main_plainte.label_modifier_un_depot_de_plainte": "Modifier un dépôt de plainte",
+      "gui.elyrasir.depot_plainte.NomPlainte": "Jemep Laint",
       "block.elyrasir.yellowconcretebrickslab": "Yellow concrete brick slab",
       "gui.elyrasir.achat_pc.label_4": "4",
       "gui.elyrasir.achat_pc.label_5": "5",
@@ -4351,21 +4432,23 @@
       "gui.elyrasir.achat_pc.label_2": "2",
       "block.elyrasir.lightbluechisledcreeperconcrete": "Light blue chisled creeper concrete",
       "gui.elyrasir.achat_pc.label_3": "3",
-      "block.elyrasir.brownchisledcreeperconcrete": "Brown chisled creeper concrete",
       "gui.elyrasir.main_police.label_gestion_des_dossiers": "Gestions des dossiers d\u0027affaire",
+      "block.elyrasir.brownchisledcreeperconcrete": "Brown chisled creeper concrete",
       "block.elyrasir.orangeconcretebricks": "Orange concrete bricks",
       "gui.elyrasir.base_atm.label_4": "4",
       "gui.elyrasir.base_atm.label_3": "3",
-      "block.elyrasir.greenchisledskeletonconcrete": "Green chisled skeleton concrete",
       "gui.elyrasir.base_atm.label_2": "2",
-      "block.elyrasir.grayconcretetiles": "Gray concrete tiles",
+      "block.elyrasir.greenchisledskeletonconcrete": "Green chisled skeleton concrete",
       "gui.elyrasir.base_atm.label_1": "1",
+      "block.elyrasir.grayconcretetiles": "Gray concrete tiles",
       "block.elyrasir.limeconcretetilesslab": "Lime concrete tiles slab",
       "gui.elyrasir.base_atm.label_5": "5",
       "gui.elyrasir.main_police.label_gestion_des_dossiers1": "Gestion des raports d\u0027intervention",
       "block.elyrasir.pinkconcretetiles": "Pink concrete tiles",
       "block.elyrasir.whitechisledskeletonconcrete": "White chisled skeleton concrete",
       "block.elyrasir.atm": "ATM",
+      "gui.elyrasir.depot_plainte.AgentPlainte": "Agent Policier",
+      "gui.elyrasir.depot_plainte.label_motifs": "Motifs :",
       "block.elyrasir.blackconcretebigsquare": "Black concrete big square",
       "block.elyrasir.cyanconcretebrickslab": "Cyan concrete brick slab",
       "block.elyrasir.greenconcretepillar": "Green concrete pillar",
@@ -4387,18 +4470,19 @@
       "block.elyrasir.redconcretebigsquare": "Red concrete big square",
       "block.elyrasir.magentaconcretetilesslab": "Lime concrete tiles slab",
       "item.elyrasir.cinquantepc": "Billet de 50 PommeCoin",
-      "block.elyrasir.blueconcretebricks": "Blue concrete bricks",
+      "gui.elyrasir.depot_plainte.label_supprimer_un_depot_de_plainte": "Supprimer un dépôt de plainte",
       "gui.elyrasir.achat_pc.label_acheter_du_pommecoin": "- Effectuer l\u0027échange -",
+      "block.elyrasir.blueconcretebricks": "Blue concrete bricks",
       "block.elyrasir.greenchisledcreeperconcrete": "Green chisled creeper concrete",
-      "block.elyrasir.greenconcretebigsquare": "Green concrete big square",
       "block.elyrasir.redconcretepillar": "Red concrete pillar",
+      "block.elyrasir.greenconcretebigsquare": "Green concrete big square",
       "item.elyrasir.vingtpc": "Billet de 20 PommeCoin",
       "gui.elyrasir.main_police.label_gestion_de_la_logistique1": "Gestion de la logistique",
       "gui.elyrasir.achat_pc.label_puis_effectuez_lechange": "puis effectuez l\u0027échange",
       "block.elyrasir.whitechisledcreeperconcrete": "White chisled creeper concrete",
       "block.elyrasir.orangeconcretepillar": "Orange concrete pillar",
-      "block.elyrasir.pinkchisledskeletonconcrete": "Pink chisled skeleton concrete",
       "block.elyrasir.magentaconcretebrickslab": "Magenta concrete brick slab",
+      "block.elyrasir.pinkchisledskeletonconcrete": "Pink chisled skeleton concrete",
       "block.elyrasir.pinkconcretebricks": "Pink concrete bricks",
       "block.elyrasir.pinkconcretebigsquare": "Pink concrete big square",
       "gui.elyrasir.base_atm.label_acheter_du_pommecoin": "- Acheter du PommeCoin -",
@@ -4407,11 +4491,13 @@
       "block.elyrasir.graychisledcreeperconcrete": "Gray chisled creeper concrete",
       "block.elyrasir.limeconcretetiles": "Lime concrete tiles",
       "block.elyrasir.lightgrayconcretebrickslab": "Light gray concrete brick slab",
+      "gui.elyrasir.consult_plainte.label_menu_de_depot_de_plainte": "Menu de dépôt de plainte",
       "block.elyrasir.lightgrayconcretepillar": "Light gray concrete pillar",
       "block.elyrasir.purpleconcretebricks": "Purple concrete bricks",
       "block.elyrasir.purplechisledcreeperconcrete": "Purple chisled creeper concrete",
       "block.elyrasir.limechisledcreeperconcrete": "Lime chisled creeper concrete",
       "block.elyrasir.whiteconcretebrickslab": "White concrete brick slab",
+      "gui.elyrasir.depot_plainte.label_modifier_un_depot_de_plainte": "Modifier un dépôt de plainte",
       "block.elyrasir.magentaconcretepillar": "Magenta concrete pillar",
       "gui.elyrasir.achat_card.label_31": "3",
       "block.elyrasir.brownconcretepillar": "Brown concrete pillar",
@@ -4428,16 +4514,20 @@
       "block.elyrasir.orangeconcretebigsquare": "Orange concrete big square",
       "block.elyrasir.blueconcretebrickstairs": "Blue concrete brick stairs",
       "block.elyrasir.blueconcretetiles": "Blue concrete tiles",
+      "gui.elyrasir.consult_plainte.label_supprimer_un_depot_de_plainte": "Supprimer un dépôt de plainte",
       "gui.elyrasir.base_atm.label_ouvrir_un_compte": "- Ouvrir un compte -",
       "block.elyrasir.yellowconcretebrickstairs": "Yellow concrete brick stairs",
       "block.elyrasir.lightbluechisledskeletonconcrete": "Light blue chisled skeleton concrete",
       "block.elyrasir.magentachisledskeletonconcrete": "Magenta chisled skeleton concrete",
       "block.elyrasir.lightblueconcretebrickslab": "Light blue concrete brick slab",
+      "gui.elyrasir.depot_plainte.label_signature_agent": "Nom Agent :",
       "block.elyrasir.brownchisledskeletonconcrete": "Brown chisled skeleton concrete",
       "gui.elyrasir.main_police.label_gestion_du_personnel": "Gestion du personnel",
       "block.elyrasir.lightgrayconcretetilesslab": "Light gray concrete tiles slab",
+      "gui.elyrasir.depot_plainte.MainPlainte": "Introduire Ici la plainte",
       "block.elyrasir.greenconcretebrickstairs": "Green concrete brick stairs",
       "gui.elyrasir.base_atm.label_info_banque": "- Info Banque -",
+      "gui.elyrasir.depot_plainte.label_nom_victime": "Nom Victime :",
       "gui.elyrasir.main_plainte.label_consulter_un_depot_de_plainte": "Consulter un dépôt de plainte",
       "item.elyrasir.dixpc": "Billet de 10 PommeCoin",
       "item.elyrasir.cinqpc": "Pièce de 5 PommeCoin",
@@ -4470,6 +4560,7 @@
       "block.elyrasir.blackconcretebrickslab": "Black concrete brick slab",
       "block.elyrasir.redconcretebricks": "Red concrete bricks",
       "block.elyrasir.yellowconcretebigsquare": "Yellow concrete big square",
+      "gui.elyrasir.consult_plainte.label_modifier_un_depot_de_plainte": "Modifier un dépôt de plainte",
       "block.elyrasir.ordinateur_police": "Ordinateur Police",
       "gui.elyrasir.achat_pc.label_41": "4",
       "block.elyrasir.lightblueconcretepillar": "Light blue concrete pillar",
@@ -4485,6 +4576,7 @@
       "block.elyrasir.whiteconcretebricks": "White concrete bricks",
       "block.elyrasir.grayconcretepillar": "Gray concrete pillar",
       "gui.elyrasir.achat_card.label_acheter_du_pommecoin": "- Effectuer l\u0027échange -",
+      "gui.elyrasir.depot_plainte.label_consulter_un_depot_de_plainte": "Consulter un dépôt de plainte",
       "block.elyrasir.grayconcretebrickstairs": "Gray concrete brick stairs",
       "gui.elyrasir.base_atm.label_acheter_une_carte": "- Acheter une Carte -",
       "block.elyrasir.yellowconcretetilesslab": "Yellow concrete tiles slab",
@@ -4492,11 +4584,13 @@
       "item.elyrasir.harpon_tactique_0": "Harpon Tactique",
       "item.elyrasir.harpon_tactique_1": "Harpon Tactique",
       "item.elyrasir.harpon_tactique_2": "Harpon Tactique",
+      "gui.elyrasir.depot_plainte.DatePlainte": "01/Janvier/2024",
       "item.elyrasir.harpon_tactique_3": "Harpon Tactique",
       "block.elyrasir.cyanconcretebrickstairs": "Cyan concrete brick stairs",
       "item.elyrasir.harpon_tactique_4": "Harpon Tactique",
       "block.elyrasir.blackchisledskeletonconcrete": "Black chisled skeleton concrete",
       "block.elyrasir.blackconcretepillar": "Black concrete pillar",
+      "gui.elyrasir.depot_plainte.label_sauvgarder": "Sauvgarder",
       "block.elyrasir.redconcretebrickslab": "Red concrete brick slab",
       "block.elyrasir.whiteconcretebrickstairs": "White concrete brick stairs",
       "block.elyrasir.magentaconcretebricks": "Magenta concrete bricks",
@@ -4522,6 +4616,7 @@
       "gui.elyrasir.achat_card.label_1": "1",
       "gui.elyrasir.base_atm.label_veuillez_choisir_une_service": "veuillez choisir une service:",
       "block.elyrasir.orangeconcretebrickslab": "Orange concrete brick slab",
+      "gui.elyrasir.depot_plainte.label_ouvrir_un_depot_plainte": "Ouvrir un dépôt plainte",
       "gui.elyrasir.base_atm.label_41": "4",
       "block.elyrasir.cyanconcretetiles": "Cyan concrete tiles",
       "item.elyrasir.identity": "Identity",
@@ -4532,6 +4627,7 @@
       "block.elyrasir.cyanchisledcreeperconcrete": "Cyan chisled creeper concrete",
       "gui.elyrasir.achat_pc.label_bienvenue_a_la_banque": "Achat de PommeCoins",
       "block.elyrasir.grayconcretebrickslab": "Gray concrete brick slab",
+      "gui.elyrasir.depot_plainte.label_menu_de_depot_de_plainte": "Menu de dépôt de plainte",
       "block.elyrasir.bluechisledcreeperconcrete": "Blue chisled creeper concrete",
       "block.elyrasir.yellowconcretepillar": "Yellow concrete pillar",
       "gui.elyrasir.achat_pc.label_quitter": "- RETOUR -",
@@ -4544,7 +4640,9 @@
       "block.elyrasir.magentaconcretebigsquare": "Magenta concrete big square",
       "block.elyrasir.limechisledskeletonconcrete": "Lime gray chisled skeleton concrete",
       "gui.elyrasir.base_atm.label_11": "1",
+      "gui.elyrasir.consult_plainte.label_consulter_un_depot_de_plainte": "Consulter un dépôt de plainte",
       "block.elyrasir.magentaconcretebrickstairs": "Magenta concrete brick stairs",
+      "gui.elyrasir.depot_plainte.label_date": "Date :",
       "block.elyrasir.greenconcretetiles": "Green concrete tiles",
       "gui.elyrasir.achat_card.label_veuillez_choisir_une_service": "veuillez déposer les PommeCoins",
       "block.elyrasir.lightgrayconcretebigsquare": "Light gray concrete big square",
@@ -4562,6 +4660,7 @@
       "block.elyrasir.blueconcretetilesslab": "Blue concrete tiles slab",
       "block.elyrasir.orangeconcretetiles": "Magenta concrete tiles",
       "block.elyrasir.cyanconcretetilesslab": "Cyan concrete tiles slab",
+      "gui.elyrasir.consult_plainte.label_ouvrir_un_depot_plainte": "Ouvrir un dépôt plainte",
       "block.elyrasir.cyanconcretebricks": "Cyan concrete bricks",
       "gui.elyrasir.main_plainte.label_supprimer_un_depot_de_plainte": "Supprimer un dépôt de plainte",
       "block.elyrasir.lightblueconcretebricks": "Light blue concrete bricks",
