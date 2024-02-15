@@ -3577,6 +3577,7 @@
     {
       "name": "StockagePlainte",
       "type": "code",
+      "sortid": 211,
       "compiles": true,
       "locked_code": true,
       "registry_name": "stockage_plainte",
@@ -3589,6 +3590,7 @@
     {
       "name": "ConsultPlainte",
       "type": "gui",
+      "sortid": 210,
       "compiles": true,
       "locked_code": false,
       "registry_name": "consult_plainte",
@@ -3600,6 +3602,131 @@
         ]
       },
       "path": "~/JobsLegaux/Police/GUI/GUIPlaintes"
+    },
+    {
+      "name": "ATMDPriceReturn",
+      "type": "procedure",
+      "sortid": 213,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "atmd_price_return",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/elyrasir/procedures/ATMDPriceReturnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Banque/procedure"
+    },
+    {
+      "name": "ATMBuyRateReturn",
+      "type": "procedure",
+      "sortid": 214,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "atm_buy_rate_return",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/elyrasir/procedures/ATMBuyRateReturnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Banque/procedure"
+    },
+    {
+      "name": "Banquetime",
+      "type": "procedure",
+      "sortid": 215,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "banquetime",
+      "metadata": {
+        "files": [
+          "src/main/java/elyrasir/procedures/BanquetimeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Banque/procedure"
+    },
+    {
+      "name": "ATMDebug1",
+      "type": "procedure",
+      "sortid": 216,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "atm_debug_1",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/elyrasir/procedures/ATMDebug1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Banque/procedure"
+    },
+    {
+      "name": "ATMDebug2",
+      "type": "procedure",
+      "sortid": 217,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "atm_debug_2",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/elyrasir/procedures/ATMDebug2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Banque/procedure"
+    },
+    {
+      "name": "ATMDebug3",
+      "type": "procedure",
+      "sortid": 218,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "atm_debug_3",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/elyrasir/procedures/ATMDebug3Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Banque/procedure"
     }
   ],
   "variable_elements": [
@@ -4411,10 +4538,172 @@
       "name": "Banque_rate_D_PC",
       "type": "number",
       "scope": "map",
-      "value": "3564.0"
+      "value": "3200.0"
     },
     {
       "name": "Banque_rate_D_PC_temp",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "Banque_rate_buy_pc",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "Banque_stock_1pc",
+      "type": "number",
+      "scope": "map",
+      "value": "1545600.0"
+    },
+    {
+      "name": "Banque_stock_5pc",
+      "type": "number",
+      "scope": "map",
+      "value": "230401.0"
+    },
+    {
+      "name": "Banque_stock_10pc",
+      "type": "number",
+      "scope": "map",
+      "value": "131658.0"
+    },
+    {
+      "name": "Banque_stock_20pc",
+      "type": "number",
+      "scope": "map",
+      "value": "75233.0"
+    },
+    {
+      "name": "Banque_stock_50pc",
+      "type": "number",
+      "scope": "map",
+      "value": "34.392"
+    },
+    {
+      "name": "Banque_stock_100pc",
+      "type": "number",
+      "scope": "map",
+      "value": "19652.0"
+    },
+    {
+      "name": "Banque_stock_200pc",
+      "type": "number",
+      "scope": "map",
+      "value": "11229.0"
+    },
+    {
+      "name": "Banque_stock_500pc",
+      "type": "number",
+      "scope": "map",
+      "value": "5133.0"
+    },
+    {
+      "name": "Banque_total_supply",
+      "type": "number",
+      "scope": "map",
+      "value": "2.208E7"
+    },
+    {
+      "name": "Banque_reserve",
+      "type": "number",
+      "scope": "map",
+      "value": "6518455.0"
+    },
+    {
+      "name": "Banque_Diamand_stock",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "Banque_total_buy",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "Banque_total_buy_M",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "Banque_total_buy_rate",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "Banque_total_periodes",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "Banque_time_periode",
+      "type": "number",
+      "scope": "map",
+      "value": "600.0"
+    },
+    {
+      "name": "Banque_periode_buy",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "Banque_periode_buy_M",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "testt",
+      "type": "string",
+      "scope": "map",
+      "value": "\"\""
+    },
+    {
+      "name": "Banque_time_timer",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "Banque_time_active",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
+    },
+    {
+      "name": "Banque_time_sec",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "Banque_time_min",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "Banque_time_heu",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "Banque_time_jou",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "Banque_time_sem",
       "type": "number",
       "scope": "map",
       "value": "0"

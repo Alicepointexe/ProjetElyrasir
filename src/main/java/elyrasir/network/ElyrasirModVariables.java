@@ -221,8 +221,35 @@ public class ElyrasirModVariables {
 		public double Police_Rank5 = 0.0;
 		public boolean Train_Rank1 = false;
 		public double Mineur_Rank4_ViceDirecteur = 0.0;
-		public double Banque_rate_D_PC = 3564.0;
+		public double Banque_rate_D_PC = 3200.0;
 		public double Banque_rate_D_PC_temp = 0;
+		public double Banque_rate_buy_pc = 0;
+		public double Banque_stock_1pc = 1545600.0;
+		public double Banque_stock_5pc = 230401.0;
+		public double Banque_stock_10pc = 131658.0;
+		public double Banque_stock_20pc = 75233.0;
+		public double Banque_stock_50pc = 34.392;
+		public double Banque_stock_100pc = 19652.0;
+		public double Banque_stock_200pc = 11229.0;
+		public double Banque_stock_500pc = 5133.0;
+		public double Banque_total_supply = 2.208E7;
+		public double Banque_reserve = 6518455.0;
+		public double Banque_Diamand_stock = 0;
+		public double Banque_total_buy = 0;
+		public double Banque_total_buy_M = 0;
+		public double Banque_total_buy_rate = 0;
+		public double Banque_total_periodes = 0;
+		public double Banque_time_periode = 600.0;
+		public double Banque_periode_buy = 0;
+		public double Banque_periode_buy_M = 0;
+		public String testt = "\"\"";
+		public double Banque_time_timer = 0;
+		public boolean Banque_time_active = false;
+		public double Banque_time_sec = 0;
+		public double Banque_time_min = 0;
+		public double Banque_time_heu = 0;
+		public double Banque_time_jou = 0;
+		public double Banque_time_sem = 0;
 
 		public static MapVariables load(CompoundTag tag) {
 			MapVariables data = new MapVariables();
@@ -367,6 +394,33 @@ public class ElyrasirModVariables {
 			Mineur_Rank4_ViceDirecteur = nbt.getDouble("Mineur_Rank4_ViceDirecteur");
 			Banque_rate_D_PC = nbt.getDouble("Banque_rate_D_PC");
 			Banque_rate_D_PC_temp = nbt.getDouble("Banque_rate_D_PC_temp");
+			Banque_rate_buy_pc = nbt.getDouble("Banque_rate_buy_pc");
+			Banque_stock_1pc = nbt.getDouble("Banque_stock_1pc");
+			Banque_stock_5pc = nbt.getDouble("Banque_stock_5pc");
+			Banque_stock_10pc = nbt.getDouble("Banque_stock_10pc");
+			Banque_stock_20pc = nbt.getDouble("Banque_stock_20pc");
+			Banque_stock_50pc = nbt.getDouble("Banque_stock_50pc");
+			Banque_stock_100pc = nbt.getDouble("Banque_stock_100pc");
+			Banque_stock_200pc = nbt.getDouble("Banque_stock_200pc");
+			Banque_stock_500pc = nbt.getDouble("Banque_stock_500pc");
+			Banque_total_supply = nbt.getDouble("Banque_total_supply");
+			Banque_reserve = nbt.getDouble("Banque_reserve");
+			Banque_Diamand_stock = nbt.getDouble("Banque_Diamand_stock");
+			Banque_total_buy = nbt.getDouble("Banque_total_buy");
+			Banque_total_buy_M = nbt.getDouble("Banque_total_buy_M");
+			Banque_total_buy_rate = nbt.getDouble("Banque_total_buy_rate");
+			Banque_total_periodes = nbt.getDouble("Banque_total_periodes");
+			Banque_time_periode = nbt.getDouble("Banque_time_periode");
+			Banque_periode_buy = nbt.getDouble("Banque_periode_buy");
+			Banque_periode_buy_M = nbt.getDouble("Banque_periode_buy_M");
+			testt = nbt.getString("testt");
+			Banque_time_timer = nbt.getDouble("Banque_time_timer");
+			Banque_time_active = nbt.getBoolean("Banque_time_active");
+			Banque_time_sec = nbt.getDouble("Banque_time_sec");
+			Banque_time_min = nbt.getDouble("Banque_time_min");
+			Banque_time_heu = nbt.getDouble("Banque_time_heu");
+			Banque_time_jou = nbt.getDouble("Banque_time_jou");
+			Banque_time_sem = nbt.getDouble("Banque_time_sem");
 		}
 
 		@Override
@@ -507,6 +561,33 @@ public class ElyrasirModVariables {
 			nbt.putDouble("Mineur_Rank4_ViceDirecteur", Mineur_Rank4_ViceDirecteur);
 			nbt.putDouble("Banque_rate_D_PC", Banque_rate_D_PC);
 			nbt.putDouble("Banque_rate_D_PC_temp", Banque_rate_D_PC_temp);
+			nbt.putDouble("Banque_rate_buy_pc", Banque_rate_buy_pc);
+			nbt.putDouble("Banque_stock_1pc", Banque_stock_1pc);
+			nbt.putDouble("Banque_stock_5pc", Banque_stock_5pc);
+			nbt.putDouble("Banque_stock_10pc", Banque_stock_10pc);
+			nbt.putDouble("Banque_stock_20pc", Banque_stock_20pc);
+			nbt.putDouble("Banque_stock_50pc", Banque_stock_50pc);
+			nbt.putDouble("Banque_stock_100pc", Banque_stock_100pc);
+			nbt.putDouble("Banque_stock_200pc", Banque_stock_200pc);
+			nbt.putDouble("Banque_stock_500pc", Banque_stock_500pc);
+			nbt.putDouble("Banque_total_supply", Banque_total_supply);
+			nbt.putDouble("Banque_reserve", Banque_reserve);
+			nbt.putDouble("Banque_Diamand_stock", Banque_Diamand_stock);
+			nbt.putDouble("Banque_total_buy", Banque_total_buy);
+			nbt.putDouble("Banque_total_buy_M", Banque_total_buy_M);
+			nbt.putDouble("Banque_total_buy_rate", Banque_total_buy_rate);
+			nbt.putDouble("Banque_total_periodes", Banque_total_periodes);
+			nbt.putDouble("Banque_time_periode", Banque_time_periode);
+			nbt.putDouble("Banque_periode_buy", Banque_periode_buy);
+			nbt.putDouble("Banque_periode_buy_M", Banque_periode_buy_M);
+			nbt.putString("testt", testt);
+			nbt.putDouble("Banque_time_timer", Banque_time_timer);
+			nbt.putBoolean("Banque_time_active", Banque_time_active);
+			nbt.putDouble("Banque_time_sec", Banque_time_sec);
+			nbt.putDouble("Banque_time_min", Banque_time_min);
+			nbt.putDouble("Banque_time_heu", Banque_time_heu);
+			nbt.putDouble("Banque_time_jou", Banque_time_jou);
+			nbt.putDouble("Banque_time_sem", Banque_time_sem);
 			return nbt;
 		}
 

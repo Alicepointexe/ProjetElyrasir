@@ -13,6 +13,12 @@ import java.util.HashMap;
 
 import elyrasir.world.inventory.AchatPCMenu;
 
+import elyrasir.procedures.ATMDebug3Procedure;
+import elyrasir.procedures.ATMDebug2Procedure;
+import elyrasir.procedures.ATMDebug1Procedure;
+import elyrasir.procedures.ATMDPriceReturnProcedure;
+import elyrasir.procedures.ATMBuyRateReturnProcedure;
+
 import elyrasir.network.AchatPCButtonMessage;
 
 import elyrasir.ElyrasirMod;
@@ -88,9 +94,9 @@ public class AchatPCScreen extends AbstractContainerScreen<AchatPCMenu> {
 	protected void renderLabels(GuiGraphics guiGraphics, int mouseX, int mouseY) {
 		guiGraphics.drawString(this.font, Component.translatable("gui.elyrasir.achat_pc.label_bienvenue_a_la_banque"), 63, 15, -16777216, false);
 		guiGraphics.drawString(this.font, Component.translatable("gui.elyrasir.achat_pc.label_veuillez_choisir_une_service"), 35, 32, -16777216, false);
-		guiGraphics.drawString(this.font, Component.translatable("gui.elyrasir.achat_pc.label_acheter_du_pommecoin"), 44, 71, -3355444, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.elyrasir.achat_pc.label_acheter_du_pommecoin"), 42, 96, -3368704, false);
 		guiGraphics.drawString(this.font, Component.translatable("gui.elyrasir.achat_pc.label_quitter"), 111, 108, -52429, false);
-		guiGraphics.drawString(this.font, Component.translatable("gui.elyrasir.achat_pc.label_1"), 178, 70, -16777216, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.elyrasir.achat_pc.label_1"), 178, 96, -16777216, false);
 		guiGraphics.drawString(this.font, Component.translatable("gui.elyrasir.achat_pc.label_11"), 212, 17, -16777216, false);
 		guiGraphics.drawString(this.font, Component.translatable("gui.elyrasir.achat_pc.label_5"), 178, 108, -16777216, false);
 		guiGraphics.drawString(this.font, Component.translatable("gui.elyrasir.achat_pc.label_21"), 212, 40, -16777216, false);
@@ -98,6 +104,21 @@ public class AchatPCScreen extends AbstractContainerScreen<AchatPCMenu> {
 		guiGraphics.drawString(this.font, Component.translatable("gui.elyrasir.achat_pc.label_41"), 212, 86, -16777216, false);
 		guiGraphics.drawString(this.font, Component.translatable("gui.elyrasir.achat_pc.label_51"), 213, 109, -16777216, false);
 		guiGraphics.drawString(this.font, Component.translatable("gui.elyrasir.achat_pc.label_puis_effectuez_lechange"), 48, 43, -16777216, false);
+		guiGraphics.drawString(this.font,
+
+				ATMDPriceReturnProcedure.execute(world), 42, 58, -1, false);
+		guiGraphics.drawString(this.font,
+
+				ATMBuyRateReturnProcedure.execute(world), 39, 74, -6684673, false);
+		guiGraphics.drawString(this.font,
+
+				ATMDebug1Procedure.execute(world), -93, 20, -12829636, false);
+		guiGraphics.drawString(this.font,
+
+				ATMDebug2Procedure.execute(world), -95, 41, -12829636, false);
+		guiGraphics.drawString(this.font,
+
+				ATMDebug3Procedure.execute(world), 3, 125, -1, false);
 	}
 
 	@Override

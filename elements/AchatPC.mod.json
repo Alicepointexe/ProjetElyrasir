@@ -149,11 +149,11 @@
             "fixedValue": "- Effectuer l'échange -"
           },
           "color": {
-            "value": -3355444,
+            "value": -3368704,
             "falpha": 0.0
           },
-          "x": 140,
-          "y": 81
+          "x": 138,
+          "y": 106
         }
       },
       {
@@ -183,7 +183,7 @@
             "falpha": 0.0
           },
           "x": 274,
-          "y": 80
+          "y": 106
         }
       },
       {
@@ -403,6 +403,86 @@
           "dropItemsWhenNotBound": true,
           "x": 74,
           "y": 197
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_yestreturn",
+          "text": {
+            "fixedValue": "",
+            "name": "ATMDPriceReturn"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 138,
+          "y": 68
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_atm_buy_rate_return",
+          "text": {
+            "fixedValue": "",
+            "name": "ATMBuyRateReturn"
+          },
+          "color": {
+            "value": -6684673,
+            "falpha": 0.0
+          },
+          "x": 135,
+          "y": 84
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_atm_debug_1",
+          "text": {
+            "fixedValue": "",
+            "name": "ATMDebug1"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 3,
+          "y": 30
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_atm_debug_2",
+          "text": {
+            "fixedValue": "",
+            "name": "ATMDebug2"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 1,
+          "y": 51
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_atm_debug_3",
+          "text": {
+            "fixedValue": "",
+            "name": "ATMDebug3"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 99,
+          "y": 135
         }
       }
     ],
