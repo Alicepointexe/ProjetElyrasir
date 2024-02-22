@@ -6,6 +6,8 @@ import elyrasir.network.ElyrasirModVariables;
 
 public class ATMDebug1Procedure {
 	public static String execute(LevelAccessor world) {
-		return "BUY_M: " + new java.text.DecimalFormat("##").format(ElyrasirModVariables.MapVariables.get(world).Banque_periode_buy_M);
+		return "BUY_M: " + (new java.text.DecimalFormat("##").format(ElyrasirModVariables.MapVariables.get(world).Banque_periode_buy_M) + ""
+				+ (" BUY_P: " + (new java.text.DecimalFormat("##").format(ElyrasirModVariables.MapVariables.get(world).Banque_periode_buy) + ""
+						+ (" BUY_PME: " + new java.text.DecimalFormat("##").format(ElyrasirModVariables.MapVariables.get(world).Banque_periode_buy_Me)))));
 	}
 }

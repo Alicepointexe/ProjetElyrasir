@@ -449,24 +449,8 @@
             "value": -12829636,
             "falpha": 0.0
           },
-          "x": 3,
-          "y": 30
-        }
-      },
-      {
-        "type": "label",
-        "data": {
-          "name": "label_proc_atm_debug_2",
-          "text": {
-            "fixedValue": "",
-            "name": "ATMDebug2"
-          },
-          "color": {
-            "value": -12829636,
-            "falpha": 0.0
-          },
-          "x": 1,
-          "y": 51
+          "x": 114,
+          "y": 11
         }
       },
       {
@@ -478,10 +462,10 @@
             "name": "ATMDebug3"
           },
           "color": {
-            "value": -1,
+            "value": -12829636,
             "falpha": 0.0
           },
-          "x": 99,
+          "x": 111,
           "y": 135
         }
       }

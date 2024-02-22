@@ -239,10 +239,10 @@ public class ElyrasirModVariables {
 		public double Banque_total_buy_M = 0;
 		public double Banque_total_buy_rate = 0;
 		public double Banque_total_periodes = 0;
-		public double Banque_time_periode = 600.0;
-		public double Banque_periode_buy = 0;
-		public double Banque_periode_buy_M = 0;
-		public String testt = "\"\"";
+		public double Banque_time_periode = 0.0;
+		public double Banque_periode_buy = 0.0;
+		public double Banque_periode_buy_M = 1.0;
+		public String testt = "q";
 		public double Banque_time_timer = 0;
 		public boolean Banque_time_active = false;
 		public double Banque_time_sec = 0;
@@ -250,6 +250,11 @@ public class ElyrasirModVariables {
 		public double Banque_time_heu = 0;
 		public double Banque_time_jou = 0;
 		public double Banque_time_sem = 0;
+		public double ghgffjtfjgjgf = 0;
+		public double Banque_facteur = 0;
+		public double Banque_facteur_Me = 0;
+		public double Banque_facteur_Mo = 0;
+		public double Banque_periode_buy_Me = 1.0;
 
 		public static MapVariables load(CompoundTag tag) {
 			MapVariables data = new MapVariables();
@@ -421,6 +426,11 @@ public class ElyrasirModVariables {
 			Banque_time_heu = nbt.getDouble("Banque_time_heu");
 			Banque_time_jou = nbt.getDouble("Banque_time_jou");
 			Banque_time_sem = nbt.getDouble("Banque_time_sem");
+			ghgffjtfjgjgf = nbt.getDouble("ghgffjtfjgjgf");
+			Banque_facteur = nbt.getDouble("Banque_facteur");
+			Banque_facteur_Me = nbt.getDouble("Banque_facteur_Me");
+			Banque_facteur_Mo = nbt.getDouble("Banque_facteur_Mo");
+			Banque_periode_buy_Me = nbt.getDouble("Banque_periode_buy_Me");
 		}
 
 		@Override
@@ -588,6 +598,11 @@ public class ElyrasirModVariables {
 			nbt.putDouble("Banque_time_heu", Banque_time_heu);
 			nbt.putDouble("Banque_time_jou", Banque_time_jou);
 			nbt.putDouble("Banque_time_sem", Banque_time_sem);
+			nbt.putDouble("ghgffjtfjgjgf", ghgffjtfjgjgf);
+			nbt.putDouble("Banque_facteur", Banque_facteur);
+			nbt.putDouble("Banque_facteur_Me", Banque_facteur_Me);
+			nbt.putDouble("Banque_facteur_Mo", Banque_facteur_Mo);
+			nbt.putDouble("Banque_periode_buy_Me", Banque_periode_buy_Me);
 			return nbt;
 		}
 

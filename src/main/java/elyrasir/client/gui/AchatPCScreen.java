@@ -14,7 +14,6 @@ import java.util.HashMap;
 import elyrasir.world.inventory.AchatPCMenu;
 
 import elyrasir.procedures.ATMDebug3Procedure;
-import elyrasir.procedures.ATMDebug2Procedure;
 import elyrasir.procedures.ATMDebug1Procedure;
 import elyrasir.procedures.ATMDPriceReturnProcedure;
 import elyrasir.procedures.ATMBuyRateReturnProcedure;
@@ -112,13 +111,10 @@ public class AchatPCScreen extends AbstractContainerScreen<AchatPCMenu> {
 				ATMBuyRateReturnProcedure.execute(world), 39, 74, -6684673, false);
 		guiGraphics.drawString(this.font,
 
-				ATMDebug1Procedure.execute(world), -93, 20, -12829636, false);
+				ATMDebug1Procedure.execute(world), 18, 1, -12829636, false);
 		guiGraphics.drawString(this.font,
 
-				ATMDebug2Procedure.execute(world), -95, 41, -12829636, false);
-		guiGraphics.drawString(this.font,
-
-				ATMDebug3Procedure.execute(world), 3, 125, -1, false);
+				ATMDebug3Procedure.execute(world), 15, 125, -12829636, false);
 	}
 
 	@Override

@@ -3160,9 +3160,6 @@
       "locked_code": false,
       "registry_name": "atm_quit",
       "metadata": {
-        "files": [
-          "src/main/java/elyrasir/procedures/AtmQuitProcedure.java"
-        ],
         "dependencies": [
           {
             "name": "entity",
@@ -3646,26 +3643,6 @@
       "path": "~/Banque/procedure"
     },
     {
-      "name": "Banquetime",
-      "type": "procedure",
-      "sortid": 215,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "banquetime",
-      "metadata": {
-        "files": [
-          "src/main/java/elyrasir/procedures/BanquetimeProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Banque/procedure"
-    },
-    {
       "name": "ATMDebug1",
       "type": "procedure",
       "sortid": 216,
@@ -3718,6 +3695,40 @@
         "return_type": "string",
         "files": [
           "src/main/java/elyrasir/procedures/ATMDebug3Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Banque/procedure"
+    },
+    {
+      "name": "Perma",
+      "type": "overlay",
+      "sortid": 219,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "perma",
+      "metadata": {
+        "files": [
+          "src/main/java/elyrasir/client/screens/PermaOverlay.java"
+        ]
+      },
+      "path": "~/Main/GUI"
+    },
+    {
+      "name": "BanquePriceUptdate",
+      "type": "procedure",
+      "sortid": 220,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "banque_price_uptdate",
+      "metadata": {
+        "files": [
+          "src/main/java/elyrasir/procedures/BanquePriceUptdateProcedure.java"
         ],
         "dependencies": [
           {
@@ -4646,25 +4657,25 @@
       "name": "Banque_time_periode",
       "type": "number",
       "scope": "map",
-      "value": "600.0"
+      "value": "0.0"
     },
     {
       "name": "Banque_periode_buy",
       "type": "number",
       "scope": "map",
-      "value": "0"
+      "value": "0.0"
     },
     {
       "name": "Banque_periode_buy_M",
       "type": "number",
       "scope": "map",
-      "value": "0"
+      "value": "1.0"
     },
     {
       "name": "testt",
       "type": "string",
       "scope": "map",
-      "value": "\"\""
+      "value": "q"
     },
     {
       "name": "Banque_time_timer",
@@ -4707,6 +4718,36 @@
       "type": "number",
       "scope": "map",
       "value": "0"
+    },
+    {
+      "name": "ghgffjtfjgjgf",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "Banque_facteur",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "Banque_facteur_Me",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "Banque_facteur_Mo",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "Banque_periode_buy_Me",
+      "type": "number",
+      "scope": "map",
+      "value": "1.0"
     }
   ],
   "sound_elements": [],
@@ -4721,15 +4762,15 @@
       "gui.elyrasir.achat_pc.label_2": "2",
       "block.elyrasir.lightbluechisledcreeperconcrete": "Light blue chisled creeper concrete",
       "gui.elyrasir.achat_pc.label_3": "3",
-      "gui.elyrasir.main_police.label_gestion_des_dossiers": "Gestions des dossiers d\u0027affaire",
       "block.elyrasir.brownchisledcreeperconcrete": "Brown chisled creeper concrete",
+      "gui.elyrasir.main_police.label_gestion_des_dossiers": "Gestions des dossiers d\u0027affaire",
       "block.elyrasir.orangeconcretebricks": "Orange concrete bricks",
       "gui.elyrasir.base_atm.label_4": "4",
       "gui.elyrasir.base_atm.label_3": "3",
-      "gui.elyrasir.base_atm.label_2": "2",
       "block.elyrasir.greenchisledskeletonconcrete": "Green chisled skeleton concrete",
-      "gui.elyrasir.base_atm.label_1": "1",
+      "gui.elyrasir.base_atm.label_2": "2",
       "block.elyrasir.grayconcretetiles": "Gray concrete tiles",
+      "gui.elyrasir.base_atm.label_1": "1",
       "block.elyrasir.limeconcretetilesslab": "Lime concrete tiles slab",
       "gui.elyrasir.base_atm.label_5": "5",
       "gui.elyrasir.main_police.label_gestion_des_dossiers1": "Gestion des raports d\u0027intervention",
@@ -4740,8 +4781,8 @@
       "gui.elyrasir.depot_plainte.label_motifs": "Motifs :",
       "block.elyrasir.blackconcretebigsquare": "Black concrete big square",
       "block.elyrasir.cyanconcretebrickslab": "Cyan concrete brick slab",
-      "block.elyrasir.greenconcretepillar": "Green concrete pillar",
       "block.elyrasir.brownconcretebrickstairs": "Brown concrete brick stairs",
+      "block.elyrasir.greenconcretepillar": "Green concrete pillar",
       "block.elyrasir.pinkchisledcreeperconcrete": "Pink chisled creeper concrete",
       "block.elyrasir.purpleconcretebrickstairs": "Purple concrete brick stairs",
       "block.elyrasir.lightgrayconcretetiles": "Light gray concrete tiles",
@@ -4760,18 +4801,18 @@
       "block.elyrasir.magentaconcretetilesslab": "Lime concrete tiles slab",
       "item.elyrasir.cinquantepc": "Billet de 50 PommeCoin",
       "gui.elyrasir.depot_plainte.label_supprimer_un_depot_de_plainte": "Supprimer un dépôt de plainte",
-      "gui.elyrasir.achat_pc.label_acheter_du_pommecoin": "- Effectuer l\u0027échange -",
       "block.elyrasir.blueconcretebricks": "Blue concrete bricks",
+      "gui.elyrasir.achat_pc.label_acheter_du_pommecoin": "- Effectuer l\u0027échange -",
       "block.elyrasir.greenchisledcreeperconcrete": "Green chisled creeper concrete",
-      "block.elyrasir.redconcretepillar": "Red concrete pillar",
       "block.elyrasir.greenconcretebigsquare": "Green concrete big square",
+      "block.elyrasir.redconcretepillar": "Red concrete pillar",
       "item.elyrasir.vingtpc": "Billet de 20 PommeCoin",
       "gui.elyrasir.main_police.label_gestion_de_la_logistique1": "Gestion de la logistique",
       "gui.elyrasir.achat_pc.label_puis_effectuez_lechange": "puis effectuez l\u0027échange",
       "block.elyrasir.whitechisledcreeperconcrete": "White chisled creeper concrete",
       "block.elyrasir.orangeconcretepillar": "Orange concrete pillar",
-      "block.elyrasir.magentaconcretebrickslab": "Magenta concrete brick slab",
       "block.elyrasir.pinkchisledskeletonconcrete": "Pink chisled skeleton concrete",
+      "block.elyrasir.magentaconcretebrickslab": "Magenta concrete brick slab",
       "block.elyrasir.pinkconcretebricks": "Pink concrete bricks",
       "block.elyrasir.pinkconcretebigsquare": "Pink concrete big square",
       "gui.elyrasir.base_atm.label_acheter_du_pommecoin": "- Acheter du PommeCoin -",
@@ -4984,7 +5025,12 @@
           },
           {
             "name": "procedure",
-            "children": []
+            "children": [
+              {
+                "name": "timer",
+                "children": []
+              }
+            ]
           }
         ]
       },

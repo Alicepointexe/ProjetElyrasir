@@ -6,8 +6,7 @@ import elyrasir.network.ElyrasirModVariables;
 
 public class ATMDebug3Procedure {
 	public static String execute(LevelAccessor world) {
-		return "Jour: " + (new java.text.DecimalFormat("##").format(ElyrasirModVariables.MapVariables.get(world).Banque_time_jou) + "" + (" , h: "
-				+ (new java.text.DecimalFormat("##").format(ElyrasirModVariables.MapVariables.get(world).Banque_time_heu) + "" + (" , min: " + (new java.text.DecimalFormat("##").format(ElyrasirModVariables.MapVariables.get(world).Banque_time_min)
-						+ "" + (" , s: " + new java.text.DecimalFormat("##").format(ElyrasirModVariables.MapVariables.get(world).Banque_time_sec)))))));
+		return "factM: "
+				+ (ElyrasirModVariables.MapVariables.get(world).Banque_facteur_Mo + "" + ("fact: " + (ElyrasirModVariables.MapVariables.get(world).Banque_facteur + "" + ("factMe: " + ElyrasirModVariables.MapVariables.get(world).Banque_facteur_Me))));
 	}
 }
