@@ -14,6 +14,7 @@ import net.minecraft.world.item.BlockItem;
 
 import elyrasir.item.VingtpcItem;
 import elyrasir.item.UnpcItem;
+import elyrasir.item.LivretItem;
 import elyrasir.item.IdentityItem;
 import elyrasir.item.HarponTactique4Item;
 import elyrasir.item.HarponTactique3Item;
@@ -31,6 +32,7 @@ import elyrasir.item.CinquantepcItem;
 import elyrasir.item.CinqpcItem;
 import elyrasir.item.CinqcentpcItem;
 import elyrasir.item.CentpcItem;
+import elyrasir.item.CardBItem;
 
 import elyrasir.ElyrasirMod;
 
@@ -201,6 +203,13 @@ public class ElyrasirModItems {
 	public static final RegistryObject<Item> ATM = block(ElyrasirModBlocks.ATM);
 	public static final RegistryObject<Item> IDENTITY = REGISTRY.register("identity", () -> new IdentityItem());
 	public static final RegistryObject<Item> ORDINATEUR_POLICE = block(ElyrasirModBlocks.ORDINATEUR_POLICE);
+	public static final RegistryObject<Item> ATM_BUY = block(ElyrasirModBlocks.ATM_BUY);
+	public static final RegistryObject<Item> CARD_B = REGISTRY.register("card_b", () -> new CardBItem());
+	public static final RegistryObject<Item> ATM_BUY_CARTE = block(ElyrasirModBlocks.ATM_BUY_CARTE);
+	public static final RegistryObject<Item> LIVRET = REGISTRY.register("livret", () -> new LivretItem());
+	public static final RegistryObject<Item> ATM_CHECK = block(ElyrasirModBlocks.ATM_CHECK);
+	public static final RegistryObject<Item> AT_MP_ACOUNT = block(ElyrasirModBlocks.AT_MP_ACOUNT);
+	public static final RegistryObject<Item> VENDEUR = block(ElyrasirModBlocks.VENDEUR);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

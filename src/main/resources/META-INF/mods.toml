@@ -19,4 +19,10 @@ authors="domin, MCreator"
 
 
 
+[[dependencies.elyrasir]]
+    modId="use_compiled_mods"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
 

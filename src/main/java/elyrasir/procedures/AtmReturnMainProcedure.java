@@ -2,6 +2,8 @@ package elyrasir.procedures;
 
 import net.minecraftforge.network.NetworkHooks;
 
+import net.minecraft.world.level.block.state.properties.Property;
+import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.inventory.AbstractContainerMenu;
 import net.minecraft.world.entity.player.Player;
@@ -13,9 +15,13 @@ import net.minecraft.network.chat.Component;
 import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.core.BlockPos;
 
+import java.util.Map;
+
 import io.netty.buffer.Unpooled;
 
 import elyrasir.world.inventory.BaseAtmMenu;
+
+import elyrasir.init.ElyrasirModBlocks;
 
 public class AtmReturnMainProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity) {
@@ -23,6 +29,20 @@ public class AtmReturnMainProcedure {
 			return;
 		if (entity instanceof Player _player)
 			_player.closeContainer();
+		{
+			BlockPos _bp = BlockPos.containing(x, y, z);
+			BlockState _bs = ElyrasirModBlocks.ATM.get().defaultBlockState();
+			BlockState _bso = world.getBlockState(_bp);
+			for (Map.Entry<Property<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {
+				Property _property = _bs.getBlock().getStateDefinition().getProperty(entry.getKey().getName());
+				if (_property != null && _bs.getValue(_property) != null)
+					try {
+						_bs = _bs.setValue(_property, (Comparable) entry.getValue());
+					} catch (Exception e) {
+					}
+			}
+			world.setBlock(_bp, _bs, 3);
+		}
 		if (entity instanceof ServerPlayer _ent) {
 			BlockPos _bpos = BlockPos.containing(x, y, z);
 			NetworkHooks.openScreen((ServerPlayer) _ent, new MenuProvider() {

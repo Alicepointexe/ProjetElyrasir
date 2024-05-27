@@ -28,6 +28,7 @@ import elyrasir.block.WhiteconcretebricksBlock;
 import elyrasir.block.WhiteconcretebigsquareBlock;
 import elyrasir.block.WhitechisledskeletonconcreteBlock;
 import elyrasir.block.WhitechisledcreeperconcreteBlock;
+import elyrasir.block.VendeurBlock;
 import elyrasir.block.RedconcretetilesslabBlock;
 import elyrasir.block.RedconcretetilesBlock;
 import elyrasir.block.RedconcretepillarBlock;
@@ -155,6 +156,10 @@ import elyrasir.block.BlackconcretebricksBlock;
 import elyrasir.block.BlackconcretebigsquareBlock;
 import elyrasir.block.BlackchisledskeletonconcreteBlock;
 import elyrasir.block.BlackchisledcreeperconcreteBlock;
+import elyrasir.block.ATMpAcountBlock;
+import elyrasir.block.ATMCheckBlock;
+import elyrasir.block.ATMBuyCarteBlock;
+import elyrasir.block.ATMBuyBlock;
 import elyrasir.block.ATMBlock;
 
 import elyrasir.ElyrasirMod;
@@ -307,4 +312,9 @@ public class ElyrasirModBlocks {
 	public static final RegistryObject<Block> YELLOWCONCRETETILESSLAB = REGISTRY.register("yellowconcretetilesslab", () -> new YellowconcretetilesslabBlock());
 	public static final RegistryObject<Block> ATM = REGISTRY.register("atm", () -> new ATMBlock());
 	public static final RegistryObject<Block> ORDINATEUR_POLICE = REGISTRY.register("ordinateur_police", () -> new OrdinateurPoliceBlock());
+	public static final RegistryObject<Block> ATM_BUY = REGISTRY.register("atm_buy", () -> new ATMBuyBlock());
+	public static final RegistryObject<Block> ATM_BUY_CARTE = REGISTRY.register("atm_buy_carte", () -> new ATMBuyCarteBlock());
+	public static final RegistryObject<Block> ATM_CHECK = REGISTRY.register("atm_check", () -> new ATMCheckBlock());
+	public static final RegistryObject<Block> AT_MP_ACOUNT = REGISTRY.register("at_mp_acount", () -> new ATMpAcountBlock());
+	public static final RegistryObject<Block> VENDEUR = REGISTRY.register("vendeur", () -> new VendeurBlock());
 }

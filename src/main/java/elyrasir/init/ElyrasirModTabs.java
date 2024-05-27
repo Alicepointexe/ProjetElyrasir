@@ -167,6 +167,12 @@ public class ElyrasirModTabs {
 				tabData.accept(ElyrasirModItems.HARPON_POL_0.get());
 				tabData.accept(ElyrasirModBlocks.ATM.get().asItem());
 				tabData.accept(ElyrasirModBlocks.ORDINATEUR_POLICE.get().asItem());
+				tabData.accept(ElyrasirModBlocks.ATM_BUY.get().asItem());
+				tabData.accept(ElyrasirModItems.CARD_B.get());
+				tabData.accept(ElyrasirModBlocks.ATM_BUY_CARTE.get().asItem());
+				tabData.accept(ElyrasirModBlocks.ATM_CHECK.get().asItem());
+				tabData.accept(ElyrasirModBlocks.AT_MP_ACOUNT.get().asItem());
+				tabData.accept(ElyrasirModBlocks.VENDEUR.get().asItem());
 			}).withSearchBar().build());
 	public static final RegistryObject<CreativeModeTab> POMME_ITEMS = REGISTRY.register("pomme_items",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.elyrasir.pomme_items")).icon(() -> new ItemStack(ElyrasirModItems.UNPC.get())).displayItems((parameters, tabData) -> {
@@ -179,6 +185,7 @@ public class ElyrasirModTabs {
 				tabData.accept(ElyrasirModItems.DEUXCENTPC.get());
 				tabData.accept(ElyrasirModItems.CINQCENTPC.get());
 				tabData.accept(ElyrasirModItems.IDENTITY.get());
+				tabData.accept(ElyrasirModItems.LIVRET.get());
 			})
 
 					.build());

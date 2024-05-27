@@ -74,6 +74,9 @@
           "name": "imagebutton_round_button_vanilla1",
           "image": "round_button_vanilla.png",
           "hoveredImage": "round_button_vanilla_highlight.png",
+          "onClick": {
+            "name": "AtmachatCarte"
+          },
           "x": 301,
           "y": 45
         }
@@ -159,21 +162,6 @@
       {
         "type": "label",
         "data": {
-          "name": "label_acheter_une_carte",
-          "text": {
-            "fixedValue": "- Acheter une Carte -"
-          },
-          "color": {
-            "value": -3355444,
-            "falpha": 0.0
-          },
-          "x": 155,
-          "y": 67
-        }
-      },
-      {
-        "type": "label",
-        "data": {
           "name": "label_ouvrir_un_compte",
           "text": {
             "fixedValue": "- Ouvrir un compte -"
@@ -182,8 +170,8 @@
             "value": -3355444,
             "falpha": 0.0
           },
-          "x": 160,
-          "y": 82
+          "x": 161,
+          "y": 66
         }
       },
       {
@@ -367,36 +355,27 @@
         }
       },
       {
-        "type": "inputslot",
+        "type": "label",
         "data": {
-          "inputLimit": {
-            "value": ""
+          "name": "label_reserver_une_chambre",
+          "text": {
+            "fixedValue": "-Rèserver une chambre -"
           },
-          "disablePlacement": {
-            "fixedValue": false
+          "color": {
+            "value": -1,
+            "falpha": 0.0
           },
-          "id": 0,
-          "disablePickup": {
-            "fixedValue": false
-          },
-          "dropItemsWhenNotBound": true,
-          "x": 304,
-          "y": 166
-        }
-      },
-      {
-        "type": "outputslot",
-        "data": {
-          "id": 1,
-          "disablePickup": {
-            "fixedValue": false
-          },
-          "dropItemsWhenNotBound": true,
-          "x": 104,
-          "y": 165
+          "x": 145,
+          "y": 82
         }
       }
     ],
+    "onOpen": {
+      "name": "ConfigSetup"
+    },
+    "onClosed": {
+      "name": "AtmQuit"
+    },
     "gridSettings": {
       "sx": 18,
       "sy": 18,

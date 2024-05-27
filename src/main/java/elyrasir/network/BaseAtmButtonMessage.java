@@ -17,6 +17,7 @@ import java.util.HashMap;
 import elyrasir.world.inventory.BaseAtmMenu;
 
 import elyrasir.procedures.AtmachatdepcProcedure;
+import elyrasir.procedures.AtmachatCarteProcedure;
 import elyrasir.procedures.AtmQuitProcedure;
 
 import elyrasir.ElyrasirMod;
@@ -69,9 +70,13 @@ public class BaseAtmButtonMessage {
 
 			AtmachatdepcProcedure.execute(world, x, y, z, entity);
 		}
+		if (buttonID == 1) {
+
+			AtmachatCarteProcedure.execute(world, x, y, z, entity);
+		}
 		if (buttonID == 4) {
 
-			AtmQuitProcedure.execute(world, x, y, z, entity);
+			AtmQuitProcedure.execute(world, x, y, z);
 		}
 	}
 

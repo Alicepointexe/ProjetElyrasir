@@ -17,7 +17,7 @@ import java.util.HashMap;
 import elyrasir.world.inventory.AchatCardMenu;
 
 import elyrasir.procedures.AtmReturnMainProcedure;
-import elyrasir.procedures.AchatdePCProcedure;
+import elyrasir.procedures.AchatdeCarteProcedure;
 
 import elyrasir.ElyrasirMod;
 
@@ -67,7 +67,7 @@ public class AchatCardButtonMessage {
 			return;
 		if (buttonID == 0) {
 
-			AchatdePCProcedure.execute(world, entity);
+			AchatdeCarteProcedure.execute(entity);
 		}
 		if (buttonID == 4) {
 

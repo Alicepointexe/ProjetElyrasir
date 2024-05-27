@@ -470,6 +470,9 @@
         }
       }
     ],
+    "onClosed": {
+      "name": "AtmQuit"
+    },
     "gridSettings": {
       "sx": 18,
       "sy": 18,

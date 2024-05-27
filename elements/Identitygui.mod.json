@@ -1,0 +1,147 @@
+{
+  "_fv": 57,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "entitymodel",
+        "data": {
+          "entityModel": {
+            "name": "ScreenPlayer"
+          },
+          "scale": 30,
+          "rotationX": 0,
+          "followMouseMovement": false,
+          "x": 141,
+          "y": 82
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_get_idnom",
+          "text": {
+            "fixedValue": "",
+            "name": "GetName"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 187,
+          "y": 49
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_get_idprenom",
+          "text": {
+            "fixedValue": "",
+            "name": "Getprenom"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 187,
+          "y": 69
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_get_idage",
+          "text": {
+            "fixedValue": "",
+            "name": "GetAge"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 187,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_get_idorigine",
+          "text": {
+            "fixedValue": "",
+            "name": "GetOrigine"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 187,
+          "y": 109
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_get_server_id",
+          "text": {
+            "fixedValue": "",
+            "name": "GetServerID"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 137,
+          "y": 186
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_get_job",
+          "text": {
+            "fixedValue": "",
+            "name": "GetJob"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 137,
+          "y": 136
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_get_residence",
+          "text": {
+            "fixedValue": "",
+            "name": "GetResidence"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 137,
+          "y": 156
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

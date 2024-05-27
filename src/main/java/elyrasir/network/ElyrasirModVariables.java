@@ -6,29 +6,89 @@ import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.event.entity.player.PlayerEvent;
+import net.minecraftforge.event.AttachCapabilitiesEvent;
+import net.minecraftforge.common.util.LazyOptional;
+import net.minecraftforge.common.util.FakePlayer;
+import net.minecraftforge.common.capabilities.RegisterCapabilitiesEvent;
+import net.minecraftforge.common.capabilities.ICapabilitySerializable;
+import net.minecraftforge.common.capabilities.CapabilityToken;
+import net.minecraftforge.common.capabilities.CapabilityManager;
+import net.minecraftforge.common.capabilities.Capability;
 
 import net.minecraft.world.level.saveddata.SavedData;
 import net.minecraft.world.level.ServerLevelAccessor;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.Level;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.entity.Entity;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.server.level.ServerLevel;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
+import net.minecraft.nbt.Tag;
 import net.minecraft.nbt.CompoundTag;
+import net.minecraft.core.Direction;
+import net.minecraft.client.Minecraft;
 
 import java.util.function.Supplier;
+import java.util.List;
+import java.util.ArrayList;
+
+import java.io.File;
 
 import elyrasir.ElyrasirMod;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class ElyrasirModVariables {
+	public static List<Object> testlist = new ArrayList<>();
+	public static File testlist2 = new File("");
+
 	@SubscribeEvent
 	public static void init(FMLCommonSetupEvent event) {
 		ElyrasirMod.addNetworkMessage(SavedDataSyncMessage.class, SavedDataSyncMessage::buffer, SavedDataSyncMessage::new, SavedDataSyncMessage::handler);
+		ElyrasirMod.addNetworkMessage(PlayerVariablesSyncMessage.class, PlayerVariablesSyncMessage::buffer, PlayerVariablesSyncMessage::new, PlayerVariablesSyncMessage::handler);
+	}
+
+	@SubscribeEvent
+	public static void init(RegisterCapabilitiesEvent event) {
+		event.register(PlayerVariables.class);
 	}
 
 	@Mod.EventBusSubscriber
 	public static class EventBusVariableHandlers {
+		@SubscribeEvent
+		public static void onPlayerLoggedInSyncPlayerVariables(PlayerEvent.PlayerLoggedInEvent event) {
+			if (!event.getEntity().level().isClientSide())
+				((PlayerVariables) event.getEntity().getCapability(PLAYER_VARIABLES_CAPABILITY, null).orElse(new PlayerVariables())).syncPlayerVariables(event.getEntity());
+		}
+
+		@SubscribeEvent
+		public static void onPlayerRespawnedSyncPlayerVariables(PlayerEvent.PlayerRespawnEvent event) {
+			if (!event.getEntity().level().isClientSide())
+				((PlayerVariables) event.getEntity().getCapability(PLAYER_VARIABLES_CAPABILITY, null).orElse(new PlayerVariables())).syncPlayerVariables(event.getEntity());
+		}
+
+		@SubscribeEvent
+		public static void onPlayerChangedDimensionSyncPlayerVariables(PlayerEvent.PlayerChangedDimensionEvent event) {
+			if (!event.getEntity().level().isClientSide())
+				((PlayerVariables) event.getEntity().getCapability(PLAYER_VARIABLES_CAPABILITY, null).orElse(new PlayerVariables())).syncPlayerVariables(event.getEntity());
+		}
+
+		@SubscribeEvent
+		public static void clonePlayer(PlayerEvent.Clone event) {
+			event.getOriginal().revive();
+			PlayerVariables original = ((PlayerVariables) event.getOriginal().getCapability(PLAYER_VARIABLES_CAPABILITY, null).orElse(new PlayerVariables()));
+			PlayerVariables clone = ((PlayerVariables) event.getEntity().getCapability(PLAYER_VARIABLES_CAPABILITY, null).orElse(new PlayerVariables()));
+			clone.Banque_card_name = original.Banque_card_name;
+			clone.Global_nom = original.Global_nom;
+			clone.Global_prenom = original.Global_prenom;
+			clone.Global_age = original.Global_age;
+			clone.Global_origine = original.Global_origine;
+			clone.Global_PID = original.Global_PID;
+			if (!event.isWasDeath()) {
+			}
+		}
+
 		@SubscribeEvent
 		public static void onPlayerLoggedIn(PlayerEvent.PlayerLoggedInEvent event) {
 			if (!event.getEntity().level().isClientSide()) {
@@ -255,6 +315,8 @@ public class ElyrasirModVariables {
 		public double Banque_facteur_Me = 0;
 		public double Banque_facteur_Mo = 0;
 		public double Banque_periode_buy_Me = 1.0;
+		public Direction AtmTemp = Direction.NORTH;
+		public double Global_PlayerUnique = 1.0;
 
 		public static MapVariables load(CompoundTag tag) {
 			MapVariables data = new MapVariables();
@@ -431,6 +493,8 @@ public class ElyrasirModVariables {
 			Banque_facteur_Me = nbt.getDouble("Banque_facteur_Me");
 			Banque_facteur_Mo = nbt.getDouble("Banque_facteur_Mo");
 			Banque_periode_buy_Me = nbt.getDouble("Banque_periode_buy_Me");
+			AtmTemp = Direction.from3DDataValue(nbt.getInt("AtmTemp"));
+			Global_PlayerUnique = nbt.getDouble("Global_PlayerUnique");
 		}
 
 		@Override
@@ -603,6 +667,8 @@ public class ElyrasirModVariables {
 			nbt.putDouble("Banque_facteur_Me", Banque_facteur_Me);
 			nbt.putDouble("Banque_facteur_Mo", Banque_facteur_Mo);
 			nbt.putDouble("Banque_periode_buy_Me", Banque_periode_buy_Me);
+			nbt.putInt("AtmTemp", AtmTemp.get3DDataValue());
+			nbt.putDouble("Global_PlayerUnique", Global_PlayerUnique);
 			return nbt;
 		}
 
@@ -658,6 +724,104 @@ public class ElyrasirModVariables {
 						MapVariables.clientSide = (MapVariables) message.data;
 					else
 						WorldVariables.clientSide = (WorldVariables) message.data;
+				}
+			});
+			context.setPacketHandled(true);
+		}
+	}
+
+	public static final Capability<PlayerVariables> PLAYER_VARIABLES_CAPABILITY = CapabilityManager.get(new CapabilityToken<PlayerVariables>() {
+	});
+
+	@Mod.EventBusSubscriber
+	private static class PlayerVariablesProvider implements ICapabilitySerializable<Tag> {
+		@SubscribeEvent
+		public static void onAttachCapabilities(AttachCapabilitiesEvent<Entity> event) {
+			if (event.getObject() instanceof Player && !(event.getObject() instanceof FakePlayer))
+				event.addCapability(new ResourceLocation("elyrasir", "player_variables"), new PlayerVariablesProvider());
+		}
+
+		private final PlayerVariables playerVariables = new PlayerVariables();
+		private final LazyOptional<PlayerVariables> instance = LazyOptional.of(() -> playerVariables);
+
+		@Override
+		public <T> LazyOptional<T> getCapability(Capability<T> cap, Direction side) {
+			return cap == PLAYER_VARIABLES_CAPABILITY ? instance.cast() : LazyOptional.empty();
+		}
+
+		@Override
+		public Tag serializeNBT() {
+			return playerVariables.writeNBT();
+		}
+
+		@Override
+		public void deserializeNBT(Tag nbt) {
+			playerVariables.readNBT(nbt);
+		}
+	}
+
+	public static class PlayerVariables {
+		public String Banque_card_name = "\"\"";
+		public String Global_nom = "\"\"";
+		public String Global_prenom = "\"\"";
+		public String Global_age = "\"\"";
+		public String Global_origine = "\"\"";
+		public double Global_PID = 0;
+
+		public void syncPlayerVariables(Entity entity) {
+			if (entity instanceof ServerPlayer serverPlayer)
+				ElyrasirMod.PACKET_HANDLER.send(PacketDistributor.PLAYER.with(() -> serverPlayer), new PlayerVariablesSyncMessage(this));
+		}
+
+		public Tag writeNBT() {
+			CompoundTag nbt = new CompoundTag();
+			nbt.putString("Banque_card_name", Banque_card_name);
+			nbt.putString("Global_nom", Global_nom);
+			nbt.putString("Global_prenom", Global_prenom);
+			nbt.putString("Global_age", Global_age);
+			nbt.putString("Global_origine", Global_origine);
+			nbt.putDouble("Global_PID", Global_PID);
+			return nbt;
+		}
+
+		public void readNBT(Tag Tag) {
+			CompoundTag nbt = (CompoundTag) Tag;
+			Banque_card_name = nbt.getString("Banque_card_name");
+			Global_nom = nbt.getString("Global_nom");
+			Global_prenom = nbt.getString("Global_prenom");
+			Global_age = nbt.getString("Global_age");
+			Global_origine = nbt.getString("Global_origine");
+			Global_PID = nbt.getDouble("Global_PID");
+		}
+	}
+
+	public static class PlayerVariablesSyncMessage {
+		private final PlayerVariables data;
+
+		public PlayerVariablesSyncMessage(FriendlyByteBuf buffer) {
+			this.data = new PlayerVariables();
+			this.data.readNBT(buffer.readNbt());
+		}
+
+		public PlayerVariablesSyncMessage(PlayerVariables data) {
+			this.data = data;
+		}
+
+		public static void buffer(PlayerVariablesSyncMessage message, FriendlyByteBuf buffer) {
+			buffer.writeNbt((CompoundTag) message.data.writeNBT());
+		}
+
+		public static void handler(PlayerVariablesSyncMessage message, Supplier<NetworkEvent.Context> contextSupplier) {
+			NetworkEvent.Context context = contextSupplier.get();
+			context.enqueueWork(() -> {
+				if (!context.getDirection().getReceptionSide().isServer()) {
+					PlayerVariables variables = ((PlayerVariables) Minecraft.getInstance().player.getCapability(PLAYER_VARIABLES_CAPABILITY, null).orElse(new PlayerVariables()));
+					variables.Banque_card_name = message.data.Banque_card_name;
+					variables.Global_nom = message.data.Global_nom;
+					variables.Global_prenom = message.data.Global_prenom;
+					variables.Global_age = message.data.Global_age;
+					variables.Global_origine = message.data.Global_origine;
+					variables.Global_PID = message.data.Global_PID;
 				}
 			});
 			context.setPacketHandled(true);

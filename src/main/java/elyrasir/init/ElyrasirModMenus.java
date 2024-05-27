@@ -11,10 +11,15 @@ import net.minecraftforge.common.extensions.IForgeMenuType;
 
 import net.minecraft.world.inventory.MenuType;
 
+import elyrasir.world.inventory.RegisterCMenu;
+import elyrasir.world.inventory.MainscreenMenu;
 import elyrasir.world.inventory.MainPoliceMenu;
 import elyrasir.world.inventory.MainPlainteMenu;
+import elyrasir.world.inventory.InterfacecardbMenu;
+import elyrasir.world.inventory.IdentityguiMenu;
 import elyrasir.world.inventory.DepotPlainteMenu;
 import elyrasir.world.inventory.ConsultPlainteMenu;
+import elyrasir.world.inventory.BasepAcountATMMenu;
 import elyrasir.world.inventory.BaseAtmMenu;
 import elyrasir.world.inventory.AchatPCMenu;
 import elyrasir.world.inventory.AchatCardMenu;
@@ -30,4 +35,9 @@ public class ElyrasirModMenus {
 	public static final RegistryObject<MenuType<MainPlainteMenu>> MAIN_PLAINTE = REGISTRY.register("main_plainte", () -> IForgeMenuType.create(MainPlainteMenu::new));
 	public static final RegistryObject<MenuType<DepotPlainteMenu>> DEPOT_PLAINTE = REGISTRY.register("depot_plainte", () -> IForgeMenuType.create(DepotPlainteMenu::new));
 	public static final RegistryObject<MenuType<ConsultPlainteMenu>> CONSULT_PLAINTE = REGISTRY.register("consult_plainte", () -> IForgeMenuType.create(ConsultPlainteMenu::new));
+	public static final RegistryObject<MenuType<InterfacecardbMenu>> INTERFACECARDB = REGISTRY.register("interfacecardb", () -> IForgeMenuType.create(InterfacecardbMenu::new));
+	public static final RegistryObject<MenuType<RegisterCMenu>> REGISTER_C = REGISTRY.register("register_c", () -> IForgeMenuType.create(RegisterCMenu::new));
+	public static final RegistryObject<MenuType<IdentityguiMenu>> IDENTITYGUI = REGISTRY.register("identitygui", () -> IForgeMenuType.create(IdentityguiMenu::new));
+	public static final RegistryObject<MenuType<MainscreenMenu>> MAINSCREEN = REGISTRY.register("mainscreen", () -> IForgeMenuType.create(MainscreenMenu::new));
+	public static final RegistryObject<MenuType<BasepAcountATMMenu>> BASEP_ACOUNT_ATM = REGISTRY.register("basep_acount_atm", () -> IForgeMenuType.create(BasepAcountATMMenu::new));
 }

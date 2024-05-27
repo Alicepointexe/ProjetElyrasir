@@ -32,9 +32,12 @@
     "glowCondition": {
       "fixedValue": false
     },
-    "guiBoundTo": "<NONE>",
-    "inventorySize": 9,
-    "inventoryStackSize": 64,
+    "guiBoundTo": "Identitygui",
+    "inventorySize": 0,
+    "inventoryStackSize": 1,
+    "onRightClickedInAir": {
+      "name": "Identityrightclick"
+    },
     "enableRanged": false,
     "shootConstantly": false,
     "projectile": {

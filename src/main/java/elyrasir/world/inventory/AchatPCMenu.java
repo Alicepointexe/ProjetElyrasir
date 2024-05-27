@@ -24,6 +24,8 @@ import java.util.function.Supplier;
 import java.util.Map;
 import java.util.HashMap;
 
+import elyrasir.procedures.AtmQuitProcedure;
+
 import elyrasir.init.ElyrasirModMenus;
 
 public class AchatPCMenu extends AbstractContainerMenu implements Supplier<Map<Integer, Slot>> {
@@ -281,6 +283,7 @@ public class AchatPCMenu extends AbstractContainerMenu implements Supplier<Map<I
 	@Override
 	public void removed(Player playerIn) {
 		super.removed(playerIn);
+		AtmQuitProcedure.execute(world, x, y, z);
 		if (!bound && playerIn instanceof ServerPlayer serverPlayer) {
 			if (!serverPlayer.isAlive() || serverPlayer.hasDisconnected()) {
 				for (int j = 0; j < internal.getSlots(); ++j) {

@@ -1,0 +1,9 @@
+{
+  "parent": "elyrasir:custom/atm",
+  "textures": {
+    "all": "elyrasir:block/gray_concrete_big_square",
+    "particle": "elyrasir:block/gray_concrete_big_square",
+    "base": "elyrasir:block/atm"
+  },
+  "render_type": "solid"
+}

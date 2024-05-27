@@ -1,0 +1,185 @@
+{
+  "_fv": 57,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 231,
+    "height": 229,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_formulaire_denregistrement_e42",
+          "text": {
+            "fixedValue": "Formulaire d'Enregistrement"
+          },
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "x": 143,
+          "y": 12
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_nom",
+          "text": {
+            "fixedValue": "Nom:"
+          },
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "x": 172,
+          "y": 33
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_prenom",
+          "text": {
+            "fixedValue": "Prénom:"
+          },
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "x": 157,
+          "y": 57
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_origines",
+          "text": {
+            "fixedValue": "Origines:"
+          },
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "x": 144,
+          "y": 106
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_age",
+          "text": {
+            "fixedValue": "Age:"
+          },
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "x": 170,
+          "y": 81
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "",
+          "name": "E42_Prenom",
+          "width": 120,
+          "height": 20,
+          "x": 197,
+          "y": 57
+        }
+      },
+      {
+        "type": "entitymodel",
+        "data": {
+          "entityModel": {
+            "name": "ScreenPlayer"
+          },
+          "scale": 30,
+          "rotationX": 0,
+          "followMouseMovement": false,
+          "x": 117,
+          "y": 77
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "",
+          "name": "E42_Nom",
+          "width": 120,
+          "height": 20,
+          "x": 197,
+          "y": 32
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "",
+          "name": "E42_age",
+          "width": 120,
+          "height": 20,
+          "x": 196,
+          "y": 81
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "",
+          "name": "E42_Origine",
+          "width": 120,
+          "height": 20,
+          "x": 197,
+          "y": 104
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_valider",
+          "text": "Valider",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ValiderRegister"
+          },
+          "width": 61,
+          "height": 20,
+          "x": 183,
+          "y": 203
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_get_server_id",
+          "text": {
+            "fixedValue": "",
+            "name": "GetServerID"
+          },
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "x": 117,
+          "y": 135
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}
