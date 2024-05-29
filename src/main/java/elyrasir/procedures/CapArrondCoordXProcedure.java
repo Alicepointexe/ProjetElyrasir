@@ -24,6 +24,11 @@ public class CapArrondCoordXProcedure {
 		String Pomeid = "";
 		String uid = "";
 		File file = new File("");
+		double X = 0;
+		double Y = 0;
+		double Z = 0;
+		double numarr = 0;
+		double numcoord = 0;
 		com.google.gson.JsonObject sd = new com.google.gson.JsonObject();
 		com.google.gson.JsonObject subobjet = new com.google.gson.JsonObject();
 		com.google.gson.JsonObject objetprincipale = new com.google.gson.JsonObject();
@@ -31,9 +36,9 @@ public class CapArrondCoordXProcedure {
 		com.google.gson.JsonObject arroundX = new com.google.gson.JsonObject();
 		com.google.gson.JsonObject coord = new com.google.gson.JsonObject();
 		com.google.gson.JsonObject coordX = new com.google.gson.JsonObject();
-		double X = 0;
-		double Y = 0;
-		double Z = 0;
+		com.google.gson.JsonObject coords = new com.google.gson.JsonObject();
+		numarr = DoubleArgumentType.getDouble(arguments, "numarrondis");
+		numcoord = DoubleArgumentType.getDouble(arguments, "numcoord");
 		file = new File((FMLPaths.GAMEDIR.get().toString() + "/config/pomme24/terrains/"), File.separator + ("land" + ".json"));
 		if (file.exists()) {
 			{
@@ -48,15 +53,15 @@ public class CapArrondCoordXProcedure {
 					objetprincipale = new Gson().fromJson(jsonstringbuilder.toString(), com.google.gson.JsonObject.class);
 					subobjet = objetprincipale.get("Capitale").getAsJsonObject();
 					arrond = subobjet.get("Arrondissements").getAsJsonObject();
-					arroundX = arrond.get(("Arondissement" + DoubleArgumentType.getDouble(arguments, "numarr"))).getAsJsonObject();
+					arroundX = arrond.get(("Arondissement" + new java.text.DecimalFormat("##").format(numarr))).getAsJsonObject();
 					coord = arroundX.get("Coords").getAsJsonObject();
-					coordX = coord.get(("Coords" + DoubleArgumentType.getDouble(arguments, "numcoord"))).getAsJsonObject();
-					if (entity instanceof Player _player && !_player.level().isClientSide())
-						_player.displayClientMessage(Component.literal(("X: " + coordX.get("X").getAsJsonObject() + " X: " + coordX.get("Y").getAsJsonObject() + " z:" + coordX.get("Z").getAsJsonObject())), false);
+					coordX = coord.get(("Coords" + new java.text.DecimalFormat("##").format(numcoord))).getAsJsonObject();
 				} catch (IOException e) {
 					e.printStackTrace();
 				}
 			}
 		}
+		if (entity instanceof Player _player && !_player.level().isClientSide())
+			_player.displayClientMessage(Component.literal(("" + coordX)), true);
 	}
 }

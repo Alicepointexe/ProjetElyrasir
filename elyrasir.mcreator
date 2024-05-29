@@ -4435,9 +4435,6 @@
       "locked_code": false,
       "registry_name": "land_create_file",
       "metadata": {
-        "files": [
-          "src/main/java/elyrasir/procedures/LandCreateFileProcedure.java"
-        ],
         "dependencies": []
       },
       "path": "~/terrains/procedures"
@@ -4467,21 +4464,6 @@
       "path": "~/terrains/procedures/landManagement"
     },
     {
-      "name": "CapArrondCoordAdd",
-      "type": "procedure",
-      "sortid": 259,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cap_arrond_coord_add",
-      "metadata": {
-        "files": [
-          "src/main/java/elyrasir/procedures/CapArrondCoordAddProcedure.java"
-        ],
-        "dependencies": []
-      },
-      "path": "~/terrains/procedures/landManagement"
-    },
-    {
       "name": "CapArrondCoordModify",
       "type": "procedure",
       "sortid": 260,
@@ -4492,7 +4474,16 @@
         "files": [
           "src/main/java/elyrasir/procedures/CapArrondCoordModifyProcedure.java"
         ],
-        "dependencies": []
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
       },
       "path": "~/terrains/procedures/landManagement"
     },
@@ -4507,7 +4498,16 @@
         "files": [
           "src/main/java/elyrasir/procedures/CapArrondCoordDeleteProcedure.java"
         ],
-        "dependencies": []
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
       },
       "path": "~/terrains/procedures/landManagement"
     },
@@ -4522,22 +4522,16 @@
         "files": [
           "src/main/java/elyrasir/procedures/CapCoordXProcedure.java"
         ],
-        "dependencies": []
-      },
-      "path": "~/terrains/procedures/landManagement"
-    },
-    {
-      "name": "CapCoordAdd",
-      "type": "procedure",
-      "sortid": 263,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cap_coord_add",
-      "metadata": {
-        "files": [
-          "src/main/java/elyrasir/procedures/CapCoordAddProcedure.java"
-        ],
-        "dependencies": []
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
       },
       "path": "~/terrains/procedures/landManagement"
     },
@@ -4552,7 +4546,16 @@
         "files": [
           "src/main/java/elyrasir/procedures/CapCoordModifyProcedure.java"
         ],
-        "dependencies": []
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
       },
       "path": "~/terrains/procedures/landManagement"
     },
@@ -4567,7 +4570,16 @@
         "files": [
           "src/main/java/elyrasir/procedures/CapCoordDeleteProcedure.java"
         ],
-        "dependencies": []
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
       },
       "path": "~/terrains/procedures/landManagement"
     },
@@ -4597,7 +4609,16 @@
         "files": [
           "src/main/java/elyrasir/procedures/CiteXcordXProcedure.java"
         ],
-        "dependencies": []
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
       },
       "path": "~/terrains/procedures/landManagement"
     },
@@ -4627,7 +4648,16 @@
         "files": [
           "src/main/java/elyrasir/procedures/CiteXcoordModifyProcedure.java"
         ],
-        "dependencies": []
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
       },
       "path": "~/terrains/procedures/landManagement"
     },
@@ -4642,7 +4672,16 @@
         "files": [
           "src/main/java/elyrasir/procedures/CiteXcoordDeleteProcedure.java"
         ],
-        "dependencies": []
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
       },
       "path": "~/terrains/procedures/landManagement"
     }
