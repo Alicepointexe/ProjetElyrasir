@@ -46,52 +46,96 @@ public class LandCommand {
 
 			LandCreateFileProcedure.execute();
 			return 0;
-		})).then(Commands.argument("cites", StringArgumentType.word())
-				.then(Commands.argument("numcite", DoubleArgumentType.doubleArg(0))
-						.then(Commands.argument("coord", StringArgumentType.word()).then(Commands.argument("numcoord", DoubleArgumentType.doubleArg(1, 40)).then(Commands.argument("modify", StringArgumentType.word())
-								.then(Commands.argument("X", DoubleArgumentType.doubleArg()).then(Commands.argument("Y", DoubleArgumentType.doubleArg()).then(Commands.argument("Z", DoubleArgumentType.doubleArg()).executes(arguments -> {
-									Level world = arguments.getSource().getUnsidedLevel();
-									double x = arguments.getSource().getPosition().x();
-									double y = arguments.getSource().getPosition().y();
-									double z = arguments.getSource().getPosition().z();
-									Entity entity = arguments.getSource().getEntity();
-									if (entity == null && world instanceof ServerLevel _servLevel)
-										entity = FakePlayerFactory.getMinecraft(_servLevel);
-									Direction direction = Direction.DOWN;
-									if (entity != null)
-										direction = entity.getDirection();
+		})).then(Commands.argument("coord", StringArgumentType.word()).then(Commands.argument("numcoord", DoubleArgumentType.doubleArg(1, 40)).then(Commands.argument("modify", StringArgumentType.word())
+				.then(Commands.argument("X", DoubleArgumentType.doubleArg()).then(Commands.argument("Y", DoubleArgumentType.doubleArg()).then(Commands.argument("Z", DoubleArgumentType.doubleArg()).executes(arguments -> {
+					Level world = arguments.getSource().getUnsidedLevel();
+					double x = arguments.getSource().getPosition().x();
+					double y = arguments.getSource().getPosition().y();
+					double z = arguments.getSource().getPosition().z();
+					Entity entity = arguments.getSource().getEntity();
+					if (entity == null && world instanceof ServerLevel _servLevel)
+						entity = FakePlayerFactory.getMinecraft(_servLevel);
+					Direction direction = Direction.DOWN;
+					if (entity != null)
+						direction = entity.getDirection();
 
-									CiteXcoordModifyProcedure.execute(arguments, entity);
-									return 0;
-								}))))).then(Commands.argument("delete", StringArgumentType.word()).executes(arguments -> {
-									Level world = arguments.getSource().getUnsidedLevel();
-									double x = arguments.getSource().getPosition().x();
-									double y = arguments.getSource().getPosition().y();
-									double z = arguments.getSource().getPosition().z();
-									Entity entity = arguments.getSource().getEntity();
-									if (entity == null && world instanceof ServerLevel _servLevel)
-										entity = FakePlayerFactory.getMinecraft(_servLevel);
-									Direction direction = Direction.DOWN;
-									if (entity != null)
-										direction = entity.getDirection();
+					CapCoordModifyProcedure.execute(arguments, entity);
+					return 0;
+				}))))).then(Commands.argument("delete", StringArgumentType.word()).executes(arguments -> {
+					Level world = arguments.getSource().getUnsidedLevel();
+					double x = arguments.getSource().getPosition().x();
+					double y = arguments.getSource().getPosition().y();
+					double z = arguments.getSource().getPosition().z();
+					Entity entity = arguments.getSource().getEntity();
+					if (entity == null && world instanceof ServerLevel _servLevel)
+						entity = FakePlayerFactory.getMinecraft(_servLevel);
+					Direction direction = Direction.DOWN;
+					if (entity != null)
+						direction = entity.getDirection();
 
-									CiteXcoordDeleteProcedure.execute(arguments, entity);
-									return 0;
-								})).executes(arguments -> {
-									Level world = arguments.getSource().getUnsidedLevel();
-									double x = arguments.getSource().getPosition().x();
-									double y = arguments.getSource().getPosition().y();
-									double z = arguments.getSource().getPosition().z();
-									Entity entity = arguments.getSource().getEntity();
-									if (entity == null && world instanceof ServerLevel _servLevel)
-										entity = FakePlayerFactory.getMinecraft(_servLevel);
-									Direction direction = Direction.DOWN;
-									if (entity != null)
-										direction = entity.getDirection();
+					CapCoordDeleteProcedure.execute(arguments, entity);
+					return 0;
+				})).executes(arguments -> {
+					Level world = arguments.getSource().getUnsidedLevel();
+					double x = arguments.getSource().getPosition().x();
+					double y = arguments.getSource().getPosition().y();
+					double z = arguments.getSource().getPosition().z();
+					Entity entity = arguments.getSource().getEntity();
+					if (entity == null && world instanceof ServerLevel _servLevel)
+						entity = FakePlayerFactory.getMinecraft(_servLevel);
+					Direction direction = Direction.DOWN;
+					if (entity != null)
+						direction = entity.getDirection();
 
-									CiteXcordXProcedure.execute(arguments, entity);
-									return 0;
-								})))))
+					CapCoordXProcedure.execute(arguments, entity);
+					return 0;
+				})))
+				.then(Commands.argument("cites", StringArgumentType.word())
+						.then(Commands.argument("numcite", DoubleArgumentType.doubleArg(0))
+								.then(Commands.argument("coord", StringArgumentType.word()).then(Commands.argument("numcoord", DoubleArgumentType.doubleArg(1, 40)).then(Commands.argument("modify", StringArgumentType.word())
+										.then(Commands.argument("X", DoubleArgumentType.doubleArg()).then(Commands.argument("Y", DoubleArgumentType.doubleArg()).then(Commands.argument("Z", DoubleArgumentType.doubleArg()).executes(arguments -> {
+											Level world = arguments.getSource().getUnsidedLevel();
+											double x = arguments.getSource().getPosition().x();
+											double y = arguments.getSource().getPosition().y();
+											double z = arguments.getSource().getPosition().z();
+											Entity entity = arguments.getSource().getEntity();
+											if (entity == null && world instanceof ServerLevel _servLevel)
+												entity = FakePlayerFactory.getMinecraft(_servLevel);
+											Direction direction = Direction.DOWN;
+											if (entity != null)
+												direction = entity.getDirection();
+
+											CiteXcoordModifyProcedure.execute(arguments, entity);
+											return 0;
+										}))))).then(Commands.argument("delete", StringArgumentType.word()).executes(arguments -> {
+											Level world = arguments.getSource().getUnsidedLevel();
+											double x = arguments.getSource().getPosition().x();
+											double y = arguments.getSource().getPosition().y();
+											double z = arguments.getSource().getPosition().z();
+											Entity entity = arguments.getSource().getEntity();
+											if (entity == null && world instanceof ServerLevel _servLevel)
+												entity = FakePlayerFactory.getMinecraft(_servLevel);
+											Direction direction = Direction.DOWN;
+											if (entity != null)
+												direction = entity.getDirection();
+
+											CiteXcoordDeleteProcedure.execute(arguments, entity);
+											return 0;
+										})).executes(arguments -> {
+											Level world = arguments.getSource().getUnsidedLevel();
+											double x = arguments.getSource().getPosition().x();
+											double y = arguments.getSource().getPosition().y();
+											double z = arguments.getSource().getPosition().z();
+											Entity entity = arguments.getSource().getEntity();
+											if (entity == null && world instanceof ServerLevel _servLevel)
+												entity = FakePlayerFactory.getMinecraft(_servLevel);
+											Direction direction = Direction.DOWN;
+											if (entity != null)
+												direction = entity.getDirection();
+
+											CiteXcordXProcedure.execute(arguments, entity);
+											return 0;
+										})))))
 				.then(Commands.argument("capitale", StringArgumentType.word())
 						.then(Commands.argument("arrondis", StringArgumentType.word()).then(Commands.argument("numarrondis", DoubleArgumentType.doubleArg(1, 40))
 								.then(Commands.argument("coord", StringArgumentType.word()).then(Commands.argument("numcoord", DoubleArgumentType.doubleArg(1, 40)).then(Commands.argument("modify", StringArgumentType.word())
@@ -137,50 +181,6 @@ public class LandCommand {
 
 											CapArrondCoordXProcedure.execute(arguments, entity);
 											return 0;
-										})))))
-						.then(Commands.argument("coord", StringArgumentType.word()).then(Commands.argument("numcoord", DoubleArgumentType.doubleArg(1, 40)).then(Commands.argument("modify", StringArgumentType.word())
-								.then(Commands.argument("X", DoubleArgumentType.doubleArg()).then(Commands.argument("Y", DoubleArgumentType.doubleArg()).then(Commands.argument("Z", DoubleArgumentType.doubleArg()).executes(arguments -> {
-									Level world = arguments.getSource().getUnsidedLevel();
-									double x = arguments.getSource().getPosition().x();
-									double y = arguments.getSource().getPosition().y();
-									double z = arguments.getSource().getPosition().z();
-									Entity entity = arguments.getSource().getEntity();
-									if (entity == null && world instanceof ServerLevel _servLevel)
-										entity = FakePlayerFactory.getMinecraft(_servLevel);
-									Direction direction = Direction.DOWN;
-									if (entity != null)
-										direction = entity.getDirection();
-
-									CapCoordModifyProcedure.execute(arguments, entity);
-									return 0;
-								}))))).then(Commands.argument("delete", StringArgumentType.word()).executes(arguments -> {
-									Level world = arguments.getSource().getUnsidedLevel();
-									double x = arguments.getSource().getPosition().x();
-									double y = arguments.getSource().getPosition().y();
-									double z = arguments.getSource().getPosition().z();
-									Entity entity = arguments.getSource().getEntity();
-									if (entity == null && world instanceof ServerLevel _servLevel)
-										entity = FakePlayerFactory.getMinecraft(_servLevel);
-									Direction direction = Direction.DOWN;
-									if (entity != null)
-										direction = entity.getDirection();
-
-									CapCoordDeleteProcedure.execute(arguments, entity);
-									return 0;
-								})).executes(arguments -> {
-									Level world = arguments.getSource().getUnsidedLevel();
-									double x = arguments.getSource().getPosition().x();
-									double y = arguments.getSource().getPosition().y();
-									double z = arguments.getSource().getPosition().z();
-									Entity entity = arguments.getSource().getEntity();
-									if (entity == null && world instanceof ServerLevel _servLevel)
-										entity = FakePlayerFactory.getMinecraft(_servLevel);
-									Direction direction = Direction.DOWN;
-									if (entity != null)
-										direction = entity.getDirection();
-
-									CapCoordXProcedure.execute(arguments, entity);
-									return 0;
-								}))))));
+										}))))))));
 	}
 }

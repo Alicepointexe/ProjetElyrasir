@@ -173,6 +173,8 @@ public class ElyrasirModTabs {
 				tabData.accept(ElyrasirModBlocks.ATM_CHECK.get().asItem());
 				tabData.accept(ElyrasirModBlocks.AT_MP_ACOUNT.get().asItem());
 				tabData.accept(ElyrasirModBlocks.VENDEUR.get().asItem());
+				tabData.accept(ElyrasirModItems.FACTURE.get());
+				tabData.accept(ElyrasirModItems.RECU.get());
 			}).withSearchBar().build());
 	public static final RegistryObject<CreativeModeTab> POMME_ITEMS = REGISTRY.register("pomme_items",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.elyrasir.pomme_items")).icon(() -> new ItemStack(ElyrasirModItems.UNPC.get())).displayItems((parameters, tabData) -> {
@@ -186,6 +188,13 @@ public class ElyrasirModTabs {
 				tabData.accept(ElyrasirModItems.CINQCENTPC.get());
 				tabData.accept(ElyrasirModItems.IDENTITY.get());
 				tabData.accept(ElyrasirModItems.LIVRET.get());
+				tabData.accept(ElyrasirModItems.GOUTES_A.get());
+				tabData.accept(ElyrasirModItems.GOUTES_B.get());
+				tabData.accept(ElyrasirModItems.INJECTION_A.get());
+				tabData.accept(ElyrasirModItems.INJECTION_B.get());
+				tabData.accept(ElyrasirModItems.CACHETS_A.get());
+				tabData.accept(ElyrasirModItems.CACHETS_B.get());
+				tabData.accept(ElyrasirModItems.ANTIDOTE.get());
 			})
 
 					.build());

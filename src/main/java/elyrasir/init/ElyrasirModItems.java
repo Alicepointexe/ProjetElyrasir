@@ -14,7 +14,10 @@ import net.minecraft.world.item.BlockItem;
 
 import elyrasir.item.VingtpcItem;
 import elyrasir.item.UnpcItem;
+import elyrasir.item.RecuItem;
 import elyrasir.item.LivretItem;
+import elyrasir.item.InjectionBItem;
+import elyrasir.item.InjectionAItem;
 import elyrasir.item.IdentityItem;
 import elyrasir.item.HarponTactique4Item;
 import elyrasir.item.HarponTactique3Item;
@@ -26,6 +29,9 @@ import elyrasir.item.HarponPol3Item;
 import elyrasir.item.HarponPol2Item;
 import elyrasir.item.HarponPol1Item;
 import elyrasir.item.HarponPol0Item;
+import elyrasir.item.GoutesBItem;
+import elyrasir.item.GoutesAItem;
+import elyrasir.item.FactureItem;
 import elyrasir.item.DixpcItem;
 import elyrasir.item.DeuxcentpcItem;
 import elyrasir.item.CinquantepcItem;
@@ -33,6 +39,9 @@ import elyrasir.item.CinqpcItem;
 import elyrasir.item.CinqcentpcItem;
 import elyrasir.item.CentpcItem;
 import elyrasir.item.CardBItem;
+import elyrasir.item.CachetsBItem;
+import elyrasir.item.CachetsAItem;
+import elyrasir.item.AntidoteItem;
 
 import elyrasir.ElyrasirMod;
 
@@ -210,6 +219,15 @@ public class ElyrasirModItems {
 	public static final RegistryObject<Item> ATM_CHECK = block(ElyrasirModBlocks.ATM_CHECK);
 	public static final RegistryObject<Item> AT_MP_ACOUNT = block(ElyrasirModBlocks.AT_MP_ACOUNT);
 	public static final RegistryObject<Item> VENDEUR = block(ElyrasirModBlocks.VENDEUR);
+	public static final RegistryObject<Item> GOUTES_A = REGISTRY.register("goutes_a", () -> new GoutesAItem());
+	public static final RegistryObject<Item> GOUTES_B = REGISTRY.register("goutes_b", () -> new GoutesBItem());
+	public static final RegistryObject<Item> INJECTION_A = REGISTRY.register("injection_a", () -> new InjectionAItem());
+	public static final RegistryObject<Item> INJECTION_B = REGISTRY.register("injection_b", () -> new InjectionBItem());
+	public static final RegistryObject<Item> CACHETS_A = REGISTRY.register("cachets_a", () -> new CachetsAItem());
+	public static final RegistryObject<Item> CACHETS_B = REGISTRY.register("cachets_b", () -> new CachetsBItem());
+	public static final RegistryObject<Item> ANTIDOTE = REGISTRY.register("antidote", () -> new AntidoteItem());
+	public static final RegistryObject<Item> FACTURE = REGISTRY.register("facture", () -> new FactureItem());
+	public static final RegistryObject<Item> RECU = REGISTRY.register("recu", () -> new RecuItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

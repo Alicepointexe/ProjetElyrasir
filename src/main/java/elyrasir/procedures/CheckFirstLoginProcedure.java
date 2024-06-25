@@ -74,20 +74,18 @@ public class CheckFirstLoginProcedure {
 			} catch (IOException exception) {
 				exception.printStackTrace();
 			}
-			subobjet1.addProperty("TotalEmis", "none");
-			subobjet3.addProperty("500", "none");
-			subobjet3.addProperty("200", "none");
-			subobjet3.addProperty("100", "none");
-			subobjet3.addProperty("50", "none");
-			subobjet3.addProperty("20", "none");
-			subobjet3.addProperty("10", "none");
-			subobjet3.addProperty("5", "none");
-			subobjet3.addProperty("1", "none");
+			subobjet1.addProperty("TotalEmis", 22000000);
+			subobjet3.addProperty("500", 6600);
+			subobjet3.addProperty("200", 24200);
+			subobjet3.addProperty("100", 46200);
+			subobjet3.addProperty("50", 83600);
+			subobjet3.addProperty("20", 121000);
+			subobjet3.addProperty("10", 154000);
+			subobjet3.addProperty("5", 176000);
+			subobjet3.addProperty("1", 220000);
 			subobjet1.add("DistriMonaie", subobjet3);
 			subobjet1.addProperty("BanqueReserve", "none");
 			subobjet1.addProperty("DiamandStock", "none");
-			subobjet1.addProperty("Job", "none");
-			subobjet1.addProperty("Residence", "none");
 			subobjet2.addProperty("asRegister", false);
 			subobjet2.addProperty("asJob", false);
 			subobjet2.addProperty("asRes", false);
@@ -142,6 +140,7 @@ public class CheckFirstLoginProcedure {
 			subobjet3.addProperty("TotalMGive", 0);
 			subobjet3.addProperty("TotalMBack", 0);
 			subobjet3.addProperty("TotalCreditTake", 0);
+			subobjet4.addProperty("effetlevel", 0);
 			subobjet4.addProperty("TemLevel", 0);
 			subobjet4.addProperty("EndLevel", 0);
 			subobjet4.addProperty("SoifLevel", 0);

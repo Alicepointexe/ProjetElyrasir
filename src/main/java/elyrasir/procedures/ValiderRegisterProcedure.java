@@ -3,14 +3,10 @@ package elyrasir.procedures;
 import net.minecraftforge.items.ItemHandlerHelper;
 import net.minecraftforge.fml.loading.FMLPaths;
 
-import net.minecraft.world.scores.criteria.ObjectiveCriteria;
-import net.minecraft.world.scores.Scoreboard;
-import net.minecraft.world.scores.Objective;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.server.level.ServerPlayer;
-import net.minecraft.network.chat.Component;
 import net.minecraft.client.gui.components.EditBox;
 
 import java.util.HashMap;
@@ -39,6 +35,8 @@ public class ValiderRegisterProcedure {
 		com.google.gson.JsonObject origine = new com.google.gson.JsonObject();
 		com.google.gson.JsonObject subobjet = new com.google.gson.JsonObject();
 		com.google.gson.JsonObject objetprincipale = new com.google.gson.JsonObject();
+		com.google.gson.JsonObject subobjet1 = new com.google.gson.JsonObject();
+		com.google.gson.JsonObject subobjet2 = new com.google.gson.JsonObject();
 		if (entity instanceof ServerPlayer || entity instanceof Player) {
 			uid = entity.getStringUUID();
 			file = new File((FMLPaths.GAMEDIR.get().toString() + "/config/pomme24/players/"), File.separator + (uid + ".json"));
@@ -52,18 +50,20 @@ public class ValiderRegisterProcedure {
 							jsonstringbuilder.append(line);
 						}
 						bufferedReader.close();
-						Nom = new Gson().fromJson(jsonstringbuilder.toString(), com.google.gson.JsonObject.class);
-						objetprincipale = Nom.get("Pomme24").getAsJsonObject();
-						subobjet = objetprincipale.get("ID").getAsJsonObject();
-						subobjet.addProperty("Nom", (guistate.containsKey("text:E42_Nom") ? ((EditBox) guistate.get("text:E42_Nom")).getValue() : ""));
-						subobjet.addProperty("Prenom", (guistate.containsKey("text:E42_Prenom") ? ((EditBox) guistate.get("text:E42_Prenom")).getValue() : ""));
-						subobjet.addProperty("Age", (guistate.containsKey("text:E42_age") ? ((EditBox) guistate.get("text:E42_age")).getValue() : ""));
+						objetprincipale = new Gson().fromJson(jsonstringbuilder.toString(), com.google.gson.JsonObject.class);
+						subobjet = objetprincipale.get("Pomme24").getAsJsonObject();
+						subobjet1 = subobjet.get("ID").getAsJsonObject();
+						subobjet2 = subobjet.get("Variable").getAsJsonObject();
+						subobjet1.addProperty("Nom", (guistate.containsKey("text:E42_Nom") ? ((EditBox) guistate.get("text:E42_Nom")).getValue() : ""));
+						subobjet1.addProperty("Prenom", (guistate.containsKey("text:E42_Prenom") ? ((EditBox) guistate.get("text:E42_Prenom")).getValue() : ""));
+						subobjet1.addProperty("Age", (guistate.containsKey("text:E42_age") ? ((EditBox) guistate.get("text:E42_age")).getValue() : ""));
 						subobjet.addProperty("Origine", (guistate.containsKey("text:E42_Origine") ? ((EditBox) guistate.get("text:E42_Origine")).getValue() : ""));
+						subobjet2.addProperty("asRegister", true);
 						{
 							Gson mainGSONBuilderVariable = new GsonBuilder().setPrettyPrinting().create();
 							try {
 								FileWriter fileWriter = new FileWriter(file);
-								fileWriter.write(mainGSONBuilderVariable.toJson(Nom));
+								fileWriter.write(mainGSONBuilderVariable.toJson(objetprincipale));
 								fileWriter.close();
 							} catch (IOException exception) {
 								exception.printStackTrace();
@@ -79,13 +79,30 @@ public class ValiderRegisterProcedure {
 				_setstack.setCount(1);
 				ItemHandlerHelper.giveItemToPlayer(_player, _setstack);
 			}
-			{
-				Entity _ent = entity;
-				Scoreboard _sc = _ent.level().getScoreboard();
-				Objective _so = _sc.getObjective("RegisterOk");
-				if (_so == null)
-					_so = _sc.addObjective("RegisterOk", ObjectiveCriteria.DUMMY, Component.literal("RegisterOk"), ObjectiveCriteria.RenderType.INTEGER);
-				_sc.getOrCreatePlayerScore(_ent.getScoreboardName(), _so).setScore(1);
+			if (entity instanceof Player _player) {
+				ItemStack _setstack = new ItemStack(ElyrasirModItems.CINQCENTPC.get());
+				_setstack.setCount(3);
+				ItemHandlerHelper.giveItemToPlayer(_player, _setstack);
+			}
+			if (entity instanceof Player _player) {
+				ItemStack _setstack = new ItemStack(ElyrasirModItems.DEUXCENTPC.get());
+				_setstack.setCount(11);
+				ItemHandlerHelper.giveItemToPlayer(_player, _setstack);
+			}
+			if (entity instanceof Player _player) {
+				ItemStack _setstack = new ItemStack(ElyrasirModItems.CENTPC.get());
+				_setstack.setCount(22);
+				ItemHandlerHelper.giveItemToPlayer(_player, _setstack);
+			}
+			if (entity instanceof Player _player) {
+				ItemStack _setstack = new ItemStack(ElyrasirModItems.CINQUANTEPC.get());
+				_setstack.setCount(60);
+				ItemHandlerHelper.giveItemToPlayer(_player, _setstack);
+			}
+			if (entity instanceof Player _player) {
+				ItemStack _setstack = new ItemStack(ElyrasirModItems.VINGTPC.get());
+				_setstack.setCount(50);
+				ItemHandlerHelper.giveItemToPlayer(_player, _setstack);
 			}
 			if (entity instanceof Player _player)
 				_player.closeContainer();
