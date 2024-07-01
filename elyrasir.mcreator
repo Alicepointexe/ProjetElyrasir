@@ -3215,22 +3215,6 @@
           {
             "name": "entity",
             "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
           }
         ]
       },
@@ -3640,12 +3624,7 @@
         "files": [
           "src/main/java/elyrasir/procedures/ATMDPriceReturnProcedure.java"
         ],
-        "dependencies": [
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
+        "dependencies": []
       },
       "path": "~/Banque/procedure"
     },
@@ -3661,12 +3640,7 @@
         "files": [
           "src/main/java/elyrasir/procedures/ATMBuyRateReturnProcedure.java"
         ],
-        "dependencies": [
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
+        "dependencies": []
       },
       "path": "~/Banque/procedure"
     },

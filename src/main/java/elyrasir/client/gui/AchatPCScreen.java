@@ -105,10 +105,10 @@ public class AchatPCScreen extends AbstractContainerScreen<AchatPCMenu> {
 		guiGraphics.drawString(this.font, Component.translatable("gui.elyrasir.achat_pc.label_puis_effectuez_lechange"), 48, 43, -16777216, false);
 		guiGraphics.drawString(this.font,
 
-				ATMDPriceReturnProcedure.execute(world), 42, 58, -1, false);
+				ATMDPriceReturnProcedure.execute(), 42, 58, -1, false);
 		guiGraphics.drawString(this.font,
 
-				ATMBuyRateReturnProcedure.execute(world), 39, 74, -6684673, false);
+				ATMBuyRateReturnProcedure.execute(), 39, 74, -6684673, false);
 		guiGraphics.drawString(this.font,
 
 				ATMDebug1Procedure.execute(world), 18, 1, -12829636, false);

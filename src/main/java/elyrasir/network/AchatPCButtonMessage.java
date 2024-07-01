@@ -67,7 +67,7 @@ public class AchatPCButtonMessage {
 			return;
 		if (buttonID == 0) {
 
-			AchatdePCProcedure.execute(world, x, y, z, entity);
+			AchatdePCProcedure.execute(entity);
 		}
 		if (buttonID == 4) {
 

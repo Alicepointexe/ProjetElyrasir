@@ -31,7 +31,7 @@ public class AtmachatdepcProcedure {
 			_player.closeContainer();
 		{
 			BlockPos _bp = BlockPos.containing(x, y, z);
-			BlockState _bs = ElyrasirModBlocks.ATM.get().defaultBlockState();
+			BlockState _bs = ElyrasirModBlocks.ATM_BUY.get().defaultBlockState();
 			BlockState _bso = world.getBlockState(_bp);
 			for (Map.Entry<Property<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {
 				Property _property = _bs.getBlock().getStateDefinition().getProperty(entry.getKey().getName());
