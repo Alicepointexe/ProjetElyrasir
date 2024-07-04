@@ -45,6 +45,6 @@ public class GetprenomProcedure {
 				}
 			}
 		}
-		return Pomeid;
+		return "Pr\u00E9nom: " + Pomeid;
 	}
 }

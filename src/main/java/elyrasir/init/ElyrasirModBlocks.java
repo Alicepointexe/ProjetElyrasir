@@ -56,6 +56,7 @@ import elyrasir.block.PinkconcretebricksBlock;
 import elyrasir.block.PinkconcretebigsquareBlock;
 import elyrasir.block.PinkchisledskeletonconcreteBlock;
 import elyrasir.block.PinkchisledcreeperconcreteBlock;
+import elyrasir.block.PCpersoBlock;
 import elyrasir.block.OrdinateurPoliceBlock;
 import elyrasir.block.OrangeconcretetilesslabBlock;
 import elyrasir.block.OrangeconcretetilesBlock;
@@ -317,4 +318,5 @@ public class ElyrasirModBlocks {
 	public static final RegistryObject<Block> ATM_CHECK = REGISTRY.register("atm_check", () -> new ATMCheckBlock());
 	public static final RegistryObject<Block> AT_MP_ACOUNT = REGISTRY.register("at_mp_acount", () -> new ATMpAcountBlock());
 	public static final RegistryObject<Block> VENDEUR = REGISTRY.register("vendeur", () -> new VendeurBlock());
+	public static final RegistryObject<Block> P_CPERSO = REGISTRY.register("p_cperso", () -> new PCpersoBlock());
 }

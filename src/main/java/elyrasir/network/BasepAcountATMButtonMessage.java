@@ -16,8 +16,7 @@ import java.util.HashMap;
 
 import elyrasir.world.inventory.BasepAcountATMMenu;
 
-import elyrasir.procedures.AtmachatdepcProcedure;
-import elyrasir.procedures.AtmachatCarteProcedure;
+import elyrasir.procedures.OpenretraitPersoProcedure;
 import elyrasir.procedures.AtmQuitProcedure;
 
 import elyrasir.ElyrasirMod;
@@ -68,11 +67,7 @@ public class BasepAcountATMButtonMessage {
 			return;
 		if (buttonID == 0) {
 
-			AtmachatdepcProcedure.execute(world, x, y, z, entity);
-		}
-		if (buttonID == 1) {
-
-			AtmachatCarteProcedure.execute(world, x, y, z, entity);
+			OpenretraitPersoProcedure.execute(world, x, y, z, entity);
 		}
 		if (buttonID == 4) {
 

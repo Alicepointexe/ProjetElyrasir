@@ -81,132 +81,132 @@ public class AchatdePCProcedure {
 					copy_stock_200pc = distimonaie.get("200").getAsDouble();
 					copy_stock_500pc = distimonaie.get("500").getAsDouble();
 					Copy_DPC_Rate = subobjet.get("DPCrate").getAsDouble();
+					if (new Object() {
+						public int getAmount(int sltid) {
+							if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
+								ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
+								if (stack != null)
+									return stack.getCount();
+							}
+							return 0;
+						}
+					}.getAmount(0) >= 1) {
+						if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
+							ItemStack _setstack = new ItemStack(Items.DIAMOND);
+							_setstack.setCount((int) (new Object() {
+								public int getAmount(int sltid) {
+									if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
+										ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
+										if (stack != null)
+											return stack.getCount();
+									}
+									return 0;
+								}
+							}.getAmount(0) - 1));
+							((Slot) _slots.get(0)).set(_setstack);
+							_player.containerMenu.broadcastChanges();
+						}
+						BanquePeriodeBuy = BanquePeriodeBuy + 1;
+						Copy_diamond_stock = Copy_diamond_stock + 1;
+						transaction_DPC_temp = Copy_DPC_Rate;
+						while (transaction_DPC_temp >= 500 && copy_stock_500pc >= 1) {
+							if (entity instanceof Player _player) {
+								ItemStack _setstack = new ItemStack(ElyrasirModItems.CINQCENTPC.get());
+								_setstack.setCount(1);
+								ItemHandlerHelper.giveItemToPlayer(_player, _setstack);
+							}
+							transaction_DPC_temp = transaction_DPC_temp - 500;
+							copy_stock_500pc = copy_stock_500pc - 1;
+						}
+						while (transaction_DPC_temp >= 200 && copy_stock_200pc >= 1) {
+							if (entity instanceof Player _player) {
+								ItemStack _setstack = new ItemStack(ElyrasirModItems.DEUXCENTPC.get());
+								_setstack.setCount(1);
+								ItemHandlerHelper.giveItemToPlayer(_player, _setstack);
+							}
+							transaction_DPC_temp = transaction_DPC_temp - 200;
+							copy_stock_200pc = copy_stock_200pc - 1;
+						}
+						while (transaction_DPC_temp >= 100 && copy_stock_100pc >= 1) {
+							if (entity instanceof Player _player) {
+								ItemStack _setstack = new ItemStack(ElyrasirModItems.CENTPC.get());
+								_setstack.setCount(1);
+								ItemHandlerHelper.giveItemToPlayer(_player, _setstack);
+							}
+							transaction_DPC_temp = transaction_DPC_temp - 100;
+							copy_stock_100pc = copy_stock_100pc - 1;
+						}
+						while (transaction_DPC_temp >= 50 && copy_stock_50pc >= 1) {
+							if (entity instanceof Player _player) {
+								ItemStack _setstack = new ItemStack(ElyrasirModItems.CINQUANTEPC.get());
+								_setstack.setCount(1);
+								ItemHandlerHelper.giveItemToPlayer(_player, _setstack);
+							}
+							transaction_DPC_temp = transaction_DPC_temp - 50;
+							copy_stock_50pc = copy_stock_50pc - 1;
+						}
+						while (transaction_DPC_temp >= 20 && copy_stock_20pc >= 1) {
+							if (entity instanceof Player _player) {
+								ItemStack _setstack = new ItemStack(ElyrasirModItems.VINGTPC.get());
+								_setstack.setCount(1);
+								ItemHandlerHelper.giveItemToPlayer(_player, _setstack);
+							}
+							transaction_DPC_temp = transaction_DPC_temp - 20;
+							copy_stock_20pc = copy_stock_20pc - 1;
+						}
+						while (transaction_DPC_temp >= 10 && copy_stock_10pc >= 1) {
+							if (entity instanceof Player _player) {
+								ItemStack _setstack = new ItemStack(ElyrasirModItems.DIXPC.get());
+								_setstack.setCount(1);
+								ItemHandlerHelper.giveItemToPlayer(_player, _setstack);
+							}
+							transaction_DPC_temp = transaction_DPC_temp - 10;
+							copy_stock_10pc = copy_stock_10pc - 1;
+						}
+						while (transaction_DPC_temp >= 5 && copy_stock_5pc >= 1) {
+							if (entity instanceof Player _player) {
+								ItemStack _setstack = new ItemStack(ElyrasirModItems.CINQPC.get());
+								_setstack.setCount(1);
+								ItemHandlerHelper.giveItemToPlayer(_player, _setstack);
+							}
+							transaction_DPC_temp = transaction_DPC_temp - 5;
+							copy_stock_5pc = copy_stock_5pc - 1;
+						}
+						while (transaction_DPC_temp >= 1 && copy_stock_pc >= 1) {
+							if (entity instanceof Player _player) {
+								ItemStack _setstack = new ItemStack(ElyrasirModItems.UNPC.get());
+								_setstack.setCount(1);
+								ItemHandlerHelper.giveItemToPlayer(_player, _setstack);
+							}
+							transaction_DPC_temp = transaction_DPC_temp - 1;
+							copy_stock_pc = copy_stock_pc - 1;
+						}
+						distimonaie.addProperty("500", copy_stock_500pc);
+						distimonaie.addProperty("200", copy_stock_200pc);
+						distimonaie.addProperty("100", copy_stock_100pc);
+						distimonaie.addProperty("50", copy_stock_50pc);
+						distimonaie.addProperty("20", copy_stock_20pc);
+						distimonaie.addProperty("10", copy_stock_10pc);
+						distimonaie.addProperty("5", copy_stock_5pc);
+						distimonaie.addProperty("1", copy_stock_pc);
+						subobjet.addProperty("DiamandStock", Copy_diamond_stock);
+						subobjet.addProperty("BanquePeriodeBuy", BanquePeriodeBuy);
+						objetprincipale = filee.get("Pomme24").getAsJsonObject();
+						subobjet = objetprincipale.get("basesetup").getAsJsonObject();
+						distimonaie = subobjet.get("DistriMonaie").getAsJsonObject();
+						{
+							Gson mainGSONBuilderVariable = new GsonBuilder().setPrettyPrinting().create();
+							try {
+								FileWriter fileWriter = new FileWriter(file);
+								fileWriter.write(mainGSONBuilderVariable.toJson(filee));
+								fileWriter.close();
+							} catch (IOException exception) {
+								exception.printStackTrace();
+							}
+						}
+					}
 				} catch (IOException e) {
 					e.printStackTrace();
-				}
-			}
-		}
-		if (new Object() {
-			public int getAmount(int sltid) {
-				if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-					ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
-					if (stack != null)
-						return stack.getCount();
-				}
-				return 0;
-			}
-		}.getAmount(0) >= 1) {
-			if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-				ItemStack _setstack = new ItemStack(Items.DIAMOND);
-				_setstack.setCount((int) (new Object() {
-					public int getAmount(int sltid) {
-						if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-							ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
-							if (stack != null)
-								return stack.getCount();
-						}
-						return 0;
-					}
-				}.getAmount(0) - 1));
-				((Slot) _slots.get(0)).set(_setstack);
-				_player.containerMenu.broadcastChanges();
-			}
-			BanquePeriodeBuy = BanquePeriodeBuy + 1;
-			Copy_diamond_stock = Copy_diamond_stock + 1;
-			transaction_DPC_temp = Copy_DPC_Rate;
-			while (transaction_DPC_temp >= 500 && copy_stock_500pc >= 1) {
-				if (entity instanceof Player _player) {
-					ItemStack _setstack = new ItemStack(ElyrasirModItems.CINQCENTPC.get());
-					_setstack.setCount(1);
-					ItemHandlerHelper.giveItemToPlayer(_player, _setstack);
-				}
-				transaction_DPC_temp = transaction_DPC_temp - 500;
-				copy_stock_500pc = copy_stock_500pc - 1;
-			}
-			while (transaction_DPC_temp >= 200 && copy_stock_200pc >= 1) {
-				if (entity instanceof Player _player) {
-					ItemStack _setstack = new ItemStack(ElyrasirModItems.DEUXCENTPC.get());
-					_setstack.setCount(1);
-					ItemHandlerHelper.giveItemToPlayer(_player, _setstack);
-				}
-				transaction_DPC_temp = transaction_DPC_temp - 200;
-				copy_stock_200pc = copy_stock_200pc - 1;
-			}
-			while (transaction_DPC_temp >= 100 && copy_stock_100pc >= 1) {
-				if (entity instanceof Player _player) {
-					ItemStack _setstack = new ItemStack(ElyrasirModItems.CENTPC.get());
-					_setstack.setCount(1);
-					ItemHandlerHelper.giveItemToPlayer(_player, _setstack);
-				}
-				transaction_DPC_temp = transaction_DPC_temp - 100;
-				copy_stock_100pc = copy_stock_100pc - 1;
-			}
-			while (transaction_DPC_temp >= 50 && copy_stock_50pc >= 1) {
-				if (entity instanceof Player _player) {
-					ItemStack _setstack = new ItemStack(ElyrasirModItems.CINQUANTEPC.get());
-					_setstack.setCount(1);
-					ItemHandlerHelper.giveItemToPlayer(_player, _setstack);
-				}
-				transaction_DPC_temp = transaction_DPC_temp - 50;
-				copy_stock_50pc = copy_stock_50pc - 1;
-			}
-			while (transaction_DPC_temp >= 20 && copy_stock_20pc >= 1) {
-				if (entity instanceof Player _player) {
-					ItemStack _setstack = new ItemStack(ElyrasirModItems.VINGTPC.get());
-					_setstack.setCount(1);
-					ItemHandlerHelper.giveItemToPlayer(_player, _setstack);
-				}
-				transaction_DPC_temp = transaction_DPC_temp - 20;
-				copy_stock_20pc = copy_stock_20pc - 1;
-			}
-			while (transaction_DPC_temp >= 10 && copy_stock_10pc >= 1) {
-				if (entity instanceof Player _player) {
-					ItemStack _setstack = new ItemStack(ElyrasirModItems.DEUXCENTPC.get());
-					_setstack.setCount(1);
-					ItemHandlerHelper.giveItemToPlayer(_player, _setstack);
-				}
-				transaction_DPC_temp = transaction_DPC_temp - 10;
-				copy_stock_10pc = copy_stock_10pc - 1;
-			}
-			while (transaction_DPC_temp >= 5 && copy_stock_5pc >= 1) {
-				if (entity instanceof Player _player) {
-					ItemStack _setstack = new ItemStack(ElyrasirModItems.DEUXCENTPC.get());
-					_setstack.setCount(1);
-					ItemHandlerHelper.giveItemToPlayer(_player, _setstack);
-				}
-				transaction_DPC_temp = transaction_DPC_temp - 5;
-				copy_stock_5pc = copy_stock_5pc - 1;
-			}
-			while (transaction_DPC_temp >= 1 && copy_stock_pc >= 1) {
-				if (entity instanceof Player _player) {
-					ItemStack _setstack = new ItemStack(ElyrasirModItems.DEUXCENTPC.get());
-					_setstack.setCount(1);
-					ItemHandlerHelper.giveItemToPlayer(_player, _setstack);
-				}
-				transaction_DPC_temp = transaction_DPC_temp - 1;
-				copy_stock_pc = copy_stock_pc - 1;
-			}
-			distimonaie.addProperty("500", copy_stock_500pc);
-			distimonaie.addProperty("200", copy_stock_200pc);
-			distimonaie.addProperty("100", copy_stock_100pc);
-			distimonaie.addProperty("50", copy_stock_50pc);
-			distimonaie.addProperty("20", copy_stock_20pc);
-			distimonaie.addProperty("10", copy_stock_10pc);
-			distimonaie.addProperty("5", copy_stock_5pc);
-			distimonaie.addProperty("1", copy_stock_pc);
-			subobjet.addProperty("DiamandStock", Copy_diamond_stock);
-			subobjet.addProperty("BanquePeriodeBuy", BanquePeriodeBuy);
-			objetprincipale = filee.get("Pomme24").getAsJsonObject();
-			subobjet = objetprincipale.get("basesetup").getAsJsonObject();
-			distimonaie = subobjet.get("DistriMonaie").getAsJsonObject();
-			{
-				Gson mainGSONBuilderVariable = new GsonBuilder().setPrettyPrinting().create();
-				try {
-					FileWriter fileWriter = new FileWriter(file);
-					fileWriter.write(mainGSONBuilderVariable.toJson(filee));
-					fileWriter.close();
-				} catch (IOException exception) {
-					exception.printStackTrace();
 				}
 			}
 		}

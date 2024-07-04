@@ -30,10 +30,10 @@ public class RegisterCScreen extends AbstractContainerScreen<RegisterCMenu> {
 	private final Level world;
 	private final int x, y, z;
 	private final Player entity;
-	EditBox E42_Prenom;
-	EditBox E42_Nom;
-	EditBox E42_age;
-	EditBox E42_Origine;
+	EditBox Prenom;
+	EditBox Nom;
+	EditBox Age;
+	EditBox Origine;
 	Button button_valider;
 
 	public RegisterCScreen(RegisterCMenu container, Inventory inventory, Component text) {
@@ -53,10 +53,10 @@ public class RegisterCScreen extends AbstractContainerScreen<RegisterCMenu> {
 	public void render(GuiGraphics guiGraphics, int mouseX, int mouseY, float partialTicks) {
 		this.renderBackground(guiGraphics);
 		super.render(guiGraphics, mouseX, mouseY, partialTicks);
-		E42_Prenom.render(guiGraphics, mouseX, mouseY, partialTicks);
-		E42_Nom.render(guiGraphics, mouseX, mouseY, partialTicks);
-		E42_age.render(guiGraphics, mouseX, mouseY, partialTicks);
-		E42_Origine.render(guiGraphics, mouseX, mouseY, partialTicks);
+		Prenom.render(guiGraphics, mouseX, mouseY, partialTicks);
+		Nom.render(guiGraphics, mouseX, mouseY, partialTicks);
+		Age.render(guiGraphics, mouseX, mouseY, partialTicks);
+		Origine.render(guiGraphics, mouseX, mouseY, partialTicks);
 		if (ScreenPlayerProcedure.execute(entity) instanceof LivingEntity livingEntity) {
 			InventoryScreen.renderEntityInInventoryFollowsAngle(guiGraphics, this.leftPos + 29, this.topPos + 91, 30, 0f, 0, livingEntity);
 		}
@@ -78,24 +78,24 @@ public class RegisterCScreen extends AbstractContainerScreen<RegisterCMenu> {
 			this.minecraft.player.closeContainer();
 			return true;
 		}
-		if (E42_Prenom.isFocused())
-			return E42_Prenom.keyPressed(key, b, c);
-		if (E42_Nom.isFocused())
-			return E42_Nom.keyPressed(key, b, c);
-		if (E42_age.isFocused())
-			return E42_age.keyPressed(key, b, c);
-		if (E42_Origine.isFocused())
-			return E42_Origine.keyPressed(key, b, c);
+		if (Prenom.isFocused())
+			return Prenom.keyPressed(key, b, c);
+		if (Nom.isFocused())
+			return Nom.keyPressed(key, b, c);
+		if (Age.isFocused())
+			return Age.keyPressed(key, b, c);
+		if (Origine.isFocused())
+			return Origine.keyPressed(key, b, c);
 		return super.keyPressed(key, b, c);
 	}
 
 	@Override
 	public void containerTick() {
 		super.containerTick();
-		E42_Prenom.tick();
-		E42_Nom.tick();
-		E42_age.tick();
-		E42_Origine.tick();
+		Prenom.tick();
+		Nom.tick();
+		Age.tick();
+		Origine.tick();
 	}
 
 	@Override
@@ -118,22 +118,22 @@ public class RegisterCScreen extends AbstractContainerScreen<RegisterCMenu> {
 	@Override
 	public void init() {
 		super.init();
-		E42_Prenom = new EditBox(this.font, this.leftPos + 100, this.topPos + 52, 118, 18, Component.translatable("gui.elyrasir.register_c.E42_Prenom"));
-		E42_Prenom.setMaxLength(32767);
-		guistate.put("text:E42_Prenom", E42_Prenom);
-		this.addWidget(this.E42_Prenom);
-		E42_Nom = new EditBox(this.font, this.leftPos + 100, this.topPos + 27, 118, 18, Component.translatable("gui.elyrasir.register_c.E42_Nom"));
-		E42_Nom.setMaxLength(32767);
-		guistate.put("text:E42_Nom", E42_Nom);
-		this.addWidget(this.E42_Nom);
-		E42_age = new EditBox(this.font, this.leftPos + 99, this.topPos + 76, 118, 18, Component.translatable("gui.elyrasir.register_c.E42_age"));
-		E42_age.setMaxLength(32767);
-		guistate.put("text:E42_age", E42_age);
-		this.addWidget(this.E42_age);
-		E42_Origine = new EditBox(this.font, this.leftPos + 100, this.topPos + 99, 118, 18, Component.translatable("gui.elyrasir.register_c.E42_Origine"));
-		E42_Origine.setMaxLength(32767);
-		guistate.put("text:E42_Origine", E42_Origine);
-		this.addWidget(this.E42_Origine);
+		Prenom = new EditBox(this.font, this.leftPos + 100, this.topPos + 52, 118, 18, Component.translatable("gui.elyrasir.register_c.Prenom"));
+		Prenom.setMaxLength(32767);
+		guistate.put("text:Prenom", Prenom);
+		this.addWidget(this.Prenom);
+		Nom = new EditBox(this.font, this.leftPos + 100, this.topPos + 27, 118, 18, Component.translatable("gui.elyrasir.register_c.Nom"));
+		Nom.setMaxLength(32767);
+		guistate.put("text:Nom", Nom);
+		this.addWidget(this.Nom);
+		Age = new EditBox(this.font, this.leftPos + 99, this.topPos + 76, 118, 18, Component.translatable("gui.elyrasir.register_c.Age"));
+		Age.setMaxLength(32767);
+		guistate.put("text:Age", Age);
+		this.addWidget(this.Age);
+		Origine = new EditBox(this.font, this.leftPos + 100, this.topPos + 99, 118, 18, Component.translatable("gui.elyrasir.register_c.Origine"));
+		Origine.setMaxLength(32767);
+		guistate.put("text:Origine", Origine);
+		this.addWidget(this.Origine);
 		button_valider = Button.builder(Component.translatable("gui.elyrasir.register_c.button_valider"), e -> {
 			if (true) {
 				ElyrasirMod.PACKET_HANDLER.sendToServer(new RegisterCButtonMessage(0, x, y, z));

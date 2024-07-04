@@ -89,7 +89,7 @@
         "type": "textfield",
         "data": {
           "placeholder": "",
-          "name": "E42_Prenom",
+          "name": "Prenom",
           "width": 120,
           "height": 20,
           "x": 197,
@@ -113,7 +113,7 @@
         "type": "textfield",
         "data": {
           "placeholder": "",
-          "name": "E42_Nom",
+          "name": "Nom",
           "width": 120,
           "height": 20,
           "x": 197,
@@ -124,7 +124,7 @@
         "type": "textfield",
         "data": {
           "placeholder": "",
-          "name": "E42_age",
+          "name": "Age",
           "width": 120,
           "height": 20,
           "x": 196,
@@ -135,7 +135,7 @@
         "type": "textfield",
         "data": {
           "placeholder": "",
-          "name": "E42_Origine",
+          "name": "Origine",
           "width": 120,
           "height": 20,
           "x": 197,

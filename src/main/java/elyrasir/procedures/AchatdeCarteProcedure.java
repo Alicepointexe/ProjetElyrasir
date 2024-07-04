@@ -31,6 +31,19 @@ public class AchatdeCarteProcedure {
 		com.google.gson.JsonObject subobjet = new com.google.gson.JsonObject();
 		com.google.gson.JsonObject objetprincipale = new com.google.gson.JsonObject();
 		com.google.gson.JsonObject objet = new com.google.gson.JsonObject();
+		ItemStack item = ItemStack.EMPTY;
+		double nbitems = 0;
+		item = (entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(0)).getItem() : ItemStack.EMPTY);
+		nbitems = new Object() {
+			public int getAmount(int sltid) {
+				if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
+					ItemStack stack = ((Slot) _slots.get(sltid)).getItem();
+					if (stack != null)
+						return stack.getCount();
+				}
+				return 0;
+			}
+		}.getAmount(0);
 		if ((entity instanceof ServerPlayer || entity instanceof Player)
 				&& ((entity instanceof Player _plrSlotItem && _plrSlotItem.containerMenu instanceof Supplier _splr && _splr.get() instanceof Map _slt ? ((Slot) _slt.get(0)).getItem() : ItemStack.EMPTY).getItem() == ElyrasirModItems.CINQCENTPC.get()
 						&& new Object() {
@@ -114,7 +127,7 @@ public class AchatdeCarteProcedure {
 						}
 						subobjet = objetprincipale.get("Banque").getAsJsonObject();
 						subobjet.addProperty("AcountValue", 1000);
-						subobjet.addProperty("TotalMGIve", 1000);
+						subobjet.addProperty("TotalMGive", 1000);
 						{
 							Gson mainGSONBuilderVariable = new GsonBuilder().setPrettyPrinting().create();
 							try {
@@ -129,6 +142,42 @@ public class AchatdeCarteProcedure {
 						e.printStackTrace();
 					}
 				}
+			}
+		}
+		if (item.getItem() == ElyrasirModItems.CINQCENTPC.get() && nbitems >= 2) {
+			if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
+				ItemStack _setstack = new ItemStack(ElyrasirModItems.CINQCENTPC.get());
+				_setstack.setCount((int) (nbitems - 2));
+				((Slot) _slots.get(0)).set(_setstack);
+				_player.containerMenu.broadcastChanges();
+			}
+		} else if (item.getItem() == ElyrasirModItems.DEUXCENTPC.get() && nbitems >= 5) {
+			if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
+				ItemStack _setstack = new ItemStack(ElyrasirModItems.DEUXCENTPC.get());
+				_setstack.setCount((int) (nbitems - 5));
+				((Slot) _slots.get(0)).set(_setstack);
+				_player.containerMenu.broadcastChanges();
+			}
+		} else if (item.getItem() == ElyrasirModItems.CENTPC.get() && nbitems >= 10) {
+			if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
+				ItemStack _setstack = new ItemStack(ElyrasirModItems.CENTPC.get());
+				_setstack.setCount((int) (nbitems - 10));
+				((Slot) _slots.get(0)).set(_setstack);
+				_player.containerMenu.broadcastChanges();
+			}
+		} else if (item.getItem() == ElyrasirModItems.CINQUANTEPC.get() && nbitems >= 20) {
+			if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
+				ItemStack _setstack = new ItemStack(ElyrasirModItems.CINQUANTEPC.get());
+				_setstack.setCount((int) (nbitems - 20));
+				((Slot) _slots.get(0)).set(_setstack);
+				_player.containerMenu.broadcastChanges();
+			}
+		} else if (item.getItem() == ElyrasirModItems.VINGTPC.get() && nbitems >= 50) {
+			if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
+				ItemStack _setstack = new ItemStack(ElyrasirModItems.VINGTPC.get());
+				_setstack.setCount((int) (nbitems - 50));
+				((Slot) _slots.get(0)).set(_setstack);
+				_player.containerMenu.broadcastChanges();
 			}
 		}
 	}

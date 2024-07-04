@@ -27,8 +27,6 @@ public class ValiderRegisterProcedure {
 		if (entity == null || guistate == null)
 			return;
 		File file = new File("");
-		String uid = "";
-		String Pomeid = "";
 		com.google.gson.JsonObject Nom = new com.google.gson.JsonObject();
 		com.google.gson.JsonObject Prenom = new com.google.gson.JsonObject();
 		com.google.gson.JsonObject Age = new com.google.gson.JsonObject();
@@ -37,6 +35,16 @@ public class ValiderRegisterProcedure {
 		com.google.gson.JsonObject objetprincipale = new com.google.gson.JsonObject();
 		com.google.gson.JsonObject subobjet1 = new com.google.gson.JsonObject();
 		com.google.gson.JsonObject subobjet2 = new com.google.gson.JsonObject();
+		String uid = "";
+		String Pomeid = "";
+		String nom = "";
+		String prenom = "";
+		String origines = "";
+		String age = "";
+		nom = guistate.containsKey("text:Nom") ? ((EditBox) guistate.get("text:Nom")).getValue() : "";
+		prenom = guistate.containsKey("text:Prenom") ? ((EditBox) guistate.get("text:Prenom")).getValue() : "";
+		age = guistate.containsKey("text:Age") ? ((EditBox) guistate.get("text:Age")).getValue() : "";
+		origines = guistate.containsKey("text:Origine") ? ((EditBox) guistate.get("text:Origine")).getValue() : "";
 		if (entity instanceof ServerPlayer || entity instanceof Player) {
 			uid = entity.getStringUUID();
 			file = new File((FMLPaths.GAMEDIR.get().toString() + "/config/pomme24/players/"), File.separator + (uid + ".json"));
@@ -54,11 +62,14 @@ public class ValiderRegisterProcedure {
 						subobjet = objetprincipale.get("Pomme24").getAsJsonObject();
 						subobjet1 = subobjet.get("ID").getAsJsonObject();
 						subobjet2 = subobjet.get("Variable").getAsJsonObject();
-						subobjet1.addProperty("Nom", (guistate.containsKey("text:E42_Nom") ? ((EditBox) guistate.get("text:E42_Nom")).getValue() : ""));
-						subobjet1.addProperty("Prenom", (guistate.containsKey("text:E42_Prenom") ? ((EditBox) guistate.get("text:E42_Prenom")).getValue() : ""));
-						subobjet1.addProperty("Age", (guistate.containsKey("text:E42_age") ? ((EditBox) guistate.get("text:E42_age")).getValue() : ""));
-						subobjet.addProperty("Origine", (guistate.containsKey("text:E42_Origine") ? ((EditBox) guistate.get("text:E42_Origine")).getValue() : ""));
+						subobjet1.addProperty("Nom", nom);
+						subobjet1.addProperty("Prenom", prenom);
+						subobjet1.addProperty("Age", age);
+						subobjet1.addProperty("Origine", origines);
 						subobjet2.addProperty("asRegister", true);
+						subobjet.add("ID", subobjet1);
+						subobjet.add("Variables", subobjet2);
+						objetprincipale.add("Pomme24", subobjet);
 						{
 							Gson mainGSONBuilderVariable = new GsonBuilder().setPrettyPrinting().create();
 							try {

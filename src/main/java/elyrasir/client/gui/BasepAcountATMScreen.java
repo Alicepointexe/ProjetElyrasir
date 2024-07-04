@@ -91,10 +91,10 @@ public class BasepAcountATMScreen extends AbstractContainerScreen<BasepAcountATM
 	protected void renderLabels(GuiGraphics guiGraphics, int mouseX, int mouseY) {
 		guiGraphics.drawString(this.font, Component.translatable("gui.elyrasir.basep_acount_atm.label_bienvenue_a_la_banque"), 52, 14, -16777216, false);
 		guiGraphics.drawString(this.font, Component.translatable("gui.elyrasir.basep_acount_atm.label_veuillez_choisir_une_service"), 37, 27, -16777216, false);
-		guiGraphics.drawString(this.font, Component.translatable("gui.elyrasir.basep_acount_atm.label_acheter_du_pommecoin"), 17, 41, -3355444, false);
-		guiGraphics.drawString(this.font, Component.translatable("gui.elyrasir.basep_acount_atm.label_acheter_une_carte"), 22, 57, -3355444, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.elyrasir.basep_acount_atm.label_acheter_du_pommecoin"), 117, 58, -3355444, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.elyrasir.basep_acount_atm.label_acheter_une_carte"), 112, 43, -3355444, false);
 		guiGraphics.drawString(this.font, Component.translatable("gui.elyrasir.basep_acount_atm.label_ouvrir_un_compte"), 44, 72, -3355444, false);
-		guiGraphics.drawString(this.font, Component.translatable("gui.elyrasir.basep_acount_atm.label_info_banque"), 90, 87, -3355444, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.elyrasir.basep_acount_atm.label_info_banque"), 50, 86, -3355444, false);
 		guiGraphics.drawString(this.font, Component.translatable("gui.elyrasir.basep_acount_atm.label_quitter"), 111, 108, -52429, false);
 		guiGraphics.drawString(this.font, Component.translatable("gui.elyrasir.basep_acount_atm.label_1"), 178, 41, -16777216, false);
 		guiGraphics.drawString(this.font, Component.translatable("gui.elyrasir.basep_acount_atm.label_11"), 212, 17, -16777216, false);
@@ -132,10 +132,6 @@ public class BasepAcountATMScreen extends AbstractContainerScreen<BasepAcountATM
 		guistate.put("button:imagebutton_round_button_vanilla", imagebutton_round_button_vanilla);
 		this.addRenderableWidget(imagebutton_round_button_vanilla);
 		imagebutton_round_button_vanilla1 = new ImageButton(this.leftPos + 205, this.topPos + 35, 20, 20, 0, 0, 20, new ResourceLocation("elyrasir:textures/screens/atlas/imagebutton_round_button_vanilla1.png"), 20, 40, e -> {
-			if (true) {
-				ElyrasirMod.PACKET_HANDLER.sendToServer(new BasepAcountATMButtonMessage(1, x, y, z));
-				BasepAcountATMButtonMessage.handleButtonAction(entity, 1, x, y, z);
-			}
 		});
 		guistate.put("button:imagebutton_round_button_vanilla1", imagebutton_round_button_vanilla1);
 		this.addRenderableWidget(imagebutton_round_button_vanilla1);

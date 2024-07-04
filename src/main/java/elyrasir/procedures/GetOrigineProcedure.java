@@ -22,6 +22,7 @@ public class GetOrigineProcedure {
 		File file = new File("");
 		com.google.gson.JsonObject subobjet = new com.google.gson.JsonObject();
 		com.google.gson.JsonObject objetprincipale = new com.google.gson.JsonObject();
+		com.google.gson.JsonObject mainobjet = new com.google.gson.JsonObject();
 		if (entity instanceof ServerPlayer || entity instanceof Player) {
 			uid = entity.getStringUUID();
 			file = new File((FMLPaths.GAMEDIR.get().toString() + "/config/pomme24/players/"), File.separator + (uid + ".json"));
@@ -35,8 +36,8 @@ public class GetOrigineProcedure {
 							jsonstringbuilder.append(line);
 						}
 						bufferedReader.close();
-						subobjet = new Gson().fromJson(jsonstringbuilder.toString(), com.google.gson.JsonObject.class);
-						objetprincipale = subobjet.get("Pomme24").getAsJsonObject();
+						mainobjet = new Gson().fromJson(jsonstringbuilder.toString(), com.google.gson.JsonObject.class);
+						objetprincipale = mainobjet.get("Pomme24").getAsJsonObject();
 						subobjet = objetprincipale.get("ID").getAsJsonObject();
 						Pomeid = subobjet.get("Origine").getAsString();
 					} catch (IOException e) {

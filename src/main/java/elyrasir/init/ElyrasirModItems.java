@@ -228,6 +228,7 @@ public class ElyrasirModItems {
 	public static final RegistryObject<Item> ANTIDOTE = REGISTRY.register("antidote", () -> new AntidoteItem());
 	public static final RegistryObject<Item> FACTURE = REGISTRY.register("facture", () -> new FactureItem());
 	public static final RegistryObject<Item> RECU = REGISTRY.register("recu", () -> new RecuItem());
+	public static final RegistryObject<Item> P_CPERSO = block(ElyrasirModBlocks.P_CPERSO);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

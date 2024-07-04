@@ -195,6 +195,7 @@ public class ElyrasirModTabs {
 				tabData.accept(ElyrasirModItems.CACHETS_A.get());
 				tabData.accept(ElyrasirModItems.CACHETS_B.get());
 				tabData.accept(ElyrasirModItems.ANTIDOTE.get());
+				tabData.accept(ElyrasirModBlocks.P_CPERSO.get().asItem());
 			})
 
 					.build());
