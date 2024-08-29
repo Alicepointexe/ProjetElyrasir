@@ -88,7 +88,7 @@ public class ATMpersoDepotsScreen extends AbstractContainerScreen<ATMpersoDepots
 
 	@Override
 	protected void renderLabels(GuiGraphics guiGraphics, int mouseX, int mouseY) {
-		guiGraphics.drawString(this.font, Component.translatable("gui.elyrasir.at_mperso_depots.label_bienvenue_a_la_banque"), 45, 13, -16777216, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.elyrasir.at_mperso_depots.label_bienvenue_a_la_banque"), 63, 12, -16777216, false);
 		guiGraphics.drawString(this.font, Component.translatable("gui.elyrasir.at_mperso_depots.label_veuillez_choisir_une_service"), 31, 31, -16777216, false);
 		guiGraphics.drawString(this.font, Component.translatable("gui.elyrasir.at_mperso_depots.label_acheter_du_pommecoin"), 48, 96, -3355444, false);
 		guiGraphics.drawString(this.font, Component.translatable("gui.elyrasir.at_mperso_depots.label_quitter"), 116, 108, -52429, false);
@@ -100,10 +100,9 @@ public class ATMpersoDepotsScreen extends AbstractContainerScreen<ATMpersoDepots
 		guiGraphics.drawString(this.font, Component.translatable("gui.elyrasir.at_mperso_depots.label_41"), 217, 86, -16777216, false);
 		guiGraphics.drawString(this.font, Component.translatable("gui.elyrasir.at_mperso_depots.label_51"), 218, 109, -16777216, false);
 		guiGraphics.drawString(this.font, Component.translatable("gui.elyrasir.at_mperso_depots.label_puis_effectuez_lechange"), 51, 42, -16777216, false);
-		guiGraphics.drawString(this.font, Component.translatable("gui.elyrasir.at_mperso_depots.label_prix_100pc"), 43, 56, -12829636, false);
 		guiGraphics.drawString(this.font,
 
-				ReturnPlayerAcountValueProcedure.execute(entity), 5, 2, -12829636, false);
+				ReturnPlayerAcountValueProcedure.execute(entity), 51, 58, -12829636, false);
 	}
 
 	@Override

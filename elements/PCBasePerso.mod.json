@@ -62,7 +62,7 @@
           "image": "round_button_vanilla.png",
           "hoveredImage": "round_button_vanilla_highlight.png",
           "onClick": {
-            "name": "Atmachatdepc"
+            "name": "PCopenTransacPerso"
           },
           "x": 301,
           "y": 22

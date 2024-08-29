@@ -16,7 +16,7 @@ import java.util.HashMap;
 
 import elyrasir.world.inventory.ATMpersobRetraitMenu;
 
-import elyrasir.procedures.AtmReturnMainProcedure;
+import elyrasir.procedures.ReturnPersoAtmProcedure;
 import elyrasir.procedures.AtmPersoRetrait5Procedure;
 import elyrasir.procedures.AtmPersoRetrait50Procedure;
 import elyrasir.procedures.AtmPersoRetrait500Procedure;
@@ -74,7 +74,7 @@ public class ATMpersobRetraitButtonMessage {
 			return;
 		if (buttonID == 4) {
 
-			AtmReturnMainProcedure.execute(world, x, y, z, entity);
+			ReturnPersoAtmProcedure.execute(world, x, y, z, entity);
 		}
 		if (buttonID == 5) {
 

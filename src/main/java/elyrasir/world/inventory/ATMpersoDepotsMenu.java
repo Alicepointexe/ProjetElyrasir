@@ -23,8 +23,6 @@ import java.util.function.Supplier;
 import java.util.Map;
 import java.util.HashMap;
 
-import elyrasir.procedures.AtmQuitProcedure;
-
 import elyrasir.init.ElyrasirModMenus;
 
 public class ATMpersoDepotsMenu extends AbstractContainerMenu implements Supplier<Map<Integer, Slot>> {
@@ -44,7 +42,7 @@ public class ATMpersoDepotsMenu extends AbstractContainerMenu implements Supplie
 		super(ElyrasirModMenus.AT_MPERSO_DEPOTS.get(), id);
 		this.entity = inv.player;
 		this.world = inv.player.level();
-		this.internal = new ItemStackHandler(1);
+		this.internal = new ItemStackHandler(3);
 		BlockPos pos = null;
 		if (extraData != null) {
 			pos = extraData.readBlockPos();
@@ -79,8 +77,14 @@ public class ATMpersoDepotsMenu extends AbstractContainerMenu implements Supplie
 					});
 			}
 		}
-		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 215, 162) {
+		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 214, 143) {
 			private final int slot = 0;
+		}));
+		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 214, 164) {
+			private final int slot = 1;
+		}));
+		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 214, 185) {
+			private final int slot = 2;
 		}));
 		for (int si = 0; si < 3; ++si)
 			for (int sj = 0; sj < 9; ++sj)
@@ -109,16 +113,16 @@ public class ATMpersoDepotsMenu extends AbstractContainerMenu implements Supplie
 		if (slot != null && slot.hasItem()) {
 			ItemStack itemstack1 = slot.getItem();
 			itemstack = itemstack1.copy();
-			if (index < 1) {
-				if (!this.moveItemStackTo(itemstack1, 1, this.slots.size(), true))
+			if (index < 3) {
+				if (!this.moveItemStackTo(itemstack1, 3, this.slots.size(), true))
 					return ItemStack.EMPTY;
 				slot.onQuickCraft(itemstack1, itemstack);
-			} else if (!this.moveItemStackTo(itemstack1, 0, 1, false)) {
-				if (index < 1 + 27) {
-					if (!this.moveItemStackTo(itemstack1, 1 + 27, this.slots.size(), true))
+			} else if (!this.moveItemStackTo(itemstack1, 0, 3, false)) {
+				if (index < 3 + 27) {
+					if (!this.moveItemStackTo(itemstack1, 3 + 27, this.slots.size(), true))
 						return ItemStack.EMPTY;
 				} else {
-					if (!this.moveItemStackTo(itemstack1, 1, 1 + 27, false))
+					if (!this.moveItemStackTo(itemstack1, 3, 3 + 27, false))
 						return ItemStack.EMPTY;
 				}
 				return ItemStack.EMPTY;
@@ -213,7 +217,6 @@ public class ATMpersoDepotsMenu extends AbstractContainerMenu implements Supplie
 	@Override
 	public void removed(Player playerIn) {
 		super.removed(playerIn);
-		AtmQuitProcedure.execute(world, x, y, z);
 		if (!bound && playerIn instanceof ServerPlayer serverPlayer) {
 			if (!serverPlayer.isAlive() || serverPlayer.hasDisconnected()) {
 				for (int j = 0; j < internal.getSlots(); ++j) {

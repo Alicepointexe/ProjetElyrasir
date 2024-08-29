@@ -105,7 +105,7 @@
           "image": "round_button_vanilla.png",
           "hoveredImage": "round_button_vanilla_highlight.png",
           "onClick": {
-            "name": "AtmReturnMain"
+            "name": "PCopenTransacPerso"
           },
           "x": 301,
           "y": 114
@@ -116,7 +116,7 @@
         "data": {
           "name": "label_bienvenue_a_la_banque",
           "text": {
-            "fixedValue": "Achat de PommeCoins"
+            "fixedValue": "Vente de PommeCoins"
           },
           "color": {
             "value": -16777216,

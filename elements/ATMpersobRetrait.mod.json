@@ -102,7 +102,7 @@
           "image": "round_button_vanilla.png",
           "hoveredImage": "round_button_vanilla_highlight.png",
           "onClick": {
-            "name": "AtmReturnMain"
+            "name": "ReturnPersoAtm"
           },
           "x": 301,
           "y": 114

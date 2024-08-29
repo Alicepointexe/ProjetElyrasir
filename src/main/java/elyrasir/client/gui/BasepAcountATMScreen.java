@@ -132,6 +132,10 @@ public class BasepAcountATMScreen extends AbstractContainerScreen<BasepAcountATM
 		guistate.put("button:imagebutton_round_button_vanilla", imagebutton_round_button_vanilla);
 		this.addRenderableWidget(imagebutton_round_button_vanilla);
 		imagebutton_round_button_vanilla1 = new ImageButton(this.leftPos + 205, this.topPos + 35, 20, 20, 0, 0, 20, new ResourceLocation("elyrasir:textures/screens/atlas/imagebutton_round_button_vanilla1.png"), 20, 40, e -> {
+			if (true) {
+				ElyrasirMod.PACKET_HANDLER.sendToServer(new BasepAcountATMButtonMessage(1, x, y, z));
+				BasepAcountATMButtonMessage.handleButtonAction(entity, 1, x, y, z);
+			}
 		});
 		guistate.put("button:imagebutton_round_button_vanilla1", imagebutton_round_button_vanilla1);
 		this.addRenderableWidget(imagebutton_round_button_vanilla1);

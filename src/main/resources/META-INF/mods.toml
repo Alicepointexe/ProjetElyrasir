@@ -4,11 +4,11 @@ license="Academic Free License v3.0"
 
 [[mods]]
 modId="elyrasir"
-version="1.0.0"
+version="1.0.2"
 displayName="Elyrasir"
 displayURL="https://mcreator.net"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
-authors="domin, MCreator"
+authors="TroZk & Alice.exe"
 
 [[dependencies.elyrasir]]
     modId="minecraft"

@@ -16,7 +16,7 @@ import java.util.HashMap;
 
 import elyrasir.world.inventory.PcAchatpcPersoMenu;
 
-import elyrasir.procedures.AtmReturnMainProcedure;
+import elyrasir.procedures.PCopenTransacPersoProcedure;
 import elyrasir.procedures.AchatdePCProcedure;
 
 import elyrasir.ElyrasirMod;
@@ -71,7 +71,7 @@ public class PcAchatpcPersoButtonMessage {
 		}
 		if (buttonID == 4) {
 
-			AtmReturnMainProcedure.execute(world, x, y, z, entity);
+			PCopenTransacPersoProcedure.execute(world, x, y, z, entity);
 		}
 	}
 

@@ -62,7 +62,7 @@
           "image": "round_button_vanilla.png",
           "hoveredImage": "round_button_vanilla_highlight.png",
           "onClick": {
-            "name": "Atmachatdepc"
+            "name": "PCopenBuyPerso"
           },
           "x": 301,
           "y": 22
@@ -75,7 +75,7 @@
           "image": "round_button_vanilla.png",
           "hoveredImage": "round_button_vanilla_highlight.png",
           "onClick": {
-            "name": "AtmachatCarte"
+            "name": "PCopenSellPerso"
           },
           "x": 301,
           "y": 45
@@ -108,7 +108,7 @@
           "image": "round_button_vanilla.png",
           "hoveredImage": "round_button_vanilla_highlight.png",
           "onClick": {
-            "name": "AtmQuit"
+            "name": "PcRetrunMainPerso"
           },
           "x": 301,
           "y": 114

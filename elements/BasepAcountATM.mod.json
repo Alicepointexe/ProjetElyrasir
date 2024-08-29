@@ -74,6 +74,9 @@
           "name": "imagebutton_round_button_vanilla1",
           "image": "round_button_vanilla.png",
           "hoveredImage": "round_button_vanilla_highlight.png",
+          "onClick": {
+            "name": "OpenDepotPerso"
+          },
           "x": 301,
           "y": 45
         }

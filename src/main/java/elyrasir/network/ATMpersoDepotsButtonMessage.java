@@ -16,8 +16,8 @@ import java.util.HashMap;
 
 import elyrasir.world.inventory.ATMpersoDepotsMenu;
 
-import elyrasir.procedures.AtmReturnMainProcedure;
-import elyrasir.procedures.AchatdeCarteProcedure;
+import elyrasir.procedures.ReturnPersoAtmProcedure;
+import elyrasir.procedures.AtmPersoDepotProcedProcedure;
 
 import elyrasir.ElyrasirMod;
 
@@ -67,11 +67,11 @@ public class ATMpersoDepotsButtonMessage {
 			return;
 		if (buttonID == 0) {
 
-			AchatdeCarteProcedure.execute(entity);
+			AtmPersoDepotProcedProcedure.execute(entity);
 		}
 		if (buttonID == 4) {
 
-			AtmReturnMainProcedure.execute(world, x, y, z, entity);
+			ReturnPersoAtmProcedure.execute(world, x, y, z, entity);
 		}
 	}
 

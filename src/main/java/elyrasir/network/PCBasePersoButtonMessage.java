@@ -17,7 +17,7 @@ import java.util.HashMap;
 import elyrasir.world.inventory.PCBasePersoMenu;
 
 import elyrasir.procedures.PCquitProcedure;
-import elyrasir.procedures.AtmachatdepcProcedure;
+import elyrasir.procedures.PCopenTransacPersoProcedure;
 import elyrasir.procedures.AtmachatCarteProcedure;
 
 import elyrasir.ElyrasirMod;
@@ -68,7 +68,7 @@ public class PCBasePersoButtonMessage {
 			return;
 		if (buttonID == 0) {
 
-			AtmachatdepcProcedure.execute(world, x, y, z, entity);
+			PCopenTransacPersoProcedure.execute(world, x, y, z, entity);
 		}
 		if (buttonID == 1) {
 
@@ -76,7 +76,7 @@ public class PCBasePersoButtonMessage {
 		}
 		if (buttonID == 4) {
 
-			PCquitProcedure.execute(world, x, y, z);
+			PCquitProcedure.execute(world, x, y, z, entity);
 		}
 	}
 
